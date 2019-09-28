@@ -10,6 +10,8 @@ namespace VietSoftHRM.Class
           : base(owner, actions)
         {
             this.Properties.HeaderOffset = 0;
+
+            UserControleToShow.Width = owner.Width;
             this.Properties.Alignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.Properties.Style = FlyoutStyle.Popup;
             this.FlyoutControl = UserControleToShow;

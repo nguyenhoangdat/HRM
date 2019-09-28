@@ -13,19 +13,15 @@ namespace VietSoftHRM
 {
     public partial class ucEditDonVi : DevExpress.XtraEditors.XtraUserControl
     {
-        public ucEditDonVi()
+        public int id=0;
+        public ucEditDonVi(int iIDDonVi)
         {
             InitializeComponent();
-      
         }
 
-        private void comboBoxEdit1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
         private void ucEditDonVi_Load(object sender, EventArgs e)
         {
-
+          
         }
     }
 }

@@ -12,6 +12,7 @@ using Microsoft.ApplicationBlocks.Data;
 using System.Threading;
 using Microsoft.Win32;
 using VietSoftHRM.Class;
+using DevExpress.XtraEditors.Repository;
 
 namespace VietSoftHRM
 {
@@ -27,7 +28,7 @@ namespace VietSoftHRM
         private void ucDonVi_Load(object sender, EventArgs e)
         {
             splashScreenManager1.ShowWaitForm();
-            Thread.Sleep(1000);
+            Thread.Sleep(500);
             try
             {
                 LoadGridDonVi();
@@ -49,8 +50,14 @@ namespace VietSoftHRM
                 //opt.Columns.StoreAllOptions = true;
                 //grd_DonVi.MainView.SaveLayoutToXml(Application.StartupPath + "\\XML\\grd" + sSP.Replace("spGetList", "") + ".xml", opt);
                 //grd_DonVi.MainView.SaveLayoutToRegistry("DevExpress\\XtraGrid\\Layouts\\grd" + sSP.Replace("spGetList", ""));
-
-
+                RepositoryItemMemoEdit memoEdit = new RepositoryItemMemoEdit();
+                memoEdit.ReadOnly = true;
+                memoEdit.AutoHeight = true;
+                memoEdit.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+                memoEdit.WordWrap = true;
+                grv_DonVi.GridControl.RepositoryItems.Add(memoEdit);
+                grv_DonVi.Columns["DIA_CHI"].ColumnEdit = memoEdit;
+                grv_DonVi.OptionsView.RowAutoHeight = true;
                 if (!bCheckReg())
                 {
                     grd_DonVi.MainView.RestoreLayoutFromXml(Application.StartupPath + "\\XML\\grd" + sSP.Replace("spGetList", "") + ".xml");
@@ -64,6 +71,8 @@ namespace VietSoftHRM
                 grd_DonVi.MainView.RestoreLayoutFromXml(Application.StartupPath + "\\XML\\grddefault.xml");
             }
         }
+
+
         private void ucDonVi_Validated(object sender, EventArgs e)
         {
             grd_DonVi.MainView.SaveLayoutToRegistry("DevExpress\\XtraGrid\\Layouts\\grd" + sSP.Replace("spGetList", ""));

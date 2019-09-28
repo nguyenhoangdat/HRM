@@ -9,14 +9,15 @@ using DevExpress.XtraBars.Docking2010.Views.WindowsUI;
 using DevExpress.DocumentView;
 using DevExpress.Mvvm;
 using VietSoftHRM.Class;
+using Microsoft.Win32;
 
 namespace VietSoftHRM
 {
     public partial class ucListDMuc : DevExpress.XtraEditors.XtraUserControl
     {
-      
         public int iLoai;
         public string slinkcha;
+        public string sSP = Commons.Modules.sPS;
         public ucListDMuc()
         {
             InitializeComponent();
@@ -67,7 +68,6 @@ namespace VietSoftHRM
         }
 
         //sự kiện cho menulef
-
         private void LoadPanel2(XtraUserControl uccontrol)
         {
             splitContainerControl1.Panel2.Controls.Clear();
@@ -82,27 +82,76 @@ namespace VietSoftHRM
                 //doimauduocchon(button);
                 lab_Link.Text = slinkcha + " / " + button.Text;
 
-                XtraUserControl ctl = new XtraUserControl();
                 string ucName = button.Tag.ToString();
                 Commons.Modules.sPS = button.Name.ToString().Replace("mnu_", "");
                 Commons.Modules.sPS = Commons.Modules.sPS.ToString().Replace("mnu", "");
                 Commons.Modules.sPS = "spGetList" + Commons.Modules.sPS.ToString();
-
-                if (string.IsNullOrEmpty(ucName))
-                { splitContainerControl1.Panel2.Controls.Clear(); }
-                else
-                {
-                    Type newType = Type.GetType(ucName, true, true);
-                    object o1 = Activator.CreateInstance(newType);
-                    ctl = o1 as XtraUserControl;
-                    ctl.Dock = DockStyle.Fill;
-                    LoadPanel2(ctl);
-                }
+                LoadGridDonVi();
+                //if (string.IsNullOrEmpty(ucName))
+                //{ splitContainerControl1.Panel2.Controls.Clear(); }
+                //else
+                //{
+                //      XtraUserControl ctl = new XtraUserControl();
+                //    Type newType = Type.GetType(ucName, true, true);
+                //    object o1 = Activator.CreateInstance(newType);
+                //    ctl = o1 as XtraUserControl;
+                //    ctl.Dock = DockStyle.Fill;
+                //    LoadPanel2(ctl);
+                //}
             }
             catch (Exception ex)
             {
                 XtraMessageBox.Show(ex.Message);
             }
+        }
+
+
+        private void LoadGridDonVi()
+        {
+            try
+            {
+                grdDanhMuc.DataSource = null;
+                DataTable dt = new DataTable();
+                dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, Commons.Modules.sPS, Commons.Modules.UserName, Commons.Modules.TypeLanguage));
+                Commons.Modules.ObjSystems.MLoadXtraGrid(grdDanhMuc, grvDanhMuc, dt, false, true, false, true, true, this.Name);
+                //if (grv_DonVi.Columns.Count < 10) grv_DonVi.OptionsView.ColumnAutoWidth = true;
+                //grv_DonVi.Columns["ID_DV"].Visible = false;
+                //DevExpress.Utils.OptionsLayoutGrid opt = new DevExpress.Utils.OptionsLayoutGrid();
+                //opt.Columns.StoreAllOptions = true;
+                //grd_DonVi.MainView.SaveLayoutToXml(Application.StartupPath + "\\XML\\grd" + sSP.Replace("spGetList", "") + ".xml", opt);
+                //grd_DonVi.MainView.SaveLayoutToRegistry("DevExpress\\XtraGrid\\Layouts\\grd" + sSP.Replace("spGetList", ""));
+                //RepositoryItemMemoEdit memoEdit = new RepositoryItemMemoEdit();
+                //memoEdit.ReadOnly = true;
+                //memoEdit.AutoHeight = true;
+                //memoEdit.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+                //memoEdit.WordWrap = true;
+                //grv_DonVi.GridControl.RepositoryItems.Add(memoEdit);
+                //grv_DonVi.Columns["DIA_CHI"].ColumnEdit = memoEdit;
+                //grv_DonVi.OptionsView.RowAutoHeight = true;
+                if (!bCheckReg())
+                {
+                    grdDanhMuc.MainView.RestoreLayoutFromXml(Application.StartupPath + "\\XML\\grd" + sSP.Replace("spGetList", "") + ".xml");
+                    grdDanhMuc.MainView.SaveLayoutToRegistry("DevExpress\\XtraGrid\\Layouts\\grd" + sSP.Replace("spGetList", ""));
+                }
+                else
+                    grdDanhMuc.MainView.RestoreLayoutFromRegistry("DevExpress\\XtraGrid\\Layouts\\grd" + sSP.Replace("spGetList", ""));
+            }
+            catch (Exception ex)
+            {
+                grdDanhMuc.MainView.RestoreLayoutFromXml(Application.StartupPath + "\\XML\\grddefault.xml");
+            }
+        }
+        private bool bCheckReg()
+        {
+            try
+            {
+                using (RegistryKey registryKey = Registry.CurrentUser.OpenSubKey(@"DevExpress\\XtraGrid\\Layouts\grd" + Commons.Modules.sPS.Replace("spGetList", "")))
+                {
+                    string tmp = (string)registryKey.GetValue("(Default)");
+                }
+            }
+            catch { return false; }
+            return true;
         }
 
         private void accordionControl1_ElementClick(object sender, DevExpress.XtraBars.Navigation.ElementClickEventArgs e)
@@ -111,57 +160,54 @@ namespace VietSoftHRM
             NewElement = e.Element;
             splitContainerControl1.Panel2.Controls.Clear();
         }
-        DevExpress.XtraBars.Docking2010.Views.WindowsUI.FlyoutAction closeAppAction = new DevExpress.XtraBars.Docking2010.Views.WindowsUI.FlyoutAction()
-        {
-            Caption = "Confirm",
-            Description = "Quit the application?"
-        };
-        private void windowsUIButtonPanel1_Click(object sender, EventArgs e)
-        {
-            CustomFlyoutDialog.ShowForm(new frmMain(), null, new ucEditDonVi());
-        }
-  
-        FlyoutAction CreateCloseAction()
-        {
-            FlyoutAction closeAction = new FlyoutAction();
-            closeAction.Caption = Text;
-            closeAction.Description = "Do you really want to close the demo?";
-            closeAction.Commands.Add(FlyoutCommand.Yes);
-            closeAction.Commands.Add(FlyoutCommand.No);
-            return closeAction;
-        }
-
-
         private void windowsUIButtonPanel1_ButtonClick(object sender, ButtonEventArgs e)
         {
             WindowsUIButton btn = e.Button as WindowsUIButton;
-            if (btn.Tag.ToString() == "1")
+            MessageBox.Show(btn.Tag.ToString());
+            XtraUserControl ctl = new XtraUserControl();
+            try
             {
-                //splitContainerControl1.Panel2.Tag
-                //Uctest 
-                foreach (Control ctr in splitContainerControl1.Panel2.Controls)
-                {
-                    if (ctr.Name == "Uctest")
-                    {
-                        //Uctest view = ctr as Uctest;
-                        //view.Them();
-                    }
 
-                }
+                Type newType = Type.GetType("VietSoftHRM.ucEdit" + Commons.Modules.sPS.Replace("spGetList", ""), true, true);
+                object o1 = Activator.CreateInstance(newType);
+                ctl = o1 as XtraUserControl;
+                ctl.Dock = DockStyle.Fill;
             }
-            if (btn.Tag.ToString() == "2")
+            catch { }
+            Int64 iID = -1;
+            try
             {
-                //splitContainerControl1.Panel2.Tag
-                //Uctest 
-                foreach (Control ctr in splitContainerControl1.Panel2.Controls)
-                {
-                    if (ctr.Name == "Uctest")
+            }
+            catch
+            {}
+            switch (btn.Tag.ToString())
+            {
+                case "them":
                     {
-                        //Uctest view = ctr as Uctest;
-                        //view.Sua();
+                        //thêm
+                        ucEditDonVi uceditdv = new ucEditDonVi(-1);
+                        CustomFlyoutDialog.ShowForm(new frmMain(), null, uceditdv);
+                        break;
                     }
-
-                }
+                case "xoa":
+                    {
+                        if (XtraMessageBox.Show("bạn có muốn xóa đơn vị này", "xóa", MessageBoxButtons.YesNo) == DialogResult.No) return;
+                        //xóa
+                        CustomFlyoutDialog.ShowForm(new frmMain(), null, new ucEditDonVi(iID));
+                        break;
+                    }
+                case "sua":
+                    {
+                        //sữa
+                        //ucEditDonVi uceditdv = new ucEditDonVi();
+                        //uceditdv.id = grv;
+                        //int n = grvDanhMuc.GetFocusedRowCellValue("ID_DV")
+                        
+                        CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl);
+                        break;
+                    }
+                default:
+                    break;
             }
         }
 
@@ -172,5 +218,10 @@ namespace VietSoftHRM
             LoadDanhMuc();
         }
 
+        private void grvDanhMuc_ValidateRow(object sender, DevExpress.XtraGrid.Views.Base.ValidateRowEventArgs e)
+        {
+            grdDanhMuc.MainView.SaveLayoutToRegistry("DevExpress\\XtraGrid\\Layouts\\grd" + Commons.Modules.sPS.Replace("spGetList", ""));
+
+        }
     }
 }
