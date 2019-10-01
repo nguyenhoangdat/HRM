@@ -116,6 +116,10 @@
             // 
             this.grvDanhMuc.GridControl = this.grdDanhMuc;
             this.grvDanhMuc.Name = "grvDanhMuc";
+            this.grvDanhMuc.OptionsFind.AlwaysVisible = true;
+            this.grvDanhMuc.OptionsFind.FindDelay = 100;
+            this.grvDanhMuc.OptionsView.ShowAutoFilterRow = true;
+            this.grvDanhMuc.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.ShowAlways;
             this.grvDanhMuc.OptionsView.ShowGroupPanel = false;
             // 
             // lab_Link

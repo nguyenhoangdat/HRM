@@ -85,7 +85,8 @@ namespace VietSoftHRM.Class
             }
             catch (Exception)
             {
-                //grdDanhMuc.MainView.RestoreLayoutFromXml(Application.StartupPath + "\\XML\\grddefault.xml");
+                SaveXmlGrid(grdDanhMuc);
+                loadXmlgrd(grdDanhMuc);
             }
         }
     }
