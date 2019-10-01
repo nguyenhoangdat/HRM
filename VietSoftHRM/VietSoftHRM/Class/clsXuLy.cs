@@ -1,4 +1,5 @@
 ﻿using DevExpress.XtraGrid.Views.Grid;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,10 +9,10 @@ using System.Windows.Forms;
 
 namespace VietSoftHRM.Class
 {
-    public class AddResetMenu
+    public class clsXuLy
     {
         DevExpress.XtraGrid.GridControl grd_DonVi = new DevExpress.XtraGrid.GridControl();
-        public void CreateMenuNewPBT(DevExpress.XtraGrid.GridControl grd)
+        public void CreateMenuReset(DevExpress.XtraGrid.GridControl grd)
         {
             grd_DonVi = grd;
             DevExpress.XtraGrid.Views.Grid.GridView grv = grd.MainView as DevExpress.XtraGrid.Views.Grid.GridView;
@@ -37,6 +38,55 @@ namespace VietSoftHRM.Class
         private void MyMenuItem(System.Object sender, System.EventArgs e)
         {
             grd_DonVi.MainView.RestoreLayoutFromXml(Application.StartupPath + "\\XML\\grd" + Commons.Modules.sPS.Replace("spGetList", "") + ".xml");
+        }
+
+
+        public void SaveRegisterGrid(DevExpress.XtraGrid.GridControl grdDanhMuc)
+        {
+            try
+            {
+                grdDanhMuc.MainView.SaveLayoutToRegistry("DevExpress\\XtraGrid\\Layouts\\HRM\\grd" + Commons.Modules.sPS.Replace("spGetList", ""));
+            }
+            catch
+            { }
+
+        }
+        public void SaveXmlGrid(DevExpress.XtraGrid.GridControl grdDanhMuc)
+        {
+            DevExpress.Utils.OptionsLayoutGrid opt = new DevExpress.Utils.OptionsLayoutGrid();
+            opt.Columns.StoreAllOptions = true;
+            grdDanhMuc.MainView.SaveLayoutToXml(Application.StartupPath + "\\XML\\grd" + Commons.Modules.sPS.Replace("spGetList", "") + ".xml", opt);
+        }
+
+        private bool bCheckReg()
+        {
+            try
+            {
+                using (RegistryKey registryKey = Registry.CurrentUser.OpenSubKey(@"DevExpress\XtraGrid\Layouts\HRM\grd" + Commons.Modules.sPS.Replace("spGetList", "")))
+                {
+                    string tmp = (string)registryKey.GetValue("(Default)");
+                }
+            }
+            catch { return false; }
+            return true;
+        }
+
+        public void loadXmlgrd(DevExpress.XtraGrid.GridControl grdDanhMuc)
+        {
+            try
+            {
+                if (!bCheckReg())
+                {
+                    grdDanhMuc.MainView.RestoreLayoutFromXml(Application.StartupPath + "\\XML\\grd" + Commons.Modules.sPS.Replace("spGetList", "") + ".xml");
+                    SaveRegisterGrid(grdDanhMuc);
+                }
+                else
+                    grdDanhMuc.MainView.RestoreLayoutFromRegistry("DevExpress\\XtraGrid\\Layouts\\HRM\\grd" + Commons.Modules.sPS.Replace("spGetList", ""));
+            }
+            catch (Exception)
+            {
+                //grdDanhMuc.MainView.RestoreLayoutFromXml(Application.StartupPath + "\\XML\\grddefault.xml");
+            }
         }
     }
 }

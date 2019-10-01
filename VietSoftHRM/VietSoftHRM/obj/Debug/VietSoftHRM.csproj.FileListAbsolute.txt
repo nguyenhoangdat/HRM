@@ -69,12 +69,13 @@ E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmMain.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.SplashScreenMain.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.WaitForm1.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.Properties.Resources.resources
-E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucEditDonVi.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListDMuc.resources
-E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucDonVi.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.GenerateResource.Cache
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe.licenses
 E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll.config
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csprojAssemblyReference.cache
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CoreCompileInputs.cache
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CopyComplete
+E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucEditDON_VI.resources
+E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.UAC.Category.ucEditXI_NGHIEP.resources
+E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.UAC.Category.XtraUserControl1.resources

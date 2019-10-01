@@ -156,23 +156,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UAC\Category\DonVi\ucEditDonVi.cs">
+    <Compile Include="UAC\Category\ucEditDON_VI.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UAC\Category\DonVi\ucEditDonVi.Designer.cs">
-      <DependentUpon>ucEditDonVi.cs</DependentUpon>
+    <Compile Include="UAC\Category\ucEditDON_VI.Designer.cs">
+      <DependentUpon>ucEditDON_VI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\Category\ucEditXI_NGHIEP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\Category\ucEditXI_NGHIEP.Designer.cs">
+      <DependentUpon>ucEditXI_NGHIEP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\Category\XtraUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\Category\XtraUserControl1.Designer.cs">
+      <DependentUpon>XtraUserControl1.cs</DependentUpon>
     </Compile>
     <Compile Include="UAC\ucListDMuc.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UAC\ucListDMuc.Designer.cs">
       <DependentUpon>ucListDMuc.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UAC\Category\ucDonVi.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UAC\Category\ucDonVi.Designer.cs">
-      <DependentUpon>ucDonVi.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form\System\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
@@ -197,14 +203,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UAC\Category\DonVi\ucEditDonVi.resx">
-      <DependentUpon>ucEditDonVi.cs</DependentUpon>
+    <EmbeddedResource Include="UAC\Category\ucEditDON_VI.resx">
+      <DependentUpon>ucEditDON_VI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\Category\ucEditXI_NGHIEP.resx">
+      <DependentUpon>ucEditXI_NGHIEP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\Category\XtraUserControl1.resx">
+      <DependentUpon>XtraUserControl1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\ucListDMuc.resx">
       <DependentUpon>ucListDMuc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UAC\Category\ucDonVi.resx">
-      <DependentUpon>ucDonVi.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
