@@ -33,6 +33,7 @@
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
             DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
             this.navigationFrame = new DevExpress.XtraBars.Navigation.NavigationFrame();
             this.tileBar = new DevExpress.XtraBars.Navigation.TileBar();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
@@ -45,6 +46,7 @@
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::VietSoftHRM.WaitForm1), true, true, true);
             this.tileBarItem1 = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.tileBarItem2 = new DevExpress.XtraBars.Navigation.TileBarItem();
+            this.tileBarItem3 = new DevExpress.XtraBars.Navigation.TileBarItem();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             this.SuspendLayout();
@@ -81,7 +83,7 @@
             this.tileBar.ItemPadding = new System.Windows.Forms.Padding(8, 6, 12, 6);
             this.tileBar.ItemSize = 50;
             this.tileBar.Location = new System.Drawing.Point(0, 0);
-            this.tileBar.MaxId = 24;
+            this.tileBar.MaxId = 27;
             this.tileBar.Name = "tileBar";
             this.tileBar.Padding = new System.Windows.Forms.Padding(25, 6, 25, 17);
             this.tileBar.ScrollMode = DevExpress.XtraEditors.TileControlScrollMode.ScrollButtons;
@@ -202,6 +204,19 @@
             this.tileBarItem2.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.tileBarItem2.Name = "tileBarItem2";
             // 
+            // tileBarItem3
+            // 
+            this.tileBarItem3.DropDownOptions.AutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.tileBarItem3.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
+            this.tileBarItem3.DropDownOptions.CloseOnOuterClick = DevExpress.Utils.DefaultBoolean.True;
+            this.tileBarItem3.DropDownOptions.Height = 50;
+            tileItemElement3.Text = "tileBarItem3";
+            this.tileBarItem3.Elements.Add(tileItemElement3);
+            this.tileBarItem3.Id = 24;
+            this.tileBarItem3.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
+            this.tileBarItem3.Name = "tileBarItem3";
+            this.tileBarItem3.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
+            // 
             // frmMain
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
@@ -249,5 +264,6 @@
         private DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1;
         private DevExpress.XtraBars.Navigation.TileBarItem tileBarItem1;
         private DevExpress.XtraBars.Navigation.TileBarItem tileBarItem2;
+        private DevExpress.XtraBars.Navigation.TileBarItem tileBarItem3;
     }
 }

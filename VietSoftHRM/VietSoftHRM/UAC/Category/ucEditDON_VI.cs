@@ -55,7 +55,9 @@ namespace VietSoftHRM
         }
         private void btnLuu_Click(object sender, EventArgs e)
         {
+            
             SqlHelper.ExecuteNonQuery(Commons.IConnections.CNStr, "spUpdateDonVi",iIdDV,txtMaso.EditValue,txtTendv.EditValue,txtTenDVA.EditValue,txtTenDVH.EditValue,txtTenNgan.EditValue,txtDC.EditValue,Convert.ToBoolean(chkMDinh.EditValue),txtCQuan.EditValue,txtDThoai.EditValue,txtFax.EditValue,txtBHYT.EditValue,txtBHXH.EditValue,txtSTK.EditValue,txtTNH.EditValue,txtKHieu.EditValue,txtNDD.EditValue,txtCVu.EditValue,txtSoHS.EditValue);
+            this.ParentForm.DialogResult  = DialogResult.OK;
             this.ParentForm.Close();
         }
         private void btnKhongLuu_Click(object sender, EventArgs e)

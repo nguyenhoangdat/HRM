@@ -5,6 +5,7 @@ using System.Threading;
 using System.Windows.Forms;
 using DevExpress.XtraBars.Navigation;
 using DevExpress.XtraEditors;
+using DevExpress.XtraEditors.Controls;
 using Microsoft.ApplicationBlocks.Data;
 
 namespace VietSoftHRM
@@ -57,6 +58,24 @@ namespace VietSoftHRM
                 itembar.Image = (Image)Properties.Resources.ResourceManager.GetObject(item["IMG"].ToString());
                 itembar.TextAlignment = TileItemContentAlignment.MiddleRight;
                 itembar.Tag = item["ID_MENU"].ToString();
+
+
+                //if (Convert.ToBoolean(item["DROPDOW"]) == true)
+                //{
+                //itembar.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;
+                //    TileBarDropDownContainer ddContainer = new TileBarDropDownContainer();
+                //    ddContainer.BackColor = System.Drawing.ColorTranslator.FromHtml(item["BACK_COLOR"].ToString());
+                //    TileBar innerBar = new TileBar() { Parent = ddContainer, Dock = DockStyle.Fill, ItemSize = 50, WideTileWidth = 150 };
+                //    innerBar.Groups.Add(new TileGroup());
+
+                //    //addgroup
+                //    TileBarItem itemA1 = new TileBarItem() { Text = "SubItem1"};
+                //    TileBarItem itemA2 = new TileBarItem() { Text = "SubItem2" };
+                //    innerBar.Groups[0].Items.Add(itemA1);
+                //    innerBar.Groups[0].Items.Add(itemA2);
+                //    itembar.DropDownControl = ddContainer;
+
+                //}
                 group.Items.Add(itembar);
             }
         }
@@ -69,7 +88,6 @@ namespace VietSoftHRM
             uacDM.lab_Link.Text = e.Item.Text;
             LoadUac(uacDM);
         }
-
         private void LoadUac(XtraUserControl uac)
         {
             NavigationPage page = new NavigationPage();

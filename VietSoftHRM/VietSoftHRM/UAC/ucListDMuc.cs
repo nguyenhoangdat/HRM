@@ -175,8 +175,10 @@ namespace VietSoftHRM
                             Type newType = Type.GetType("VietSoftHRM.ucEdit" + Commons.Modules.sPS.Replace("spGetList", ""), true, true);
                             object o1 = Activator.CreateInstance(newType, -1);
                             ctl = o1 as XtraUserControl;
-                            CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl);
-                            LoadGridDanhMuc(-1);
+                            if (CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl) == DialogResult.OK)
+                            {
+                                LoadGridDanhMuc(getIDthem());
+                            }
                         }
                         catch (Exception ex)
                         {
@@ -185,7 +187,6 @@ namespace VietSoftHRM
                     }
                 case "xoa":
                     {
-                        XtraMessageBox.Show(grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName).ToString());
                         if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgDeleteDanhMuc"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeXoa"), MessageBoxButtons.YesNo) == DialogResult.No) return;
                         //xóa
                         try
@@ -207,8 +208,10 @@ namespace VietSoftHRM
                             Type newType = Type.GetType("VietSoftHRM.ucEdit" + Commons.Modules.sPS.Replace("spGetList", ""), true, true);
                             object o1 = Activator.CreateInstance(newType,grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName));
                             ctl = o1 as XtraUserControl;
-                            CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl);
-                            LoadGridDanhMuc(Convert.ToInt32(grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName)));
+                            if(CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl)==DialogResult.OK)
+                            {
+                                LoadGridDanhMuc(Convert.ToInt32(grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName)));
+                            }
                         }
                         catch (Exception ex)
                         {
@@ -225,6 +228,14 @@ namespace VietSoftHRM
                     break;
             }
         }
+
+        private int getIDthem()
+        {
+            int resulst;
+            resulst = Convert.ToInt32(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT MAX("+ grvDanhMuc.Columns[0].FieldName + ") FROM "+ Commons.Modules.sPS.Replace("spGetList", "") + " "));
+            return resulst;
+        }
+
         private void grdDanhMuc_Validating(object sender, System.ComponentModel.CancelEventArgs e)
         {
            clsXL.SaveRegisterGrid(grdDanhMuc);

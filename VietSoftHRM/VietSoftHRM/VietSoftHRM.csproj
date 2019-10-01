@@ -168,12 +168,6 @@
     <Compile Include="UAC\Category\ucEditXI_NGHIEP.Designer.cs">
       <DependentUpon>ucEditXI_NGHIEP.cs</DependentUpon>
     </Compile>
-    <Compile Include="UAC\Category\XtraUserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UAC\Category\XtraUserControl1.Designer.cs">
-      <DependentUpon>XtraUserControl1.cs</DependentUpon>
-    </Compile>
     <Compile Include="UAC\ucListDMuc.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -208,9 +202,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\Category\ucEditXI_NGHIEP.resx">
       <DependentUpon>ucEditXI_NGHIEP.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UAC\Category\XtraUserControl1.resx">
-      <DependentUpon>XtraUserControl1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\ucListDMuc.resx">
       <DependentUpon>ucListDMuc.cs</DependentUpon>
