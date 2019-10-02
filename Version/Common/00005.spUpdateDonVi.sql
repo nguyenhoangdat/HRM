@@ -67,6 +67,7 @@ AS
                           @CHUC_VU ,
                           @SO_HS
 	                    )
+						SELECT SCOPE_IDENTITY()
             END	
         ELSE
             BEGIN
@@ -90,6 +91,8 @@ AS
                         CHUC_VU = @CHUC_VU ,
                         SO_HS = @SO_HS
                 WHERE   ID_DV = @ID_DV
+
+				SELECT @ID_DV
             END	
     END	
 

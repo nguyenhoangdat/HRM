@@ -24,6 +24,7 @@ namespace VietSoftHRM
             splashScreenManager1.ShowWaitForm();
             Thread.Sleep(2000);
             LoadMenuCha();
+            Commons.Modules.ObjSystems.ThayDoiNN(this);
             splashScreenManager1.CloseWaitForm();
         }
         private void LoadMenuCha()

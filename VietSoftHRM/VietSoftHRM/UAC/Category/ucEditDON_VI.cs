@@ -9,12 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
+using VietSoftHRM.Class;
+using DevExpress.XtraLayout;
 
 namespace VietSoftHRM
 {
     public partial class ucEditDON_VI : DevExpress.XtraEditors.XtraUserControl
     {
-        private Int64 iIdDV = 0;
+        public Int64 iIdDV = 0;
         public ucEditDON_VI(Int64 iId)//DataRowView row
         {
             InitializeComponent();
@@ -23,9 +25,8 @@ namespace VietSoftHRM
         private void ucEditDonVi_Load(object sender, EventArgs e)
         {
             if (iIdDV > 0)
-            {
                 LoadText();
-            }
+            Commons.Modules.ObjSystems.ThayDoiNN(this);
         }
         private void LoadText()
         {
@@ -33,41 +34,38 @@ namespace VietSoftHRM
             DataTable dtTmp = new DataTable();
             dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text,sSql));
 
-            txtMaso.EditValue = dtTmp.Rows[0]["MSDV"].ToString();
-            txtTendv.EditValue = dtTmp.Rows[0]["TEN_DON_VI"].ToString();
-            txtTenDVA.EditValue = dtTmp.Rows[0]["TEN_DON_VI_ANH"].ToString();
-            txtTenDVH.EditValue = dtTmp.Rows[0]["TEN_DON_VI_HOA"].ToString();
-            txtTenNgan.EditValue = dtTmp.Rows[0]["TEN_NGAN"].ToString();
-            txtDC.EditValue = dtTmp.Rows[0]["DIA_CHI"].ToString();
-            chkMDinh.EditValue = Convert.ToBoolean(dtTmp.Rows[0]["MAC_DINH"]);
-            txtCQuan.EditValue = dtTmp.Rows[0]["CHU_QUAN"].ToString();
-            txtDThoai.EditValue = dtTmp.Rows[0]["DIEN_THOAI"].ToString();
-            txtFax.EditValue = dtTmp.Rows[0]["FAX"].ToString();
-            txtBHYT.EditValue = dtTmp.Rows[0]["MS_BHYT"].ToString();
-            txtBHXH.EditValue = dtTmp.Rows[0]["MS_BHXH"].ToString();
+            ItemForMSDV.EditValue = dtTmp.Rows[0]["MSDV"].ToString();
+            ItemForTEN_DON_VI.EditValue = dtTmp.Rows[0]["TEN_DON_VI"].ToString();
+            ItemForTEN_DON_VI_ANH.EditValue = dtTmp.Rows[0]["TEN_DON_VI_ANH"].ToString();
+            ItemForTEN_DON_VI_HOA.EditValue = dtTmp.Rows[0]["TEN_DON_VI_HOA"].ToString();
+            ItemForTEN_NGAN.EditValue = dtTmp.Rows[0]["TEN_NGAN"].ToString();
+            ItemForDIA_CHI.EditValue = dtTmp.Rows[0]["DIA_CHI"].ToString();
+            ItemForMAC_DINH.EditValue = Convert.ToBoolean(dtTmp.Rows[0]["MAC_DINH"]);
+            ItemForCHU_QUAN.EditValue = dtTmp.Rows[0]["CHU_QUAN"].ToString();
+            ItemForDIEN_THOAI.EditValue = dtTmp.Rows[0]["DIEN_THOAI"].ToString();
+            ItemForFAX.EditValue = dtTmp.Rows[0]["FAX"].ToString();
+            ItemForMS_BHYT.EditValue = dtTmp.Rows[0]["MS_BHYT"].ToString();
+            ItemForMS_BHXH.EditValue = dtTmp.Rows[0]["MS_BHXH"].ToString();
+            ItemForSO_TAI_KHOAN.EditValue = dtTmp.Rows[0]["SO_TAI_KHOAN"].ToString();
+            ItemForTEN_NGAN_HANG.EditValue = dtTmp.Rows[0]["TEN_NGAN_HANG"].ToString();
+            ItemForKY_HIEU.EditValue = dtTmp.Rows[0]["KY_HIEU"].ToString();
+            ItemForNGUOI_DAI_DIEN.EditValue = dtTmp.Rows[0]["NGUOI_DAI_DIEN"].ToString();
+            ItemForCHUC_VU.EditValue = dtTmp.Rows[0]["CHUC_VU"].ToString();
+            ItemForSO_HS.EditValue = dtTmp.Rows[0]["SO_HS"].ToString();
 
-            txtSTK.EditValue = dtTmp.Rows[0]["SO_TAI_KHOAN"].ToString();
-            txtTNH.EditValue = dtTmp.Rows[0]["TEN_NGAN_HANG"].ToString();
-            txtKHieu.EditValue = dtTmp.Rows[0]["KY_HIEU"].ToString();
-            txtNDD.EditValue = dtTmp.Rows[0]["NGUOI_DAI_DIEN"].ToString();
-            txtCVu.EditValue = dtTmp.Rows[0]["CHUC_VU"].ToString();
-            txtSoHS.EditValue = dtTmp.Rows[0]["SO_HS"].ToString();
+
         }
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            
-            SqlHelper.ExecuteNonQuery(Commons.IConnections.CNStr, "spUpdateDonVi",iIdDV,txtMaso.EditValue,txtTendv.EditValue,txtTenDVA.EditValue,txtTenDVH.EditValue,txtTenNgan.EditValue,txtDC.EditValue,Convert.ToBoolean(chkMDinh.EditValue),txtCQuan.EditValue,txtDThoai.EditValue,txtFax.EditValue,txtBHYT.EditValue,txtBHXH.EditValue,txtSTK.EditValue,txtTNH.EditValue,txtKHieu.EditValue,txtNDD.EditValue,txtCVu.EditValue,txtSoHS.EditValue);
-            this.ParentForm.DialogResult  = DialogResult.OK;
+            variable.sId =
+            SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spUpdateDonVi", iIdDV, ItemForMSDV.EditValue, ItemForTEN_DON_VI.EditValue, ItemForTEN_DON_VI_ANH.EditValue, ItemForTEN_DON_VI_HOA.EditValue, ItemForTEN_NGAN.EditValue, ItemForDIA_CHI.EditValue, Convert.ToBoolean(ItemForMAC_DINH.EditValue), ItemForCHU_QUAN.EditValue, ItemForDIEN_THOAI.EditValue, ItemForFAX.EditValue, ItemForMS_BHYT.EditValue, ItemForMS_BHXH.EditValue, ItemForSO_TAI_KHOAN.EditValue, ItemForTEN_NGAN_HANG.EditValue, ItemForKY_HIEU.EditValue, ItemForNGUOI_DAI_DIEN.EditValue, ItemForCHUC_VU.EditValue, ItemForSO_HS.EditValue).ToString();
+            this.ParentForm.DialogResult = DialogResult.OK;
+            XtraUserControl frm = (this.Parent as XtraUserControl);
             this.ParentForm.Close();
         }
         private void btnKhongLuu_Click(object sender, EventArgs e)
         {
             this.ParentForm.Close();
-        }
-
-        private void chkMDinh_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -11,6 +11,18 @@ namespace VietSoftHRM.Class
 {
     public class clsXuLy
     {
+        public static string iId;
+        private string ID
+        {
+            get
+            {
+                return ID;
+            }
+            set
+            {
+                ID = value;
+            }
+        }
         DevExpress.XtraGrid.GridControl grd_DonVi = new DevExpress.XtraGrid.GridControl();
         public void CreateMenuReset(DevExpress.XtraGrid.GridControl grd)
         {

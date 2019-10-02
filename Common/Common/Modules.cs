@@ -1,15 +1,21 @@
-﻿using System;
+﻿using Microsoft.ApplicationBlocks.Data;
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace Common
+namespace Commons
 {
     public class Modules
     {
+        // DevExpress.LookAndFeel.UserLookAndFeel defaultLF = new DevExpress.LookAndFeel.UserLookAndFeel(this);
         private static DevExpress.LookAndFeel.UserLookAndFeel _defaultLF;
-         public static DevExpress.LookAndFeel.UserLookAndFeel defaultLF
+        public static DevExpress.LookAndFeel.UserLookAndFeel defaultLF
         {
             get
             {
@@ -20,7 +26,38 @@ namespace Common
                 _defaultLF = value;
             }
         }
+
         private static string _ModuleName;
+        private static string myHost = System.Net.Dns.GetHostName();
+
+        public static List<string> lstControlName
+        {
+            get
+            {
+                return _lstControlName;
+            }
+            set
+            {
+                _lstControlName = value;
+            }
+        }
+
+        // Private Shared _lstControlName As New List(Of String)(New String() {"LookUpEdit", "Label", "RadioButton", "CheckBox", "GroupBox", "TabPage", "LabelControl", "CheckButton", "CheckEdit", "XtraTabPage", "GroupControl", "Button", "SimpleButton", "RadioGroup", "CheckedListBoxControl", "XtraTabControl", "GridControl", "DataGridView", "DataGridViewNew", "DataGridViewEditor", "NavBarControl", "navBarControl", "TextEdit", "TextBox", "ComboBox", "ButtonEdit", "MemoEdit"}) '"DateEdit",
+
+        private static List<string> _lstControlName = new List<string>(new string[] { "LookUpEdit", "Label", "RadioButton", "CheckBox", "GroupBox", "TabPage", "LabelControl", "CheckButton", "CheckEdit", "XtraTabPage", "GroupControl", "Button", "SimpleButton", "RadioGroup", "CheckedListBoxControl", "XtraTabControl", "GridControl", "DataGridView", "DataGridViewNew", "DataGridViewEditor", "NavBarControl", "navBarControl", "BarManager", "TextEdit" });
+        private static string _sPS;
+        public static string sPS
+        {
+            get
+            {
+                return _sPS;
+            }
+            set
+            {
+                _sPS = value;
+            }
+        }
+
         public static string ModuleName
         {
             get
@@ -45,7 +82,85 @@ namespace Common
                 _Licences = value;
             }
         }
-     
+        // Private Shared _Licences As Integer = 5
+        public static int _LicensePro;
+        public static int _LicenseProduction;
+        public static int _LicenseWarehouse;
+
+        public static bool _LicDemo;
+        public static bool LicDemo
+        {
+            get
+            {
+                return _LicDemo;
+            }
+            set
+            {
+                _LicDemo = value;
+            }
+        }
+
+        public static int LicenseProduction
+        {
+            get
+            {
+                return _LicenseProduction;
+            }
+            set
+            {
+                _LicenseProduction = value;
+            }
+        }
+        public static int LicenseWarehouse
+        {
+            get
+            {
+                return _LicenseWarehouse;
+            }
+            set
+            {
+                _LicenseWarehouse = value;
+            }
+        }
+        public static int LicensePro
+        {
+            get
+            {
+                return _LicensePro;
+            }
+            set
+            {
+                _LicensePro = value;
+            }
+        }
+
+
+        public static int _LicID;
+        public static int LicID
+        {
+            get
+            {
+                return _LicID;
+            }
+            set
+            {
+                _LicID = value;
+            }
+        }
+
+
+        public static DateTime _DemoDate = Convert.ToDateTime("12/12/2015");
+        public static DateTime DemoDate
+        {
+            get
+            {
+                return _DemoDate;
+            }
+            set
+            {
+                _DemoDate = value;
+            }
+        }
         private static string _UserName = string.Empty;
         public static string UserName
         {
@@ -72,6 +187,110 @@ namespace Common
             }
         }
 
+        //private static MExcel _MExcel = new MExcel();
+        //public static MExcel MExcel
+        //{
+        //    get
+        //    {
+        //        return _MExcel;
+        //    }
+        //    set
+        //    {
+        //        _MExcel = value;
+        //    }
+        //}
+
+        //private static MMail _MMail = new MMail();
+        //public static MMail MMail
+        //{
+        //    get
+        //    {
+        //        return _MMail;
+        //    }
+        //    set
+        //    {
+        //        _MMail = value;
+        //    }
+        //}
+
+        private static OSystems _OSystems = new OSystems();
+        public static OSystems ObjSystems
+        {
+            get
+            {
+                return _OSystems;
+            }
+            set
+            {
+                _OSystems = value;
+            }
+        }
+
+        private static OLanguages _OLanguages = new OLanguages();
+        public static OLanguages ObjLanguages
+        {
+            get
+            {
+                return _OLanguages;
+            }
+            set
+            {
+                _OLanguages = value;
+            }
+        }
+
+        //private static OGroups _OGroups = new OGroups();
+        //public static OGroups ObjGroups
+        //{
+        //    get
+        //    {
+        //        return _OGroups;
+        //    }
+        //    set
+        //    {
+        //        _OGroups = value;
+        //    }
+        //}
+
+        private static string _PermisString;
+        public static string PermisString
+        {
+            get
+            {
+                return _PermisString;
+            }
+            set
+            {
+                _PermisString = value;
+            }
+        }
+
+        private static DataGridViewCellStyle _DataGridViewCellStyle1 = new DataGridViewCellStyle();
+        public static DataGridViewCellStyle DataGridViewCellStyle1
+        {
+            get
+            {
+                return _DataGridViewCellStyle1;
+            }
+            set
+            {
+                _DataGridViewCellStyle1 = value;
+            }
+        }
+
+        private static DataGridViewCellStyle _DataGridViewCellStyle2 = new DataGridViewCellStyle();
+        public static DataGridViewCellStyle DataGridViewCellStyle2
+        {
+            get
+            {
+                return _DataGridViewCellStyle2;
+            }
+            set
+            {
+                _DataGridViewCellStyle2 = value;
+            }
+        }
+
         private static string _SqlString;
         public static string SQLString
         {
@@ -84,6 +303,20 @@ namespace Common
                 _SqlString = value;
             }
         }
+
+        private static Hashtable _HasTableVT = new Hashtable();
+        public static Hashtable HasTableVT
+        {
+            get
+            {
+                return _HasTableVT;
+            }
+            set
+            {
+                _HasTableVT = value;
+            }
+        }
+
         private static string _sMailFrom;
         public static string sMailFrom
         {
@@ -578,5 +811,77 @@ namespace Common
             }
         }
 
+        public static string GetNNgu(string sForm, string sKeyWord)
+        {
+            SqlDataReader dtReader;
+            string tam;
+            dtReader = SqlHelper.ExecuteReader(IConnections.CNStr, "GetLanguage", Modules.ModuleName, sForm, sKeyWord);
+            if (dtReader.HasRows)
+            {
+                while (dtReader.Read())
+                {
+                    if (Modules.TypeLanguage == 0)
+                        tam = dtReader["VIETNAM"].ToString();
+                    else if (Modules.TypeLanguage == 1)
+                        tam = dtReader["ENGLISH"].ToString();
+                    else
+                        tam = dtReader["CHINESE"].ToString();
+                    dtReader.Close();
+                    return tam;
+                }
+            }
+            else
+            {
+                dtReader.Close();
+                string sTV = "@" + sKeyWord + "@";
+                string sTA = "@" + sKeyWord + "@";
+                string sTH = "@" + sKeyWord + "@";
+                string sSql = " SELECT TOP 1 ISNULL(VIETNAM,'') AS VIETNAM, ISNULL(ENGLISH,'') AS ENGLISH,ISNULL(CHINESE,'') AS CHINESE " + " FROM [LANGUAGES] WHERE KEYWORD = N'" + sKeyWord + "'   AND SUBSTRING(VIETNAM,1,1) <> '@' " + " GROUP BY VIETNAM , ENGLISH, CHINESE ORDER BY COUNT(KEYWORD) DESC ";
+                DataTable dtTmp = new DataTable();
+                dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, sSql));
+                if (dtTmp.Rows.Count > 0)
+                {
+                    try
+                    {
+                        if (dtTmp.Rows[0]["VIETNAM"].ToString() != "")
+                            sTV = dtTmp.Rows[0]["VIETNAM"].ToString();
+                    }
+                    catch (Exception ex)
+                    {
+                        sTV = "@" + sKeyWord + "@";
+                    }
+                    try
+                    {
+                        if (dtTmp.Rows[0]["ENGLISH"].ToString() != "")
+                            sTA = dtTmp.Rows[0]["ENGLISH"].ToString();
+                    }
+                    catch (Exception ex)
+                    {
+                        sTA = "@" + sKeyWord + "@";
+                    }
+                    try
+                    {
+                        if (dtTmp.Rows[0]["CHINESE"].ToString() != "")
+                            sTH = dtTmp.Rows[0]["CHINESE"].ToString();
+                    }
+                    catch (Exception ex)
+                    {
+                        sTH = "@" + sKeyWord + "@";
+                    }
+                }
+                int result = SqlHelper.ExecuteNonQuery(IConnections.CNStr, CommandType.Text, " INSERT INTO [LANGUAGES]([MS_MODULE],[FORM],[KEYWORD],[VIETNAM],[ENGLISH],[CHINESE]," + " [FORM_HAY_REPORT],[VIETNAM_OR],[ENGLISH_OR],[CHINESE_OR]) " + " VALUES(N'" + Modules.ModuleName + "',N'" + sForm + "',N'" + sKeyWord + "',N'" + sTV + "',N'" + sTA + "',N'" + sTH + "'," + " 0,N'" + sTV + "',N'" + sTA + "',N'" + sTH + "')");
+                if (Commons.Modules.TypeLanguage == 0)
+                    tam = sTV;
+                else if (Commons.Modules.TypeLanguage == 1)
+                    tam = sTA;
+                else
+                    tam = sTH;
+                dtReader.Close();
+                return tam;
+            }
+            if (dtReader.IsClosed)
+                dtReader.Close();
+            return "?" + sKeyWord + "?";
+        }
     }
 }

@@ -69,6 +69,7 @@ namespace VietSoftHRM
         {
             Thread.Sleep(3000);
             LoadcboDataBase();
+            Commons.Modules.ObjSystems.ThayDoiNN(this);
         }
         #endregion
 

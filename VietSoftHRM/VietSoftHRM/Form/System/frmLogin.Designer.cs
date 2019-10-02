@@ -46,7 +46,7 @@
             this.pic_database = new DevExpress.XtraEditors.PictureEdit();
             this.txt_pass = new DevExpress.XtraEditors.TextEdit();
             this.txt_user = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.labTitleLogin = new DevExpress.XtraEditors.LabelControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imageSlider1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -101,7 +101,7 @@
             this.panel2.Controls.Add(this.pic_database);
             this.panel2.Controls.Add(this.txt_pass);
             this.panel2.Controls.Add(this.txt_user);
-            this.panel2.Controls.Add(this.labelControl1);
+            this.panel2.Controls.Add(this.labTitleLogin);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(312, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -180,6 +180,7 @@
             this.btn_login.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
             this.btn_login.Appearance.Options.UseBackColor = true;
             this.btn_login.Appearance.Options.UseBorderColor = true;
+            this.btn_login.Appearance.Options.UseFont = true;
             this.btn_login.AppearanceHovered.BackColor = System.Drawing.Color.White;
             this.btn_login.AppearanceHovered.BackColor2 = System.Drawing.Color.White;
             this.btn_login.AppearanceHovered.BorderColor = System.Drawing.Color.White;
@@ -301,27 +302,27 @@
             this.txt_user.Click += new System.EventHandler(this.Txt_user_Click);
             this.txt_user.Validated += new System.EventHandler(this.Txt_user_Validated);
             // 
-            // labelControl1
+            // labTitleLogin
             // 
-            this.labelControl1.AllowHtmlString = true;
-            this.labelControl1.AllowHtmlTextInToolTip = DevExpress.Utils.DefaultBoolean.True;
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Appearance.Options.UseTextOptions = true;
-            this.labelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.labelControl1.Appearance.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            this.labelControl1.AppearancePressed.Options.UseTextOptions = true;
-            this.labelControl1.AppearancePressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.labelControl1.AppearancePressed.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.labelControl1.AutoEllipsis = true;
-            this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.labelControl1.Location = new System.Drawing.Point(0, 0);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(371, 63);
-            this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "Sign Up";
+            this.labTitleLogin.AllowHtmlString = true;
+            this.labTitleLogin.AllowHtmlTextInToolTip = DevExpress.Utils.DefaultBoolean.True;
+            this.labTitleLogin.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labTitleLogin.Appearance.Options.UseFont = true;
+            this.labTitleLogin.Appearance.Options.UseTextOptions = true;
+            this.labTitleLogin.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.labTitleLogin.Appearance.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            this.labTitleLogin.AppearancePressed.Options.UseTextOptions = true;
+            this.labTitleLogin.AppearancePressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.labTitleLogin.AppearancePressed.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.labTitleLogin.AutoEllipsis = true;
+            this.labTitleLogin.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labTitleLogin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labTitleLogin.Location = new System.Drawing.Point(0, 0);
+            this.labTitleLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.labTitleLogin.Name = "labTitleLogin";
+            this.labTitleLogin.Size = new System.Drawing.Size(371, 63);
+            this.labTitleLogin.TabIndex = 0;
+            this.labTitleLogin.Text = "Sign Up";
             // 
             // frmLogin
             // 
@@ -354,7 +355,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.LabelControl labTitleLogin;
         private DevExpress.XtraEditors.TextEdit txt_user;
         private DevExpress.XtraEditors.TextEdit txt_pass;
         private System.Windows.Forms.Panel pan_database;

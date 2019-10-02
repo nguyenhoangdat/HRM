@@ -6,7 +6,7 @@ using DevExpress.UserSkins;
 using DevExpress.Skins;
 using DevExpress.LookAndFeel;
 
-namespace Common
+namespace Commons
 {
     static class Program
     {
@@ -18,9 +18,8 @@ namespace Common
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
             BonusSkins.Register();
-            Application.Run(new Form1());
+            
         }
     }
 }

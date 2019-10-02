@@ -17,6 +17,7 @@ namespace VietSoftHRM
     public partial class ucListDMuc : DevExpress.XtraEditors.XtraUserControl
     {
         public int iLoai;
+        public int iIDOut;
         public string slinkcha;
         public string sSP = Commons.Modules.sPS;
         string sButtonTag = "";
@@ -24,13 +25,14 @@ namespace VietSoftHRM
         public ucListDMuc()
         {
             InitializeComponent();
-             clsXL.CreateMenuReset(grdDanhMuc);
+            clsXL.CreateMenuReset(grdDanhMuc);
             
        }
         private void ucListUser_Load(object sender, EventArgs e)
         {
             slinkcha = lab_Link.Text;
             LoadDanhMuc();
+            //Commons.Modules.ObjSystems.ThayDoiNN();
         }
         //load tất danh mục từ menu
         private void LoadDanhMuc()
@@ -177,7 +179,8 @@ namespace VietSoftHRM
                             ctl = o1 as XtraUserControl;
                             if (CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl) == DialogResult.OK)
                             {
-                                LoadGridDanhMuc(getIDthem());
+                                //int DG = ((ctl)pnlFLP.Controls[0]).DG;
+                                LoadGridDanhMuc(Convert.ToInt32(variable.sId));
                             }
                         }
                         catch (Exception ex)
@@ -210,7 +213,7 @@ namespace VietSoftHRM
                             ctl = o1 as XtraUserControl;
                             if(CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl)==DialogResult.OK)
                             {
-                                LoadGridDanhMuc(Convert.ToInt32(grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName)));
+                                LoadGridDanhMuc(Convert.ToInt32(variable.sId));
                             }
                         }
                         catch (Exception ex)
@@ -229,12 +232,6 @@ namespace VietSoftHRM
             }
         }
 
-        private int getIDthem()
-        {
-            int resulst;
-            resulst = Convert.ToInt32(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT MAX("+ grvDanhMuc.Columns[0].FieldName + ") FROM "+ Commons.Modules.sPS.Replace("spGetList", "") + " "));
-            return resulst;
-        }
 
         private void grdDanhMuc_Validating(object sender, System.ComponentModel.CancelEventArgs e)
         {
