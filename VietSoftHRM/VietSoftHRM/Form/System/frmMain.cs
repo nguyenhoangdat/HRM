@@ -3,21 +3,23 @@ using System.Data;
 using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
+using DevExpress.Utils.MVVM;
 using DevExpress.XtraBars.Navigation;
 using DevExpress.XtraEditors;
 using DevExpress.XtraEditors.Controls;
+using DevExpress.XtraSplashScreen;
 using Microsoft.ApplicationBlocks.Data;
 
 namespace VietSoftHRM
 {
     public partial class frmMain : DevExpress.XtraEditors.XtraForm
     {
+       
         public frmMain()
         {
           
             InitializeComponent();
         }
-
         //load menugroup
         private void frmMain_Load(object sender, EventArgs e)
         {

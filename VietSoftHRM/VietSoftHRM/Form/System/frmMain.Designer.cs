@@ -54,12 +54,12 @@
             // navigationFrame
             // 
             this.navigationFrame.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.navigationFrame.Location = new System.Drawing.Point(0, 79);
+            this.navigationFrame.Location = new System.Drawing.Point(0, 72);
             this.navigationFrame.Margin = new System.Windows.Forms.Padding(4);
             this.navigationFrame.Name = "navigationFrame";
             this.navigationFrame.RibbonAndBarsMergeStyle = DevExpress.XtraBars.Docking2010.Views.RibbonAndBarsMergeStyle.Always;
             this.navigationFrame.SelectedPage = null;
-            this.navigationFrame.Size = new System.Drawing.Size(852, 233);
+            this.navigationFrame.Size = new System.Drawing.Size(852, 240);
             this.navigationFrame.TabIndex = 5;
             this.navigationFrame.Text = "navigationFrame1";
             this.navigationFrame.TransitionAnimationProperties.FrameInterval = 5000;
@@ -90,7 +90,7 @@
             this.tileBar.SelectionBorderWidth = 2;
             this.tileBar.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
             this.tileBar.SelectionColorMode = DevExpress.XtraBars.Navigation.SelectionColorMode.UseItemBackColor;
-            this.tileBar.Size = new System.Drawing.Size(852, 79);
+            this.tileBar.Size = new System.Drawing.Size(852, 72);
             this.tileBar.TabIndex = 4;
             this.tileBar.Text = "tileBar";
             this.tileBar.VerticalContentAlignment = DevExpress.Utils.VertAlignment.Center;
@@ -235,12 +235,12 @@
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Shadow;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMain";
+            this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).EndInit();

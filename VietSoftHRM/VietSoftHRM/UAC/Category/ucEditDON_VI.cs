@@ -11,6 +11,7 @@ using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
 using VietSoftHRM.Class;
 using DevExpress.XtraLayout;
+using DevExpress.XtraBars.Docking2010;
 
 namespace VietSoftHRM
 {
@@ -26,14 +27,13 @@ namespace VietSoftHRM
         {
             if (iIdDV > 0)
                 LoadText();
-            Commons.Modules.ObjSystems.ThayDoiNN(this);
+            Commons.Modules.ObjSystems.ThayDoiNN(this,layoutControlGroup1);
         }
         private void LoadText()
         {
             string sSql = "SELECT ID_DV ,MSDV ,TEN_DON_VI ,TEN_DON_VI_ANH ,TEN_DON_VI_HOA ,TEN_NGAN ,DIA_CHI ,MAC_DINH ,CHU_QUAN ,DIEN_THOAI ,FAX ,MS_BHYT ,MS_BHXH ,SO_TAI_KHOAN ,TEN_NGAN_HANG ,KY_HIEU ,NGUOI_DAI_DIEN ,CHUC_VU ,SO_HS FROM dbo.DON_VI WHERE ID_DV =	" + iIdDV.ToString();
             DataTable dtTmp = new DataTable();
-            dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text,sSql));
-
+            dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, sSql));
             ItemForMSDV.EditValue = dtTmp.Rows[0]["MSDV"].ToString();
             ItemForTEN_DON_VI.EditValue = dtTmp.Rows[0]["TEN_DON_VI"].ToString();
             ItemForTEN_DON_VI_ANH.EditValue = dtTmp.Rows[0]["TEN_DON_VI_ANH"].ToString();
@@ -52,20 +52,31 @@ namespace VietSoftHRM
             ItemForNGUOI_DAI_DIEN.EditValue = dtTmp.Rows[0]["NGUOI_DAI_DIEN"].ToString();
             ItemForCHUC_VU.EditValue = dtTmp.Rows[0]["CHUC_VU"].ToString();
             ItemForSO_HS.EditValue = dtTmp.Rows[0]["SO_HS"].ToString();
-
-
         }
-        private void btnLuu_Click(object sender, EventArgs e)
+        private void windowsUIButtonPanel1_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
         {
-            variable.sId =
+            layoutControlGroup1.BeginUpdate();
+            WindowsUIButton btn = e.Button as WindowsUIButton;
+            XtraUserControl ctl = new XtraUserControl();
+            switch (btn.Tag.ToString())
+            {
+                
+                case "luu":
+                    {
+                        variable.sId =
             SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spUpdateDonVi", iIdDV, ItemForMSDV.EditValue, ItemForTEN_DON_VI.EditValue, ItemForTEN_DON_VI_ANH.EditValue, ItemForTEN_DON_VI_HOA.EditValue, ItemForTEN_NGAN.EditValue, ItemForDIA_CHI.EditValue, Convert.ToBoolean(ItemForMAC_DINH.EditValue), ItemForCHU_QUAN.EditValue, ItemForDIEN_THOAI.EditValue, ItemForFAX.EditValue, ItemForMS_BHYT.EditValue, ItemForMS_BHXH.EditValue, ItemForSO_TAI_KHOAN.EditValue, ItemForTEN_NGAN_HANG.EditValue, ItemForKY_HIEU.EditValue, ItemForNGUOI_DAI_DIEN.EditValue, ItemForCHUC_VU.EditValue, ItemForSO_HS.EditValue).ToString();
-            this.ParentForm.DialogResult = DialogResult.OK;
-            XtraUserControl frm = (this.Parent as XtraUserControl);
-            this.ParentForm.Close();
-        }
-        private void btnKhongLuu_Click(object sender, EventArgs e)
-        {
-            this.ParentForm.Close();
+                        this.ParentForm.DialogResult = DialogResult.OK;
+                        XtraUserControl frm = (this.Parent as XtraUserControl);
+                        this.ParentForm.Close();
+                        break;
+                    }
+                case "huy":
+                    {
+                        this.ParentForm.Close();
+                        break;
+                    }
+                default: break;
+            }
         }
     }
 }

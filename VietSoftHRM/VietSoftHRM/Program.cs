@@ -57,7 +57,7 @@ namespace VietSoftHRM
         {
             try
             {
-                Application.Run(new frmLogin());
+                Application.Run(new frmMain());
             }
             catch (Exception ex)
             {

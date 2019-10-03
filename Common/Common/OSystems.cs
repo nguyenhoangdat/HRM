@@ -367,11 +367,12 @@ namespace Commons
             }
         }
 
+        
+
         public void ThayDoiNN(XtraUserControl frm)
         {
             DataTable dtTmp = new DataTable();
             dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + frm.Name + "' "));
-
             frm.Text = GetNN(dtTmp, frm.Name, frm.Name);
             List<Control> resultControlList = new List<Control>();
             GetControlsCollection(frm, ref resultControlList, null);
@@ -394,7 +395,44 @@ namespace Commons
             {
             }
         }
-                public void DoiNN(Control Ctl, Form frm, DataTable dtNgu)
+
+
+        public void ThayDoiNN(XtraUserControl frm, LayoutControlGroup group)
+        {
+            DataTable dtTmp = new DataTable();
+            dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + frm.Name + "' "));
+            frm.Text = GetNN(dtTmp, frm.Name, frm.Name);
+            List<Control> resultControlList = new List<Control>();
+            GetControlsCollection(frm, ref resultControlList, null);
+            try
+            {
+                //MTabOrder MTab = new MTabOrder(frm);
+                //MTab.MSetTabOrder(MTabOrder.TabScheme.AcrossFirst);
+            }
+            catch (Exception ex)
+            {
+            }
+            foreach (LayoutControlItem control1 in group.Items)
+            {
+                try
+                {
+                    control1.Text = GetNN(dtTmp, control1.Name, frm.Name);
+                }
+                catch (Exception ex)
+                {
+                }
+            }
+            try
+            {
+                //MTabOrder MTab = new MTabOrder(frm);
+                //MTab.MSetTabOrder(MTabOrder.TabScheme.AcrossFirst);
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        public void DoiNN(Control Ctl, Form frm, DataTable dtNgu)
         {
             // iFontsize
             // sFontForm

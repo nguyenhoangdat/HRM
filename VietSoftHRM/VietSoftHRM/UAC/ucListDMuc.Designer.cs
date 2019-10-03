@@ -74,10 +74,10 @@
             this.windowsUIButtonPanel1.Controls.Add(this.searchControl);
             this.windowsUIButtonPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.windowsUIButtonPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.windowsUIButtonPanel1.Location = new System.Drawing.Point(0, 233);
+            this.windowsUIButtonPanel1.Location = new System.Drawing.Point(0, 241);
             this.windowsUIButtonPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.windowsUIButtonPanel1.Name = "windowsUIButtonPanel1";
-            this.windowsUIButtonPanel1.Size = new System.Drawing.Size(899, 71);
+            this.windowsUIButtonPanel1.Size = new System.Drawing.Size(899, 63);
             this.windowsUIButtonPanel1.TabIndex = 0;
             this.windowsUIButtonPanel1.Text = "windowsUIButtonPanel1";
             this.windowsUIButtonPanel1.ButtonClick += new DevExpress.XtraBars.Docking2010.ButtonEventHandler(this.windowsUIButtonPanel1_ButtonClick);
@@ -87,17 +87,17 @@
             this.searchControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.searchControl.Client = this.grdDanhMuc;
-            this.searchControl.Location = new System.Drawing.Point(663, 5);
+            this.searchControl.Location = new System.Drawing.Point(609, 28);
             this.searchControl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.searchControl.Name = "searchControl";
-            this.searchControl.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.searchControl.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchControl.Properties.Appearance.Options.UseFont = true;
             this.searchControl.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Repository.ClearButton(),
             new DevExpress.XtraEditors.Repository.SearchButton()});
             this.searchControl.Properties.Client = this.grdDanhMuc;
             this.searchControl.Properties.FindDelay = 100;
-            this.searchControl.Size = new System.Drawing.Size(232, 26);
+            this.searchControl.Size = new System.Drawing.Size(286, 30);
             this.searchControl.TabIndex = 10;
             // 
             // grdDanhMuc
@@ -106,7 +106,7 @@
             this.grdDanhMuc.Location = new System.Drawing.Point(0, 0);
             this.grdDanhMuc.MainView = this.grvDanhMuc;
             this.grdDanhMuc.Name = "grdDanhMuc";
-            this.grdDanhMuc.Size = new System.Drawing.Size(753, 198);
+            this.grdDanhMuc.Size = new System.Drawing.Size(753, 206);
             this.grdDanhMuc.TabIndex = 0;
             this.grdDanhMuc.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvDanhMuc});
@@ -147,7 +147,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.grdDanhMuc);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(899, 198);
+            this.splitContainerControl1.Size = new System.Drawing.Size(899, 206);
             this.splitContainerControl1.SplitterPosition = 136;
             this.splitContainerControl1.TabIndex = 2;
             // 
