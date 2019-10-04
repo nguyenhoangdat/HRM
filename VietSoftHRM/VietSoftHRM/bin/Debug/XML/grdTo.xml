@@ -4,43 +4,41 @@
   <property name="OptionsView" isnull="true" iskey="true">
     <property name="AllowHtmlDrawHeaders">true</property>
     <property name="ColumnAutoWidth">false</property>
+    <property name="ShowAutoFilterRow">true</property>
+    <property name="ShowGroupPanel">false</property>
   </property>
   <property name="ActiveFilterEnabled">true</property>
   <property name="Columns" iskey="true" value="7">
     <property name="Item1" isnull="true" iskey="true">
       <property name="Name">colID_TO</property>
-      <property name="Caption">?ID_TO?</property>
+      <property name="Caption">@ID_TO@</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
       <property name="FieldName">ID_TO</property>
       <property name="ColumnEditName" />
-      <property name="VisibleIndex">0</property>
-      <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item2" isnull="true" iskey="true">
       <property name="Name">colID_XN</property>
-      <property name="Caption">?ID_XN?</property>
+      <property name="Caption">@ID_XN@</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
       <property name="FieldName">ID_XN</property>
       <property name="ColumnEditName" />
-      <property name="VisibleIndex">1</property>
-      <property name="Visible">true</property>
       <property name="Width">141</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item3" isnull="true" iskey="true">
       <property name="Name">colMS_TO</property>
-      <property name="Caption">?MS_TO?</property>
+      <property name="Caption">@MS_TO@</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
       <property name="FieldName">MS_TO</property>
       <property name="ColumnEditName" />
-      <property name="VisibleIndex">2</property>
+      <property name="VisibleIndex">0</property>
       <property name="Visible">true</property>
       <property name="Width">161</property>
       <property name="MinWidth">20</property>
@@ -48,12 +46,12 @@
     </property>
     <property name="Item4" isnull="true" iskey="true">
       <property name="Name">colTEN_TO</property>
-      <property name="Caption">?TEN_TO?</property>
+      <property name="Caption">@TEN_TO@</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
       <property name="FieldName">TEN_TO</property>
       <property name="ColumnEditName" />
-      <property name="VisibleIndex">3</property>
+      <property name="VisibleIndex">1</property>
       <property name="Visible">true</property>
       <property name="Width">235</property>
       <property name="MinWidth">20</property>
@@ -61,12 +59,12 @@
     </property>
     <property name="Item5" isnull="true" iskey="true">
       <property name="Name">colTEN_TO_ANH</property>
-      <property name="Caption">?TEN_TO_ANH?</property>
+      <property name="Caption">@TEN_TO_ANH@</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
       <property name="FieldName">TEN_TO_ANH</property>
       <property name="ColumnEditName" />
-      <property name="VisibleIndex">4</property>
+      <property name="VisibleIndex">2</property>
       <property name="Visible">true</property>
       <property name="Width">193</property>
       <property name="MinWidth">20</property>
@@ -74,12 +72,12 @@
     </property>
     <property name="Item6" isnull="true" iskey="true">
       <property name="Name">colTEN_TO_HOA</property>
-      <property name="Caption">?TEN_TO_HOA?</property>
+      <property name="Caption">@TEN_TO_HOA@</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
       <property name="FieldName">TEN_TO_HOA</property>
       <property name="ColumnEditName" />
-      <property name="VisibleIndex">5</property>
+      <property name="VisibleIndex">3</property>
       <property name="Visible">true</property>
       <property name="Width">455</property>
       <property name="MinWidth">20</property>
@@ -87,13 +85,11 @@
     </property>
     <property name="Item7" isnull="true" iskey="true">
       <property name="Name">colSTT_TO</property>
-      <property name="Caption">?STT_TO?</property>
+      <property name="Caption">@STT_TO@</property>
       <property name="ImageAlignment">Near</property>
       <property name="ImageIndex">-1</property>
       <property name="FieldName">STT_TO</property>
       <property name="ColumnEditName" />
-      <property name="VisibleIndex">6</property>
-      <property name="Visible">true</property>
       <property name="Width">732</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>

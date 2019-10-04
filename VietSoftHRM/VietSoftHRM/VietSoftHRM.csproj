@@ -104,6 +104,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\DevExpress.XtraTreeList.v19.1.dll</HintPath>
     </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.ApplicationBlocks.Data">
       <HintPath>..\..\..\Sap Business One\SAP\SAP\bin\Debug\Microsoft.ApplicationBlocks.Data.dll</HintPath>
     </Reference>
@@ -170,11 +171,29 @@
     <Compile Include="UAC\Category\ucEditXI_NGHIEP.Designer.cs">
       <DependentUpon>ucEditXI_NGHIEP.cs</DependentUpon>
     </Compile>
+    <Compile Include="UAC\System\ucNHOM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\System\ucNHOM.Designer.cs">
+      <DependentUpon>ucNHOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\ucSystems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\ucSystems.Designer.cs">
+      <DependentUpon>ucSystems.cs</DependentUpon>
+    </Compile>
     <Compile Include="UAC\ucListDMuc.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UAC\ucListDMuc.Designer.cs">
       <DependentUpon>ucListDMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\System\ucPhanQuyen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\System\ucPhanQuyen.Designer.cs">
+      <DependentUpon>ucPhanQuyen.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form\System\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
@@ -205,8 +224,17 @@
     <EmbeddedResource Include="UAC\Category\ucEditXI_NGHIEP.resx">
       <DependentUpon>ucEditXI_NGHIEP.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UAC\System\ucNHOM.resx">
+      <DependentUpon>ucNHOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\ucSystems.resx">
+      <DependentUpon>ucSystems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UAC\ucListDMuc.resx">
       <DependentUpon>ucListDMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\System\ucPhanQuyen.resx">
+      <DependentUpon>ucPhanQuyen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
@@ -273,6 +301,10 @@
   <ItemGroup>
     <None Include="Resources\iconsave.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2703079-32.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -28,30 +28,131 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, null, true, true, typeof(System.Windows.Forms.UserControl));
             DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions1 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
             DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions2 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
             DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions3 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
             DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions4 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
             DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions5 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
-            this.windowsUIButtonPanel1 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
-            this.searchControl = new DevExpress.XtraEditors.SearchControl();
             this.grdDanhMuc = new DevExpress.XtraGrid.GridControl();
             this.grvDanhMuc = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.lab_Link = new DevExpress.XtraEditors.LabelControl();
-            this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
-            this.accordionControlElement6 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.windowsUIButtonPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.searchControl.Properties)).BeginInit();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.accorMenuleft = new DevExpress.XtraBars.Navigation.AccordionControl();
+            this.searchControl = new DevExpress.XtraEditors.SearchControl();
+            this.windowsUIButtonPanel1 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             ((System.ComponentModel.ISupportInitialize)(this.grdDanhMuc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvDanhMuc)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
-            this.splitContainerControl1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.accorMenuleft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.searchControl.Properties)).BeginInit();
+            this.windowsUIButtonPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // splashScreenManager1
+            // grdDanhMuc
             // 
-            splashScreenManager1.ClosingDelay = 500;
+            this.grdDanhMuc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grdDanhMuc.Location = new System.Drawing.Point(0, 0);
+            this.grdDanhMuc.MainView = this.grvDanhMuc;
+            this.grdDanhMuc.Name = "grdDanhMuc";
+            this.grdDanhMuc.Size = new System.Drawing.Size(685, 324);
+            this.grdDanhMuc.TabIndex = 2;
+            this.grdDanhMuc.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.grvDanhMuc});
+            this.grdDanhMuc.Validated += new System.EventHandler(this.grdDanhMuc_Validated);
+            // 
+            // grvDanhMuc
+            // 
+            this.grvDanhMuc.GridControl = this.grdDanhMuc;
+            this.grvDanhMuc.Name = "grvDanhMuc";
+            this.grvDanhMuc.OptionsFind.FindDelay = 100;
+            this.grvDanhMuc.OptionsScrollAnnotations.ShowCustomAnnotations = DevExpress.Utils.DefaultBoolean.True;
+            this.grvDanhMuc.OptionsScrollAnnotations.ShowErrors = DevExpress.Utils.DefaultBoolean.True;
+            this.grvDanhMuc.OptionsScrollAnnotations.ShowFocusedRow = DevExpress.Utils.DefaultBoolean.True;
+            this.grvDanhMuc.OptionsScrollAnnotations.ShowSelectedRows = DevExpress.Utils.DefaultBoolean.True;
+            this.grvDanhMuc.OptionsView.ShowGroupPanel = false;
+            // 
+            // lab_Link
+            // 
+            this.lab_Link.Appearance.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.lab_Link.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.lab_Link.Appearance.Options.UseFont = true;
+            this.lab_Link.Appearance.Options.UseForeColor = true;
+            this.lab_Link.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.lab_Link.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lab_Link.Location = new System.Drawing.Point(0, 0);
+            this.lab_Link.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.lab_Link.Name = "lab_Link";
+            this.lab_Link.Size = new System.Drawing.Size(899, 35);
+            this.lab_Link.TabIndex = 1;
+            this.lab_Link.Text = "labelControl1";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.accorMenuleft);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 35);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(899, 324);
+            this.panel1.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.grdDanhMuc);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(214, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(685, 324);
+            this.panel2.TabIndex = 4;
+            // 
+            // accorMenuleft
+            // 
+            this.accorMenuleft.Appearance.AccordionControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.accorMenuleft.Appearance.AccordionControl.ForeColor = System.Drawing.Color.White;
+            this.accorMenuleft.Appearance.AccordionControl.Options.UseBackColor = true;
+            this.accorMenuleft.Appearance.AccordionControl.Options.UseForeColor = true;
+            this.accorMenuleft.Appearance.Group.Normal.ForeColor = System.Drawing.Color.Gainsboro;
+            this.accorMenuleft.Appearance.Group.Normal.Options.UseForeColor = true;
+            this.accorMenuleft.Appearance.Hint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.accorMenuleft.Appearance.Hint.Options.UseBackColor = true;
+            this.accorMenuleft.Appearance.Item.Normal.ForeColor = System.Drawing.Color.White;
+            this.accorMenuleft.Appearance.Item.Normal.Options.UseForeColor = true;
+            this.accorMenuleft.Appearance.Item.Normal.Options.UseTextOptions = true;
+            this.accorMenuleft.Appearance.Item.Normal.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.accorMenuleft.Appearance.Item.Normal.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.accorMenuleft.Appearance.Item.Pressed.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.accorMenuleft.Appearance.Item.Pressed.ForeColor = System.Drawing.Color.White;
+            this.accorMenuleft.Appearance.Item.Pressed.Options.UseFont = true;
+            this.accorMenuleft.Appearance.Item.Pressed.Options.UseForeColor = true;
+            this.accorMenuleft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.accorMenuleft.Location = new System.Drawing.Point(0, 0);
+            this.accorMenuleft.Name = "accorMenuleft";
+            this.accorMenuleft.OptionsMinimizing.AllowMinimizeMode = DevExpress.Utils.DefaultBoolean.True;
+            this.accorMenuleft.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Hidden;
+            this.accorMenuleft.ShowItemExpandButtons = false;
+            this.accorMenuleft.Size = new System.Drawing.Size(214, 324);
+            this.accorMenuleft.TabIndex = 3;
+            this.accorMenuleft.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
+            // 
+            // searchControl
+            // 
+            this.searchControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.searchControl.Client = this.grdDanhMuc;
+            this.searchControl.Location = new System.Drawing.Point(609, 28);
+            this.searchControl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.searchControl.Name = "searchControl";
+            this.searchControl.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchControl.Properties.Appearance.Options.UseFont = true;
+            this.searchControl.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Repository.ClearButton(),
+            new DevExpress.XtraEditors.Repository.SearchButton()});
+            this.searchControl.Properties.Client = this.grdDanhMuc;
+            this.searchControl.Properties.FindDelay = 100;
+            this.searchControl.Size = new System.Drawing.Size(286, 26);
+            this.searchControl.TabIndex = 10;
             // 
             // windowsUIButtonPanel1
             // 
@@ -74,7 +175,7 @@
             this.windowsUIButtonPanel1.Controls.Add(this.searchControl);
             this.windowsUIButtonPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.windowsUIButtonPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.windowsUIButtonPanel1.Location = new System.Drawing.Point(0, 241);
+            this.windowsUIButtonPanel1.Location = new System.Drawing.Point(0, 359);
             this.windowsUIButtonPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.windowsUIButtonPanel1.Name = "windowsUIButtonPanel1";
             this.windowsUIButtonPanel1.Size = new System.Drawing.Size(899, 63);
@@ -82,110 +183,36 @@
             this.windowsUIButtonPanel1.Text = "windowsUIButtonPanel1";
             this.windowsUIButtonPanel1.ButtonClick += new DevExpress.XtraBars.Docking2010.ButtonEventHandler(this.windowsUIButtonPanel1_ButtonClick);
             // 
-            // searchControl
-            // 
-            this.searchControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.searchControl.Client = this.grdDanhMuc;
-            this.searchControl.Location = new System.Drawing.Point(609, 28);
-            this.searchControl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.searchControl.Name = "searchControl";
-            this.searchControl.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchControl.Properties.Appearance.Options.UseFont = true;
-            this.searchControl.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Repository.ClearButton(),
-            new DevExpress.XtraEditors.Repository.SearchButton()});
-            this.searchControl.Properties.Client = this.grdDanhMuc;
-            this.searchControl.Properties.FindDelay = 100;
-            this.searchControl.Size = new System.Drawing.Size(286, 30);
-            this.searchControl.TabIndex = 10;
-            // 
-            // grdDanhMuc
-            // 
-            this.grdDanhMuc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdDanhMuc.Location = new System.Drawing.Point(0, 0);
-            this.grdDanhMuc.MainView = this.grvDanhMuc;
-            this.grdDanhMuc.Name = "grdDanhMuc";
-            this.grdDanhMuc.Size = new System.Drawing.Size(753, 206);
-            this.grdDanhMuc.TabIndex = 0;
-            this.grdDanhMuc.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.grvDanhMuc});
-            this.grdDanhMuc.Validating += new System.ComponentModel.CancelEventHandler(this.grdDanhMuc_Validating);
-            // 
-            // grvDanhMuc
-            // 
-            this.grvDanhMuc.GridControl = this.grdDanhMuc;
-            this.grvDanhMuc.Name = "grvDanhMuc";
-            this.grvDanhMuc.OptionsFind.AlwaysVisible = true;
-            this.grvDanhMuc.OptionsFind.FindDelay = 100;
-            this.grvDanhMuc.OptionsView.ShowAutoFilterRow = true;
-            this.grvDanhMuc.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.ShowAlways;
-            this.grvDanhMuc.OptionsView.ShowGroupPanel = false;
-            // 
-            // lab_Link
-            // 
-            this.lab_Link.Appearance.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.lab_Link.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.lab_Link.Appearance.Options.UseFont = true;
-            this.lab_Link.Appearance.Options.UseForeColor = true;
-            this.lab_Link.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.lab_Link.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lab_Link.Location = new System.Drawing.Point(0, 0);
-            this.lab_Link.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.lab_Link.Name = "lab_Link";
-            this.lab_Link.Size = new System.Drawing.Size(899, 35);
-            this.lab_Link.TabIndex = 1;
-            this.lab_Link.Text = "labelControl1";
-            // 
-            // splitContainerControl1
-            // 
-            this.splitContainerControl1.CollapsePanel = DevExpress.XtraEditors.SplitCollapsePanel.Panel1;
-            this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 35);
-            this.splitContainerControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.splitContainerControl1.Name = "splitContainerControl1";
-            this.splitContainerControl1.Panel1.Text = "Panel1";
-            this.splitContainerControl1.Panel2.Controls.Add(this.grdDanhMuc);
-            this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(899, 206);
-            this.splitContainerControl1.SplitterPosition = 136;
-            this.splitContainerControl1.TabIndex = 2;
-            // 
-            // accordionControlElement6
-            // 
-            this.accordionControlElement6.Name = "accordionControlElement6";
-            this.accordionControlElement6.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement6.Text = "Element6";
-            // 
             // ucListDMuc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.splitContainerControl1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.lab_Link);
             this.Controls.Add(this.windowsUIButtonPanel1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ucListDMuc";
-            this.Size = new System.Drawing.Size(899, 304);
+            this.Size = new System.Drawing.Size(899, 422);
             this.Load += new System.EventHandler(this.ucListUser_Load);
-            this.windowsUIButtonPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.searchControl.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdDanhMuc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvDanhMuc)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
-            this.splitContainerControl1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.accorMenuleft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.searchControl.Properties)).EndInit();
+            this.windowsUIButtonPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel windowsUIButtonPanel1;
-        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement6;
-        private DevExpress.XtraEditors.SearchControl searchControl;
         public DevExpress.XtraEditors.LabelControl lab_Link;
         private DevExpress.XtraGrid.GridControl grdDanhMuc;
         private DevExpress.XtraGrid.Views.Grid.GridView grvDanhMuc;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private DevExpress.XtraBars.Navigation.AccordionControl accorMenuleft;
+        private DevExpress.XtraEditors.SearchControl searchControl;
+        private DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel windowsUIButtonPanel1;
     }
 }

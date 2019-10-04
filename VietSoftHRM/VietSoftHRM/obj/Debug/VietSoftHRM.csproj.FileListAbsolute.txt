@@ -100,3 +100,12 @@ E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dl
 E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
 E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
 E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
+E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucPhanQuyen.resources
+E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
+E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
+E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOM.resources
+E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucSystems.resources

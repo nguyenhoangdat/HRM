@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.Threading;
@@ -14,10 +15,8 @@ namespace VietSoftHRM
 {
     public partial class frmMain : DevExpress.XtraEditors.XtraForm
     {
-       
         public frmMain()
         {
-          
             InitializeComponent();
         }
         //load menugroup
@@ -50,7 +49,11 @@ namespace VietSoftHRM
         {
             DataTable dt = new DataTable();
             //LOAD MENU 0= CHA , CÒN LẠI LÀ CON
-            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr , "spGetMenuLeft",Commons.Modules.UserName,Commons.Modules.TypeLanguage,0));
+            String sSql;
+
+            sSql = "SELECT T3.[ID_MENU],[KEY_MENU],CASE " + Commons.Modules.TypeLanguage.ToString() + " WHEN 0 THEN T3.[TEN_MENU] WHEN 1 THEN ISNULL(NULLIF(T3.[TEN_MENU_ANH],''),T3.[TEN_MENU]) ELSE ISNULL(NULLIF(T3.[TEN_MENU_HOA],''),T3.[TEN_MENU]) END AS NAME,[ROOT],[HIDE],[BACK_COLOR],[IMG],[STT_MENU],[CONTROLS],[DROPDOW]	   FROM NHOM_MENU T1 INNER JOIN dbo.USERS T2 ON T1.ID_NHOM = T2.ID_NHOM INNER JOIN dbo.MENU T3 ON T1.ID_MENU = T3.ID_MENU  WHERE T2.USER_NAME = '" + Commons.Modules.UserName + "' AND [ROOT] = 0 ORDER BY[STT_MENU],[TEN_MENU]";
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, sSql));
+
             foreach (DataRow item in dt.Rows)
             {
                 TileBarItem itembar = new TileBarItem();
@@ -61,7 +64,6 @@ namespace VietSoftHRM
                 itembar.Image = (Image)Properties.Resources.ResourceManager.GetObject(item["IMG"].ToString());
                 itembar.TextAlignment = TileItemContentAlignment.MiddleRight;
                 itembar.Tag = item["ID_MENU"].ToString();
-
 
                 //if (Convert.ToBoolean(item["DROPDOW"]) == true)
                 //{
@@ -85,12 +87,48 @@ namespace VietSoftHRM
 
         private void tileBar_SelectedItemChanged(object sender, TileItemEventArgs e)
         {
+            if (Convert.ToInt32(e.Item.Tag) == 2)
+            {
+               
+            }
+            switch (Convert.ToInt32(e.Item.Tag))
+            {
+                case 1:
+                    {
+                        LoaducHeThong(e);
+                        break;
+                    }
+                case 2:
+                    {
+                        LoaducDanhMuc(e);
+                        break;
+                    }
+                default:
+                    break;
+            }
+        }
+
+        private void LoaducHeThong(TileItemEventArgs e)
+        {
+            ucSystems ucsymstem = new ucSystems();
+            ucsymstem.Dock = DockStyle.Fill;
+            ucsymstem.iLoai = Convert.ToInt32(e.Item.Tag);
+            ucsymstem.lab_Link.Text = e.Item.Text;
+            ucsymstem.color = e.Item.AppearanceItem.Normal.BackColor;
+            LoadUac(ucsymstem);
+        }
+
+
+        private void LoaducDanhMuc(TileItemEventArgs e)
+        {
             ucListDMuc uacDM = new ucListDMuc();
             uacDM.Dock = DockStyle.Fill;
             uacDM.iLoai = Convert.ToInt32(e.Item.Tag);
             uacDM.lab_Link.Text = e.Item.Text;
+            uacDM.color = e.Item.AppearanceItem.Normal.BackColor;
             LoadUac(uacDM);
         }
+
         private void LoadUac(XtraUserControl uac)
         {
             NavigationPage page = new NavigationPage();
@@ -98,12 +136,18 @@ namespace VietSoftHRM
             navigationFrame.Pages.Add(page);
             navigationFrame.SelectedPage = page;
         }
-        private void btn_Logout_Click(object sender, EventArgs e)
+        //private void btn_Logout_Click(object sender, EventArgs e)
+        //{
+        //    //this.Hide();
+        //    //frmLogin login = new frmLogin();
+        //    //login.ShowDialog();
+        //    //this.Close();
+
+        //}
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            frmLogin login = new frmLogin();
-            login.ShowDialog();
-            this.Close();
+            Application.Exit();
         }
     }
 }

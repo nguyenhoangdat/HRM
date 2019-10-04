@@ -63,6 +63,16 @@ namespace VietSoftHRM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2703079_32 {
+            get {
+                object obj = ResourceManager.GetObject("2703079-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_category {
             get {
                 object obj = ResourceManager.GetObject("icon_category", resourceCulture);

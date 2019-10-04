@@ -11,11 +11,13 @@ using DevExpress.Mvvm;
 using VietSoftHRM.Class;
 using Microsoft.Win32;
 using DevExpress.XtraGrid;
+using DevExpress.XtraBars.Navigation;
 
 namespace VietSoftHRM
 {
     public partial class ucListDMuc : DevExpress.XtraEditors.XtraUserControl
     {
+        public Color color;
         public int iLoai;
         public int iIDOut;
         public string slinkcha;
@@ -26,13 +28,14 @@ namespace VietSoftHRM
         {
             InitializeComponent();
             clsXL.CreateMenuReset(grdDanhMuc);
-            
-       }
+        }
         private void ucListUser_Load(object sender, EventArgs e)
         {
             slinkcha = lab_Link.Text;
             LoadDanhMuc();
-            //Commons.Modules.ObjSystems.ThayDoiNN();
+            //accorMenuleft.Appearance.AccordionControl.BackColor = color;
+            //accorMenuleft.Appearance.AccordionControl.ForeColor = Color.White;
+            //Commons.Modules.ObjSystems.ThayDoiNN(this);
         }
         //load tất danh mục từ menu
         private void LoadDanhMuc()
@@ -41,41 +44,78 @@ namespace VietSoftHRM
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetMenuLeft", Commons.Modules.UserName, Commons.Modules.TypeLanguage, iLoai));
             foreach (DataRow item in dt.Rows)
             {
-                SimpleButton button = new SimpleButton();
-                Panel pan = new Panel();
-                pan.Height = 10;
-                pan.BackColor = Color.White;
-                pan.Dock = DockStyle.Top;
-                splitContainerControl1.Panel1.Controls.Add(pan);
-                button.Dock = DockStyle.Top;
-                button.Height = 50;
-                button.Cursor = Cursors.Hand;
-                button.Appearance.BackColor = Color.FromArgb(240, 240, 240);
-                button.Appearance.ForeColor = Color.Black;
-                button.Click += Button_Click;
-                button.Name = item["KEY_MENU"].ToString();
-                button.Tag = item["CONTROLS"].ToString();
-                button.Text = item["NAME"].ToString();
-                //button.ImageOptions.Image = (Image)Properties.Resources.ResourceManager.GetObject(item["IMG"].ToString());
-                button.ImageOptions.Image = Properties.Resources.icon_user;
-                splitContainerControl1.Panel1.Controls.Add(button);
-            }
-        }
-        private void doimauduocchon(SimpleButton button)
-        {
-            foreach (SimpleButton item in splitContainerControl1.Panel1.Controls)
-            {
-                var bt = item as SimpleButton;
-                if (bt.Name != button.Name)
+                AccordionControlElement element = new AccordionControlElement();
+                element.Expanded = true;
+                element.Text = item["NAME"].ToString();
+                element.Name = item["KEY_MENU"].ToString();
+                element.Tag = item["CONTROLS"].ToString();
+                accorMenuleft.Elements.Add(element);
+                DataTable dtchill = new DataTable();
+                dtchill.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetMenuLeft", Commons.Modules.UserName, Commons.Modules.TypeLanguage, Convert.ToInt32(item["ID_MENU"])));
+                if (dtchill.Rows.Count > 0)
                 {
-                    bt.Appearance.BackColor = Color.FromArgb(240, 240, 240);
+                    foreach (DataRow itemchill in dtchill.Rows)
+                    {
+                        AccordionControlElement elementchill = new AccordionControlElement();
+                        elementchill.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+                        elementchill.Text = itemchill["NAME"].ToString();
+                        elementchill.Name = itemchill["KEY_MENU"].ToString();
+                        elementchill.Tag = itemchill["CONTROLS"].ToString();
+                        element.Elements.Add(elementchill);
+                        elementchill.Click += Element_Click;
+                    }
                 }
                 else
                 {
-                    bt.Appearance.BackColor = Color.Black;
+                    element.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
                 }
             }
+
+
+            //foreach (DataRow item in dt.Rows)
+            //{
+            //    SimpleButton button = new SimpleButton();
+            //    Panel pan = new Panel();
+            //    pan.Height = 10;
+            //    pan.BackColor = Color.White;
+            //    pan.Dock = DockStyle.Top;
+            //    //splitContainerControl1.Panel1.Controls.Add(pan);
+            //    button.Dock = DockStyle.Top;
+            //    button.Height = 50;
+            //    button.Cursor = Cursors.Hand;
+            //    button.Appearance.BackColor = Color.FromArgb(240, 240, 240);
+            //    button.Appearance.ForeColor = Color.Black;
+            //    button.Click += Button_Click;
+            //    button.Name = item["KEY_MENU"].ToString();
+            //    button.Tag = item["CONTROLS"].ToString();
+            //    button.Text = item["NAME"].ToString();
+            //    //button.ImageOptions.Image = (Image)Properties.Resources.ResourceManager.GetObject(item["IMG"].ToString());
+            //    button.ImageOptions.Image = Properties.Resources.icon_user;
+            //    //splitContainerControl1.Panel1.Controls.Add(button);
+            //}
         }
+
+        private void Element_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var button = sender as AccordionControlElement;
+                //doimauduocchon(button);
+                if (button.Style == DevExpress.XtraBars.Navigation.ElementStyle.Item)
+                {
+                    lab_Link.Text = slinkcha + " / " + button.Text;
+                    string ucName = button.Tag.ToString();
+                    Commons.Modules.sPS = button.Name.ToString().Replace("mnu", "");
+                    Commons.Modules.sPS = "spGetList" + Commons.Modules.sPS.ToString();
+                    sButtonTag = button.Tag.ToString();
+                    LoadGridDanhMuc(-1);
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
         private void Button_Click(object sender, EventArgs e)
         {
             try
@@ -158,15 +198,9 @@ namespace VietSoftHRM
             {
             }
         }
-        private void accordionControl1_ElementClick(object sender, DevExpress.XtraBars.Navigation.ElementClickEventArgs e)
-        {
-            DevExpress.XtraBars.Navigation.AccordionControlElement NewElement = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            NewElement = e.Element;
-            splitContainerControl1.Panel2.Controls.Clear();
-        }
         private void windowsUIButtonPanel1_ButtonClick(object sender, ButtonEventArgs e)
         {
-            WindowsUIButton btn = e.Button as WindowsUIButton;            
+            WindowsUIButton btn = e.Button as WindowsUIButton;
             XtraUserControl ctl = new XtraUserControl();
             switch (btn.Tag.ToString())
             {
@@ -201,7 +235,7 @@ namespace VietSoftHRM
                         {
                             XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgDelDangSuDung") + "\n" + ex.Message.ToString());
 
-                        }     
+                        }
                         break;
                     }
                 case "sua":
@@ -209,9 +243,9 @@ namespace VietSoftHRM
                         try
                         {
                             Type newType = Type.GetType("VietSoftHRM.ucEdit" + Commons.Modules.sPS.Replace("spGetList", ""), true, true);
-                            object o1 = Activator.CreateInstance(newType,grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName));
+                            object o1 = Activator.CreateInstance(newType, grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName));
                             ctl = o1 as XtraUserControl;
-                            if(CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl)==DialogResult.OK)
+                            if (CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl) == DialogResult.OK)
                             {
                                 LoadGridDanhMuc(Convert.ToInt32(variable.sId));
                             }
@@ -227,15 +261,21 @@ namespace VietSoftHRM
                         clsXL.SaveXmlGrid(grdDanhMuc);
                         break;
                     }
+                case "thoat":
+                    {
+                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
+                        Application.Exit();
+                        break;
+                    }
                 default:
                     break;
             }
         }
 
-
-        private void grdDanhMuc_Validating(object sender, System.ComponentModel.CancelEventArgs e)
+        private void grdDanhMuc_Validated(object sender, EventArgs e)
         {
-           clsXL.SaveRegisterGrid(grdDanhMuc);
+            clsXL.SaveRegisterGrid(grdDanhMuc);
+
         }
     }
 }
