@@ -33,17 +33,17 @@ namespace VietSoftHRM
         {
             DataTable dt = new DataTable();
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetAllNhom", Commons.Modules.UserName, Commons.Modules.TypeLanguage));
-            //Commons.Modules.ObjSystems.MLoadXtraGrid(grdNhom, grvNhom, dt,false, false,true, true, true, this.Name);
-            //Commons.Modules.ObjSystems.MLoadXtraGrid(grdNhom, grvNhom, dt, true, true, true, true, true, this.Name);
             dt.Columns["TEN_NHOM"].ReadOnly = false;
+            dt.Columns["GHI_CHU"].ReadOnly = false;
+            Commons.Modules.ObjSystems.MLoadXtraGrid(grdNhom, grvNhom, dt,false, false,true, true, true, this.Name);
             grdNhom.DataSource = dt;
         }
         //load user
         private void LoadUser()
         {
             DataTable dt = new DataTable();
-            
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetUserbyGroup",Convert.ToInt64(grvNhom.GetFocusedRowCellValue("ID_NHOM")), Commons.Modules.UserName, Commons.Modules.TypeLanguage));
+            dt.Columns["TO"].ReadOnly = false;
             Commons.Modules.ObjSystems.MLoadXtraGrid(grdUser, grvUser, dt, true, true, true, true, true, this.Name);
         }
 
@@ -61,10 +61,15 @@ namespace VietSoftHRM
             {
                 case "them":
                     {
-                        grvNhom.OptionsBehavior.Editable = true;
-                        grvNhom.OptionsView.NewItemRowPosition = NewItemRowPosition.Bottom;
-                        grvNhom.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
-                        grvNhom.Columns["TEN_NHOM"].OptionsColumn.ReadOnly = false;
+                        if (grid == 1)
+                        {
+                            //grvNhom.OptionsBehavior.Editable = true;
+                            AddnewRow(grvNhom, true);
+                        }
+                        else
+                        {
+                            AddnewRow(grvUser, true);
+                        }
                         //LockGrid(grvNhom,false);
                         break;
                     }
@@ -85,25 +90,28 @@ namespace VietSoftHRM
                     }
                 case "sua":
                     {
-                        try
+                        if (grid == 1)
                         {
-
+                            //grvNhom.OptionsBehavior.Editable = true;
+                            AddnewRow(grvNhom, false);
                         }
-                        catch (Exception ex)
+                        else
                         {
-
+                            AddnewRow(grvUser, false);
                         }
+                        //LockGrid(grvNhom,false);
                         break;
                     }
                 case "luu":
                     {
-                        //            LockGrid(grdListOfGroup, True)
-                        //LockGrid(grdDanhsachuser, True)
-
-                        grvNhom.OptionsBehavior.Editable = false;
-                        grvNhom.OptionsView.NewItemRowPosition = NewItemRowPosition.None;
-                        grvUser.OptionsBehavior.Editable = false;
-                        grvUser.OptionsView.NewItemRowPosition = NewItemRowPosition.None;
+                        DeleteAddRow(grvNhom);
+                        DeleteAddRow(grvUser);
+                        break;
+                    }
+                case "khongluu":
+                    {
+                        DeleteAddRow(grvNhom);
+                        DeleteAddRow(grvUser);
                         break;
                     }
                 case "thoat":
@@ -115,6 +123,24 @@ namespace VietSoftHRM
                 default:
                     break;
             }
+        }
+
+
+        private void AddnewRow(GridView view, bool add)
+        {
+
+            view.OptionsBehavior.Editable = true;
+            if (add == true)
+            {
+                view.OptionsView.NewItemRowPosition = NewItemRowPosition.Bottom;
+                view.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
+            }
+        }
+
+        private void DeleteAddRow(GridView view)
+        {
+            view.OptionsBehavior.Editable = false;
+            view.OptionsView.NewItemRowPosition = NewItemRowPosition.None;
         }
         private void LockGrid(GridView grid, bool TT)
         {

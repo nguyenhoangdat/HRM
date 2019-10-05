@@ -65,6 +65,7 @@ namespace VietSoftHRM
                 itembar.TextAlignment = TileItemContentAlignment.MiddleRight;
                 itembar.Tag = item["ID_MENU"].ToString();
 
+
                 //if (Convert.ToBoolean(item["DROPDOW"]) == true)
                 //{
                 //itembar.ShowDropDownButton = DevExpress.Utils.DefaultBoolean.True;

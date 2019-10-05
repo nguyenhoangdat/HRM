@@ -71,7 +71,6 @@ E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.SplashScreenMain.resourc
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.WaitForm1.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.Properties.Resources.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucEditDON_VI.resources
-E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.UAC.Category.ucEditXI_NGHIEP.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListDMuc.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.GenerateResource.cache
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe.licenses
@@ -109,3 +108,5 @@ E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1
 E:\01.HRM\VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOM.resources
 E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucSystems.resources
+E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucEditTO.resources
+E:\01.HRM\VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucEditXI_NGHIEP.resources

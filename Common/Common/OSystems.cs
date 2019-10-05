@@ -56,7 +56,6 @@ namespace Commons
             }
         }
 
-
         public bool MLoadLookUpEdit(DevExpress.XtraEditors.LookUpEdit cbo, DataTable dtTmp, string Ma, string Ten, string TenCot)
         {
             try
@@ -188,6 +187,206 @@ namespace Commons
                 cbo.Properties.ValueMember = Ma;
                 cbo.Properties.Columns.Clear();
                 cbo.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo(Ten));
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+                cbo.Properties.BestFitMode = BestFitMode.BestFit;
+                cbo.Properties.SearchMode = SearchMode.AutoComplete;
+                cbo.EditValue = dtTmp.Rows[0][Ma];
+                if (dtTmp.Rows.Count > 10)
+                    cbo.Properties.DropDownRows = 15;
+                else
+                    cbo.Properties.DropDownRows = 10;
+                cbo.Properties.Columns[Ten].Caption = TenCot;
+                if (TenCot.Trim() == "")
+                    cbo.Properties.ShowHeader = false;
+                else
+                    cbo.Properties.ShowHeader = true;
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool MLoadLookUpEditNoRemove(DevExpress.XtraEditors.LookUpEdit cbo, string sQuery, string Ma, string Ten, string TenCot)
+        {
+            try
+            {
+                cbo.Properties.DataSource = null;
+                cbo.Properties.DisplayMember = "";
+                cbo.Properties.ValueMember = "";
+
+                DataTable dtTmp = new DataTable();
+                dtTmp.Load(SqlHelper.ExecuteReader(IConnections.CNStr, CommandType.Text, sQuery));
+                cbo.Properties.DataSource = dtTmp;
+                cbo.Properties.DisplayMember = Ten;
+                cbo.Properties.ValueMember = Ma;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+                cbo.Properties.BestFitMode = BestFitMode.BestFit;
+                cbo.Properties.SearchMode = SearchMode.AutoComplete;
+                cbo.EditValue = dtTmp.Rows[0][Ma];
+                if (dtTmp.Rows.Count > 10)
+                    cbo.Properties.DropDownRows = 15;
+                else
+                    cbo.Properties.DropDownRows = 10;
+                cbo.Properties.Columns[Ten].Caption = TenCot;
+                if (TenCot.Trim() == "")
+                    cbo.Properties.ShowHeader = false;
+                else
+                    cbo.Properties.ShowHeader = true;
+
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+
+        public bool MLoadLookUpEditNoRemove(DevExpress.XtraEditors.LookUpEdit cbo, DataTable dtTmp, string Ma, string Ten, string TenCot)
+        {
+            try
+            {
+                cbo.Properties.DataSource = null;
+                cbo.Properties.DisplayMember = "";
+                cbo.Properties.ValueMember = "";
+                cbo.Properties.DataSource = dtTmp;
+                cbo.Properties.DisplayMember = Ten;
+                cbo.Properties.ValueMember = Ma;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+                cbo.Properties.BestFitMode = BestFitMode.BestFit;
+                cbo.Properties.SearchMode = SearchMode.AutoComplete;
+                cbo.EditValue = dtTmp.Rows[0][Ma];
+                cbo.Properties.Columns.Clear();
+                DevExpress.XtraEditors.Controls.LookUpColumnInfo column;
+                for (int intColumn = 0; intColumn <= dtTmp.Columns.Count - 1; intColumn++)
+                {
+                    column = new DevExpress.XtraEditors.Controls.LookUpColumnInfo();
+                    //column.Caption = Commons.Modules.ObjLanguages.GetLanguage(Commons.Modules.ModuleName, sForm, dtTmp.Columns(intColumn).ColumnName, Commons.Modules.TypeLanguage);
+                    column.FieldName = dtTmp.Columns[intColumn].ColumnName;
+                    cbo.Properties.Columns.Add(column);
+                }
+
+
+                if (dtTmp.Rows.Count > 10)
+                    cbo.Properties.DropDownRows = 15;
+                else
+                    cbo.Properties.DropDownRows = 10;
+                cbo.Properties.Columns[Ten].Caption = TenCot;
+                if (TenCot.Trim() == "")
+                    cbo.Properties.ShowHeader = false;
+                else
+                    cbo.Properties.ShowHeader = true;
+
+
+
+                
+
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public bool MLoadLookUpEditNoRemove(DevExpress.XtraEditors.LookUpEdit cbo, string sStored, string Ma, string Ten, string TenCot, bool bStored)
+        {
+            try
+            {
+                DataTable dtTmp = new DataTable();
+                if (bStored)
+                    dtTmp.Load(SqlHelper.ExecuteReader(IConnections.CNStr, sStored));
+                else
+                    dtTmp.Load(SqlHelper.ExecuteReader(IConnections.CNStr, CommandType.Text, sStored));
+                cbo.Properties.DataSource = null;
+                cbo.Properties.DisplayMember = "";
+                cbo.Properties.ValueMember = "";
+                cbo.Properties.DataSource = dtTmp;
+                cbo.Properties.DisplayMember = Ten;
+                cbo.Properties.ValueMember = Ma;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+                cbo.Properties.BestFitMode = BestFitMode.BestFit;
+                cbo.Properties.SearchMode = SearchMode.AutoComplete;
+                cbo.EditValue = dtTmp.Rows[0][Ma];
+                if (dtTmp.Rows.Count > 10)
+                    cbo.Properties.DropDownRows = 15;
+                else
+                    cbo.Properties.DropDownRows = 10;
+                cbo.Properties.Columns[Ten].Caption = TenCot;
+                if (TenCot.Trim() == "")
+                    cbo.Properties.ShowHeader = false;
+                else
+                    cbo.Properties.ShowHeader = true;
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool MLoadLookUpEditNoRemove(DevExpress.XtraEditors.LookUpEdit cbo, string sStored, string Ma, string Ten, string TenCot, bool bStored, string Param)
+        {
+            try
+            {
+                DataTable dtTmp = new DataTable();
+                if (bStored)
+                    dtTmp.Load(SqlHelper.ExecuteReader(IConnections.CNStr, sStored, Param));
+                else
+                    dtTmp.Load(SqlHelper.ExecuteReader(IConnections.CNStr, CommandType.Text, sStored));
+                cbo.Properties.DataSource = null;
+                cbo.Properties.DisplayMember = "";
+                cbo.Properties.ValueMember = "";
+
+                cbo.Properties.DataSource = dtTmp;
+                cbo.Properties.DisplayMember = Ten;
+                cbo.Properties.ValueMember = Ma;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+                cbo.Properties.BestFitMode = BestFitMode.BestFit;
+                cbo.Properties.SearchMode = SearchMode.AutoComplete;
+                cbo.EditValue = dtTmp.Rows[0][Ma];
+                if (dtTmp.Rows.Count > 10)
+                    cbo.Properties.DropDownRows = 15;
+                else
+                    cbo.Properties.DropDownRows = 10;
+                cbo.Properties.Columns[Ten].Caption = TenCot;
+                if (TenCot.Trim() == "")
+                    cbo.Properties.ShowHeader = false;
+                else
+                    cbo.Properties.ShowHeader = true;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool MLoadLookUpEditNoRemove(DevExpress.XtraEditors.LookUpEdit cbo, string sStored, string Ma, string Ten, string TenCot, bool bStored, string Param, string Param1)
+        {
+            try
+            {
+                DataTable dtTmp = new DataTable();
+                if (bStored)
+                    dtTmp.Load(SqlHelper.ExecuteReader(IConnections.CNStr, sStored, Param, Param1));
+                else
+                    dtTmp.Load(SqlHelper.ExecuteReader(IConnections.CNStr, CommandType.Text, sStored));
+                cbo.Properties.DataSource = null;
+                cbo.Properties.DisplayMember = "";
+                cbo.Properties.ValueMember = "";
+                cbo.Properties.DataSource = dtTmp;
+                cbo.Properties.DisplayMember = Ten;
+                cbo.Properties.ValueMember = Ma;
+
                 cbo.Properties.AppearanceDropDownHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
                 cbo.Properties.AppearanceDropDownHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
                 cbo.Properties.BestFitMode = BestFitMode.BestFit;

@@ -12,6 +12,7 @@ using VietSoftHRM.Class;
 using Microsoft.Win32;
 using DevExpress.XtraGrid;
 using DevExpress.XtraBars.Navigation;
+using DevExpress.XtraGrid.Views.Grid;
 
 namespace VietSoftHRM
 {
@@ -198,6 +199,41 @@ namespace VietSoftHRM
             {
             }
         }
+
+        private void Sua()
+        {
+            try
+            {
+                XtraUserControl ctl;
+                 //Type newType = Type.GetType("VietSoftHRM.ucEditTO", true, true);
+                Type newType = Type.GetType("VietSoftHRM.ucEdit" + Commons.Modules.sPS.Replace("spGetList", ""), true, true);
+                object o1 = Activator.CreateInstance(newType, grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName));
+                ctl = o1 as XtraUserControl;
+                if (CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl) == DialogResult.OK)
+                {
+                    LoadGridDanhMuc(Convert.ToInt32(variable.sId));
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+        private void Xoa()
+        {
+            if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgDeleteDanhMuc"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeXoa"), MessageBoxButtons.YesNo) == DialogResult.No) return;
+            //xóa
+            try
+            {
+                SqlHelper.ExecuteNonQuery(Commons.IConnections.CNStr, CommandType.Text, "DELETE 	FROM " + Commons.Modules.sPS.Replace("spGetList", "") + " WHERE	" + grvDanhMuc.Columns[0].FieldName + " = " + grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName) + "");
+                LoadGridDanhMuc(-1);
+            }
+            catch (Exception ex)
+            {
+                XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgDelDangSuDung") + "\n" + ex.Message.ToString());
+
+            }
+        }
         private void windowsUIButtonPanel1_ButtonClick(object sender, ButtonEventArgs e)
         {
             WindowsUIButton btn = e.Button as WindowsUIButton;
@@ -224,36 +260,12 @@ namespace VietSoftHRM
                     }
                 case "xoa":
                     {
-                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgDeleteDanhMuc"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeXoa"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-                        //xóa
-                        try
-                        {
-                            SqlHelper.ExecuteNonQuery(Commons.IConnections.CNStr, CommandType.Text, "DELETE 	FROM " + Commons.Modules.sPS.Replace("spGetList", "") + " WHERE	" + grvDanhMuc.Columns[0].FieldName + " = " + grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName) + "");
-                            LoadGridDanhMuc(-1);
-                        }
-                        catch (Exception ex)
-                        {
-                            XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgDelDangSuDung") + "\n" + ex.Message.ToString());
-
-                        }
+                        Xoa();
                         break;
                     }
                 case "sua":
                     {
-                        try
-                        {
-                            Type newType = Type.GetType("VietSoftHRM.ucEdit" + Commons.Modules.sPS.Replace("spGetList", ""), true, true);
-                            object o1 = Activator.CreateInstance(newType, grvDanhMuc.GetFocusedRowCellValue(grvDanhMuc.Columns[0].FieldName));
-                            ctl = o1 as XtraUserControl;
-                            if (CustomFlyoutDialog.ShowForm(new frmMain(), null, ctl) == DialogResult.OK)
-                            {
-                                LoadGridDanhMuc(Convert.ToInt32(variable.sId));
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-
-                        }
+                        Sua();
                         break;
                     }
                 case "luu":
@@ -276,6 +288,22 @@ namespace VietSoftHRM
         {
             clsXL.SaveRegisterGrid(grdDanhMuc);
 
+        }
+        
+        private void grdDanhMuc_ProcessGridKey(object sender, KeyEventArgs e)
+        {
+            var grid = sender as GridControl;
+            var view = grid.FocusedView as GridView;
+            if (e.KeyData == Keys.Delete)
+            {
+                Xoa();
+                //view.DeleteSelectedRows();
+            }
+        }
+
+        private void grvDanhMuc_DoubleClick(object sender, EventArgs e)
+        {
+            Sua();
         }
     }
 }

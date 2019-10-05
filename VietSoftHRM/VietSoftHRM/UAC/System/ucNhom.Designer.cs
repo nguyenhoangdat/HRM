@@ -27,13 +27,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions1 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
-            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions2 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
-            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions3 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
-            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions4 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
-            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions5 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
+            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions7 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
+            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions8 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
+            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions9 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
+            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions10 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
+            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions11 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
+            DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions12 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.grpNhomUser = new DevExpress.XtraEditors.GroupControl();
+            this.gridSplitContainer1 = new DevExpress.XtraGrid.GridSplitContainer();
             this.grdNhom = new DevExpress.XtraGrid.GridControl();
             this.grvNhom = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.grpUser = new DevExpress.XtraEditors.GroupControl();
@@ -41,11 +43,12 @@
             this.grvUser = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.windowsUIButtonPanel1 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             this.searchControl = new DevExpress.XtraEditors.SearchControl();
-            this.gridSplitContainer1 = new DevExpress.XtraGrid.GridSplitContainer();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grpNhomUser)).BeginInit();
             this.grpNhomUser.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1)).BeginInit();
+            this.gridSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdNhom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvNhom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grpUser)).BeginInit();
@@ -54,8 +57,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.grvUser)).BeginInit();
             this.windowsUIButtonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.searchControl.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1)).BeginInit();
-            this.gridSplitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainerControl1
@@ -81,6 +82,16 @@
             this.grpNhomUser.TabIndex = 0;
             this.grpNhomUser.Text = "groupControl1";
             // 
+            // gridSplitContainer1
+            // 
+            this.gridSplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridSplitContainer1.Grid = this.grdNhom;
+            this.gridSplitContainer1.Location = new System.Drawing.Point(2, 21);
+            this.gridSplitContainer1.Name = "gridSplitContainer1";
+            this.gridSplitContainer1.Panel1.Controls.Add(this.grdNhom);
+            this.gridSplitContainer1.Size = new System.Drawing.Size(405, 426);
+            this.gridSplitContainer1.TabIndex = 0;
+            // 
             // grdNhom
             // 
             this.grdNhom.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -99,6 +110,7 @@
             this.grvNhom.OptionsScrollAnnotations.ShowFocusedRow = DevExpress.Utils.DefaultBoolean.True;
             this.grvNhom.OptionsView.ShowGroupPanel = false;
             this.grvNhom.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.grvNhom_FocusedRowChanged);
+            this.grvNhom.Click += new System.EventHandler(this.grvNhom_Click);
             // 
             // grpUser
             // 
@@ -126,24 +138,26 @@
             this.grvUser.GridControl = this.grdUser;
             this.grvUser.Name = "grvUser";
             this.grvUser.OptionsView.ShowGroupPanel = false;
+            this.grvUser.Click += new System.EventHandler(this.grvUser_Click);
             // 
             // windowsUIButtonPanel1
             // 
             this.windowsUIButtonPanel1.AppearanceButton.Normal.ForeColor = System.Drawing.Color.White;
             this.windowsUIButtonPanel1.AppearanceButton.Normal.Options.UseForeColor = true;
             this.windowsUIButtonPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(63)))));
-            windowsUIButtonImageOptions1.Image = global::VietSoftHRM.Properties.Resources.iconthem;
-            windowsUIButtonImageOptions2.Image = global::VietSoftHRM.Properties.Resources.iconxoa;
-            windowsUIButtonImageOptions3.Image = global::VietSoftHRM.Properties.Resources.iconsua;
-            windowsUIButtonImageOptions4.Image = global::VietSoftHRM.Properties.Resources.iconsave;
+            windowsUIButtonImageOptions7.Image = global::VietSoftHRM.Properties.Resources.iconthem;
+            windowsUIButtonImageOptions8.Image = global::VietSoftHRM.Properties.Resources.iconxoa;
+            windowsUIButtonImageOptions9.Image = global::VietSoftHRM.Properties.Resources.iconsua;
+            windowsUIButtonImageOptions10.Image = global::VietSoftHRM.Properties.Resources.iconsave;
             this.windowsUIButtonPanel1.Buttons.AddRange(new DevExpress.XtraEditors.ButtonPanel.IBaseButton[] {
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Thêm", true, windowsUIButtonImageOptions1, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "them", -1, false),
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Xóa", true, windowsUIButtonImageOptions2, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "xoa", -1, false),
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Sửa", true, windowsUIButtonImageOptions3, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "sua", -1, false),
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Thêm", true, windowsUIButtonImageOptions7, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "them", -1, false),
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Xóa", true, windowsUIButtonImageOptions8, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "xoa", -1, false),
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Sửa", true, windowsUIButtonImageOptions9, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "sua", -1, false),
             new DevExpress.XtraBars.Docking2010.WindowsUISeparator(),
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Lưu", true, windowsUIButtonImageOptions4, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "luu", -1, false),
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Lưu", true, windowsUIButtonImageOptions10, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "luu", -1, false),
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Không lưu", true, windowsUIButtonImageOptions11, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "khongluu", -1, false),
             new DevExpress.XtraBars.Docking2010.WindowsUISeparator(),
-            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Thoát", true, windowsUIButtonImageOptions5, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "thoat", -1, false)});
+            new DevExpress.XtraBars.Docking2010.WindowsUIButton("Thoát", true, windowsUIButtonImageOptions12, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, "thoat", -1, false)});
             this.windowsUIButtonPanel1.ContentAlignment = System.Drawing.ContentAlignment.TopCenter;
             this.windowsUIButtonPanel1.Controls.Add(this.searchControl);
             this.windowsUIButtonPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -173,16 +187,6 @@
             this.searchControl.Size = new System.Drawing.Size(286, 30);
             this.searchControl.TabIndex = 10;
             // 
-            // gridSplitContainer1
-            // 
-            this.gridSplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridSplitContainer1.Grid = this.grdNhom;
-            this.gridSplitContainer1.Location = new System.Drawing.Point(2, 21);
-            this.gridSplitContainer1.Name = "gridSplitContainer1";
-            this.gridSplitContainer1.Panel1.Controls.Add(this.grdNhom);
-            this.gridSplitContainer1.Size = new System.Drawing.Size(405, 426);
-            this.gridSplitContainer1.TabIndex = 0;
-            // 
             // ucNHOM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -196,6 +200,8 @@
             this.splitContainerControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grpNhomUser)).EndInit();
             this.grpNhomUser.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1)).EndInit();
+            this.gridSplitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grdNhom)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvNhom)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grpUser)).EndInit();
@@ -204,8 +210,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.grvUser)).EndInit();
             this.windowsUIButtonPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.searchControl.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1)).EndInit();
-            this.gridSplitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

@@ -56,22 +56,25 @@
             this.grdDanhMuc.Location = new System.Drawing.Point(0, 0);
             this.grdDanhMuc.MainView = this.grvDanhMuc;
             this.grdDanhMuc.Name = "grdDanhMuc";
-            this.grdDanhMuc.Size = new System.Drawing.Size(685, 324);
+            this.grdDanhMuc.Size = new System.Drawing.Size(685, 316);
             this.grdDanhMuc.TabIndex = 2;
             this.grdDanhMuc.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvDanhMuc});
+            this.grdDanhMuc.ProcessGridKey += new System.Windows.Forms.KeyEventHandler(this.grdDanhMuc_ProcessGridKey);
             this.grdDanhMuc.Validated += new System.EventHandler(this.grdDanhMuc_Validated);
             // 
             // grvDanhMuc
             // 
             this.grvDanhMuc.GridControl = this.grdDanhMuc;
             this.grvDanhMuc.Name = "grvDanhMuc";
+            this.grvDanhMuc.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.True;
             this.grvDanhMuc.OptionsFind.FindDelay = 100;
             this.grvDanhMuc.OptionsScrollAnnotations.ShowCustomAnnotations = DevExpress.Utils.DefaultBoolean.True;
             this.grvDanhMuc.OptionsScrollAnnotations.ShowErrors = DevExpress.Utils.DefaultBoolean.True;
             this.grvDanhMuc.OptionsScrollAnnotations.ShowFocusedRow = DevExpress.Utils.DefaultBoolean.True;
             this.grvDanhMuc.OptionsScrollAnnotations.ShowSelectedRows = DevExpress.Utils.DefaultBoolean.True;
             this.grvDanhMuc.OptionsView.ShowGroupPanel = false;
+            this.grvDanhMuc.DoubleClick += new System.EventHandler(this.grvDanhMuc_DoubleClick);
             // 
             // lab_Link
             // 
@@ -95,7 +98,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 35);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(899, 324);
+            this.panel1.Size = new System.Drawing.Size(899, 316);
             this.panel1.TabIndex = 3;
             // 
             // panel2
@@ -104,7 +107,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(214, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(685, 324);
+            this.panel2.Size = new System.Drawing.Size(685, 316);
             this.panel2.TabIndex = 4;
             // 
             // accorMenuleft
@@ -132,7 +135,7 @@
             this.accorMenuleft.OptionsMinimizing.AllowMinimizeMode = DevExpress.Utils.DefaultBoolean.True;
             this.accorMenuleft.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Hidden;
             this.accorMenuleft.ShowItemExpandButtons = false;
-            this.accorMenuleft.Size = new System.Drawing.Size(214, 324);
+            this.accorMenuleft.Size = new System.Drawing.Size(214, 316);
             this.accorMenuleft.TabIndex = 3;
             this.accorMenuleft.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
@@ -141,7 +144,7 @@
             this.searchControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.searchControl.Client = this.grdDanhMuc;
-            this.searchControl.Location = new System.Drawing.Point(609, 28);
+            this.searchControl.Location = new System.Drawing.Point(609, 38);
             this.searchControl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.searchControl.Name = "searchControl";
             this.searchControl.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -151,7 +154,7 @@
             new DevExpress.XtraEditors.Repository.SearchButton()});
             this.searchControl.Properties.Client = this.grdDanhMuc;
             this.searchControl.Properties.FindDelay = 100;
-            this.searchControl.Size = new System.Drawing.Size(286, 26);
+            this.searchControl.Size = new System.Drawing.Size(286, 30);
             this.searchControl.TabIndex = 10;
             // 
             // windowsUIButtonPanel1
@@ -175,10 +178,11 @@
             this.windowsUIButtonPanel1.Controls.Add(this.searchControl);
             this.windowsUIButtonPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.windowsUIButtonPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.windowsUIButtonPanel1.Location = new System.Drawing.Point(0, 359);
+            this.windowsUIButtonPanel1.Location = new System.Drawing.Point(0, 351);
             this.windowsUIButtonPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.windowsUIButtonPanel1.Name = "windowsUIButtonPanel1";
-            this.windowsUIButtonPanel1.Size = new System.Drawing.Size(899, 63);
+            this.windowsUIButtonPanel1.Padding = new System.Windows.Forms.Padding(5);
+            this.windowsUIButtonPanel1.Size = new System.Drawing.Size(899, 71);
             this.windowsUIButtonPanel1.TabIndex = 0;
             this.windowsUIButtonPanel1.Text = "windowsUIButtonPanel1";
             this.windowsUIButtonPanel1.ButtonClick += new DevExpress.XtraBars.Docking2010.ButtonEventHandler(this.windowsUIButtonPanel1_ButtonClick);

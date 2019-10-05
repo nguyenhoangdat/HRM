@@ -55,6 +55,7 @@ namespace VietSoftHRM
         }
         private void windowsUIButtonPanel1_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
         {
+
             layoutControlGroup1.BeginUpdate();
             WindowsUIButton btn = e.Button as WindowsUIButton;
             XtraUserControl ctl = new XtraUserControl();
@@ -63,6 +64,8 @@ namespace VietSoftHRM
                 
                 case "luu":
                     {
+                        if (!dxValidationProvider1.Validate()) return;
+
                         variable.sId =
             SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spUpdateDonVi", iIdDV, ItemForMSDV.Control.Text, ItemForTEN_DON_VI.Control.Text, ItemForTEN_DON_VI_ANH.Control.Text, ItemForTEN_DON_VI_HOA.Control.Text, ItemForTEN_NGAN.Control.Text, ItemForDIA_CHI.Control.Text, Convert.ToBoolean(MAC_DINHCheckEdit.EditValue), ItemForCHU_QUAN.Control.Text, ItemForDIEN_THOAI.Control.Text, ItemForFAX.Control.Text, ItemForMS_BHYT.Control.Text, ItemForMS_BHXH.Control.Text, ItemForSO_TAI_KHOAN.Control.Text, ItemForTEN_NGAN_HANG.Control.Text, ItemForKY_HIEU.Control.Text, ItemForNGUOI_DAI_DIEN.Control.Text, ItemForCHUC_VU.Control.Text, ItemForSO_HS.Control.Text).ToString();
                         this.ParentForm.DialogResult = DialogResult.OK;
@@ -77,6 +80,11 @@ namespace VietSoftHRM
                     }
                 default: break;
             }
+        }
+
+        private void dataLayoutControl1_Validated(object sender, EventArgs e)
+        {
+            
         }
     }
 }
