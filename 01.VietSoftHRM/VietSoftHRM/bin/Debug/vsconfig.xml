@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <S>192.168.2.33\SQL2008</S>
+    <D>VS_HRM</D>
+    <U>sa</U>
+    <P>123</P>
+    <M>baotritoandien@gmail.com</M>
+    <PM>namviet123</PM>
+    <SMTP>smtp.gmail.com</SMTP>
+    <PORT>587</PORT>
+  </Row>
+</Import>
