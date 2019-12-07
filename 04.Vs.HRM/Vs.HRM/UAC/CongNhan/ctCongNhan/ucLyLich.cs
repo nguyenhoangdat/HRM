@@ -46,6 +46,7 @@ namespace Vs.HRM
             //ID_TT_HTLookUpEdit
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TT_HTLookUpEdit, Commons.Modules.ObjSystems.DataTinHTrangHT(false), "ID_TT_HT", "TEN_TT_HT", "TEN_TT_HT");
             //HINH_THUC_TUYENLookUpEdit populor
+
             //ID_LD_TVLookUpEdit
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LD_TVLookUpEdit, Commons.Modules.ObjSystems.DataLyDoThoiViec(), "ID_LD_TV", "TEN_LD_TV", "TEN_LD_TV");
             //ID_DTLookUpEdit
@@ -56,24 +57,37 @@ namespace Vs.HRM
 
             //NGUYEN_QUANLookUpEdit populor
 
-
             //NOI_CAPLookupEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(NOI_CAPLookupEdit, Commons.Modules.ObjSystems.DataThanhPho(false), "ID_TP", "TEN_TP", "TEN_TP");
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(NOI_CAPLookupEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue),false), "ID_TP", "TEN_TP", "TEN_TP");
 
             //ID_TT_HNLookUpEdit 
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TT_HNLookUpEdit, Commons.Modules.ObjSystems.DataCongNhan(false), "ID_TT_HN", "TEN_TT_HN", "TEN_TT_HN");
             //ID_TPLookUpEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TPLookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(false), "ID_TP", "TEN_TP", "TEN_TP");
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TPLookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue),false), "ID_TP", "TEN_TP", "TEN_TP");
             //ID_PXLookUpEdit 
-            //ID_TP_TAM_TRULookUpEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TP_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(false), "ID_TP", "TEN_TP", "TEN_TP");
 
-            //ID_QUAN_TAM_TRULookUpEdit 
-            //ID_PX_TAM_TRULookUpEdit 
+            //ID_TP_TAM_TRULookUpEdit 
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TP_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue),false), "ID_TP", "TEN_TP", "TEN_TP");
+
+            //ID_QUAN_TAM_TRULookUpEdit
+            ////ID_QUAN,TEN_QUAN
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_QUAN_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataQuan(Convert.ToInt32(ID_TP_TAM_TRULookUpEdit.EditValue), false), "ID_QUAN", "TEN_QUAN", "TEN_QUAN");
+
+
+            //ID_PX_TAM_TRULookUpEdit
+            //ID_PX,TEN_PX
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_PX_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataPhuongXa(Convert.ToInt32(ID_QUAN_TAM_TRULookUpEdit.EditValue), false), "ID_PX", "TEN_PX", "TEN_PX");
+
+
             //ID_TDVHLookUpEdit 
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_PX_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataPhuongXa(Convert.ToInt32(ID_QUAN_TAM_TRULookUpEdit.EditValue), false), "ID_PX", "TEN_PX", "TEN_PX");
+
             //ID_LOAI_TDLookUpEdit 
+
             //LOAI_QUOC_TICHLookUpEdit 
+
             //CAP_GIAY_PHEPLookUpEdit 
+
             BinDingData();
         }
         private void windowsUIButton_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)

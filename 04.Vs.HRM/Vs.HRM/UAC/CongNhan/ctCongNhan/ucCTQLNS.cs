@@ -60,7 +60,7 @@ namespace Vs.HRM
                     }
                 }
             }
-            catch (Exception ex)
+            catch
             {
             }
         }
@@ -71,6 +71,7 @@ namespace Vs.HRM
                 case "labLyLich":
                     {
                         //loaduac Chi tiết công nhân
+                        //ucLyLichCN ll = new ucLyLichCN(idcn);
                         ucLyLich ll = new ucLyLich(idcn);
                         LoadUac(ll);
                         break;
