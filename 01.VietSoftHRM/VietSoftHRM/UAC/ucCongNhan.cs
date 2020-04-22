@@ -19,7 +19,7 @@ namespace VietSoftHRM
             InitializeComponent();
         }
         //load tất danh mục từ menu
-        private void LoadDanhMuc()
+        private void LoadCongNhan()
         {
                
             DataTable dt = new DataTable();
@@ -168,10 +168,11 @@ namespace VietSoftHRM
         private void ucSystems_Load(object sender, EventArgs e)
         {
             slinkcha = lab_Link.Text;
-            LoadDanhMuc();
+            LoadCongNhan();
             try
             {
-                accorMenuleft.SelectElement(accorMenuleft.Elements["mnuNHOM"]);
+                accorMenuleft.SelectElement(accorMenuleft.Elements[0].Elements[0]);
+                Element_Click(accorMenuleft.Elements[0].Elements[0], null);
             }
             catch 
             {

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Commons
 {
@@ -77,6 +78,18 @@ namespace Commons
             set
             {
                 _sPS = value;
+            }
+        }
+        private static Int64 _iCongNhan;
+        public static Int64 iCongNhan
+        {
+            get
+            {
+                return _iCongNhan;
+            }
+            set
+            {
+                _iCongNhan = value;
             }
         }
 

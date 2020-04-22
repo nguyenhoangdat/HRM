@@ -27,7 +27,7 @@ namespace Vs.HRM
             DataSet ds = new DataSet();
             //ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\vsconfig.xml");
             Commons.IConnections.Username = "sa";
-            Commons.IConnections.Server = @"192.168.2.33\SQL2008";
+            Commons.IConnections.Server = @".\SQL2008";
             Commons.IConnections.Database = "VS_HRM";
             Commons.IConnections.Password = "123";
 
@@ -56,7 +56,7 @@ namespace Vs.HRM
         {
             try
             {
-                //Application.Run(new XtraForm1());
+                Application.Run(new XtraForm1());
 
             }
             catch (Exception ex)

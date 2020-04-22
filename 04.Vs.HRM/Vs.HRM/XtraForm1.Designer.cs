@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(939, 578);
             this.Name = "XtraForm1";
             this.Text = "XtraForm1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.XtraForm1_Load);
             this.ResumeLayout(false);
 

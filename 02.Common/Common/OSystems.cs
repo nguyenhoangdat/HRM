@@ -67,7 +67,6 @@ namespace Commons
                 return false;
             }
         }
-
         public bool MLoadLookUpEdit(DevExpress.XtraEditors.LookUpEdit cbo, DataTable dtTmp, string Ma, string Ten, string TenCot)
         {
             try
@@ -708,27 +707,42 @@ namespace Commons
             catch
             { }
         }
-
-
         public void ThayDoiNN(XtraForm frm, LayoutControlGroup group, WindowsUIButtonPanel btnWinUIB)
         {
-
-
             DataTable dtTmp = new DataTable();
             dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + frm.Name + "' "));
             frm.Text = GetNN(dtTmp, frm.Name, frm.Name);
+            //load nn control bên trong
+            LoadNNGroupControl(frm, group, dtTmp);
+            //foreach (LayoutControlItem control1 in group.Items)
+            //{
+            //    try
+            //    {
+            //        if (control1.Control.GetType().Name.ToLower() == "checkedit")
+            //        {
+            //            control1.Control.Text = GetNN(dtTmp, control1.Name, frm.Name);
+            //        }
+            //        else
+            //        if (control1.Control.GetType().Name.ToLower() == "radiogroup")
+            //        {
+            //            DoiNN(control1.Control, frm, dtTmp);
+            //        }
 
-            foreach (LayoutControlItem control1 in group.Items)
-            {
-                try
-                {
-                    control1.Text = GetNN(dtTmp, control1.Name, frm.Name);
-                    control1.Padding = new DevExpress.XtraLayout.Utils.Padding(5, 5, 1, 1);
-                    ((DevExpress.XtraEditors.BaseEdit)control1.Control).EnterMoveNextControl = true;
-                }
-                catch
-                { }
-            }
+            //        else
+            //        {
+            //            control1.Text = GetNN(dtTmp, control1.Name, frm.Name);
+            //        }
+            //        control1.Padding = new DevExpress.XtraLayout.Utils.Padding(5, 5, 2, 2);
+            //        ((DevExpress.XtraEditors.BaseEdit)control1.Control).EnterMoveNextControl = true;
+
+            //    }
+            //    catch
+            //    { }
+            //}
+
+
+
+            //load nn windowbitton
             try
             {
                 foreach (WindowsUIButton btn in btnWinUIB.Buttons)
@@ -739,6 +753,54 @@ namespace Commons
             catch
             { }
         }
+
+        private void LoadNNGroupControl(XtraForm frm, LayoutControlGroup group, DataTable dtTmp)
+        {
+            foreach (var gr in group.Items)
+            {
+                if (gr.GetType().Name == "LayoutControlGroup")
+                {
+                    LayoutControlGroup gro = (LayoutControlGroup)gr;
+                    gro.Text = GetNN(dtTmp, group.Name, frm.Name);
+                    LoadNNGroupControl(frm, (LayoutControlGroup)gr, dtTmp);
+                }
+                else
+                {
+                    try
+                    {
+                        LayoutControlItem control1 = (LayoutControlItem)gr;
+                        try
+                        {
+                            if (control1.Control.GetType().Name.ToLower() == "checkedit")
+                            {
+                                control1.Control.Text = GetNN(dtTmp, control1.Name, frm.Name);
+                            }
+                            else
+                            if (control1.Control.GetType().Name.ToLower() == "radiogroup")
+                            {
+                                DoiNN(control1.Control, frm, dtTmp);
+                            }
+
+                            else
+                            {
+                                control1.Text = GetNN(dtTmp, control1.Name, frm.Name);
+                            }
+                            control1.Padding = new DevExpress.XtraLayout.Utils.Padding(5, 5, 2, 2);
+                            ((DevExpress.XtraEditors.BaseEdit)control1.Control).EnterMoveNextControl = true;
+                        }
+                        catch
+                        { }
+                    }
+                    catch (Exception)
+                    {
+                    }
+                }
+
+            }
+        }
+
+
+
         public void ThayDoiNN(XtraUserControl frm, LayoutControlGroup group, WindowsUIButtonPanel btnWinUIB)
         {
             DataTable dtTmp = new DataTable();
@@ -785,7 +847,6 @@ namespace Commons
             catch
             { }
         }
-
         private void LoadNNGroupControl(LayoutControlGroup group, DataTable dtTmp, string name)
         {
             group.Text = GetNN(dtTmp, group.Name, name);
@@ -810,7 +871,6 @@ namespace Commons
 
             }
         }
-
         public void ThayDoiNN(XtraUserControl frm, List<LayoutControlGroup> group, WindowsUIButtonPanel btnWinUIB)
         {
             DataTable dtTmp = new DataTable();
@@ -848,7 +908,6 @@ namespace Commons
             catch
             { }
         }
-
 
         public void DoiNN(Control Ctl, Form frm, DataTable dtNgu)
         {
@@ -1894,7 +1953,7 @@ namespace Commons
         {
             //ID_TP,TEN_TP
             DataTable dt = new DataTable();
-            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboThanhPho",ID_QG , Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboThanhPho", ID_QG, Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
             return dt;
         }
 
@@ -1903,6 +1962,14 @@ namespace Commons
             //ID_QUAN,TEN_QUAN
             DataTable dt = new DataTable();
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboQuan", ID_TP, Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            return dt;
+        }
+
+        public DataTable DataPhuongXa(int ID_QUAN, bool coAll)
+        {
+            //ID_QUAN,TEN_QUAN
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboPhuongXa", ID_QUAN, Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
             return dt;
         }
 
@@ -1921,6 +1988,39 @@ namespace Commons
             //ID_CV,TEN_CV
             DataTable dt = new DataTable();
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboChucVu", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            return dt;
+        }
+        public DataTable DataNgachLuong(bool coAll)
+        {
+            //"ID_NL","TEN_NL"
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboNgachLuong", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            return dt;
+        }
+        public DataTable DataBacLuong(int idnl, bool coAll)
+        {
+            //ID_CV,TEN_CV
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboBacLuong", idnl, Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            return dt;
+        }
+        public DataTable DataKhenThuongKyLuat(bool coAll)
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboKhenThuongKyLuat", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            return dt;
+        }
+        public DataTable DataLoaiKhenThuong(bool coAll)
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboLoaiKhenThuong", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            return dt;
+        }
+        public DataTable DataNguoiKy()
+        {
+            //ID_NK, HO_TEN
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboNguoiKy", Commons.Modules.UserName));
             return dt;
         }
 
@@ -1943,6 +2043,14 @@ namespace Commons
             //"ID_TT_HT", "TEN_TT_HT,
             DataTable dt = new DataTable();
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboTinHTrangHT", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            return dt;
+        }
+
+        public DataTable DataTinHTrangHN(bool coAll)
+        {
+            //"ID_TT_HT", "TEN_TT_HT,
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboTinHTrangHN", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
             return dt;
         }
 
@@ -2010,7 +2118,7 @@ namespace Commons
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboLoaiHopDongLD", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
             return dt;
         }
-        
+
 
         public DataTable DataLoaiTrinhDo(bool coAll)
         {
@@ -2024,17 +2132,10 @@ namespace Commons
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComBoLoaiQuyetDinh", Commons.Modules.TypeLanguage));
             return dt;
         }
-        public DataTable DataNguoiKy()
-        {
-            //ID_NK,HO_TEN
-            DataTable dt = new DataTable();
-            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComBoNguoiKi", Commons.Modules.UserName, Commons.Modules.TypeLanguage));
-            return dt;
-        }
         public DataTable DataHinhThucTroCap(bool coAll)
         {
             DataTable dt = new DataTable();
-            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboHTNhanTC", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboHTNhanTC", Commons.Modules.UserName, Commons.Modules.TypeLanguage, 1));
             return dt;
         }
         public DataTable DataCongNhan(bool coAll)
@@ -2043,8 +2144,52 @@ namespace Commons
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetCongNhan", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
             return dt;
         }
+        public DataTable DataDonVi()
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboDON_VI", Commons.Modules.UserName, Commons.Modules.TypeLanguage, 1));
+            //Commons.Modules.ObjSystems.MLoadSearchLookUpEdit(cboDV, dt, "ID_DV", "TEN_DV", "TEN_DV");
+            return dt;
 
+        }
+        public DataTable DataXiNghiep(int iddv)
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboXI_NGHIEP", iddv, Commons.Modules.UserName, Commons.Modules.TypeLanguage, 1));
+            return dt;
+        }
+        public DataTable DataTo(int iddv, int idxn, bool CoAll)
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboTO", iddv, idxn, Commons.Modules.UserName, Commons.Modules.TypeLanguage, CoAll));
+            return dt;
+        }
 
+        public DataTable DataTDVH(int LoaiTD, bool CoAll)
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboTrinhDo", LoaiTD, Commons.Modules.UserName, Commons.Modules.TypeLanguage, CoAll));
+            return dt;
+        }
+        public DataTable DataQHGD(bool CoAll)
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboQuanHeGD", Commons.Modules.UserName, Commons.Modules.TypeLanguage, CoAll));
+            return dt;
+        }
+
+        public DataTable DataLoaiQuocTich(bool CoAll)
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboLoaiQuocTich", Commons.Modules.UserName, Commons.Modules.TypeLanguage, CoAll));
+            return dt;
+        }
+        public DataTable DataCapGiayPhep(bool CoAll)
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboCapGiayPhep", Commons.Modules.UserName, Commons.Modules.TypeLanguage, CoAll));
+            return dt;
+        }
         #endregion
 
 

@@ -121,13 +121,43 @@
     <Compile Include="EmployeeView.Designer.cs">
       <DependentUpon>EmployeeView.cs</DependentUpon>
     </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmDoanThe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmDoanThe.Designer.cs">
+      <DependentUpon>frmDoanThe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmGiaDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmGiaDinh.Designer.cs">
+      <DependentUpon>frmGiaDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\ucHopDong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\ucHopDong.Designer.cs">
+      <DependentUpon>ucHopDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\ucKhenThuong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\ucKhenThuong.Designer.cs">
+      <DependentUpon>ucKhenThuong.cs</DependentUpon>
+    </Compile>
     <Compile Include="UAC\CongNhan\ctCongNhan\ucLyLich.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UAC\CongNhan\ctCongNhan\ucLyLich.Designer.cs">
       <DependentUpon>ucLyLich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\ucTienLuong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\ucTienLuong.Designer.cs">
+      <DependentUpon>ucTienLuong.cs</DependentUpon>
     </Compile>
     <Compile Include="UAC\CongNhan\ucKeHoachNghiPhep.cs">
       <SubType>UserControl</SubType>
@@ -194,8 +224,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>VS_HRMDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="EmployeeView.resx">
       <DependentUpon>EmployeeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmDoanThe.resx">
+      <DependentUpon>frmDoanThe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -208,8 +247,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmGiaDinh.resx">
+      <DependentUpon>frmGiaDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucHopDong.resx">
+      <DependentUpon>ucHopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucKhenThuong.resx">
+      <DependentUpon>ucKhenThuong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucLyLich.resx">
       <DependentUpon>ucLyLich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucTienLuong.resx">
+      <DependentUpon>ucTienLuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ucKeHoachNghiPhep.resx">
       <DependentUpon>ucKeHoachNghiPhep.cs</DependentUpon>
@@ -240,6 +291,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucTaiNanLD.resx">
       <DependentUpon>ucTaiNanLD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm1.resx">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config">
       <SubType>Designer</SubType>

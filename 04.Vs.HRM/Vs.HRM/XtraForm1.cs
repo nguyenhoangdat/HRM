@@ -16,13 +16,14 @@ namespace Vs.HRM
         public XtraForm1()
         {
             InitializeComponent();
-
-
         }
 
         private void XtraForm1_Load(object sender, EventArgs e)
         {
-            ucLyLichCN ns = new ucLyLichCN(24);
+
+            Commons.Modules.iCongNhan = 24;
+            ucLyLich ns = new ucLyLich(24);
+            //ucTaiNanLD ns = new ucTaiNanLD(24);
             this.Controls.Clear();
             this.Controls.Add(ns);
             ns.Dock = DockStyle.Fill;

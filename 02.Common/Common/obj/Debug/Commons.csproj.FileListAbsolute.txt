@@ -1,328 +1,197 @@
-D:\01.HRM\Common\Common\bin\Debug\Commons.dll.config
-D:\01.HRM\Common\Common\bin\Debug\Commons.dll
-D:\01.HRM\Common\Common\bin\Debug\Commons.pdb
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Data.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Images.v19.1.dll
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Data.v19.1.xml
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\01.HRM\Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.HRM\Common\Common\obj\Debug\Commons.Properties.Resources.resources
-D:\01.HRM\Common\Common\obj\Debug\Commons.csproj.GenerateResource.Cache
-D:\01.HRM\Common\Common\obj\Debug\Commons.dll.licenses
-D:\01.HRM\Common\Common\obj\Debug\Commons.dll
-D:\01.HRM\Common\Common\obj\Debug\Commons.pdb
-E:\01.HRM\Common\Common\bin\Debug\Commons.dll.config
-E:\01.HRM\Common\Common\bin\Debug\Commons.dll
-E:\01.HRM\Common\Common\bin\Debug\Commons.pdb
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Data.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Utils.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Images.v19.1.dll
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Data.v19.1.xml
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Utils.v19.1.xml
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.xml
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-E:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\de\DevExpress.XtraNavBar.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\es\DevExpress.XtraNavBar.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.XtraNavBar.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.XtraNavBar.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\01.HRM\Common\Common\obj\Debug\Commons.Properties.Resources.resources
-E:\01.HRM\Common\Common\obj\Debug\Commons.csproj.GenerateResource.cache
-E:\01.HRM\Common\Common\obj\Debug\Commons.dll.licenses
-E:\01.HRM\Common\Common\obj\Debug\Commons.csproj.CoreCompileInputs.cache
-E:\01.HRM\Common\Common\obj\Debug\Commons.csproj.CopyComplete
-E:\01.HRM\Common\Common\obj\Debug\Commons.dll
-E:\01.HRM\Common\Common\obj\Debug\Commons.pdb
-E:\01.HRM\Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-E:\01.HRM\Common\Common\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-E:\01.HRM\Common\Common\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-E:\01.HRM\Common\Common\obj\Debug\Commons.csprojAssemblyReference.cache
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\Commons.dll.config
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\Commons.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\Commons.pdb
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Data.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Images.v19.1.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Data.v19.1.xml
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.xml
-D:\01.Code\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\01.Code\07.VietSoft HRM\Common\Common\obj\Debug\Commons.csprojAssemblyReference.cache
-D:\01.Code\07.VietSoft HRM\Common\Common\obj\Debug\Commons.Properties.Resources.resources
-D:\01.Code\07.VietSoft HRM\Common\Common\obj\Debug\Commons.csproj.GenerateResource.cache
-D:\01.Code\07.VietSoft HRM\Common\Common\obj\Debug\Commons.dll.licenses
-D:\01.Code\07.VietSoft HRM\Common\Common\obj\Debug\Commons.csproj.CopyComplete
-D:\01.Code\07.VietSoft HRM\Common\Common\obj\Debug\Commons.dll
-D:\01.Code\07.VietSoft HRM\Common\Common\obj\Debug\Commons.pdb
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\Commons.dll.config
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\Commons.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\Commons.pdb
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Data.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Images.v19.1.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Data.v19.1.xml
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.xml
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\de\DevExpress.XtraNavBar.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\es\DevExpress.XtraNavBar.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ja\DevExpress.XtraNavBar.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ru\DevExpress.XtraNavBar.v19.1.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\obj\Debug\Commons.Properties.Resources.resources
-D:\Ecomain\07.VietSoft HRM\Common\Common\obj\Debug\Commons.csproj.GenerateResource.cache
-D:\Ecomain\07.VietSoft HRM\Common\Common\obj\Debug\Commons.dll.licenses
-D:\Ecomain\07.VietSoft HRM\Common\Common\obj\Debug\Commons.csproj.CoreCompileInputs.cache
-D:\Ecomain\07.VietSoft HRM\Common\Common\obj\Debug\Commons.csproj.CopyComplete
-D:\Ecomain\07.VietSoft HRM\Common\Common\obj\Debug\Commons.dll
-D:\Ecomain\07.VietSoft HRM\Common\Common\obj\Debug\Commons.pdb
-D:\Ecomain\07.VietSoft HRM\Common\Common\obj\Debug\Commons.csprojAssemblyReference.cache
-D:\02.HRM\02.Common\Common\bin\Debug\Commons.dll.config
-D:\02.HRM\02.Common\Common\bin\Debug\Commons.dll
-D:\02.HRM\02.Common\Common\bin\Debug\Commons.pdb
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Data.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Images.v19.1.dll
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Data.v19.1.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-D:\02.HRM\02.Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.xml
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraNavBar.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraNavBar.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraNavBar.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraNavBar.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-D:\02.HRM\02.Common\Common\obj\Debug\Commons.Properties.Resources.resources
-D:\02.HRM\02.Common\Common\obj\Debug\Commons.csproj.GenerateResource.Cache
-D:\02.HRM\02.Common\Common\obj\Debug\Commons.dll.licenses
-D:\02.HRM\02.Common\Common\obj\Debug\Commons.dll
-D:\02.HRM\02.Common\Common\obj\Debug\Commons.pdb
-D:\02.HRM\02.Common\Common\obj\Debug\Commons.csprojAssemblyReference.cache
-D:\02.HRM\02.Common\Common\obj\Debug\Commons.csproj.CoreCompileInputs.cache
-D:\02.HRM\02.Common\Common\obj\Debug\Commons.csproj.CopyComplete
+E:\01.HRM\02.Common\Common\bin\Debug\Commons.dll.config
+E:\01.HRM\02.Common\Common\bin\Debug\Commons.dll
+E:\01.HRM\02.Common\Common\bin\Debug\Commons.pdb
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Data.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Utils.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Images.v19.1.dll
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Data.v19.1.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Utils.v19.1.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+E:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.xml
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraNavBar.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraNavBar.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraNavBar.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraNavBar.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+E:\01.HRM\02.Common\Common\obj\Debug\Commons.csprojAssemblyReference.cache
+E:\01.HRM\02.Common\Common\obj\Debug\Commons.Properties.Resources.resources
+E:\01.HRM\02.Common\Common\obj\Debug\Commons.csproj.GenerateResource.cache
+E:\01.HRM\02.Common\Common\obj\Debug\Commons.dll.licenses
+E:\01.HRM\02.Common\Common\obj\Debug\Commons.csproj.CoreCompileInputs.cache
+E:\01.HRM\02.Common\Common\obj\Debug\Commons.csproj.CopyComplete
+E:\01.HRM\02.Common\Common\obj\Debug\Commons.dll
+E:\01.HRM\02.Common\Common\obj\Debug\Commons.pdb
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\Commons.dll.config
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\Commons.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\Commons.pdb
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Data.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Utils.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Images.v19.1.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Data.v19.1.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Utils.v19.1.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraBars.v19.1.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\DevExpress.Office.v19.1.Core.xml
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\obj\Debug\Commons.Properties.Resources.resources
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\obj\Debug\Commons.csproj.GenerateResource.cache
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\obj\Debug\Commons.dll.licenses
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\obj\Debug\Commons.csproj.CoreCompileInputs.cache
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\obj\Debug\Commons.csproj.CopyComplete
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\obj\Debug\Commons.dll
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\obj\Debug\Commons.pdb
+D:\01.VietSoft\Huong\01.HRM\02.Common\Common\obj\Debug\Commons.csprojAssemblyReference.cache
 D:\01.HRM\02.Common\Common\bin\Debug\Commons.dll.config
 D:\01.HRM\02.Common\Common\bin\Debug\Commons.dll
 D:\01.HRM\02.Common\Common\bin\Debug\Commons.pdb
@@ -337,7 +206,6 @@ D:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraGrid.v19.1.dll
 D:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraLayout.v19.1.dll
 D:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
 D:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\01.HRM\02.Common\Common\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
 D:\01.HRM\02.Common\Common\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
 D:\01.HRM\02.Common\Common\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
 D:\01.HRM\02.Common\Common\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll

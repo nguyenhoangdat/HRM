@@ -20,7 +20,6 @@ namespace Vs.HRM
         }
         private void ucQLNS_Load(object sender, EventArgs e)
         {
-
             Commons.Modules.sPS = "0Load";
             LoadCboDonVi();
             LoadCboXiNghiep();
@@ -104,14 +103,19 @@ namespace Vs.HRM
             LoadNhanSu(-1);
             Commons.Modules.sPS = "";
         }
-
-        private void LoadNhanSu(int iIdNs)
+        private void LoadNhanSu(Int64 iIdNs)
         {
             try
             {
                 DataTable dtTmp = new DataTable();
                 dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetListNS", cboDV.EditValue, cboXN.EditValue, cboTo.EditValue, cbo_TTHT.EditValue, Commons.Modules.UserName, Commons.Modules.TypeLanguage));
+                dtTmp.PrimaryKey = new DataColumn[] { dtTmp.Columns["ID_CN"] };
                 grdNS.DataSource = dtTmp;
+                if (iIdNs != -1)
+                {
+                    int index = dtTmp.Rows.IndexOf(dtTmp.Rows.Find(iIdNs));
+                    tileViewCN.FocusedRowHandle = tileViewCN.GetRowHandle(index);
+                }
             }
             catch { }
 
@@ -127,53 +131,7 @@ namespace Vs.HRM
             catch { }
         }
 
-        private void grdNS_DoubleClick(object sender, EventArgs e)
-        {
-            //windowsUIButton_ButtonClick( )
-        }
 
-        //private void windowsUIButton_ButtonClick(object sender, ButtonEventArgs e)
-        //{
-        //    WindowsUIButton btn = e.Button as WindowsUIButton;
-        //    XtraUserControl ctl = new XtraUserControl();
-        //    switch (btn.Tag.ToString())
-        //    {
-        //        case "them":
-        //            {
-        //                navigationFrame1.SelectedPage = navigationPage2;
-        //                break;
-        //            }
-        //        case "sua":
-        //            {
-        //                navigationFrame1.SelectedPage = navigationPage2;
-        //                break;
-        //            }
-        //        case "xoa":
-        //            {
-        //                break;
-        //            }
-        //        case "luu":
-        //            {
-        //                accorMenuleft.Visible = true;
-        //                navigationFrame1.SelectedPage = navigationPage1;
-        //                break;
-        //            }
-        //        case "khongluu":
-        //            {
-        //                accorMenuleft.Visible = true;
-        //                navigationFrame1.SelectedPage = navigationPage1;
-        //                break;
-        //            }
-        //        case "thoat":
-        //            {
-        //                if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-        //                Application.Exit();
-        //                break;
-        //            }
-        //        default:
-        //            break;
-        //    }
-        //}
         private void tileView1_DoubleClick(object sender, EventArgs e)
         {
             grdNS.Visible = false;
@@ -191,7 +149,7 @@ namespace Vs.HRM
             navigationFrame1.SelectedPage = navigationPage1;
             navigationPage2.Controls.RemoveAt(0);
             accorMenuleft.Visible = true;
-            LoadNhanSu(-1);
+            LoadNhanSu(Commons.Modules.iCongNhan);
         }
         private void emptySpaceItem1_DoubleClick(object sender, EventArgs e)
         {
@@ -201,5 +159,28 @@ namespace Vs.HRM
             ItemForXI_NGHIEP.Visibility = ItemForXI_NGHIEP.Visibility == LayoutVisibility.Never ? LayoutVisibility.Always : LayoutVisibility.Never;
             ItemForSerchControl.Visibility = ItemForSerchControl.Visibility == LayoutVisibility.Never ? LayoutVisibility.Always : LayoutVisibility.Never;
         }
-    } 
+
+        private void grdNS_ProcessGridKey(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Delete)
+            {
+                DeleteData();
+            }
+        }
+        private void DeleteData()
+        {
+            if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgDeleteCongNhan"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeXoa"), MessageBoxButtons.YesNo) == DialogResult.No) return;
+            //xóa
+            try
+            {
+                SqlHelper.ExecuteNonQuery(Commons.IConnections.CNStr, CommandType.Text, "DELETE dbo.CONG_NHAN WHERE ID_CN  =" + Convert.ToInt64(tileViewCN.GetFocusedRowCellValue(tileViewCN.Columns["ID_CN"]) + ""));
+                tileViewCN.DeleteSelectedRows();
+            }
+            catch (Exception ex)
+            {
+                XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgDelDangSuDung") + "\n" + ex.Message.ToString());
+            }
+        }
+
+    }
 }

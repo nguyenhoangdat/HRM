@@ -17,13 +17,11 @@ namespace Vs.HRM
     public partial class ucCTQLNS : DevExpress.XtraEditors.XtraUserControl
     {
         List<LabelControl> List;
-        static Int64 idcn = 0;
         public ucCTQLNS(Int64 iIdCN)
         {
             InitializeComponent();
             //Commons.Modules.ObjSystems.ThayDoiNN(this,Root,null);
-
-            idcn = iIdCN;
+            Commons.Modules.iCongNhan = iIdCN;
         }
         private void ucCTQLNS_Load(object sender, EventArgs e)
         {
@@ -70,51 +68,49 @@ namespace Vs.HRM
             {
                 case "labLyLich":
                     {
-                        //loaduac Chi tiết công nhân
-                        //ucLyLichCN ll = new ucLyLichCN(idcn);
-                        ucLyLich ll = new ucLyLich(idcn);
+                        ucLyLich ll = new ucLyLich(Commons.Modules.iCongNhan);
                         LoadUac(ll);
                         break;
                     }
                 case "labCongTac":
                     {
-                        ucQTCongTac ct = new ucQTCongTac(idcn);
+                        ucQTCongTac ct = new ucQTCongTac(Commons.Modules.iCongNhan);
                         LoadUac(ct);
                         break;
                     }
                 case "labHopDong":
                     {
-                        //ucLyLich ll = new ucLyLich(idcn);
-                        //LoadUac(ll);
+                        ucHopDong hd = new ucHopDong(Commons.Modules.iCongNhan);
+                        LoadUac(hd);
                         break;
                     }
                 case "labTienLuong":
                     {
-                        //ucLyLich ll = new ucLyLich(idcn);
-                        //LoadUac(ll);
+                        ucTienLuong tl = new ucTienLuong(Commons.Modules.iCongNhan);
+                        LoadUac(tl);
                         break;
                     }
                 case "labKhanThuong":
                     {
-                        //ucLyLich ll = new ucLyLich(idcn);
-                        //LoadUac(ll);
+                        ucKhenThuong ll = new ucKhenThuong(Commons.Modules.iCongNhan);
+                        LoadUac(ll);
                         break;
                     }
                 case "labTaiNan":
                     {
-                        ucTaiNanLD tn = new ucTaiNanLD(idcn);
+                        ucTaiNanLD tn = new ucTaiNanLD(Commons.Modules.iCongNhan);
                         LoadUac(tn);
                         break;
                     }
                 case "labDanhGia":
                     {
-                        ucDanhGia dg = new ucDanhGia(idcn);
+                        ucDanhGia dg = new ucDanhGia(Commons.Modules.iCongNhan);
                         LoadUac(dg);
                         break;
                     }
                 case "labBangCap":
                     {
-                        ucBangCap ll = new ucBangCap(idcn);
+                        ucBangCap ll = new ucBangCap(Commons.Modules.iCongNhan);
                         LoadUac(ll);
                         break;
                     }

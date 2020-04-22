@@ -94,6 +94,11 @@ namespace Vs.HRM
                 case "khongluu":
                     {
                         enableButon(true);
+                        if (grvCongTac.RowCount == 1)
+                        {
+                            Bindingdata(false);
+                        }
+                        dxValidationProvider1.Validate();
                         break;
                     }
                 case "thoat":

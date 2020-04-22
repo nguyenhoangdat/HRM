@@ -29,19 +29,13 @@ namespace VietSoftHRM
         {
             InitializeComponent();
             Commons.Modules.OXtraGrid.CreateMenuReset(grdDanhMuc);
-            //dockPanel1.Expanded += dockPanel1_Expanded;
         }
         private void ucListUser_Load(object sender, EventArgs e)
         {
             slinkcha = lab_Link.Text;
-            //System.Threading.Thread myNewThread = new System.Threading.Thread(() => LoadDanhMuc());
-            //myNewThread.Start();
-
-
             LoadDanhMuc();
             Commons.Modules.ObjSystems.ThayDoiNN(this);
             sCount = Commons.Modules.ObjLanguages.GetLanguage(this.Name.ToString(), "sCount");
-
             accorMenuleft.SelectElement(accorMenuleft.Elements[0].Elements[0]);
             Commons.Modules.sPS = "";
             Element_Click(accorMenuleft.Elements[0].Elements[0], null);
