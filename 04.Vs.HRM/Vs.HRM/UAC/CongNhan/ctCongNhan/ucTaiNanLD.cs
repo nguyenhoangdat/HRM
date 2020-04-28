@@ -22,7 +22,7 @@ namespace Vs.HRM
         {
             idcn = id;
             InitializeComponent();
-            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root}, windowsUIButton);
+            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root }, windowsUIButton);
         }
         #region sự kiện form
         private void ucTaiNanLD_Load(object sender, EventArgs e)
@@ -69,10 +69,7 @@ namespace Vs.HRM
                 case "khongluu":
                     {
                         enableButon(true);
-                        if (grvTaiNan.RowCount == 1)
-                        {
-                            Bindingdata(false);
-                        }
+                        Bindingdata(false);
                         dxValidationProvider1.Validate();
                         break;
                     }

@@ -714,34 +714,6 @@ namespace Commons
             frm.Text = GetNN(dtTmp, frm.Name, frm.Name);
             //load nn control bên trong
             LoadNNGroupControl(frm, group, dtTmp);
-            //foreach (LayoutControlItem control1 in group.Items)
-            //{
-            //    try
-            //    {
-            //        if (control1.Control.GetType().Name.ToLower() == "checkedit")
-            //        {
-            //            control1.Control.Text = GetNN(dtTmp, control1.Name, frm.Name);
-            //        }
-            //        else
-            //        if (control1.Control.GetType().Name.ToLower() == "radiogroup")
-            //        {
-            //            DoiNN(control1.Control, frm, dtTmp);
-            //        }
-
-            //        else
-            //        {
-            //            control1.Text = GetNN(dtTmp, control1.Name, frm.Name);
-            //        }
-            //        control1.Padding = new DevExpress.XtraLayout.Utils.Padding(5, 5, 2, 2);
-            //        ((DevExpress.XtraEditors.BaseEdit)control1.Control).EnterMoveNextControl = true;
-
-            //    }
-            //    catch
-            //    { }
-            //}
-
-
-
             //load nn windowbitton
             try
             {
@@ -760,8 +732,55 @@ namespace Commons
             {
                 if (gr.GetType().Name == "LayoutControlGroup")
                 {
+                    
                     LayoutControlGroup gro = (LayoutControlGroup)gr;
-                    gro.Text = GetNN(dtTmp, group.Name, frm.Name);
+                    gro.Text = GetNN(dtTmp, gro.Name, frm.Name);
+                    LoadNNGroupControl(frm, (LayoutControlGroup)gr, dtTmp);
+                }
+                else
+                {
+                    try
+                    {
+                        LayoutControlItem control1 = (LayoutControlItem)gr;
+                        try
+                        {
+                            if (control1.Control.GetType().Name.ToLower() == "checkedit")
+                            {
+                                control1.Control.Text = GetNN(dtTmp, control1.Name, frm.Name);
+                            }
+                            else
+                            if (control1.Control.GetType().Name.ToLower() == "radiogroup")
+                            {
+                                DoiNN(control1.Control, frm, dtTmp);
+                            }
+
+                            else
+                            {
+                                control1.Text = GetNN(dtTmp, control1.Name, frm.Name);
+                            }
+                            control1.Padding = new DevExpress.XtraLayout.Utils.Padding(5, 5, 2, 2);
+                            ((DevExpress.XtraEditors.BaseEdit)control1.Control).EnterMoveNextControl = true;
+                        }
+                        catch
+                        { }
+                    }
+                    catch (Exception)
+                    {
+                    }
+                }
+
+            }
+        }
+
+        private void LoadNNGroupControl(XtraUserControl frm, LayoutControlGroup group, DataTable dtTmp)
+        {
+            //TabbedControlGroup
+            foreach (var gr in group.Items)
+            {
+                if (gr.GetType().Name == "LayoutControlGroup")
+                {
+                    LayoutControlGroup gro = (LayoutControlGroup)gr;
+                    gro.Text = GetNN(dtTmp, gro.Name, frm.Name);
                     LoadNNGroupControl(frm, (LayoutControlGroup)gr, dtTmp);
                 }
                 else
@@ -800,43 +819,20 @@ namespace Commons
         }
 
 
-
-        public void ThayDoiNN(XtraUserControl frm, LayoutControlGroup group, WindowsUIButtonPanel btnWinUIB)
+        public void ThayDoiNN(XtraUserControl frm, LayoutControlGroup group,TabbedControlGroup Tab, WindowsUIButtonPanel btnWinUIB)
         {
             DataTable dtTmp = new DataTable();
             dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + frm.Name + "' "));
-            frm.Text = GetNN(dtTmp, frm.Name, frm.Name);
-            List<Control> resultControlList = new List<Control>();
-            GetControlsCollection(frm, ref resultControlList, null);
-
-            foreach (Control control in resultControlList)
+            frm.Text = GetNN(dtTmp,frm.Name, frm.Name);
+            LoadNNGroupControl(frm, group, dtTmp);
+            foreach (LayoutControlGroup item in Tab.TabPages)
             {
-                try
-                {
-                    DoiNN(control, frm, dtTmp);
-                }
-                catch
-                { }
+                LoadNNGroupControl(frm, item, dtTmp);
             }
-
-            try
+            foreach (LayoutGroup item in Tab.TabPages)
             {
-                foreach (LayoutControlItem control1 in group.Items)
-                {
-                    try
-                    {
-                        control1.Text = GetNN(dtTmp, control1.Name, frm.Name);
-                        control1.Padding = new DevExpress.XtraLayout.Utils.Padding(5, 5, 2, 2);
-                        ((DevExpress.XtraEditors.BaseEdit)control1.Control).EnterMoveNextControl = true;
-                    }
-                    catch
-                    { }
-                }
+                item.Text = GetNN(dtTmp, item.Name, frm.Name);
             }
-            catch
-            {
-            }
-
             try
             {
                 foreach (WindowsUIButton btn in btnWinUIB.Buttons)
@@ -1706,7 +1702,7 @@ namespace Commons
                 SqlHelper.ExecuteReader(connectionString, CommandType.Text, sql);
                 return true;
             }
-            catch
+            catch(Exception ex)
             {
                 return false;
             }
@@ -1797,10 +1793,16 @@ namespace Commons
                     }
             }
         }
-
         #endregion
-
         #region add combobox search
+        public void AddCombSearchLookUpEdit(RepositoryItemSearchLookUpEdit cboSearch, string Value, string Display, GridView grv, DataTable dtTmp)
+        {
+            cboSearch.NullText = "";
+            cboSearch.ValueMember = Value;
+            cboSearch.DisplayMember = Display;
+            cboSearch.DataSource = dtTmp;
+            grv.Columns[Value].ColumnEdit = cboSearch;
+        }
         public void AddCombXtra(string Value, string Display, GridView grv, string sSql)
         {
             DataTable tempt = new DataTable();
@@ -1812,11 +1814,9 @@ namespace Commons
             cbo.DataSource = tempt;
             grv.Columns[Value].ColumnEdit = cbo;
         }
-
-        public void AddCombXtra(string Value, string Display, GridView grv, DataTable tempt, bool serch)
+        public void AddCombXtra(string Value, string Display, GridView grv, DataTable tempt, bool Search)
         {
-
-            if (serch == true)
+            if (Search == true)
             {
                 RepositoryItemSearchLookUpEdit cbo = new RepositoryItemSearchLookUpEdit();
                 cbo.NullText = "";
@@ -1834,12 +1834,7 @@ namespace Commons
                 cbo.DataSource = tempt;
                 grv.Columns[Value].ColumnEdit = cbo;
             }
-
         }
-
-
-
-
         public void AddCombo(string Value, string Display, GridView grv, DataTable tempt)
         {
             try
@@ -1857,8 +1852,6 @@ namespace Commons
                 throw;
             }
         }
-
-
         public void AddCombobyTree(string Value, string Display, TreeList tree, DataTable tempt)
         {
             RepositoryItemLookUpEdit cbo = new RepositoryItemLookUpEdit();
@@ -1868,9 +1861,22 @@ namespace Commons
             cbo.DataSource = tempt;
             tree.Columns[Value].ColumnEdit = cbo;
         }
-
         #endregion
-
+        public void AddnewRow(GridView view, bool add)
+        {
+            view.OptionsBehavior.Editable = true;
+            if (add == true)
+            {
+                view.OptionsView.NewItemRowPosition = NewItemRowPosition.Bottom;
+                view.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
+                
+            }
+        }
+        public void DeleteAddRow(GridView view)
+        {
+            view.OptionsBehavior.Editable = false;
+            view.OptionsView.NewItemRowPosition = NewItemRowPosition.None;
+        }
         #region lấy table từ grid
         public DataTable ConvertDatatable(GridControl grid)
         {

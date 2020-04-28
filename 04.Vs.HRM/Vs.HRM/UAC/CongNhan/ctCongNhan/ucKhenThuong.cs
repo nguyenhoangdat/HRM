@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.Data;
-using System.Text;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.XtraBars.Docking2010;
 using Microsoft.ApplicationBlocks.Data;
+using DevExpress.XtraLayout;
 
 namespace Vs.HRM
 {
@@ -20,6 +16,7 @@ namespace Vs.HRM
         public ucKhenThuong(Int64 id)
         {
             InitializeComponent();
+            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root }, windowsUIButton);
             idcn = id;
         }
         private void UcKhenThuong_Load(object sender, EventArgs e)
@@ -93,10 +90,7 @@ namespace Vs.HRM
                 case "khongluu":
                     {
                         enableButon(true);
-                        if (grvKhenThuong.RowCount == 1)
-                        {
-                            Bindingdata(false);
-                        }
+                        Bindingdata(false);
                         dxValidationProvider1.Validate();
                         break;
                     }

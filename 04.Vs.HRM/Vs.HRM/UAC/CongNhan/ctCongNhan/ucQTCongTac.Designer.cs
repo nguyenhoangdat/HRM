@@ -41,6 +41,9 @@
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule4 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule5 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule6 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
+            DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule7 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
+            DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule8 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
+            DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule9 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             this.windowsUIButton = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             this.searchControl = new DevExpress.XtraEditors.SearchControl();
             this.dataLayoutControl1 = new DevExpress.XtraDataLayout.DataLayoutControl();
@@ -191,6 +194,7 @@
             // 
             this.searchControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.searchControl.Client = this.grdCongTac;
             this.searchControl.Location = new System.Drawing.Point(734, 33);
             this.searchControl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.searchControl.Name = "searchControl";
@@ -199,6 +203,7 @@
             this.searchControl.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Repository.ClearButton(),
             new DevExpress.XtraEditors.Repository.SearchButton()});
+            this.searchControl.Properties.Client = this.grdCongTac;
             this.searchControl.Properties.FindDelay = 100;
             this.searchControl.Size = new System.Drawing.Size(285, 30);
             this.searchControl.TabIndex = 11;
@@ -264,6 +269,10 @@
             this.ID_LQDLookUpEdit.Size = new System.Drawing.Size(129, 26);
             this.ID_LQDLookUpEdit.StyleController = this.dataLayoutControl1;
             this.ID_LQDLookUpEdit.TabIndex = 5;
+            conditionValidationRule1.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule1.ErrorText = "This value is not valid";
+            conditionValidationRule1.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
+            this.dxValidationProvider1.SetValidationRule(this.ID_LQDLookUpEdit, conditionValidationRule1);
             // 
             // ID_NKLookUpEdit
             // 
@@ -275,10 +284,10 @@
             this.ID_NKLookUpEdit.Size = new System.Drawing.Size(128, 26);
             this.ID_NKLookUpEdit.StyleController = this.dataLayoutControl1;
             this.ID_NKLookUpEdit.TabIndex = 6;
-            conditionValidationRule1.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule1.ErrorText = "This value is not valid";
-            conditionValidationRule1.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
-            this.dxValidationProvider1.SetValidationRule(this.ID_NKLookUpEdit, conditionValidationRule1);
+            conditionValidationRule2.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule2.ErrorText = "This value is not valid";
+            conditionValidationRule2.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
+            this.dxValidationProvider1.SetValidationRule(this.ID_NKLookUpEdit, conditionValidationRule2);
             // 
             // ID_CVLookUpEdit
             // 
@@ -290,6 +299,10 @@
             this.ID_CVLookUpEdit.Size = new System.Drawing.Size(377, 26);
             this.ID_CVLookUpEdit.StyleController = this.dataLayoutControl1;
             this.ID_CVLookUpEdit.TabIndex = 8;
+            conditionValidationRule3.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule3.ErrorText = "This value is not valid";
+            conditionValidationRule3.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
+            this.dxValidationProvider1.SetValidationRule(this.ID_CVLookUpEdit, conditionValidationRule3);
             // 
             // ID_LCVLookUpEdit
             // 
@@ -301,6 +314,10 @@
             this.ID_LCVLookUpEdit.Size = new System.Drawing.Size(127, 26);
             this.ID_LCVLookUpEdit.StyleController = this.dataLayoutControl1;
             this.ID_LCVLookUpEdit.TabIndex = 9;
+            conditionValidationRule4.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule4.ErrorText = "This value is not valid";
+            conditionValidationRule4.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
+            this.dxValidationProvider1.SetValidationRule(this.ID_LCVLookUpEdit, conditionValidationRule4);
             // 
             // ID_CV_CULookUpEdit
             // 
@@ -312,10 +329,10 @@
             this.ID_CV_CULookUpEdit.Size = new System.Drawing.Size(128, 26);
             this.ID_CV_CULookUpEdit.StyleController = this.dataLayoutControl1;
             this.ID_CV_CULookUpEdit.TabIndex = 11;
-            conditionValidationRule2.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule2.ErrorText = "This value is not valid";
-            conditionValidationRule2.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
-            this.dxValidationProvider1.SetValidationRule(this.ID_CV_CULookUpEdit, conditionValidationRule2);
+            conditionValidationRule5.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule5.ErrorText = "This value is not valid";
+            conditionValidationRule5.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
+            this.dxValidationProvider1.SetValidationRule(this.ID_CV_CULookUpEdit, conditionValidationRule5);
             // 
             // ID_LCV_CULookUpEdit
             // 
@@ -335,10 +352,10 @@
             this.SO_QUYET_DINHTextEdit.Size = new System.Drawing.Size(126, 26);
             this.SO_QUYET_DINHTextEdit.StyleController = this.dataLayoutControl1;
             this.SO_QUYET_DINHTextEdit.TabIndex = 13;
-            conditionValidationRule3.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule3.ErrorText = "This value is not valid";
-            conditionValidationRule3.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
-            this.dxValidationProvider1.SetValidationRule(this.SO_QUYET_DINHTextEdit, conditionValidationRule3);
+            conditionValidationRule6.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule6.ErrorText = "This value is not valid";
+            conditionValidationRule6.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
+            this.dxValidationProvider1.SetValidationRule(this.SO_QUYET_DINHTextEdit, conditionValidationRule6);
             // 
             // NGAY_KYDateEdit
             // 
@@ -349,13 +366,15 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.NGAY_KYDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.NGAY_KYDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
+            this.NGAY_KYDateEdit.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
             this.NGAY_KYDateEdit.Size = new System.Drawing.Size(127, 26);
             this.NGAY_KYDateEdit.StyleController = this.dataLayoutControl1;
             this.NGAY_KYDateEdit.TabIndex = 14;
-            conditionValidationRule4.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule4.ErrorText = "This value is not valid";
-            conditionValidationRule4.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
-            this.dxValidationProvider1.SetValidationRule(this.NGAY_KYDateEdit, conditionValidationRule4);
+            conditionValidationRule7.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule7.ErrorText = "This value is not valid";
+            conditionValidationRule7.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
+            this.dxValidationProvider1.SetValidationRule(this.NGAY_KYDateEdit, conditionValidationRule7);
             // 
             // NGAY_HIEU_LUCDateEdit
             // 
@@ -366,13 +385,15 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.NGAY_HIEU_LUCDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.NGAY_HIEU_LUCDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
+            this.NGAY_HIEU_LUCDateEdit.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
             this.NGAY_HIEU_LUCDateEdit.Size = new System.Drawing.Size(127, 26);
             this.NGAY_HIEU_LUCDateEdit.StyleController = this.dataLayoutControl1;
             this.NGAY_HIEU_LUCDateEdit.TabIndex = 15;
-            conditionValidationRule5.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule5.ErrorText = "This value is not valid";
-            conditionValidationRule5.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
-            this.dxValidationProvider1.SetValidationRule(this.NGAY_HIEU_LUCDateEdit, conditionValidationRule5);
+            conditionValidationRule8.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule8.ErrorText = "This value is not valid";
+            conditionValidationRule8.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
+            this.dxValidationProvider1.SetValidationRule(this.NGAY_HIEU_LUCDateEdit, conditionValidationRule8);
             // 
             // NOI_CONG_TACTextEdit
             // 
@@ -487,10 +508,10 @@
             this.ID_TOLookUpEdit.Size = new System.Drawing.Size(128, 26);
             this.ID_TOLookUpEdit.StyleController = this.dataLayoutControl1;
             this.ID_TOLookUpEdit.TabIndex = 7;
-            conditionValidationRule6.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule6.ErrorText = "This value is not valid";
-            conditionValidationRule6.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
-            this.dxValidationProvider1.SetValidationRule(this.ID_TOLookUpEdit, conditionValidationRule6);
+            conditionValidationRule9.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule9.ErrorText = "This value is not valid";
+            conditionValidationRule9.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Critical;
+            this.dxValidationProvider1.SetValidationRule(this.ID_TOLookUpEdit, conditionValidationRule9);
             // 
             // gridView2
             // 
@@ -584,6 +605,8 @@
             // 
             // ItemForID_LQD
             // 
+            this.ItemForID_LQD.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ItemForID_LQD.AppearanceItemCaption.Options.UseFont = true;
             this.ItemForID_LQD.Control = this.ID_LQDLookUpEdit;
             this.ItemForID_LQD.Location = new System.Drawing.Point(749, 0);
             this.ItemForID_LQD.Name = "ItemForID_LQD";
@@ -736,6 +759,8 @@
             // 
             // ItemForID_CV
             // 
+            this.ItemForID_CV.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ItemForID_CV.AppearanceItemCaption.Options.UseFont = true;
             this.ItemForID_CV.Control = this.ID_CVLookUpEdit;
             this.ItemForID_CV.Location = new System.Drawing.Point(0, 28);
             this.ItemForID_CV.Name = "ItemForID_CV";
@@ -763,8 +788,6 @@
             // 
             // ItemForID_TO
             // 
-            this.ItemForID_TO.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.ItemForID_TO.AppearanceItemCaption.Options.UseFont = true;
             this.ItemForID_TO.Control = this.ID_TOLookUpEdit;
             this.ItemForID_TO.Location = new System.Drawing.Point(750, 0);
             this.ItemForID_TO.Name = "ItemForID_TO";
@@ -774,6 +797,8 @@
             // 
             // ItemForID_LCV
             // 
+            this.ItemForID_LCV.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ItemForID_LCV.AppearanceItemCaption.Options.UseFont = true;
             this.ItemForID_LCV.Control = this.ID_LCVLookUpEdit;
             this.ItemForID_LCV.Location = new System.Drawing.Point(500, 28);
             this.ItemForID_LCV.Name = "ItemForID_LCV";

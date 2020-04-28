@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.Data;
-using System.Text;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraLayout;
+using System.Data.Linq.SqlClient;
 
 namespace Vs.HRM
 {
@@ -22,15 +18,21 @@ namespace Vs.HRM
         public ucQTCongTac(Int64 id)
         {
             InitializeComponent();
-            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root}, windowsUIButton);
+            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root }, windowsUIButton);
             idcn = id;
+        }
+        private void Loaddatatable()
+        {
+            tableTTC_CN.Clear();
+            tableTTC_CN.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM dbo.funQuaTrinhCongTac(" + idcn + "," + Commons.Modules.TypeLanguage + ")"));
+
         }
         #region sự kiệm form
         private void ucQTCongTac_Load(object sender, EventArgs e)
         {
             try
             {
-                tableTTC_CN.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM dbo.funQuaTrinhCongTac(" + idcn + "," + Commons.Modules.TypeLanguage + ")"));
+                Loaddatatable();
             }
             catch
             {
@@ -94,10 +96,7 @@ namespace Vs.HRM
                 case "khongluu":
                     {
                         enableButon(true);
-                        if (grvCongTac.RowCount == 1)
-                        {
-                            Bindingdata(false);
-                        }
+                        Bindingdata(false);
                         dxValidationProvider1.Validate();
                         break;
                     }
@@ -159,9 +158,13 @@ namespace Vs.HRM
             grvCongTac.Columns["ID_LCV_CU"].Visible = false;
             grvCongTac.Columns["MUC_LUONG"].Visible = false;
             grvCongTac.Columns["MUC_LUONG_CU"].Visible = false;
-            grvCongTac.Columns["MUC_LUONG_CU"].Visible = false;
             grvCongTac.Columns["TEN_XN"].Visible = false;
             grvCongTac.Columns["TEN_TO"].Visible = false;
+            grvCongTac.Columns["ID_XN"].Visible = false;
+            grvCongTac.Columns["ID_DV"].Visible = false;
+            grvCongTac.Columns["GHI_CHU"].Visible = false;
+            grvCongTac.Columns["NGAY_KY"].Visible = false;
+            grvCongTac.Columns["TEN_CN"].Visible = false;
             if (id != -1)
             {
                 int index = dt.Rows.IndexOf(dt.Rows.Find(id));
@@ -177,7 +180,7 @@ namespace Vs.HRM
 
         }
 
-       
+
 
         #endregion
 
@@ -220,37 +223,32 @@ namespace Vs.HRM
         }
         private void Bindingdata(bool bthem)
         {
+
             Commons.Modules.sPS = "0Load";
             if (bthem == true)
             {
+                Loaddatatable();
                 //lấy dữ liệu mặc định theo id công nhân
-
                 try
                 {
                     NGAY_KYDateEdit.EditValue = DateTime.Today;
                     NGAY_HIEU_LUCDateEdit.EditValue = DateTime.Today;
-
                     SO_QUYET_DINHTextEdit.EditValue = "";
                     DON_VI_CUTextEdit.EditValue = tableTTC_CN.Rows[0]["TEN_DV"];
                     XI_NGHIEP_CUTextEdit.EditValue = tableTTC_CN.Rows[0]["TEN_XN"];
                     ID_TO_CUTextEdit.EditValue = tableTTC_CN.Rows[0]["TEN_TO"];
                     MUC_LUONG_CUTextEdit.EditValue = tableTTC_CN.Rows[0]["MUC_LUONG_CU"];
                     NOI_CONG_TACTextEdit.EditValue = "";
-                    MUC_LUONGTextEdit.EditValue = "";
+                    MUC_LUONGTextEdit.EditValue = 0;
                     GHI_CHUTextEdit.EditValue = "";
                     NHIEM_VUMemoEdit.EditValue = "";
-
                     ID_LQDLookUpEdit.EditValue = "";
                     ID_CNTextEdit.EditValue = tableTTC_CN.Rows[0]["HO_TEN"];
                     ID_NKLookUpEdit.EditValue = "";
-    
-
                     ID_CV_CULookUpEdit.EditValue = tableTTC_CN.Rows[0]["ID_CV"];
                     ID_LCV_CULookUpEdit.EditValue = tableTTC_CN.Rows[0]["ID_LCV"];
-
-
                 }
-                catch 
+                catch
                 {
 
                 }
@@ -312,7 +310,8 @@ namespace Vs.HRM
                 ));
                 LoadgrdCongTac(n);
             }
-            catch 
+            //nếu là ngày hiệu lực là ngày mới nhất thì cập nhật lại bảng công nhân về tổ và chức vụ
+            catch (Exception ex)
             { }
         }
         private void DeleteData()

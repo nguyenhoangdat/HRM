@@ -17,6 +17,7 @@ namespace Vs.HRM
     public partial class ucCTQLNS : DevExpress.XtraEditors.XtraUserControl
     {
         List<LabelControl> List;
+        private string tab = "";
         public ucCTQLNS(Int64 iIdCN)
         {
             InitializeComponent();
@@ -44,12 +45,15 @@ namespace Vs.HRM
             try
             {
                 var lable = sender as LabelControl;
+                if (tab == lable.Name) return;
                 foreach (LabelControl lc in List)
                 {
                     if (lable.Name == lc.Name)
                     {
                         lc.Appearance.ForeColor = CommonColors.GetQuestionColor(DevExpress.LookAndFeel.UserLookAndFeel.Default);
                         LoaduacCongNhan(lc.Name);
+                        tab = lable.Name;
+
                     }
                     else
                     {
@@ -58,7 +62,7 @@ namespace Vs.HRM
                     }
                 }
             }
-            catch
+            catch (Exception ex)
             {
             }
         }
@@ -70,6 +74,7 @@ namespace Vs.HRM
                     {
                         ucLyLich ll = new ucLyLich(Commons.Modules.iCongNhan);
                         LoadUac(ll);
+
                         break;
                     }
                 case "labCongTac":

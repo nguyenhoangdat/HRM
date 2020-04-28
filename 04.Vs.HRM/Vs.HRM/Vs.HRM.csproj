@@ -121,6 +121,12 @@
     <Compile Include="EmployeeView.Designer.cs">
       <DependentUpon>EmployeeView.cs</DependentUpon>
     </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmThongTinLienLac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmThongTinLienLac.Designer.cs">
+      <DependentUpon>frmThongTinLienLac.cs</DependentUpon>
+    </Compile>
     <Compile Include="UAC\CongNhan\ctCongNhan\frmDoanThe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -249,6 +255,9 @@
     </Compile>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmGiaDinh.resx">
       <DependentUpon>frmGiaDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmThongTinLienLac.resx">
+      <DependentUpon>frmThongTinLienLac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucHopDong.resx">
       <DependentUpon>ucHopDong.cs</DependentUpon>

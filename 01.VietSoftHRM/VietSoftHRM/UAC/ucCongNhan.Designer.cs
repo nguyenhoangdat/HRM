@@ -49,6 +49,7 @@
             // 
             // panel2
             // 
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(216, 30);
             this.panel2.Name = "panel2";
@@ -63,6 +64,7 @@
             this.accorMenuleft.Appearance.Item.Normal.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.accorMenuleft.Appearance.Item.Pressed.FontStyleDelta = System.Drawing.FontStyle.Bold;
             this.accorMenuleft.Appearance.Item.Pressed.Options.UseFont = true;
+            this.accorMenuleft.Cursor = System.Windows.Forms.Cursors.Default;
             this.accorMenuleft.Dock = System.Windows.Forms.DockStyle.Left;
             this.accorMenuleft.Location = new System.Drawing.Point(0, 30);
             this.accorMenuleft.Name = "accorMenuleft";

@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
 using System.Data;
-using System.Text;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
-using DevExpress.XtraLayout;
 using System.IO;
 using DevExpress.XtraBars.Docking2010;
+using DevExpress.XtraLayout;
+using System.Collections.Generic;
 
 namespace Vs.HRM
 {
@@ -21,7 +17,7 @@ namespace Vs.HRM
         public ucLyLich(Int64 id)
         {
             InitializeComponent();
-            //LoadNgonNgu();
+            Commons.Modules.ObjSystems.ThayDoiNN(this,Root,Tab, windowsUIButton);
         }
         private void ucLyLich_Load(object sender, EventArgs e)
         {
@@ -147,13 +143,20 @@ namespace Vs.HRM
                     }
                 case "giadinh":
                     {
-                        frmGiaDinh gd = new frmGiaDinh(HOTextEdit.EditValue+" "+TENTextEdit.EditValue);
+                        frmGiaDinh gd = new frmGiaDinh(HOTextEdit.EditValue + " " + TENTextEdit.EditValue);
                         gd.ShowDialog();
                         break;
                     }
                 case "doanthe":
                     {
                         frmDoanThe gd = new frmDoanThe();
+                        gd.ShowDialog();
+                        break;
+                    }
+
+                case "lienlac":
+                    {
+                        frmThongTinLienLac gd = new frmThongTinLienLac(HOTextEdit.EditValue + " " + TENTextEdit.EditValue);
                         gd.ShowDialog();
                         break;
                     }
@@ -523,7 +526,7 @@ namespace Vs.HRM
         }
         private void SaveData()
         {
-            Commons.Modules.iCongNhan =  Convert.ToInt64(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spUpdateCongNhan",
+            Commons.Modules.iCongNhan = Convert.ToInt64(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spUpdateCongNhan",
                 Commons.Modules.iCongNhan,
             imgToByteConverter(HINH_CNPictureEdit.Image),
             MS_CNTextEdit.EditValue,
@@ -531,7 +534,7 @@ namespace Vs.HRM
             VAO_LAM_LAICheckEdit.EditValue,
             HOTextEdit.EditValue,
             TENTextEdit.EditValue,
-            ID_QGLookUpEdit.EditValue.ToString() == "" ? null: ID_QGLookUpEdit.EditValue,
+            ID_QGLookUpEdit.EditValue.ToString() == "" ? null : ID_QGLookUpEdit.EditValue,
             NGAY_SINHDateEdit.EditValue,
             NAM_SINHDateEdit.DateTime.Year,
             PHAICheckEdit.EditValue,
@@ -542,7 +545,7 @@ namespace Vs.HRM
             NGAY_HOC_VIECDateEdit.EditValue,
             NGAY_THU_VIECDateEdit.EditValue,
             NGAY_VAO_LAMDateEdit.EditValue,
-            ID_TT_HDLookUpEdit.EditValue.ToString() == "" ?null : ID_TT_HDLookUpEdit.EditValue,
+            ID_TT_HDLookUpEdit.EditValue.ToString() == "" ? null : ID_TT_HDLookUpEdit.EditValue,
             ID_TT_HTLookUpEdit.EditValue.ToString() == "" ? null : ID_TT_HTLookUpEdit.EditValue,
             HINH_THUC_TUYENTextEdit.EditValue,
             PHEP_CTTextEdit.EditValue,
@@ -574,19 +577,19 @@ namespace Vs.HRM
             DIA_CHI_THUONG_TRUTextEdit.EditValue,
             ID_TPLookUpEdit.EditValue.ToString() == "" ? null : ID_TPLookUpEdit.EditValue,
             ID_QUANLookEdit.EditValue,
-            ID_PXLookUpEdit.EditValue.ToString() == ""?null : ID_PXLookUpEdit.EditValue,
+            ID_PXLookUpEdit.EditValue.ToString() == "" ? null : ID_PXLookUpEdit.EditValue,
             THON_XOMTextEdit.EditValue,
             DIA_CHI_TAM_TRUTextEdit.EditValue,
-            ID_TP_TAM_TRULookUpEdit.EditValue.ToString() == ""? null : ID_TP_TAM_TRULookUpEdit.EditValue,
-            ID_QUAN_TAM_TRULookUpEdit.EditValue.ToString() == ""? null : ID_QUAN_TAM_TRULookUpEdit.EditValue,
-            ID_PX_TAM_TRULookUpEdit.EditValue.ToString() == ""?null: ID_PX_TAM_TRULookUpEdit.EditValue,
+            ID_TP_TAM_TRULookUpEdit.EditValue.ToString() == "" ? null : ID_TP_TAM_TRULookUpEdit.EditValue,
+            ID_QUAN_TAM_TRULookUpEdit.EditValue.ToString() == "" ? null : ID_QUAN_TAM_TRULookUpEdit.EditValue,
+            ID_PX_TAM_TRULookUpEdit.EditValue.ToString() == "" ? null : ID_PX_TAM_TRULookUpEdit.EditValue,
             THON_XOM_TAM_TRUTextEdit.EditValue,
             SO_BHXHTextEdit.EditValue,
             NGAY_DBHXHDateEdit.EditValue,
             NGAY_DBHXH_DTDateEdit.EditValue,
             NGAY_CHAM_DUT_NOP_BHXHDateEdit.EditValue,
             NGAY_THU_HOI_BHYTDateEdit.EditValue,
-            ID_TDVHLookUpEdit.EditValue.ToString() == ""?null : ID_TDVHLookUpEdit.EditValue,
+            ID_TDVHLookUpEdit.EditValue.ToString() == "" ? null : ID_TDVHLookUpEdit.EditValue,
             ID_LOAI_TDLookUpEdit.EditValue.ToString() == "" ? null : ID_LOAI_TDLookUpEdit.EditValue,
             CHUYEN_MONTextEdit.EditValue,
             LOAI_QUOC_TICHLookUpEdit.EditValue.ToString() == "" ? null : LOAI_QUOC_TICHLookUpEdit.EditValue,
@@ -596,7 +599,7 @@ namespace Vs.HRM
             NGAY_HH_GPDateEdit.EditValue,
             LD_GIAM_LDNNTextEdit.EditValue,
             cothem));
-            
+
         }
         #endregion
 

@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.Data;
-using System.Text;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.XtraBars.Docking2010;
 using Microsoft.ApplicationBlocks.Data;
+using DevExpress.XtraLayout;
+
 namespace Vs.HRM
 {
     public partial class ucHopDong : DevExpress.XtraEditors.XtraUserControl
@@ -20,6 +18,7 @@ namespace Vs.HRM
         public ucHopDong(Int64 id)
         {
             InitializeComponent();
+            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root }, windowsUIButton);
             idcn = id;
         }
         private void UcHopDong_Load(object sender, EventArgs e)
@@ -65,10 +64,7 @@ namespace Vs.HRM
                 case "khongluu":
                     {
                         enableButon(true);
-                        if (grvHopDong.RowCount == 1)
-                        {
-                            Bindingdata(false);
-                        }
+                        Bindingdata(false);
                         dxValidationProvider1.Validate();
                         break;
                     }
@@ -88,11 +84,14 @@ namespace Vs.HRM
             windowsUIButton.Buttons[1].Properties.Visible = visible;
             windowsUIButton.Buttons[2].Properties.Visible = visible;
             windowsUIButton.Buttons[3].Properties.Visible = visible;
-            windowsUIButton.Buttons[4].Properties.Visible = !visible;
-            windowsUIButton.Buttons[5].Properties.Visible = !visible;
+            windowsUIButton.Buttons[4].Properties.Visible = visible;
+            windowsUIButton.Buttons[5].Properties.Visible = visible;
             windowsUIButton.Buttons[6].Properties.Visible = visible;
+            windowsUIButton.Buttons[7].Properties.Visible = !visible;
+            windowsUIButton.Buttons[8].Properties.Visible = !visible;
+            windowsUIButton.Buttons[9].Properties.Visible = visible;
             grdHopDong.Enabled = visible;
-            SO_HDLDTextEdit.Properties.ReadOnly =visible;
+            SO_HDLDTextEdit.Properties.ReadOnly = visible;
             STT_HDLDTextEdit.Properties.ReadOnly = visible;
             ID_LHDLDLookUpEdit.Properties.ReadOnly = visible;
             NGAY_BAT_DAU_HDDateEdit.Properties.ReadOnly = visible;
@@ -135,12 +134,21 @@ namespace Vs.HRM
                     SO_HDLDTextEdit.EditValue = "";
                     STT_HDLDTextEdit.EditValue = "";
                     //ID_LHDLDLookUpEdit.EditValue,
-                    NGAY_BAT_DAU_HDDateEdit.EditValue = DateTime.Today;
-                    NGAY_HET_HDDateEdit.EditValue = DateTime.Today;
+                    if (grvHopDong.RowCount == 0)
+                    {
+                        NGAY_BAT_DAU_HDDateEdit.EditValue = DateTime.Today;
+                    }
+                    else
+                    {
+                        DataTable table = new DataTable();
+                        table = (DataTable)grdHopDong.DataSource;
+                        var result = table.AsEnumerable().First(x => x.Field<DateTime>("NGAY_HET_HD") == table.AsEnumerable().Max(y => y.Field<DateTime>("NGAY_HET_HD")))["NGAY_HET_HD"];
+                        NGAY_BAT_DAU_HDDateEdit.EditValue = Convert.ToDateTime(result).AddDays(1);
+                    }
                     NGAY_KYDateEdit.EditValue = DateTime.Today;
                     HD_GIA_HANCheckEdit.EditValue = true;
-                    NGAY_BD_THU_VIECDateEdit.EditValue = DateTime.Today;
-                    NGAY_KT_THU_VIECDateEdit.EditValue = DateTime.Today;
+                    NGAY_BD_THU_VIECDateEdit.EditValue = null;
+                    NGAY_KT_THU_VIECDateEdit.EditValue = null;
                     LUONG_THU_VIECTextEdit.EditValue = 0;
                     BAC_LUONGTextEdit.EditValue = 0;
                     MUC_LUONG_CHINHTextEdit.EditValue = 0;
@@ -163,13 +171,16 @@ namespace Vs.HRM
                     CHE_DO_NANG_LUONGTextEdit.EditValue = "";
                     KHOAN_KHACTextEdit.EditValue = "";
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     XtraMessageBox.Show(ex.Message.ToString());
                 }
             }
             else
             {
+                try
+                {
+
                 SO_HDLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("SO_HDLD");
                 STT_HDLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("STT_HDLD");
                 ID_LHDLDLookUpEdit.EditValue = Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("ID_LHDLD"));
@@ -177,8 +188,8 @@ namespace Vs.HRM
                 NGAY_HET_HDDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_HET_HD"));
                 NGAY_KYDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_KY"));
                 HD_GIA_HANCheckEdit.EditValue = Convert.ToBoolean(grvHopDong.GetFocusedRowCellValue("HD_GIA_HAN"));
-                NGAY_BD_THU_VIECDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_BD_THU_VIEC"));
-                NGAY_KT_THU_VIECDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_KT_THU_VIEC"));
+                NGAY_BD_THU_VIECDateEdit.EditValue = grvHopDong.GetFocusedRowCellValue("NGAY_BD_THU_VIEC");
+                NGAY_KT_THU_VIECDateEdit.EditValue = grvHopDong.GetFocusedRowCellValue("NGAY_KT_THU_VIEC");
                 LUONG_THU_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("LUONG_THU_VIEC");
                 BAC_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("BAC_LUONG");
                 MUC_LUONG_CHINHTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("MUC_LUONG_CHINH");
@@ -197,9 +208,15 @@ namespace Vs.HRM
                 CHE_DO_DAO_TAOTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHE_DO_DAO_TAO");
                 SO_NGAY_PHEPTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("SO_NGAY_PHEP");
                 HINH_THUC_TRA_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("HINH_THUC_TRA_LUONG");
-                NGUOI_KY_GIA_HANLookUpEdit.EditValue =Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("NGUOI_KY_GIA_HAN"));
+                NGUOI_KY_GIA_HANLookUpEdit.EditValue = Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("NGUOI_KY_GIA_HAN"));
                 CHE_DO_NANG_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHE_DO_NANG_LUONG");
                 KHOAN_KHACTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("KHOAN_KHAC");
+
+                }
+                catch (Exception ex)
+                {
+                    XtraMessageBox.Show(ex.ToString());
+                }
             }
         }
         private void SaveData()
@@ -311,6 +328,26 @@ namespace Vs.HRM
             {
                 DeleteData();
             }
+        }
+
+        private void ID_LHDLDLookUpEdit_EditValueChanged(object sender, EventArgs e)
+        {
+            //cộng ngày kết thúc hợp đồng lên theo số tháng
+            int ithang = Convert.ToInt32(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT SO_THANG FROM dbo.LOAI_HDLD WHERE ID_LHDLD = " + ID_LHDLDLookUpEdit.EditValue + ""));
+            if (ithang == 0)
+            {
+                NGAY_HET_HDDateEdit.EditValue = null;
+            }
+            else
+            {
+                NGAY_HET_HDDateEdit.EditValue = NGAY_BAT_DAU_HDDateEdit.DateTime.AddMonths(ithang);
+            }
+
+        }
+
+        private void NGAY_BD_THU_VIECDateEdit_EditValueChanged(object sender, EventArgs e)
+        {
+            NGAY_KT_THU_VIECDateEdit.EditValue = NGAY_BD_THU_VIECDateEdit.DateTime.AddMonths(2);
         }
     }
 }

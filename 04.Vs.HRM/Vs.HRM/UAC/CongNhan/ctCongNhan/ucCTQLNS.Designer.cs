@@ -31,8 +31,8 @@
             DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions windowsUIButtonImageOptions1 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.navigationFrame1 = new DevExpress.XtraBars.Navigation.NavigationFrame();
-            this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.navigationPage2 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.labLyLich = new DevExpress.XtraEditors.LabelControl();
             this.labCongTac = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
@@ -137,20 +137,20 @@
             this.navigationFrame1.TabIndex = 25;
             this.navigationFrame1.Text = "navigationFrame1";
             // 
+            // navigationPage2
+            // 
+            this.navigationPage2.Name = "navigationPage2";
+            this.navigationPage2.Size = new System.Drawing.Size(1033, 447);
+            // 
             // navigationPage1
             // 
             this.navigationPage1.Caption = "navigationPage1";
             this.navigationPage1.Name = "navigationPage1";
             this.navigationPage1.Size = new System.Drawing.Size(1033, 447);
             // 
-            // navigationPage2
-            // 
-            this.navigationPage2.Caption = "navigationPage2";
-            this.navigationPage2.Name = "navigationPage2";
-            this.navigationPage2.Size = new System.Drawing.Size(1033, 447);
-            // 
             // labLyLich
             // 
+            this.labLyLich.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labLyLich.Location = new System.Drawing.Point(69, 21);
             this.labLyLich.Name = "labLyLich";
             this.labLyLich.Size = new System.Drawing.Size(40, 20);
@@ -160,6 +160,7 @@
             // 
             // labCongTac
             // 
+            this.labCongTac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labCongTac.Location = new System.Drawing.Point(137, 21);
             this.labCongTac.Name = "labCongTac";
             this.labCongTac.Size = new System.Drawing.Size(59, 20);
@@ -211,6 +212,7 @@
             // 
             // labHopDong
             // 
+            this.labHopDong.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labHopDong.Location = new System.Drawing.Point(224, 21);
             this.labHopDong.Name = "labHopDong";
             this.labHopDong.Size = new System.Drawing.Size(68, 20);
@@ -238,6 +240,7 @@
             // 
             // labTienLuong
             // 
+            this.labTienLuong.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labTienLuong.Location = new System.Drawing.Point(320, 21);
             this.labTienLuong.Name = "labTienLuong";
             this.labTienLuong.Size = new System.Drawing.Size(71, 20);
@@ -256,6 +259,7 @@
             // 
             // labKhanThuong
             // 
+            this.labKhanThuong.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labKhanThuong.Location = new System.Drawing.Point(419, 21);
             this.labKhanThuong.Name = "labKhanThuong";
             this.labKhanThuong.Size = new System.Drawing.Size(140, 20);
@@ -274,6 +278,7 @@
             // 
             // labTaiNan
             // 
+            this.labTaiNan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labTaiNan.Location = new System.Drawing.Point(587, 21);
             this.labTaiNan.Name = "labTaiNan";
             this.labTaiNan.Size = new System.Drawing.Size(45, 20);
@@ -292,6 +297,7 @@
             // 
             // labDanhGia
             // 
+            this.labDanhGia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labDanhGia.Location = new System.Drawing.Point(660, 21);
             this.labDanhGia.Name = "labDanhGia";
             this.labDanhGia.Size = new System.Drawing.Size(58, 20);
@@ -310,6 +316,7 @@
             // 
             // labBangCap
             // 
+            this.labBangCap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labBangCap.Location = new System.Drawing.Point(746, 21);
             this.labBangCap.Name = "labBangCap";
             this.labBangCap.Size = new System.Drawing.Size(62, 20);

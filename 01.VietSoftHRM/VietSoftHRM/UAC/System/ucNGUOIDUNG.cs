@@ -7,6 +7,9 @@ using DevExpress.Utils;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraGrid;
 using DevExpress.XtraGrid.Views.Grid;
+using System.Collections.Generic;
+using DevExpress.XtraLayout;
+
 namespace VietSoftHRM
 {
     public partial class ucNGUOIDUNG : DevExpress.XtraEditors.XtraUserControl
@@ -15,8 +18,8 @@ namespace VietSoftHRM
         public ucNGUOIDUNG()
         {
             InitializeComponent();
-             Commons.Modules.ObjSystems.ThayDoiNN(this, layoutControlGroup1, windowsUIButton);
-       }
+            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { layoutControlGroup1 }, windowsUIButton);
+        }
 
         #region sự kiện form
         private void ucNGUOIDUNG_Load(object sender, EventArgs e)

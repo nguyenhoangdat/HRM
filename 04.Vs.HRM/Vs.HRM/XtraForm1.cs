@@ -22,7 +22,7 @@ namespace Vs.HRM
         {
 
             Commons.Modules.iCongNhan = 24;
-            ucLyLich ns = new ucLyLich(24);
+            ucHopDong ns = new ucHopDong(24);
             //ucTaiNanLD ns = new ucTaiNanLD(24);
             this.Controls.Clear();
             this.Controls.Add(ns);

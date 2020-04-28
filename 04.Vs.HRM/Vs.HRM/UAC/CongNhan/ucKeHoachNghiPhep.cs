@@ -6,6 +6,8 @@ using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraGrid.Views.Grid;
+using DevExpress.XtraLayout;
+using System.Collections.Generic;
 
 namespace Vs.HRM
 {
@@ -25,7 +27,8 @@ namespace Vs.HRM
         public ucKeHoachNghiPhep()
         {
             InitializeComponent();
-            Commons.Modules.ObjSystems.ThayDoiNN(this, Root, windowsUIButton);
+            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root }, windowsUIButton);
+
         }
         private void ucKeHoachNghiPhep_Load(object sender, EventArgs e)
         {

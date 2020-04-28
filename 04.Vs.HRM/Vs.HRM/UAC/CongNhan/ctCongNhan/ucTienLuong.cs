@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.XtraBars.Docking2010;
 using Microsoft.ApplicationBlocks.Data;
+using DevExpress.XtraLayout;
 
 namespace Vs.HRM
 {
@@ -20,6 +21,7 @@ namespace Vs.HRM
         public ucTienLuong(Int64 id)
         {
             InitializeComponent();
+            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root }, windowsUIButton);
             idcn = id;
         }
 
@@ -46,6 +48,7 @@ namespace Vs.HRM
             grvTienLuong.Columns["THUONG_HT_CV"].Visible = false;
             grvTienLuong.Columns["PC_KY_NANG"].Visible = false;
             grvTienLuong.Columns["PC_SINH_HOAT"].Visible = false;
+            grvTienLuong.Columns["PC_CON_NHO"].Visible = false;
             if (id != -1)
             {
                 int index = dt.Rows.IndexOf(dt.Rows.Find(id));
@@ -76,13 +79,14 @@ namespace Vs.HRM
             BAC_LUONGLookUpEdit.Properties.ReadOnly = visible;
             GHI_CHUTextEdit.Properties.ReadOnly = visible;
             HS_LUONGTextEdit.Properties.ReadOnly = visible;
-            LUONG_CO_BANTextEdit.Properties.ReadOnly = visible;
-            MUC_LUONG_THUCTextEdit.Properties.ReadOnly = visible;
+            //LUONG_CO_BANTextEdit.Properties.ReadOnly = visible;
+            //MUC_LUONG_THUCTextEdit.Properties.ReadOnly = visible;
             THUONG_CHUYEN_CANTextEdit.Properties.ReadOnly = visible;
             PC_DOC_HAITextEdit.Properties.ReadOnly = visible;
             THUONG_HT_CVTextEdit.Properties.ReadOnly = visible;
             PC_KY_NANGTextEdit.Properties.ReadOnly = visible;
             PC_SINH_HOATTextEdit.Properties.ReadOnly = visible;
+            PC_CON_NHOTextEdit.Properties.ReadOnly = visible;
         }
         private void Bindingdata(bool bthem)
         {
@@ -105,6 +109,7 @@ namespace Vs.HRM
                 THUONG_HT_CVTextEdit.EditValue = "";
                 PC_KY_NANGTextEdit.EditValue = "";
                 PC_SINH_HOATTextEdit.EditValue = "";
+                BAC_LUONGLookUpEdit_EditValueChanged(null, null);
             }
             else
             {
@@ -125,6 +130,7 @@ namespace Vs.HRM
                 THUONG_HT_CVTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("THUONG_HT_CV");
                 PC_KY_NANGTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("PC_KY_NANG");
                 PC_SINH_HOATTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("PC_SINH_HOAT");
+                PC_CON_NHOTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("PC_CON_NHO");
 
             }
         }
@@ -152,6 +158,7 @@ namespace Vs.HRM
                           THUONG_HT_CVTextEdit.EditValue == "" ? 0 : THUONG_HT_CVTextEdit.EditValue,
                           PC_KY_NANGTextEdit.EditValue == "" ? 0 : PC_KY_NANGTextEdit.EditValue,
                           PC_SINH_HOATTextEdit.EditValue == "" ? 0 : PC_SINH_HOATTextEdit.EditValue,
+                          PC_CON_NHOTextEdit.EditValue == "" ? 0 : PC_CON_NHOTextEdit.EditValue,
                           cothem));
                 LoadgrdTienLuong(n);
             }
@@ -189,6 +196,18 @@ namespace Vs.HRM
                     }
                 case "sua":
                     {
+                        try
+                        {
+
+                            if (grvTienLuong.GetFocusedRowCellValue("ID_LCB").ToString() == "")
+                            {
+                                XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgVuilongchondulieucansua"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeSua"), MessageBoxButtons.OK, MessageBoxIcon.Hand); return;
+                            }
+                        }
+                        catch (Exception)
+                        {
+                            XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgVuilongchondulieucansua"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeSua"), MessageBoxButtons.OK, MessageBoxIcon.Hand); return;
+                        }
                         cothem = false;
                         enableButon(false);
                         break;
@@ -209,10 +228,7 @@ namespace Vs.HRM
                 case "khongluu":
                     {
                         enableButon(true);
-                        if(grvTienLuong.RowCount ==1)
-                        {
-                            Bindingdata(false);
-                        }
+                        Bindingdata(false);
                         break;
                     }
                 case "thoat":
@@ -259,12 +275,15 @@ namespace Vs.HRM
             {
                 string sSql = "SELECT * FROM dbo.BAC_LUONG WHERE ID_BL = " + BAC_LUONGLookUpEdit.EditValue + "";
                 dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, sSql));
-                LUONG_CO_BANTextEdit.EditValue = dt.Rows[0]["MUC_LUONG"];
+                HS_LUONGTextEdit.EditValue = dt.Rows[0]["MUC_LUONG"];
                 PC_DOC_HAITextEdit.EditValue = dt.Rows[0]["PC_DH"];
                 THUONG_HT_CVTextEdit.EditValue = dt.Rows[0]["THUONG_TC"];
                 THUONG_CHUYEN_CANTextEdit.EditValue = dt.Rows[0]["THUONG_CV_CC"];
                 PC_SINH_HOATTextEdit.EditValue = dt.Rows[0]["PC_SINH_HOAT"];
                 PC_KY_NANGTextEdit.EditValue = dt.Rows[0]["PC_KY_NANG"];
+                LUONG_CO_BANTextEdit.EditValue = Convert.ToDouble(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT dbo.[funTinhLuongToiThieu](" + Commons.Modules.iCongNhan + ")"));
+                //PC_CON_NHOTextEdit
+                PC_CON_NHOTextEdit.EditValue = Convert.ToDouble(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT dbo.[funTinhPhuCapConNho](" + Commons.Modules.iCongNhan + ")"));
             }
             catch (Exception ex)
             { }
@@ -274,6 +293,17 @@ namespace Vs.HRM
             if (e.KeyData == Keys.Delete)
             {
                 DeleteData();
+            }
+        }
+
+        private void HS_LUONGTextEdit_EditValueChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                MUC_LUONG_THUCTextEdit.EditValue = Convert.ToDouble(HS_LUONGTextEdit.EditValue) + Convert.ToDouble(PC_DOC_HAITextEdit.EditValue)+ Convert.ToDouble(PC_KY_NANGTextEdit.EditValue)+ Convert.ToDouble(PC_SINH_HOATTextEdit.EditValue)+ Convert.ToDouble(PC_CON_NHOTextEdit.EditValue)+ Convert.ToDouble(THUONG_CHUYEN_CANTextEdit.EditValue)+ Convert.ToDouble(THUONG_HT_CVTextEdit.EditValue);
+            }
+            catch (Exception ex)
+            {
             }
         }
     }
