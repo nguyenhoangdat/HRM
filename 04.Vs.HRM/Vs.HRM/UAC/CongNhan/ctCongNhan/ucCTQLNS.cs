@@ -28,13 +28,10 @@ namespace Vs.HRM
         {
             XuLyTab();
             Lb_Click(labLyLich, null);
-
-            //labLyLich.Appearance.ForeColor = CommonColors.GetQuestionColor(DevExpress.LookAndFeel.UserLookAndFeel.Default);
-            //LoaduacCongNhan(labLyLich.Name);
         }
         private void XuLyTab()
         {
-            List = new List<LabelControl>() { labLyLich, labCongTac, labHopDong, labTienLuong, labTienLuong, labKhanThuong, labTaiNan, labDanhGia, labBangCap };
+            List = new List<LabelControl>() { labLyLich, labCongTac, labHopDong, labTienLuong, labKhanThuong, labTaiNan, labDanhGia, labBangCap };
             foreach (LabelControl lb in List)
             {
                 lb.Click += Lb_Click;

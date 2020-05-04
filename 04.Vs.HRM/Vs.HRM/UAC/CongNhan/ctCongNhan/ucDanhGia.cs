@@ -1,17 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.Data;
-using System.Text;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.XtraBars.Docking2010;
 using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraGrid.Views.Grid;
-using DevExpress.XtraGrid.Columns;
 using DevExpress.XtraEditors.Controls;
 using DevExpress.XtraLayout;
 
@@ -27,7 +22,6 @@ namespace Vs.HRM
             InitializeComponent();
             Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root}, windowsUIButton);
         }
-
         #region sự kiện form
         private void ucDanhGia_Load(object sender, EventArgs e)
         {
@@ -84,6 +78,15 @@ namespace Vs.HRM
                     {
                         if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
                         Application.Exit();
+                        break;
+                    }
+                case "nddanhgia":
+                    {
+                        frmNDDanhGia nd = new frmNDDanhGia();
+                        if(nd.ShowDialog() == DialogResult.Yes)
+                        {
+                            LoadGrdBangDanhGiaCT(false);
+                        }
                         break;
                     }
                 default:
@@ -167,11 +170,11 @@ namespace Vs.HRM
             windowsUIButton.Buttons[1].Properties.Visible = visible;
             windowsUIButton.Buttons[2].Properties.Visible = visible;
             windowsUIButton.Buttons[3].Properties.Visible = visible;
-            windowsUIButton.Buttons[4].Properties.Visible = !visible;
-            windowsUIButton.Buttons[5].Properties.Visible = !visible;
-            windowsUIButton.Buttons[6].Properties.Visible = visible;
-            //grdDanhGia.Enabled = visible;
-            //grdDanhGiaCT.Enabled = visible;
+            windowsUIButton.Buttons[4].Properties.Visible = visible;
+            windowsUIButton.Buttons[5].Properties.Visible = visible;
+            windowsUIButton.Buttons[6].Properties.Visible = !visible;
+            windowsUIButton.Buttons[7].Properties.Visible = !visible;
+            windowsUIButton.Buttons[8].Properties.Visible = visible;
         }
         private void Bindingdata(bool bthem)
         {

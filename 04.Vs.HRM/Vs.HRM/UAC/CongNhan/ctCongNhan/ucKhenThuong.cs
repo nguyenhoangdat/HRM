@@ -70,6 +70,7 @@ namespace Vs.HRM
                     }
                 case "sua":
                     {
+                        if (grvKhenThuong.RowCount == 0) return;
                         cothem = false;
                         enableButon(false);
                         break;
@@ -77,6 +78,7 @@ namespace Vs.HRM
 
                 case "xoa":
                     {
+                        if (grvKhenThuong.RowCount == 0) return;
                         DeleteData();
                         break;
                     }

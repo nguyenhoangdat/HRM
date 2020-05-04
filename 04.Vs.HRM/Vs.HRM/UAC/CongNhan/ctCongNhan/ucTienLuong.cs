@@ -31,7 +31,6 @@ namespace Vs.HRM
             DataTable dt = new DataTable();
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetListTienLuong", idcn, Commons.Modules.UserName, Commons.Modules.TypeLanguage));
             dt.PrimaryKey = new DataColumn[] { dt.Columns["ID_LCB"] };
-            //dt.Columns["ID_NK"].ReadOnly = false;
             Commons.Modules.ObjSystems.MLoadXtraGrid(grdTienLuong, grvTienLuong, dt, false, true, true, true, true, this.Name);
             grvTienLuong.Columns["ID_LCB"].Visible = false;
             grvTienLuong.Columns["ID_CN"].Visible = false;
@@ -124,20 +123,37 @@ namespace Vs.HRM
                 GHI_CHUTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("GHI_CHU");
                 HS_LUONGTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("HS_LUONG");
                 LUONG_CO_BANTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("LUONG_CO_BAN");
-                MUC_LUONG_THUCTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("MUC_LUONG_THUC");
                 THUONG_CHUYEN_CANTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("THUONG_CHUYEN_CAN");
                 PC_DOC_HAITextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("PC_DOC_HAI");
                 THUONG_HT_CVTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("THUONG_HT_CV");
                 PC_KY_NANGTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("PC_KY_NANG");
                 PC_SINH_HOATTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("PC_SINH_HOAT");
-                PC_CON_NHOTextEdit.EditValue = grvTienLuong.GetFocusedRowCellValue("PC_CON_NHO");
-
+                PC_CON_NHOTextEdit.EditValue = Convert.ToDouble(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT dbo.[funGetPhuCapConNho](" + Commons.Modules.iCongNhan + ")"));
+                HS_LUONGTextEdit_EditValueChanged(null, null);
             }
         }
         private void SaveData()
         {
+            double luongthucold = 0;
             try
             {
+                //lay luong gan nhat cua cong nhan do
+                if (cothem == true)
+                {
+                    luongthucold = Convert.ToInt32(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT MUC_LUONG_THUC FROM dbo.LUONG_CO_BAN WHERE ID_CN = " + idcn + " AND  NGAY_HIEU_LUC = (SELECT MAX(NGAY_HIEU_LUC) FROM dbo.LUONG_CO_BAN WHERE ID_CN = " + idcn + ")"));
+                }
+                else
+                {
+                    luongthucold = Convert.ToDouble(grvTienLuong.GetFocusedRowCellValue("MUC_LUONG_THUC"));
+                }
+            }
+            catch (Exception ex)
+            {
+                luongthucold = 0;
+            }
+            try
+            {
+
                 int n = Convert.ToInt32(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spUpdateTienLuong",
                         grvTienLuong.GetFocusedRowCellValue("ID_LCB"),
                         idcn,
@@ -161,6 +177,38 @@ namespace Vs.HRM
                           PC_CON_NHOTextEdit.EditValue == "" ? 0 : PC_CON_NHOTextEdit.EditValue,
                           cothem));
                 LoadgrdTienLuong(n);
+                //--thêm phụ lục hợp đồng  cho công nhân đó
+                //-- lấy id hợp đông lao động theo công nhân kèm điều kiện ngày lớn nhất
+                try
+                {
+                    int idhd = Convert.ToInt32(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT ID_HDLD FROM dbo.HOP_DONG_LAO_DONG WHERE ID_CN = " + idcn + " AND  NGAY_BAT_DAU_HD = (SELECT MAX(NGAY_BAT_DAU_HD) FROM dbo.HOP_DONG_LAO_DONG WHERE ID_CN = " + idcn + ")"));
+
+
+                    string sophieu = SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT MAX(SO_PLHD) + 1 FROM dbo.PHU_LUC_HDLD WHERE ID_HDLD = " + idhd + "").ToString();
+
+                    if (idhd != 0)
+                    {
+                        if (Convert.ToDouble(MUC_LUONG_THUCTextEdit.EditValue) != luongthucold)
+                        {
+                            //insert vào phụ hợp đồng
+                            SqlHelper.ExecuteNonQuery(Commons.IConnections.CNStr, "spUpdatetPhuLucHopDong",
+                    idhd,
+                    sophieu == "" ? "1" : sophieu,
+                    sophieu == "" ? "1" : sophieu,
+                    string.Format(Commons.Modules.ObjSystems.ThongTinChung()["PL_NOI_DUNG_THAY_DOI"].ToString(), string.Format("{0:N0}", luongthucold), string.Format("{0:N0}",  MUC_LUONG_THUCTextEdit.EditValue)),
+                    string.Format(Commons.Modules.ObjSystems.ThongTinChung()["PL_THOI_GIAN_THUC_HIEN"].ToString(), DateTime.Now.Day, DateTime.Now.Date.Month, DateTime.Now.Date.Year),
+                   NGAY_KYDateEdit.EditValue,
+                   ID_NKLookUpEdit.EditValue,
+                   Commons.Modules.ObjSystems.ThongTinChung()["PL_GHI_CHU"].ToString(),
+                   1
+               );
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                }
+
             }
             catch (Exception ex)
             { }
@@ -196,6 +244,7 @@ namespace Vs.HRM
                     }
                 case "sua":
                     {
+                        if (grvTienLuong.RowCount == 0) return;
                         try
                         {
 
@@ -215,6 +264,7 @@ namespace Vs.HRM
 
                 case "xoa":
                     {
+                        if (grvTienLuong.RowCount == 0) return;
                         DeleteData();
                         break;
                     }
@@ -248,26 +298,24 @@ namespace Vs.HRM
         #endregion
         private void UcTienLuong_Load(object sender, EventArgs e)
         {
-            Commons.Modules.sPS = "0Load";
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TOLookUpEdit, Commons.Modules.ObjSystems.DataTo(-1, -1, false), "ID_TO", "TEN_TO", "TEN_TO");
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_NKLookUpEdit, Commons.Modules.ObjSystems.DataNguoiKy(), "ID_NK", "HO_TEN", "HO_TEN");
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_CVLookUpEdit, Commons.Modules.ObjSystems.DataChucVu(false), "ID_CV", "TEN_CV", "TEN_CV");
             Commons.Modules.ObjSystems.MLoadLookUpEdit(NGACH_LUONGLookUpEdit, Commons.Modules.ObjSystems.DataNgachLuong(false), "ID_NL", "TEN_NL", "TEN_NL");
+            Commons.Modules.sPS = "0Load";
             Commons.Modules.ObjSystems.MLoadLookUpEdit(BAC_LUONGLookUpEdit, Commons.Modules.ObjSystems.DataBacLuong(Convert.ToInt32(NGACH_LUONGLookUpEdit.EditValue), false), "ID_BL", "TEN_BL", "TEN_BL");
-            Commons.Modules.sPS = "";
             enableButon(true);
             LoadgrdTienLuong(-1);
-
+            Commons.Modules.sPS = "";
         }
         private void NGACH_LUONGLookUpEdit_EditValueChanged(object sender, EventArgs e)
         {
-            if (Commons.Modules.sPS == "0Load") return;
-            Commons.Modules.sPS = "0Load";
             Commons.Modules.ObjSystems.MLoadLookUpEdit(BAC_LUONGLookUpEdit, Commons.Modules.ObjSystems.DataBacLuong(Convert.ToInt32(NGACH_LUONGLookUpEdit.EditValue), false), "ID_BL", "TEN_BL", "TEN_BL");
-            Commons.Modules.sPS = "";
         }
         private void BAC_LUONGLookUpEdit_EditValueChanged(object sender, EventArgs e)
         {
+            if (Commons.Modules.sPS == "0Load") return;
+            Commons.Modules.sPS = "0Load";
             //load bật lương vào
             if (BAC_LUONGLookUpEdit.EditValue == "") return;
             DataTable dt = new DataTable();
@@ -281,12 +329,13 @@ namespace Vs.HRM
                 THUONG_CHUYEN_CANTextEdit.EditValue = dt.Rows[0]["THUONG_CV_CC"];
                 PC_SINH_HOATTextEdit.EditValue = dt.Rows[0]["PC_SINH_HOAT"];
                 PC_KY_NANGTextEdit.EditValue = dt.Rows[0]["PC_KY_NANG"];
-                LUONG_CO_BANTextEdit.EditValue = Convert.ToDouble(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT dbo.[funTinhLuongToiThieu](" + Commons.Modules.iCongNhan + ")"));
+                LUONG_CO_BANTextEdit.EditValue = Convert.ToDouble(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT [dbo].[funGetLuongToiThieu](" + Commons.Modules.iCongNhan+",'"+ NGAY_HIEU_LUCDateEdit.DateTime.ToString("MM/dd/yyyy") +"')"));
                 //PC_CON_NHOTextEdit
-                PC_CON_NHOTextEdit.EditValue = Convert.ToDouble(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT dbo.[funTinhPhuCapConNho](" + Commons.Modules.iCongNhan + ")"));
+                PC_CON_NHOTextEdit.EditValue = Convert.ToDouble(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT dbo.[funGetPhuCapConNho](" + Commons.Modules.iCongNhan + ")"));
             }
             catch (Exception ex)
             { }
+            Commons.Modules.sPS = "";
         }
         private void GrdTienLuong_ProcessGridKey(object sender, KeyEventArgs e)
         {
@@ -300,7 +349,7 @@ namespace Vs.HRM
         {
             try
             {
-                MUC_LUONG_THUCTextEdit.EditValue = Convert.ToDouble(HS_LUONGTextEdit.EditValue) + Convert.ToDouble(PC_DOC_HAITextEdit.EditValue)+ Convert.ToDouble(PC_KY_NANGTextEdit.EditValue)+ Convert.ToDouble(PC_SINH_HOATTextEdit.EditValue)+ Convert.ToDouble(PC_CON_NHOTextEdit.EditValue)+ Convert.ToDouble(THUONG_CHUYEN_CANTextEdit.EditValue)+ Convert.ToDouble(THUONG_HT_CVTextEdit.EditValue);
+                MUC_LUONG_THUCTextEdit.EditValue = Convert.ToDouble(HS_LUONGTextEdit.EditValue) + Convert.ToDouble(PC_DOC_HAITextEdit.EditValue) + Convert.ToDouble(PC_KY_NANGTextEdit.EditValue) + Convert.ToDouble(PC_SINH_HOATTextEdit.EditValue) + Convert.ToDouble(PC_CON_NHOTextEdit.EditValue) + Convert.ToDouble(THUONG_CHUYEN_CANTextEdit.EditValue) + Convert.ToDouble(THUONG_HT_CVTextEdit.EditValue);
             }
             catch (Exception ex)
             {

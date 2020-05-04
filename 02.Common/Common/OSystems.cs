@@ -1892,8 +1892,40 @@ namespace Commons
             DataTable tempt = dt.ToTable();
             return tempt;
         }
-        #endregion
 
+
+        public DataRow ThongTinChung()
+        {
+            DataTable tempt = new DataTable();
+            tempt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM dbo.THONG_TIN_CHUNG"));
+            return tempt.Rows[0];
+        }
+
+        public DataRow BLMCPC(Int64 idcn, DateTime ngayhd)
+        {
+            DataTable tempt = new DataTable();
+            tempt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM [funGetLuongKyHopDong]("+idcn+",'"+ngayhd.ToString("MM/dd/yyyy")+"')"));
+            return tempt.Rows[0];
+        }
+        public DataRow TienTroCap(Int64 idcn, DateTime ngaynv,int idldtv)
+        {
+            //ID_CN	LUONG_TRO_CAP	TIEN_TRO_CAP
+            DataTable tempt = new DataTable();
+            tempt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM [dbo].[GetTienTroCap]('"+ngaynv.ToString("MM/dd/yyyy")+ "',"+idcn+","+ idldtv + ")"));
+            return tempt.Rows[0];
+        }
+
+        public DataRow TienPhep(Int64 idcn, DateTime ngaynv)
+        {
+            //ID_CN	LUONG_TP	SO_NGAY_PHEP	TIEN_PHEP
+            DataTable tempt = new DataTable();
+            tempt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM [dbo].[GetTienPhep]('" + ngaynv.ToString("MM/dd/yyyy") + "'," + idcn + ")"));
+            return tempt.Rows[0];
+        }
+
+
+
+        #endregion
         #region Loadcombo phân quyền
         public void LoadCboDonVi(SearchLookUpEdit cboSearch_DV)
         {

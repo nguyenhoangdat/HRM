@@ -219,7 +219,6 @@ LUONG_TINH_PHEPTextEdit.EditValue
             {
                 throw;
             }
-
             try
             {
                 if (grvCongNhan.GetFocusedRowCellValue("ID_QDTV").ToString() != string.Empty)
@@ -231,40 +230,36 @@ LUONG_TINH_PHEPTextEdit.EditValue
                     SO_QDTextEdit.EditValue = row["SO_QD"];
                     NGAY_NHAN_DONDateEdit.EditValue = row["NGAY_NHAN_DON"];
                     NGAY_THOI_VIECDateEdit.EditValue = row["NGAY_THOI_VIEC"];
-                    TIEN_TRO_CAPTextEdit.EditValue = row["TIEN_TRO_CAP"];
                     TRO_CAP_KHACTextEdit.EditValue = row["TRO_CAP_KHAC"];
                     TONG_CONGTextEdit.EditValue = row["TONG_CONG"];
                     NGAY_KYDateEdit.EditValue = row["NGAY_KY"];
                     ID_LD_TVLookUpEdit.EditValue = row["ID_LD_TV"];
                     NGAY_VAO_CTYTextEdit.EditValue = row["NGAY_VAO_CTY"];
                     NGUYEN_NHANTextEdit.EditValue = row["NGUYEN_NHAN"];
-
-
-                    //HS_LUONGTextEdit.EditValue = row["HS_LUONG"];
-                    //NGAY_PHEPTextEdit.EditValue = row["NGAY_PHEP"];
-                    //LUONG_TINH_PHEPTextEdit.EditValue = row["LUONG_TINH_PHEP"];
-                    //TIEN_PHEPTextEdit.EditValue = row["TIEN_PHEP"];
-                    //LUONG_TOI_THIEUTextEdit.EditValue = row["LUONG_TOI_THIEU"];
+                    HS_LUONGTextEdit.EditValue = row["HS_LUONG"];
+                    TIEN_TRO_CAPTextEdit.EditValue = row["TIEN_TRO_CAP"];
+                    NGAY_PHEPTextEdit.EditValue = row["NGAY_PHEP"];
+                    LUONG_TINH_PHEPTextEdit.EditValue = row["LUONG_TINH_PHEP"];
+                    TIEN_PHEPTextEdit.EditValue = row["TIEN_PHEP"];
+                    LUONG_TOI_THIEUTextEdit.EditValue = row["LUONG_TOI_THIEU"];
                 }
                 else
                 {
+                    Commons.Modules.sPS = "0Load";
                     SO_QDTextEdit.EditValue = "";
                     NGAY_NHAN_DONDateEdit.EditValue = DateTime.Today;
                     NGAY_THOI_VIECDateEdit.EditValue = DateTime.Today;
                     TRO_CAP_KHACTextEdit.EditValue = 0;
                     NGAY_KYDateEdit.EditValue = DateTime.Today;
-                    ID_LD_TVLookUpEdit.EditValue = "";
+                    ID_LD_TVLookUpEdit.EditValue = null;
                     NGAY_VAO_CTYTextEdit.EditValue = DateTime.Today;
                     NGUYEN_NHANTextEdit.EditValue = "";
-                    GHI_CHUMemoEdit.EditValue = "";
-                    ID_NKLookUpEdit.EditValue = "";
                 }
             }
             catch (Exception ex)
             {
             }
         }
-
         private void navigationFrame_SelectedPageChanging(object sender, SelectedPageChangingEventArgs e)
         {
             if (navigationFrame.SelectedPage == navigationPage1)
@@ -281,22 +276,18 @@ LUONG_TINH_PHEPTextEdit.EditValue
                 }
             }
         }
+
         private void NGAY_THOI_VIECDateEdit_EditValueChanged(object sender, EventArgs e)
         {
             //tính lương
             try
             {
-                DataTable dt = new DataTable();
-                string sSql = "SELECT * FROM dbo.funTinhKeHoachNghiPhep(" + grvCongNhan.GetFocusedRowCellValue("ID_CN") + ",'" + NGAY_THOI_VIECDateEdit.DateTime.ToString("MM/dd/yyyy") + "')";
-                dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, sSql));
-                HS_LUONGTextEdit.EditValue = dt.Rows[0]["HS_LUONG"];
-                LUONG_TOI_THIEUTextEdit.EditValue = dt.Rows[0]["LUONG_TOI_THIEU"];
-                TIEN_TRO_CAPTextEdit.EditValue = dt.Rows[0]["TIEN_TRO_CAP"];
-                NGAY_PHEPTextEdit.EditValue = dt.Rows[0]["NGAY_PHEP"];
-                LUONG_TINH_PHEPTextEdit.EditValue = dt.Rows[0]["LUONG_TINH_PHEP"];
-                TIEN_PHEPTextEdit.EditValue = dt.Rows[0]["TIEN_PHEP"];
-                TONG_CONGTextEdit.EditValue = Convert.ToInt32(TIEN_TRO_CAPTextEdit.EditValue) + Convert.ToInt32(TIEN_PHEPTextEdit.EditValue) + Convert.ToInt32(TRO_CAP_KHACTextEdit.EditValue);
-                dxValidationProvider1.Validate();
+                HS_LUONGTextEdit.EditValue = Commons.Modules.ObjSystems.TienTroCap(Convert.ToInt32(grvCongNhan.GetFocusedRowCellValue("ID_CN")), NGAY_THOI_VIECDateEdit.DateTime, Convert.ToInt32(ID_LD_TVLookUpEdit.EditValue))["LUONG_TRO_CAP"];
+                TIEN_TRO_CAPTextEdit.EditValue = Commons.Modules.ObjSystems.TienTroCap(Convert.ToInt32(grvCongNhan.GetFocusedRowCellValue("ID_CN")), NGAY_THOI_VIECDateEdit.DateTime, Convert.ToInt32(ID_LD_TVLookUpEdit.EditValue))["TIEN_TRO_CAP"];
+                NGAY_PHEPTextEdit.EditValue = Commons.Modules.ObjSystems.TienPhep(Convert.ToInt32(grvCongNhan.GetFocusedRowCellValue("ID_CN")), NGAY_THOI_VIECDateEdit.DateTime)["SO_NGAY_PHEP"];
+                LUONG_TINH_PHEPTextEdit.EditValue = Commons.Modules.ObjSystems.TienPhep(Convert.ToInt32(grvCongNhan.GetFocusedRowCellValue("ID_CN")), NGAY_THOI_VIECDateEdit.DateTime)["LUONG_TP"];
+                TIEN_PHEPTextEdit.EditValue = Commons.Modules.ObjSystems.TienPhep(Convert.ToInt32(grvCongNhan.GetFocusedRowCellValue("ID_CN")), NGAY_THOI_VIECDateEdit.DateTime)["TIEN_PHEP"];
+                TONG_CONGTextEdit.EditValue = Convert.ToDouble(TIEN_TRO_CAPTextEdit.EditValue) + Convert.ToDouble(TIEN_PHEPTextEdit.EditValue) + Convert.ToDouble(TRO_CAP_KHACTextEdit.EditValue);
             }
             catch (Exception ex)
             {
@@ -306,14 +297,7 @@ LUONG_TINH_PHEPTextEdit.EditValue
 
         private void TRO_CAP_KHACTextEdit_EditValueChanged(object sender, EventArgs e)
         {
-            try
-            {
-                TONG_CONGTextEdit.EditValue = Convert.ToInt32(TIEN_TRO_CAPTextEdit.EditValue) + Convert.ToInt32(TIEN_PHEPTextEdit.EditValue) + Convert.ToInt32(TRO_CAP_KHACTextEdit.EditValue);
-            }
-            catch
-            {
-            }
-
+            TONG_CONGTextEdit.EditValue = Convert.ToDouble(TIEN_TRO_CAPTextEdit.EditValue) + Convert.ToDouble(TIEN_PHEPTextEdit.EditValue) + Convert.ToDouble(TRO_CAP_KHACTextEdit.EditValue);
         }
     }
 }

@@ -145,4 +145,22 @@
   <data name="iconUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="danhgia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\danhgia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doanthe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doanthe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giadinh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giadinh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lienlac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lienlac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baohiem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baohiem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phuluc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phuluc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

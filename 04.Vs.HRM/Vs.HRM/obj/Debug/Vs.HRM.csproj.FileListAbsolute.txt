@@ -1250,10 +1250,13 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ja\DevExpress.XtraNavBar.v19.1.resources.dl
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ru\DevExpress.XtraNavBar.v19.1.resources.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csprojAssemblyReference.cache
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmEditCONG_NHAN1.resources
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmNDDanhGia.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmDoanThe.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.Properties.Resources.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmGiaDinh.resources
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmPhuLucHDLD.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmThongTinLienLac.resources
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmToKhaiBHXH.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucHopDong.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucKhenThuong.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucLyLich.resources

@@ -121,6 +121,24 @@
     <Compile Include="EmployeeView.Designer.cs">
       <DependentUpon>EmployeeView.cs</DependentUpon>
     </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmNDDanhGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmNDDanhGia.Designer.cs">
+      <DependentUpon>frmNDDanhGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmToKhaiBHXK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmToKhaiBHXK.Designer.cs">
+      <DependentUpon>frmToKhaiBHXK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmPhuLucHDLD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ctCongNhan\frmPhuLucHDLD.Designer.cs">
+      <DependentUpon>frmPhuLucHDLD.cs</DependentUpon>
+    </Compile>
     <Compile Include="UAC\CongNhan\ctCongNhan\frmThongTinLienLac.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,6 +257,9 @@
     <EmbeddedResource Include="EmployeeView.resx">
       <DependentUpon>EmployeeView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmNDDanhGia.resx">
+      <DependentUpon>frmNDDanhGia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmDoanThe.resx">
       <DependentUpon>frmDoanThe.cs</DependentUpon>
     </EmbeddedResource>
@@ -256,8 +277,14 @@
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmGiaDinh.resx">
       <DependentUpon>frmGiaDinh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmPhuLucHDLD.resx">
+      <DependentUpon>frmPhuLucHDLD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmThongTinLienLac.resx">
       <DependentUpon>frmThongTinLienLac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmToKhaiBHXK.resx">
+      <DependentUpon>frmToKhaiBHXK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucHopDong.resx">
       <DependentUpon>ucHopDong.cs</DependentUpon>
@@ -361,7 +388,27 @@
   <ItemGroup>
     <None Include="Resources\iconUpdate.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\content.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doanthe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giadinh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lienlac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\danhgia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phuluc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baohiem.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

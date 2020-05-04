@@ -44,6 +44,7 @@ namespace Vs.HRM
                     }
                 case "sua":
                     {
+                        if (grvHopDong.RowCount == 0) return;
                         cothem = false;
                         enableButon(false);
                         break;
@@ -51,7 +52,8 @@ namespace Vs.HRM
 
                 case "xoa":
                     {
-                        //DeleteData();
+                        if (grvHopDong.RowCount == 0) return;
+                        DeleteData();
                         break;
                     }
                 case "luu":
@@ -72,6 +74,44 @@ namespace Vs.HRM
                     {
                         if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
                         Application.Exit();
+                        break;
+                    }
+                case "phuluchd":
+                    {
+                        try
+                        {
+                            if (grvHopDong.GetFocusedRowCellValue("ID_HDLD").ToString() == "")
+                            {
+                                XtraMessageBox.Show("bạn cần chọn một hợp đồng cần xem mục lục", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                return;
+                            }
+                        }
+                        catch (Exception)
+                        {
+                            XtraMessageBox.Show("bạn cần chọn một hợp đồng cần xem mục lục", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                            return;
+                        }
+                        frmPhuLucHDLD pl = new frmPhuLucHDLD(ItemForSO_HDLD.Text + " :" + SO_HDLDTextEdit.EditValue.ToString(), ItemForNGAY_BAT_DAU_HD.Text +" :"+ NGAY_BAT_DAU_HDDateEdit.DateTime.Date.ToShortDateString(), Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("ID_HDLD")));
+                        pl.ShowDialog();
+                        break;
+                    }
+                case "thaydoitk":
+                    {
+                        try
+                        {
+                            if (grvHopDong.GetFocusedRowCellValue("ID_HDLD").ToString() == "")
+                            {
+                                XtraMessageBox.Show("bạn cần chọn một hợp đồng để thay đổi thông tin bảo hiểm y tế", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                return;
+                            }
+                        }
+                        catch (Exception)
+                        {
+                            XtraMessageBox.Show("bạn cần chọn một hợp đồng để thay đổi thông tin bảo hiểm y tế", "Thông báo" , MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                            return;
+                        }
+                        frmToKhaiBHXH bhyt = new frmToKhaiBHXH(ItemForSO_HDLD.Text + " :" + SO_HDLDTextEdit.EditValue.ToString(), ItemForNGAY_BAT_DAU_HD.Text + " :" + NGAY_BAT_DAU_HDDateEdit.DateTime.Date.ToShortDateString(), Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("ID_HDLD")));
+                        bhyt.ShowDialog();
                         break;
                     }
                 default:
@@ -150,10 +190,10 @@ namespace Vs.HRM
                     NGAY_BD_THU_VIECDateEdit.EditValue = null;
                     NGAY_KT_THU_VIECDateEdit.EditValue = null;
                     LUONG_THU_VIECTextEdit.EditValue = 0;
-                    BAC_LUONGTextEdit.EditValue = 0;
-                    MUC_LUONG_CHINHTextEdit.EditValue = 0;
-                    CHI_SO_PHU_CAPTextEdit.EditValue = 0;
-                    MUC_LUONG_THUC_LINHTextEdit.EditValue = 0;
+                    BAC_LUONGTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn,NGAY_BAT_DAU_HDDateEdit.DateTime)["BL"];
+                    MUC_LUONG_CHINHTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["ML"];
+                    CHI_SO_PHU_CAPTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["PC"];
+                    MUC_LUONG_THUC_LINHTextEdit.EditValue = Convert.ToDouble(MUC_LUONG_CHINHTextEdit.EditValue) + Convert.ToDouble(CHI_SO_PHU_CAPTextEdit.EditValue);
                     DIA_DIEM_LAM_VIECTextEdit.EditValue = "";
                     PHUONG_TIENTextEdit.EditValue = "";
                     DIA_CHI_NOI_LAM_VIECTextEdit.EditValue = "";
@@ -181,36 +221,36 @@ namespace Vs.HRM
                 try
                 {
 
-                SO_HDLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("SO_HDLD");
-                STT_HDLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("STT_HDLD");
-                ID_LHDLDLookUpEdit.EditValue = Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("ID_LHDLD"));
-                NGAY_BAT_DAU_HDDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_BAT_DAU_HD"));
-                NGAY_HET_HDDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_HET_HD"));
-                NGAY_KYDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_KY"));
-                HD_GIA_HANCheckEdit.EditValue = Convert.ToBoolean(grvHopDong.GetFocusedRowCellValue("HD_GIA_HAN"));
-                NGAY_BD_THU_VIECDateEdit.EditValue = grvHopDong.GetFocusedRowCellValue("NGAY_BD_THU_VIEC");
-                NGAY_KT_THU_VIECDateEdit.EditValue = grvHopDong.GetFocusedRowCellValue("NGAY_KT_THU_VIEC");
-                LUONG_THU_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("LUONG_THU_VIEC");
-                BAC_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("BAC_LUONG");
-                MUC_LUONG_CHINHTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("MUC_LUONG_CHINH");
-                CHI_SO_PHU_CAPTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHI_SO_PHU_CAP");
-                MUC_LUONG_THUC_LINHTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("MUC_LUONG_THUC_LINH");
-                DIA_DIEM_LAM_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("DIA_DIEM_LAM_VIEC");
-                PHUONG_TIENTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("PHUONG_TIEN");
-                DIA_CHI_NOI_LAM_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("DIA_CHI_NOI_LAM_VIEC");
-                PHU_CAPTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("PHU_CAP");
-                CONG_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CONG_VIEC");
-                ID_CVLookUpEdit.EditValue = Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("ID_CV"));
-                CHE_DO_LAM_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHE_DO_LAM_VIEC");
-                LAN_TRA_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("LAN_TRA_LUONG");
-                DCLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("DCLD");
-                BHLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("BHLD");
-                CHE_DO_DAO_TAOTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHE_DO_DAO_TAO");
-                SO_NGAY_PHEPTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("SO_NGAY_PHEP");
-                HINH_THUC_TRA_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("HINH_THUC_TRA_LUONG");
-                NGUOI_KY_GIA_HANLookUpEdit.EditValue = Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("NGUOI_KY_GIA_HAN"));
-                CHE_DO_NANG_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHE_DO_NANG_LUONG");
-                KHOAN_KHACTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("KHOAN_KHAC");
+                    SO_HDLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("SO_HDLD");
+                    STT_HDLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("STT_HDLD");
+                    ID_LHDLDLookUpEdit.EditValue = Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("ID_LHDLD"));
+                    NGAY_BAT_DAU_HDDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_BAT_DAU_HD"));
+                    NGAY_HET_HDDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_HET_HD"));
+                    NGAY_KYDateEdit.EditValue = Convert.ToDateTime(grvHopDong.GetFocusedRowCellValue("NGAY_KY"));
+                    HD_GIA_HANCheckEdit.EditValue = Convert.ToBoolean(grvHopDong.GetFocusedRowCellValue("HD_GIA_HAN"));
+                    NGAY_BD_THU_VIECDateEdit.EditValue = grvHopDong.GetFocusedRowCellValue("NGAY_BD_THU_VIEC");
+                    NGAY_KT_THU_VIECDateEdit.EditValue = grvHopDong.GetFocusedRowCellValue("NGAY_KT_THU_VIEC");
+                    LUONG_THU_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("LUONG_THU_VIEC");
+                    BAC_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("BAC_LUONG");
+                    MUC_LUONG_CHINHTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("MUC_LUONG_CHINH");
+                    CHI_SO_PHU_CAPTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHI_SO_PHU_CAP");
+                    MUC_LUONG_THUC_LINHTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("MUC_LUONG_THUC_LINH");
+                    DIA_DIEM_LAM_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("DIA_DIEM_LAM_VIEC");
+                    PHUONG_TIENTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("PHUONG_TIEN");
+                    DIA_CHI_NOI_LAM_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("DIA_CHI_NOI_LAM_VIEC");
+                    PHU_CAPTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("PHU_CAP");
+                    CONG_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CONG_VIEC");
+                    ID_CVLookUpEdit.EditValue = Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("ID_CV"));
+                    CHE_DO_LAM_VIECTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHE_DO_LAM_VIEC");
+                    LAN_TRA_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("LAN_TRA_LUONG");
+                    DCLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("DCLD");
+                    BHLDTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("BHLD");
+                    CHE_DO_DAO_TAOTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHE_DO_DAO_TAO");
+                    SO_NGAY_PHEPTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("SO_NGAY_PHEP");
+                    HINH_THUC_TRA_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("HINH_THUC_TRA_LUONG");
+                    NGUOI_KY_GIA_HANLookUpEdit.EditValue = Convert.ToInt32(grvHopDong.GetFocusedRowCellValue("NGUOI_KY_GIA_HAN"));
+                    CHE_DO_NANG_LUONGTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("CHE_DO_NANG_LUONG");
+                    KHOAN_KHACTextEdit.EditValue = grvHopDong.GetFocusedRowCellValue("KHOAN_KHAC");
 
                 }
                 catch (Exception ex)
@@ -342,12 +382,20 @@ namespace Vs.HRM
             {
                 NGAY_HET_HDDateEdit.EditValue = NGAY_BAT_DAU_HDDateEdit.DateTime.AddMonths(ithang);
             }
-
+            BAC_LUONGTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["BL"];
+            MUC_LUONG_CHINHTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["ML"];
+            CHI_SO_PHU_CAPTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["PC"];
+            MUC_LUONG_THUC_LINHTextEdit.EditValue = Convert.ToDouble(MUC_LUONG_CHINHTextEdit.EditValue) + Convert.ToDouble(CHI_SO_PHU_CAPTextEdit.EditValue);
         }
 
         private void NGAY_BD_THU_VIECDateEdit_EditValueChanged(object sender, EventArgs e)
         {
             NGAY_KT_THU_VIECDateEdit.EditValue = NGAY_BD_THU_VIECDateEdit.DateTime.AddMonths(2);
+        }
+
+        private void MUC_LUONG_CHINHTextEdit_EditValueChanged(object sender, EventArgs e)
+        {
+            MUC_LUONG_THUC_LINHTextEdit.EditValue = Convert.ToDouble(MUC_LUONG_CHINHTextEdit.EditValue) + Convert.ToDouble(CHI_SO_PHU_CAPTextEdit.EditValue);
         }
     }
 }

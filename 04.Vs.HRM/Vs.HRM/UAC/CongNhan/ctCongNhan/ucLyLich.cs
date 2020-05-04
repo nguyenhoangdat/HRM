@@ -6,9 +6,6 @@ using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
 using System.IO;
 using DevExpress.XtraBars.Docking2010;
-using DevExpress.XtraLayout;
-using System.Collections.Generic;
-
 namespace Vs.HRM
 {
     public partial class ucLyLich : DevExpress.XtraEditors.XtraUserControl
@@ -51,7 +48,6 @@ namespace Vs.HRM
 
             //NOI_CAPLookupEdit 
             Commons.Modules.ObjSystems.MLoadLookUpEdit(NOI_CAPLookupEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP");
-
             //ID_TT_HNLookUpEdit 
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TT_HNLookUpEdit, Commons.Modules.ObjSystems.DataTinHTrangHN(false), "ID_TT_HN", "TEN_TT_HN", "TEN_TT_HN");
             //ID_TPLookUpEdit 
@@ -60,22 +56,18 @@ namespace Vs.HRM
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_QUANLookEdit, Commons.Modules.ObjSystems.DataQuan(Convert.ToInt32(ID_TPLookUpEdit.EditValue), false), "ID_QUAN", "TEN_QUAN", "TEN_QUAN");
             //ID_PXLookUpEdit
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_PXLookUpEdit, Commons.Modules.ObjSystems.DataPhuongXa(Convert.ToInt32(ID_QUANLookEdit.EditValue), false), "ID_PX", "TEN_PX", "TEN_PX");
-
             //ID_TP_TAM_TRULookUpEdit 
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TP_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP");
-
             //ID_QUAN_TAM_TRULookUpEdit
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_QUAN_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataQuan(Convert.ToInt32(ID_TP_TAM_TRULookUpEdit.EditValue), false), "ID_QUAN", "TEN_QUAN", "TEN_QUAN");
             //ID_PX_TAM_TRULookUpEdit
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_PX_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataPhuongXa(Convert.ToInt32(ID_QUAN_TAM_TRULookUpEdit.EditValue), false), "ID_PX", "TEN_PX", "TEN_PX");
-
             //đơn vị 
             Commons.Modules.ObjSystems.MLoadSearchLookUpEdit(ID_DVLookUpEdit, Commons.Modules.ObjSystems.DataDonVi(), "ID_DV", "TEN_DV", "TEN_DV");
-
             //xí nghiệp 
             Commons.Modules.ObjSystems.MLoadSearchLookUpEdit(ID_XNLookUpEdit, Commons.Modules.ObjSystems.DataXiNghiep(Convert.ToInt32(ID_DVLookUpEdit.EditValue)), "ID_XN", "TEN_XN", "TEN_XN");
             //tổ
-            Commons.Modules.ObjSystems.MLoadSearchLookUpEdit(ID_TOLookupEdit, Commons.Modules.ObjSystems.DataTo(Convert.ToInt32(ID_DVLookUpEdit.EditValue), Convert.ToInt32(ID_DVLookUpEdit.EditValue), true), "ID_TO", "TEN_TO", "TEN_TO");
+            Commons.Modules.ObjSystems.MLoadSearchLookUpEdit(ID_TOLookupEdit, Commons.Modules.ObjSystems.DataTo(Convert.ToInt32(ID_DVLookUpEdit.EditValue), Convert.ToInt32(ID_XNLookUpEdit.EditValue), true), "ID_TO", "TEN_TO", "TEN_TO");
             //ID_LOAI_TDLookUpEdit 
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LOAI_TDLookUpEdit, Commons.Modules.ObjSystems.DataLoaiTrinhDo(false), "ID_LOAI_TD", "TEN_LOAI_TD", "TEN_LOAI_TD");
             //ID_TDVHLookUpEdit 
@@ -441,14 +433,13 @@ namespace Vs.HRM
             windowsUIButton.Buttons[1].Properties.Visible = visible;
             windowsUIButton.Buttons[2].Properties.Visible = visible;
             windowsUIButton.Buttons[3].Properties.Visible = visible;
-            windowsUIButton.Buttons[4].Properties.Visible = !visible;
-            windowsUIButton.Buttons[5].Properties.Visible = !visible;
+            windowsUIButton.Buttons[4].Properties.Visible = visible;
+            windowsUIButton.Buttons[5].Properties.Visible = visible;
             windowsUIButton.Buttons[6].Properties.Visible = visible;
             windowsUIButton.Buttons[7].Properties.Visible = visible;
-            windowsUIButton.Buttons[8].Properties.Visible = visible;
-            windowsUIButton.Buttons[9].Properties.Visible = visible;
+            windowsUIButton.Buttons[8].Properties.Visible = !visible;
+            windowsUIButton.Buttons[9].Properties.Visible = !visible;
             windowsUIButton.Buttons[10].Properties.Visible = visible;
-
             MS_CNTextEdit.Properties.ReadOnly = visible;
             MS_THE_CCTextEdit.Properties.ReadOnly = visible;
             VAO_LAM_LAICheckEdit.Properties.ReadOnly = visible;
