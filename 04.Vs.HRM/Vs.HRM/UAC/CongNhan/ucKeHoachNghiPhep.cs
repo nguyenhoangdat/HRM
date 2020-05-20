@@ -379,8 +379,7 @@ namespace Vs.HRM
                     }
                 case "thoat":
                     {
-                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-                        Application.Exit();
+                        Commons.Modules.ObjSystems.GotoHome(this);
                         break;
                     }
                 case "capnhat":
@@ -636,6 +635,7 @@ namespace Vs.HRM
                 if (e.Column.Name == "colTU_NGAY")
                 {
                     view.SetRowCellValue(e.RowHandle, view.Columns["DEN_NGAY"], Convert.ToDateTime(view.GetRowCellValue(e.RowHandle, view.Columns["TU_NGAY"]))); return;
+                    
                 }
                 if (e.Column.Name != "colDEN_NGAY") return;
 

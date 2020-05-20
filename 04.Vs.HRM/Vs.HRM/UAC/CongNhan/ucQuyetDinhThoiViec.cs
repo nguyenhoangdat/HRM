@@ -21,6 +21,7 @@ namespace Vs.HRM
         }
         private void ucQuyetDinhThoiViec_Load(object sender, EventArgs e)
         {
+            formatText();
             Commons.Modules.sPS = "0Load";
             Commons.Modules.ObjSystems.LoadCboDonVi(cboSearch_DV);
             Commons.Modules.ObjSystems.LoadCboXiNghiep(cboSearch_DV, cboSearch_XN);
@@ -29,6 +30,18 @@ namespace Vs.HRM
             Commons.Modules.sPS = "";
             LoadCboLyDoThoiViec();
             LoadNguoiKy();
+        }
+        private void formatText()
+        {
+            LUONG_TOI_THIEUTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            TIEN_TRO_CAPTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            HS_LUONGTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            NGAY_PHEPTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeSL.ToString() + "";
+            LUONG_TINH_PHEPTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            TIEN_PHEPTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            TRO_CAP_KHACTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            TONG_CONGTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+
         }
         private void enableButon(bool visible)
         {
@@ -56,6 +69,7 @@ namespace Vs.HRM
 
                 case "xoa":
                     {
+                        XoaQuyetDinhThoiViec();
                         break;
                     }
                 case "luu":
@@ -103,14 +117,30 @@ LUONG_TINH_PHEPTextEdit.EditValue
                     }
                 case "thoat":
                     {
-                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-                        Application.Exit();
+                        Commons.Modules.ObjSystems.GotoHome(this);
                         break;
                     }
                 default:
                     break;
             }
         }
+        private void XoaQuyetDinhThoiViec()
+        {
+            if (grvCongNhan.RowCount == 0) { Commons.Modules.ObjSystems.msgChung(Commons.ThongBao.msgKhongCoDuLieuXoa); return; }
+            if (Commons.Modules.ObjSystems.msgHoi(Commons.ThongBao.msgXoa) == DialogResult.No) return;
+            //xóa
+            try
+            {
+                string sSql = "DELETE	 dbo.QUYET_DINH_THOI_VIEC WHERE ID_CN = "+ grvCongNhan.GetFocusedRowCellValue("ID_CN") + " UPDATE dbo.CONG_NHAN SET NGAY_NGHI_VIEC = NULL ,ID_LD_TV = NULL, ID_TT_HT = 1 WHERE ID_CN = " + grvCongNhan.GetFocusedRowCellValue("ID_CN") + "";
+                SqlHelper.ExecuteNonQuery(Commons.IConnections.CNStr, CommandType.Text, sSql);
+                LoadGridCongNhan(-1);
+            }
+            catch
+            {
+                Commons.Modules.ObjSystems.msgChung(Commons.ThongBao.msgKhongCoDuLieuXoa);
+            }
+        }
+
         private void cboSearch_TO_EditValueChanged(object sender, EventArgs e)
         {
             if (Commons.Modules.sPS == "0Load") return;
@@ -298,6 +328,14 @@ LUONG_TINH_PHEPTextEdit.EditValue
         private void TRO_CAP_KHACTextEdit_EditValueChanged(object sender, EventArgs e)
         {
             TONG_CONGTextEdit.EditValue = Convert.ToDouble(TIEN_TRO_CAPTextEdit.EditValue) + Convert.ToDouble(TIEN_PHEPTextEdit.EditValue) + Convert.ToDouble(TRO_CAP_KHACTextEdit.EditValue);
+        }
+
+        private void grdCongNhan_ProcessGridKey(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Delete)
+            {
+                XoaQuyetDinhThoiViec();
+            }
         }
     }
 }

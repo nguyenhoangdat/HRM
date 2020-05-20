@@ -50,6 +50,7 @@
     <Reference Include="DevExpress.Pdf.v19.1.Drawing, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.PivotGrid.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.RichEdit.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v19.1.Export, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Snap.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Snap.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Spreadsheet.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -71,6 +72,7 @@
     <Reference Include="DevExpress.XtraPivotGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v19.1.Extensions, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraRichEdit.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraScheduler.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraScheduler.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -120,6 +122,12 @@
     </Compile>
     <Compile Include="EmployeeView.Designer.cs">
       <DependentUpon>EmployeeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\BaoHiem\ucThamGiaBHXH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\BaoHiem\ucThamGiaBHXH.Designer.cs">
+      <DependentUpon>ucThamGiaBHXH.cs</DependentUpon>
     </Compile>
     <Compile Include="UAC\CongNhan\ctCongNhan\frmNDDanhGia.cs">
       <SubType>Form</SubType>
@@ -207,10 +215,10 @@
     <Compile Include="UAC\CongNhan\ucQuyetDinhThoiViec.Designer.cs">
       <DependentUpon>ucQuyetDinhThoiViec.cs</DependentUpon>
     </Compile>
-    <Compile Include="UAC\CongNhan\ucTroCapBHXH.cs">
+    <Compile Include="UAC\BaoHiem\ucTroCapBHXH.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UAC\CongNhan\ucTroCapBHXH.Designer.cs">
+    <Compile Include="UAC\BaoHiem\ucTroCapBHXH.Designer.cs">
       <DependentUpon>ucTroCapBHXH.cs</DependentUpon>
     </Compile>
     <Compile Include="UAC\CongNhan\ctCongNhan\ucCTQLNS.cs">
@@ -243,6 +251,24 @@
     <Compile Include="UAC\CongNhan\ctCongNhan\ucTaiNanLD.Designer.cs">
       <DependentUpon>ucTaiNanLD.cs</DependentUpon>
     </Compile>
+    <Compile Include="UAC\BaoHiem\ucBaoHiemYTe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\BaoHiem\ucBaoHiemYTe.Designer.cs">
+      <DependentUpon>ucBaoHiemYTe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\BaoHiem\ucNgungDongBHXH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\BaoHiem\ucNgungDongBHXH.Designer.cs">
+      <DependentUpon>ucNgungDongBHXH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ucCapNhatLCB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\CongNhan\ucCapNhatLCB.Designer.cs">
+      <DependentUpon>ucCapNhatLCB.cs</DependentUpon>
+    </Compile>
     <Compile Include="VS_HRMDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -257,6 +283,9 @@
     <EmbeddedResource Include="EmployeeView.resx">
       <DependentUpon>EmployeeView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UAC\BaoHiem\ucThamGiaBHXH.resx">
+      <DependentUpon>ucThamGiaBHXH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\frmNDDanhGia.resx">
       <DependentUpon>frmNDDanhGia.cs</DependentUpon>
     </EmbeddedResource>
@@ -265,7 +294,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -298,6 +327,9 @@
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucTienLuong.resx">
       <DependentUpon>ucTienLuong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UAC\CongNhan\ucCapNhatLCB.resx">
+      <DependentUpon>ucCapNhatLCB.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ucKeHoachNghiPhep.resx">
       <DependentUpon>ucKeHoachNghiPhep.cs</DependentUpon>
     </EmbeddedResource>
@@ -310,7 +342,7 @@
     <EmbeddedResource Include="UAC\CongNhan\ucQuyetDinhThoiViec.resx">
       <DependentUpon>ucQuyetDinhThoiViec.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UAC\CongNhan\ucTroCapBHXH.resx">
+    <EmbeddedResource Include="UAC\BaoHiem\ucTroCapBHXH.resx">
       <DependentUpon>ucTroCapBHXH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucCTQLNS.resx">
@@ -327,6 +359,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\CongNhan\ctCongNhan\ucTaiNanLD.resx">
       <DependentUpon>ucTaiNanLD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\BaoHiem\ucBaoHiemYTe.resx">
+      <DependentUpon>ucBaoHiemYTe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\BaoHiem\ucNgungDongBHXH.resx">
+      <DependentUpon>ucNgungDongBHXH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XtraForm1.resx">
       <DependentUpon>XtraForm1.cs</DependentUpon>
@@ -356,6 +394,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\01.VietSoftHRM\Vs.Report\Vs.Report.csproj">
+      <Project>{C0EAD626-A7D5-42E7-AE55-31617F8BD614}</Project>
+      <Name>Vs.Report</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\02.Common\Common\Commons.csproj">
       <Project>{375704a9-ba2d-4325-aa66-2fdd8ee246ca}</Project>
       <Name>Commons</Name>
@@ -407,7 +449,28 @@
     <None Include="Resources\phuluc.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\baohiem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capnhat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uncheck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xeploai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themsua.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

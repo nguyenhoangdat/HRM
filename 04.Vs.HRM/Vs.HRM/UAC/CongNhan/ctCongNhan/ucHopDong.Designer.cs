@@ -425,7 +425,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.NGAY_BAT_DAU_HDDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.NGAY_BAT_DAU_HDDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
+            this.NGAY_BAT_DAU_HDDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.Default;
             this.NGAY_BAT_DAU_HDDateEdit.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
             this.NGAY_BAT_DAU_HDDateEdit.Size = new System.Drawing.Size(96, 26);
             this.NGAY_BAT_DAU_HDDateEdit.StyleController = this.dataLayoutControl1;
@@ -459,7 +459,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.NGAY_KYDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.NGAY_KYDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
+            this.NGAY_KYDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.Default;
             this.NGAY_KYDateEdit.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
             this.NGAY_KYDateEdit.Size = new System.Drawing.Size(96, 26);
             this.NGAY_KYDateEdit.StyleController = this.dataLayoutControl1;
@@ -602,7 +602,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.NGAY_KT_THU_VIECDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.NGAY_KT_THU_VIECDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
+            this.NGAY_KT_THU_VIECDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.Default;
             this.NGAY_KT_THU_VIECDateEdit.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
             this.NGAY_KT_THU_VIECDateEdit.Size = new System.Drawing.Size(97, 26);
             this.NGAY_KT_THU_VIECDateEdit.StyleController = this.dataLayoutControl1;

@@ -108,7 +108,7 @@ namespace Vs.Category
                     case "luu":
                         {
                             if (!dxValidationProvider1.Validate()) return;
-                            Commons.Modules.sId = SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spUpdateTo", (bAddEditTo ? -1 : iIdTo), ID_XNLookUpEdit.EditValue, MS_TOTextEdit.EditValue, TEN_TOTextEdit.EditValue, TEN_TO_ANHTextEdit.EditValue, TEN_TO_HOATextEdit.EditValue, STT_TOTextEdit.EditValue).ToString();
+                            Commons.Modules.sId = SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spUpdateTo", (bAddEditTo ? -1 : iIdTo), ID_XNLookUpEdit.EditValue, MS_TOTextEdit.EditValue, TEN_TOTextEdit.EditValue, TEN_TO_ANHTextEdit.EditValue, TEN_TO_HOATextEdit.EditValue, STT_TOTextEdit.EditValue, Commons.Modules.UserName).ToString();
                             this.DialogResult = DialogResult.OK;
                             this.Close();
                             break;
@@ -128,6 +128,7 @@ namespace Vs.Category
         }
 
         private void frmEditTO_Resize(object sender, EventArgs e) => dataLayoutControl1.Refresh();
+
     }
 
 }

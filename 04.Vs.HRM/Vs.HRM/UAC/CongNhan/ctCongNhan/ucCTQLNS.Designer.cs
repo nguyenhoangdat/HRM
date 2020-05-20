@@ -139,6 +139,7 @@
             // 
             // navigationPage2
             // 
+            this.navigationPage2.Caption = "navigationPage2";
             this.navigationPage2.Name = "navigationPage2";
             this.navigationPage2.Size = new System.Drawing.Size(1033, 447);
             // 
@@ -213,7 +214,7 @@
             // labHopDong
             // 
             this.labHopDong.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labHopDong.Location = new System.Drawing.Point(224, 21);
+            this.labHopDong.Location = new System.Drawing.Point(323, 21);
             this.labHopDong.Name = "labHopDong";
             this.labHopDong.Size = new System.Drawing.Size(68, 20);
             this.labHopDong.StyleController = this.layoutControl1;
@@ -231,7 +232,7 @@
             // 
             // labelControl22
             // 
-            this.labelControl22.Location = new System.Drawing.Point(304, 21);
+            this.labelControl22.Location = new System.Drawing.Point(307, 21);
             this.labelControl22.Name = "labelControl22";
             this.labelControl22.Size = new System.Drawing.Size(4, 20);
             this.labelControl22.StyleController = this.layoutControl1;
@@ -241,7 +242,7 @@
             // labTienLuong
             // 
             this.labTienLuong.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labTienLuong.Location = new System.Drawing.Point(320, 21);
+            this.labTienLuong.Location = new System.Drawing.Point(224, 21);
             this.labTienLuong.Name = "labTienLuong";
             this.labTienLuong.Size = new System.Drawing.Size(71, 20);
             this.labTienLuong.StyleController = this.layoutControl1;
@@ -335,9 +336,7 @@
             this.layoutControlItem12,
             this.lciNotes,
             this.layoutControlItem2,
-            this.lciNotes1,
             this.layoutControlItem3,
-            this.lciNotes2,
             this.layoutControlItem4,
             this.lciNotes3,
             this.layoutControlItem5,
@@ -346,7 +345,9 @@
             this.lciNotes5,
             this.layoutControlItem7,
             this.lciNotes6,
-            this.layoutControlItem8});
+            this.layoutControlItem8,
+            this.lciNotes2,
+            this.lciNotes1});
             this.Root.Name = "Root";
             this.Root.Size = new System.Drawing.Size(1045, 501);
             this.Root.TextVisible = false;
@@ -440,7 +441,7 @@
             // 
             this.lciNotes1.Control = this.labHopDong;
             this.lciNotes1.CustomizationFormText = "lciNotes";
-            this.lciNotes1.Location = new System.Drawing.Point(213, 0);
+            this.lciNotes1.Location = new System.Drawing.Point(312, 0);
             this.lciNotes1.Name = "lciNotes1";
             this.lciNotes1.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.lciNotes1.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
@@ -454,7 +455,7 @@
             // 
             this.layoutControlItem3.Control = this.labelControl22;
             this.layoutControlItem3.CustomizationFormText = "layoutControlItem12";
-            this.layoutControlItem3.Location = new System.Drawing.Point(293, 0);
+            this.layoutControlItem3.Location = new System.Drawing.Point(296, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.layoutControlItem3.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
@@ -468,7 +469,7 @@
             // 
             this.lciNotes2.Control = this.labTienLuong;
             this.lciNotes2.CustomizationFormText = "lciNotes";
-            this.lciNotes2.Location = new System.Drawing.Point(309, 0);
+            this.lciNotes2.Location = new System.Drawing.Point(213, 0);
             this.lciNotes2.Name = "lciNotes2";
             this.lciNotes2.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.lciNotes2.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;

@@ -67,7 +67,7 @@
             this.accorMenuleft.Location = new System.Drawing.Point(0, 30);
             this.accorMenuleft.Name = "accorMenuleft";
             this.accorMenuleft.OptionsMinimizing.AllowMinimizeMode = DevExpress.Utils.DefaultBoolean.True;
-            this.accorMenuleft.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Auto;
+            this.accorMenuleft.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Hidden;
             this.accorMenuleft.ShowFilterControl = DevExpress.XtraBars.Navigation.ShowFilterControl.Always;
             this.accorMenuleft.ShowItemExpandButtons = false;
             this.accorMenuleft.Size = new System.Drawing.Size(213, 392);

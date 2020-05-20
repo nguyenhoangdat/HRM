@@ -1033,6 +1033,7 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Pdf.v19.1.Drawing.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Printing.v19.1.Core.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.RichEdit.v19.1.Export.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Snap.v19.1.Core.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Snap.v19.1.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
@@ -1053,6 +1054,7 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraPdfViewer.v19.1.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraReports.v19.1.dll
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraReports.v19.1.Extensions.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraScheduler.v19.1.Core.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraScheduler.v19.1.dll
@@ -1062,6 +1064,7 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraDiagram.v19.1.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Diagram.v19.1.Core.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraCharts.v19.1.Extensions.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Commons.pdb
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Commons.dll.config
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Data.v19.1.xml
@@ -1095,6 +1098,7 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraPdfViewer.v19.1.xml
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.xml
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraReports.v19.1.xml
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraReports.v19.1.Extensions.xml
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraScheduler.v19.1.xml
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraScheduler.v19.1.Core.xml
@@ -1211,6 +1215,10 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\de\DevExpress.XtraReports.v19.1.resources.d
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\es\DevExpress.XtraReports.v19.1.resources.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ja\DevExpress.XtraReports.v19.1.resources.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ru\DevExpress.XtraReports.v19.1.resources.dll
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\de\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\es\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ja\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ru\DevExpress.XtraReports.v19.1.Extensions.resources.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
@@ -1250,6 +1258,7 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ja\DevExpress.XtraNavBar.v19.1.resources.dl
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ru\DevExpress.XtraNavBar.v19.1.resources.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csprojAssemblyReference.cache
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmEditCONG_NHAN1.resources
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucThamGiaBHXH.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmNDDanhGia.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmDoanThe.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.Properties.Resources.resources
@@ -1261,6 +1270,7 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucHopDong.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucKhenThuong.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucLyLich.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucTienLuong.resources
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucCapNhatLCB.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucKeHoachNghiPhep.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucDaoTao.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucQLNS.resources
@@ -1271,6 +1281,8 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucBangCap.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucQTCongTac.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucDanhGia.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucTaiNanLD.resources
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucBaoHiemYTe.resources
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucNgungDongBHXH.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.XtraForm1.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.GenerateResource.cache
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.exe.licenses
@@ -1278,3 +1290,6 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CoreCompileInputs.cache
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CopyComplete
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.exe
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.pdb
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.Report.exe
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.Report.pdb
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.Report.exe.config

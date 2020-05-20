@@ -97,7 +97,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ucCongNhan";
             this.Size = new System.Drawing.Size(1301, 656);
-            this.Load += new System.EventHandler(this.ucSystems_Load);
+            this.Load += new System.EventHandler(this.ucCongNhan_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.accorMenuleft)).EndInit();
             this.ResumeLayout(false);

@@ -279,6 +279,7 @@
             this.grdCongNhan.TabIndex = 8;
             this.grdCongNhan.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvCongNhan});
+            this.grdCongNhan.ProcessGridKey += new System.Windows.Forms.KeyEventHandler(this.grdCongNhan_ProcessGridKey);
             // 
             // grvCongNhan
             // 
@@ -304,14 +305,14 @@
             // 
             // cboSearch_DV
             // 
-            this.cboSearch_DV.Location = new System.Drawing.Point(131, 6);
+            this.cboSearch_DV.Location = new System.Drawing.Point(80, 6);
             this.cboSearch_DV.Name = "cboSearch_DV";
             this.cboSearch_DV.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cboSearch_DV.Properties.NullText = "";
             this.cboSearch_DV.Properties.PopupView = this.searchLookUpEdit1View;
             this.cboSearch_DV.Properties.ShowFooter = false;
-            this.cboSearch_DV.Size = new System.Drawing.Size(214, 26);
+            this.cboSearch_DV.Size = new System.Drawing.Size(265, 26);
             this.cboSearch_DV.StyleController = this.dataLayoutControl1;
             this.cboSearch_DV.TabIndex = 4;
             this.cboSearch_DV.EditValueChanged += new System.EventHandler(this.cboSearch_DV_EditValueChanged);
@@ -325,14 +326,14 @@
             // 
             // cboSearch_XN
             // 
-            this.cboSearch_XN.Location = new System.Drawing.Point(472, 6);
+            this.cboSearch_XN.Location = new System.Drawing.Point(421, 6);
             this.cboSearch_XN.Name = "cboSearch_XN";
             this.cboSearch_XN.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cboSearch_XN.Properties.NullText = "";
             this.cboSearch_XN.Properties.PopupView = this.cboSearch_XNView;
             this.cboSearch_XN.Properties.ShowFooter = false;
-            this.cboSearch_XN.Size = new System.Drawing.Size(214, 26);
+            this.cboSearch_XN.Size = new System.Drawing.Size(265, 26);
             this.cboSearch_XN.StyleController = this.dataLayoutControl1;
             this.cboSearch_XN.TabIndex = 5;
             this.cboSearch_XN.EditValueChanged += new System.EventHandler(this.cboSearch_XN_EditValueChanged);
@@ -346,14 +347,14 @@
             // 
             // cboSearch_TO
             // 
-            this.cboSearch_TO.Location = new System.Drawing.Point(813, 6);
+            this.cboSearch_TO.Location = new System.Drawing.Point(762, 6);
             this.cboSearch_TO.Name = "cboSearch_TO";
             this.cboSearch_TO.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cboSearch_TO.Properties.NullText = "";
             this.cboSearch_TO.Properties.PopupView = this.cboSearch_TOView;
             this.cboSearch_TO.Properties.ShowFooter = false;
-            this.cboSearch_TO.Size = new System.Drawing.Size(227, 26);
+            this.cboSearch_TO.Size = new System.Drawing.Size(278, 26);
             this.cboSearch_TO.StyleController = this.dataLayoutControl1;
             this.cboSearch_TO.TabIndex = 6;
             this.cboSearch_TO.EditValueChanged += new System.EventHandler(this.cboSearch_TO_EditValueChanged);
@@ -381,11 +382,12 @@
             // ItemForDON_VI
             // 
             this.ItemForDON_VI.Control = this.cboSearch_DV;
-            this.ItemForDON_VI.CustomizationFormText = "ItemForDON_VI";
+            this.ItemForDON_VI.CustomizationFormText = "DON_VI";
             this.ItemForDON_VI.Location = new System.Drawing.Point(0, 0);
             this.ItemForDON_VI.Name = "ItemForDON_VI";
             this.ItemForDON_VI.Size = new System.Drawing.Size(341, 28);
-            this.ItemForDON_VI.TextSize = new System.Drawing.Size(122, 20);
+            this.ItemForDON_VI.Text = "DON_VI";
+            this.ItemForDON_VI.TextSize = new System.Drawing.Size(71, 20);
             // 
             // groupDSNhanVien
             // 
@@ -424,7 +426,8 @@
             this.ItemForTO.Location = new System.Drawing.Point(682, 0);
             this.ItemForTO.Name = "ItemForTO";
             this.ItemForTO.Size = new System.Drawing.Size(354, 28);
-            this.ItemForTO.TextSize = new System.Drawing.Size(122, 20);
+            this.ItemForTO.Text = "TO";
+            this.ItemForTO.TextSize = new System.Drawing.Size(71, 20);
             // 
             // ItemForXI_NGHIEP
             // 
@@ -433,7 +436,8 @@
             this.ItemForXI_NGHIEP.Location = new System.Drawing.Point(341, 0);
             this.ItemForXI_NGHIEP.Name = "ItemForXI_NGHIEP";
             this.ItemForXI_NGHIEP.Size = new System.Drawing.Size(341, 28);
-            this.ItemForXI_NGHIEP.TextSize = new System.Drawing.Size(122, 20);
+            this.ItemForXI_NGHIEP.Text = "XI_NGHIEP";
+            this.ItemForXI_NGHIEP.TextSize = new System.Drawing.Size(71, 20);
             // 
             // navigationFrame
             // 
@@ -453,7 +457,6 @@
             // 
             // navigationPage2
             // 
-            this.navigationPage2.Caption = "navigationPage2";
             this.navigationPage2.Controls.Add(this.dataLayoutControl2);
             this.navigationPage2.Name = "navigationPage2";
             this.navigationPage2.Size = new System.Drawing.Size(1046, 325);
@@ -513,7 +516,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.NGAY_NHAN_DONDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.NGAY_NHAN_DONDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
+            this.NGAY_NHAN_DONDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.Classic;
             this.NGAY_NHAN_DONDateEdit.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
             this.NGAY_NHAN_DONDateEdit.Size = new System.Drawing.Size(380, 26);
             this.NGAY_NHAN_DONDateEdit.StyleController = this.dataLayoutControl2;
@@ -532,7 +535,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.NGAY_THOI_VIECDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.NGAY_THOI_VIECDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
+            this.NGAY_THOI_VIECDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.Classic;
             this.NGAY_THOI_VIECDateEdit.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
             this.NGAY_THOI_VIECDateEdit.Size = new System.Drawing.Size(380, 26);
             this.NGAY_THOI_VIECDateEdit.StyleController = this.dataLayoutControl2;
@@ -559,7 +562,7 @@
             this.LUONG_TOI_THIEUTextEdit.Name = "LUONG_TOI_THIEUTextEdit";
             this.LUONG_TOI_THIEUTextEdit.Properties.Appearance.Options.UseTextOptions = true;
             this.LUONG_TOI_THIEUTextEdit.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.LUONG_TOI_THIEUTextEdit.Properties.Mask.EditMask = "F";
+            this.LUONG_TOI_THIEUTextEdit.Properties.Mask.EditMask = "N0";
             this.LUONG_TOI_THIEUTextEdit.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.LUONG_TOI_THIEUTextEdit.Properties.Mask.UseMaskAsDisplayFormat = true;
             this.LUONG_TOI_THIEUTextEdit.Properties.ReadOnly = true;
@@ -638,7 +641,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.NGAY_KYDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.NGAY_KYDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
+            this.NGAY_KYDateEdit.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.Classic;
             this.NGAY_KYDateEdit.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
             this.NGAY_KYDateEdit.Size = new System.Drawing.Size(304, 26);
             this.NGAY_KYDateEdit.StyleController = this.dataLayoutControl2;

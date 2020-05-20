@@ -14,14 +14,13 @@ namespace VietSoftHRM
         public int iLoai;
         public int iIDOut;
         public string slinkcha;
-        public ucCongNhan()
+        public ucCongNhan(TileBar tileBar)
         {
             InitializeComponent();
         }
         //load tất danh mục từ menu
         private void LoadCongNhan()
         {
-               
             DataTable dt = new DataTable();
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetMenuLeft", Commons.Modules.UserName, Commons.Modules.TypeLanguage, iLoai));
             foreach (DataRow item in dt.Rows)
@@ -102,7 +101,7 @@ namespace VietSoftHRM
                         ns.Dock = DockStyle.Fill;
                         break;
                     }
-              
+
                 default:
                     break;
             }
@@ -161,11 +160,44 @@ namespace VietSoftHRM
                         tc.Dock = DockStyle.Fill;
                         break;
                     }
+                case "mnuCapNhatLCB":
+                    {
+                        ucCapNhatLCB lcb = new ucCapNhatLCB();
+                        panel2.Controls.Clear();
+                        panel2.Controls.Add(lcb);
+                        lcb.Dock = DockStyle.Fill;
+                        break;
+                    }
+                case "mnuBaoHiemYTe":
+                    {
+                        ucBaoHiemYTe tc = new ucBaoHiemYTe();
+                        panel2.Controls.Clear();
+                        panel2.Controls.Add(tc);
+                        tc.Dock = DockStyle.Fill;
+                        break;
+                    }
+                case "mnuNgungBHXH":
+                    {
+                        ucNgungDongBHXH tc = new ucNgungDongBHXH();
+                        panel2.Controls.Clear();
+                        panel2.Controls.Add(tc);
+                        tc.Dock = DockStyle.Fill;
+                        break;
+                    }
+
+                case "mnuThamGiaBHXH":
+                    {
+                        ucThamGiaBHXH tc = new ucThamGiaBHXH();
+                        panel2.Controls.Clear();
+                        panel2.Controls.Add(tc);
+                        tc.Dock = DockStyle.Fill;
+                        break;
+                    }
                 default:
                     break;
             }
         }
-        private void ucSystems_Load(object sender, EventArgs e)
+        private void ucCongNhan_Load(object sender, EventArgs e)
         {
             slinkcha = lab_Link.Text;
             LoadCongNhan();
@@ -174,7 +206,7 @@ namespace VietSoftHRM
                 accorMenuleft.SelectElement(accorMenuleft.Elements[0].Elements[0]);
                 Element_Click(accorMenuleft.Elements[0].Elements[0], null);
             }
-            catch 
+            catch
             {
             }
         }

@@ -42,7 +42,9 @@ namespace Vs.HRM
             try
             {
                 var lable = sender as LabelControl;
-                if (tab == lable.Name) return;
+                if (Commons.Modules.iCongNhan == 0 && lable.Name != "labLyLich") return;
+
+                    if (tab == lable.Name) return;
                 foreach (LabelControl lc in List)
                 {
                     if (lable.Name == lc.Name)
@@ -59,12 +61,13 @@ namespace Vs.HRM
                     }
                 }
             }
-            catch (Exception ex)
+            catch
             {
             }
         }
         private void LoaduacCongNhan(string tenlable)
         {
+            
             switch (tenlable)
             {
                 case "labLyLich":
@@ -122,11 +125,30 @@ namespace Vs.HRM
         }
         private void LoadUac(XtraUserControl uac)
         {
+            if (checkfameexits(uac.Name).Tag != null)
+            {
+                navigationFrame1.SelectedPage = checkfameexits(uac.Name); return;
+            }
             uac.Dock = DockStyle.Fill;
             NavigationPage page = new NavigationPage();
+            page.Tag = uac.Name;
             page.Controls.Add(uac);
             navigationFrame1.Pages.Add(page);
             navigationFrame1.SelectedPage = page;
         }
+        private NavigationPage checkfameexits(string tab)
+        {
+            NavigationPage page = new NavigationPage();
+            foreach (NavigationPage item in navigationFrame1.Pages)
+            {
+                if (item.Tag == tab)
+                {
+                    page = item;
+                }
+
+            }
+            return page;
+        }
+
     }
 }

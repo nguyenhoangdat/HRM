@@ -27,12 +27,21 @@ namespace Vs.HRM
         #region sự kiện form
         private void ucTaiNanLD_Load(object sender, EventArgs e)
         {
+            formatText();
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_MUCDOLookUpEdit, Commons.Modules.ObjSystems.DataMucDoTN(false), "ID_MUCDO", "TEN_MUCDO", "TEN_MUCDO");
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_NGUYEN_NHANLookUpEdit, Commons.Modules.ObjSystems.DataNguyenNhanTN(false), "ID_NGUYEN_NHAN", "TEN_NGUYEN_NHAN", "TEN_NGUYEN_NHAN");
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_GAY_TAI_NANLookUpEdit, Commons.Modules.ObjSystems.DataYeuToTN(false), "ID_GAY_TAI_NAN", "TEN_YEU_TO", "TEN_YEU_TO");
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_NGHE_NGHIEPLookUpEdit, Commons.Modules.ObjSystems.DataNgheNghiep(false), "ID_NGHE_NGHIEP", "TEN_NGHE_NGHIEP", "TEN_NGHE_NGHIEP");
             LoadgrdTaiNan(-1);
             enableButon(true);
+        }
+        private void formatText()
+        {
+            CP_Y_TETextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            TRA_LUONGTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            BOI_THUONG_TCTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            GTRI_TB_THIET_HAITextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            SO_NGAY_NGHITextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeSL.ToString() + "";
         }
         private void windowsUIButton_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
         {
@@ -77,8 +86,7 @@ namespace Vs.HRM
                     }
                 case "thoat":
                     {
-                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-                        Application.Exit();
+                        Commons.Modules.ObjSystems.GotoHome(this);
                         break;
                     }
                 default:

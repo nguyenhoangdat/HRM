@@ -3,6 +3,7 @@ using System.Data;
 using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
+using DevExpress.XtraBars;
 using DevExpress.XtraBars.Navigation;
 using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
@@ -23,15 +24,18 @@ namespace VietSoftHRM
             LoadMenuCha();
             Commons.Modules.ObjSystems.ThayDoiNN(this);
             splashScreenManager1.CloseWaitForm();
+            lblUserName.Text = Commons.Modules.UserName;
+            radialMenu1.AddItems(GetRadialMenuItems(barManager1));
         }
         private void LoadMenuCha()
         {
-            TileBarGroup group1 = new TileBarGroup();
-            tileBar.Groups.Add(group1);
-            group1.Text = "OPERATIONS";
-            LoadTitleBar(group1);
+            //TileBarGroup group1 = new TileBarGroup();
+            //tileBar.Groups.Add(group1);
+            titlegroup.Text = "OPERATIONS";
+            LoadTitleBar(titlegroup);
             tileBar.ItemSize = 50;
             tileBar.WideTileWidth = 150;
+            tileBar.SelectedItem = titlegroup.GetTileItemByName("58");
         }
         private void LoadTitleBar(TileBarGroup group)
         {
@@ -51,9 +55,11 @@ namespace VietSoftHRM
                     itembar.Image = (Image)Properties.Resources.ResourceManager.GetObject(item["IMG"].ToString());
                     itembar.TextAlignment = TileItemContentAlignment.MiddleRight;
                     itembar.Tag = item["ID_MENU"].ToString();
-                    group.Items.Add(itembar);
+                    itembar.Name = item["ID_MENU"].ToString();
+                    titlegroup.Items.Add(itembar);
                 }
             }
+
             catch (Exception EX)
             {
                 XtraMessageBox.Show(EX.Message.ToString());
@@ -61,12 +67,14 @@ namespace VietSoftHRM
         }
         private void tileBar_SelectedItemChanged(object sender, TileItemEventArgs e)
         {
-            if (Convert.ToInt32(e.Item.Tag) == 2)
-            {
 
-            }
             switch (Convert.ToInt32(e.Item.Tag))
             {
+                case 58:
+                    {
+                        navigationFrame.SelectedPage = navigationPageHome;
+                        break;
+                    }
                 case 1:
                     {
                         LoaducHeThong(e);
@@ -104,7 +112,7 @@ namespace VietSoftHRM
 
         private void LoaducCongNhan(TileItemEventArgs e)
         {
-            ucCongNhan uacCN = new ucCongNhan();
+            ucCongNhan uacCN = new ucCongNhan(tileBar);
             uacCN.Dock = DockStyle.Fill;
             uacCN.iLoai = Convert.ToInt32(e.Item.Tag);
             uacCN.lab_Link.Text = e.Item.Text;
@@ -112,7 +120,6 @@ namespace VietSoftHRM
         }
         private void LoaducDanhMuc(TileItemEventArgs e)
         {
-            
             ucListDMuc uacDM = new ucListDMuc();
             uacDM.Dock = DockStyle.Fill;
             uacDM.iLoai = Convert.ToInt32(e.Item.Tag);
@@ -122,19 +129,97 @@ namespace VietSoftHRM
         }
         private void LoadUac(XtraUserControl uac)
         {
-            NavigationPage page = new NavigationPage();
-            page.Controls.Add(uac);
-            navigationFrame.Pages.Add(page);
-            navigationFrame.SelectedPage = page;
+            //kiểm tra tồn tại chưa nếu tồn tại rồi thì select page ngược lại thì load
+
+            if (checkfameexits(uac.Name).Tag != null)
+            {
+                navigationFrame.SelectedPage = checkfameexits(uac.Name);
+            }
+            else
+            {
+                NavigationPage page = new NavigationPage();
+                page.Tag = uac.Name;
+                page.Controls.Add(uac);
+                navigationFrame.Pages.Add(page);
+                navigationFrame.SelectedPage = page;
+            }
         }
+        private NavigationPage checkfameexits(string tab)
+        {
+            NavigationPage page = new NavigationPage();
+            foreach (NavigationPage item in navigationFrame.Pages)
+            {
+                if (item.Tag == tab)
+                {
+                    page = item;
+                }
+
+            }
+            return page;
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void navigationFrame_Click(object sender, EventArgs e)
+        private void dropDownButton1_ShowDropDownControl(object sender, ShowDropDownControlEventArgs e)
         {
+            Point pt = this.Location;
+            pt.Offset(new Point(this.Width, 0));
+            radialMenu1.ShowPopup(pt);
 
+
+        }
+        BarItem[] GetRadialMenuItems(BarManager barManager)
+        {
+            // Create bar items to display in Radial Menu
+            BarItem btnLogout = new BarButtonItem(barManager, "Logout");
+            btnLogout.ImageOptions.ImageUri.Uri = "Left;Size32x32";
+            btnLogout.ItemClick += BtnLogout_ItemClick;
+
+            // Sub-menu with 3 check buttons
+            BarSubItem btnLanguage = new BarSubItem(barManager, "Language");
+            btnLanguage.ImageOptions.ImageUri.Uri = "Left;Size32x32";
+            BarCheckItem btnViet = new BarCheckItem(barManager, false);
+            btnViet.Caption = "Việt";
+            btnViet.ImageOptions.ImageUri.Uri = "Left;Size32x32";
+            BarCheckItem btnAnh = new BarCheckItem(barManager, true);
+            btnAnh.Caption = "Anh";
+            btnAnh.ImageOptions.ImageUri.Uri = "Left;Size32x32";
+            BarCheckItem btnHoa = new BarCheckItem(barManager, false);
+            btnHoa.Caption = "Hoa";
+            btnHoa.ImageOptions.ImageUri.Uri = "Left;Size32x32";
+            BarItem[] subMenuLanguage = new BarItem[] { btnViet, btnAnh, btnHoa };
+            btnLanguage.AddItems(subMenuLanguage);
+
+
+            // submenu chang thems
+            BarSubItem btnThems = new BarSubItem(barManager, "Thems");
+            btnThems.ImageOptions.ImageUri.Uri = "Left;Size32x32";
+            BarCheckItem btnblu = new BarCheckItem(barManager, false);
+            btnblu.Caption = "blu";
+            btnblu.ImageOptions.ImageUri.Uri = "Left;Size32x32";
+            BarCheckItem btnred = new BarCheckItem(barManager, false);
+            btnred.Caption = "red";
+            btnred.ImageOptions.ImageUri.Uri = "Left;Size32x32";
+
+            BarItem[] subMenuThems = new BarItem[] { btnblu,btnred };
+            btnThems.AddItems(subMenuThems);
+            return new BarItem[] { btnLogout, btnLanguage, btnThems };
+        }
+
+        private void BtnLogout_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            radialMenu1.HidePopup();
+            this.Hide();
+            frmLogin login = new frmLogin();
+            login.Show();
+        }
+
+        private void radialMenu1_CloseUp(object sender, EventArgs e)
+        {
+  
         }
     }
 }

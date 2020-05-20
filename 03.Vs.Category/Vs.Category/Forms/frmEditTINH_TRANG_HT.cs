@@ -72,7 +72,7 @@ namespace Vs.Category
                     case "luu":
                         {
                             if (!dxValidationProvider1.Validate()) return;
-                            if (bKiemTrung()) return;
+                            //if (bKiemTrung()) return;
 
                             Commons.Modules.sId = SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spUpdateTINH_TRANG_HT", (bAddEditTTHT ? -1 : iIdTTHT),
                                 TEN_TT_HTTextEdit.EditValue, TEN_TT_HT_ATextEdit.EditValue, TEN_TT_HT_HTextEdit.EditValue).ToString();

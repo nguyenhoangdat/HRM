@@ -147,9 +147,10 @@ namespace VietSoftHRM
             LoadDanhMuc();
             try
             {
-                accorMenuleft.SelectElement(accorMenuleft.Elements["mnuNHOM"]);
+                accorMenuleft.SelectElement(accorMenuleft.Elements["mnuPhanQuyen"].Elements["mnuNHOM"]);
+                Elementchill_Click(accorMenuleft.Elements["mnuPhanQuyen"].Elements["mnuNHOM"], null);
             }
-            catch 
+            catch(Exception ex)
             {
             }
         }

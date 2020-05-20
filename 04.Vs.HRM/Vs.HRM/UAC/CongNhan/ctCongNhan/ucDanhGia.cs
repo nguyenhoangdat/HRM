@@ -20,7 +20,7 @@ namespace Vs.HRM
         {
             idcn = id;
             InitializeComponent();
-            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root}, windowsUIButton);
+            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>(){Root}, windowsUIButton);
         }
         #region sự kiện form
         private void ucDanhGia_Load(object sender, EventArgs e)
@@ -76,8 +76,7 @@ namespace Vs.HRM
                     }
                 case "thoat":
                     {
-                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-                        Application.Exit();
+                        Commons.Modules.ObjSystems.GotoHome(this);
                         break;
                     }
                 case "nddanhgia":

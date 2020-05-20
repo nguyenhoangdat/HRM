@@ -149,6 +149,12 @@
     <Compile Include="Forms\frmEditNGUOI_KY_GIAY_TO.Designer.cs">
       <DependentUpon>frmEditNGUOI_KY_GIAY_TO.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmEditPHUONG_XA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEditPHUONG_XA.Designer.cs">
+      <DependentUpon>frmEditPHUONG_XA.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmEditQUAN_HE_GD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,12 +215,6 @@
     <Compile Include="Forms\frmEditQUAN.Designer.cs">
       <DependentUpon>frmEditQUAN.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEditPHUONG_XA.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmEditPHUONG_XA.Designer.cs">
-      <DependentUpon>frmEditPHUONG_XA.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -259,6 +259,9 @@
     <EmbeddedResource Include="Forms\frmEditNGUOI_KY_GIAY_TO.resx">
       <DependentUpon>frmEditNGUOI_KY_GIAY_TO.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEditPHUONG_XA.resx">
+      <DependentUpon>frmEditPHUONG_XA.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmEditQUAN_HE_GD.resx">
       <DependentUpon>frmEditQUAN_HE_GD.cs</DependentUpon>
     </EmbeddedResource>
@@ -289,9 +292,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmEditQUAN.resx">
       <DependentUpon>frmEditQUAN.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmEditPHUONG_XA.resx">
-      <DependentUpon>frmEditPHUONG_XA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

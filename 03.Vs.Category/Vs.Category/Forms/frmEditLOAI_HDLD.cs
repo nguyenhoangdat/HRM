@@ -123,7 +123,7 @@ namespace Vs.Category
                 }
 
                 iKiem = 0;
-                if (!string.IsNullOrEmpty(TEN_LHDLD_ATextEdit.EditValue.ToString()))
+                if (!string.IsNullOrEmpty(TEN_LHDLD_ATextEdit.Text.ToString()))
                 {
                     iKiem = Convert.ToInt16(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spCheckData", "ID_LHDLD",
                         (bAddEditLHD ? "-1" : iIdLHD.ToString()), "LOAI_HDLD", "TEN_LHDLD_A", TEN_LHDLD_ATextEdit.EditValue.ToString(),
@@ -137,7 +137,7 @@ namespace Vs.Category
                 }
                 
                 iKiem = 0;
-                if (!string.IsNullOrEmpty(TEN_LHDLD_HTextEdit.EditValue.ToString()))
+                if (!string.IsNullOrEmpty(TEN_LHDLD_HTextEdit.Text.ToString()))
                 {
                     iKiem = Convert.ToInt16(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spCheckData", "ID_LHDLD",
                         (bAddEditLHD ? "-1" : iIdLHD.ToString()), "LOAI_HDLD", "TEN_LHDLD_H", TEN_LHDLD_HTextEdit.EditValue.ToString(),

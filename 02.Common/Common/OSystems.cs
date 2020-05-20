@@ -16,6 +16,8 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraTreeList;
+using DevExpress.XtraBars.Navigation;
+using DevExpress.Utils.Layout;
 
 namespace Commons
 {
@@ -72,8 +74,8 @@ namespace Commons
             try
             {
                 cbo.Properties.DataSource = null;
-                cbo.Properties.DisplayMember = "";
-                cbo.Properties.ValueMember = "";
+                //cbo.Properties.DisplayMember = "";
+                //cbo.Properties.ValueMember = "";
                 cbo.Properties.DataSource = dtTmp;
                 cbo.Properties.DisplayMember = Ten;
                 cbo.Properties.ValueMember = Ma;
@@ -100,6 +102,49 @@ namespace Commons
                 return false;
             }
         }
+
+
+        public bool MLoadLookUpEdit(DevExpress.XtraEditors.LookUpEdit cbo, DataTable dtTmp, string Ma, string Ten, string TenCot, bool CoNull)
+        {
+            try
+            {
+                if(CoNull)
+                dtTmp.Rows.Add(-99, "");
+                cbo.Properties.DataSource = null;
+                //cbo.Properties.DisplayMember = "";
+                //cbo.Properties.ValueMember = "";
+                cbo.Properties.DataSource = dtTmp;
+                cbo.Properties.DisplayMember = Ten;
+                cbo.Properties.ValueMember = Ma;
+                cbo.Properties.Columns.Clear();
+                cbo.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo(Ten));
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+                cbo.Properties.AppearanceDropDownHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+                cbo.Properties.BestFitMode = BestFitMode.BestFit;
+                cbo.Properties.SearchMode = SearchMode.AutoComplete;
+                if (CoNull)
+                    cbo.EditValue = dtTmp.Rows[dtTmp.Rows.Count-1][Ma];
+                else
+                    cbo.EditValue = dtTmp.Rows[0][Ma];
+                if (dtTmp.Rows.Count > 10)
+                    cbo.Properties.DropDownRows = 15;
+                else
+                    cbo.Properties.DropDownRows = 10;
+                cbo.Properties.Columns[Ten].Caption = TenCot;
+                if (TenCot.Trim() == "")
+                    cbo.Properties.ShowHeader = false;
+                else
+                    cbo.Properties.ShowHeader = true;
+                return true;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+        }
+
+
+
 
         public bool MLoadLookUpEdit(DevExpress.XtraEditors.LookUpEdit cbo, string sStored, string Ma, string Ten, string TenCot, bool bStored)
         {
@@ -732,7 +777,7 @@ namespace Commons
             {
                 if (gr.GetType().Name == "LayoutControlGroup")
                 {
-                    
+
                     LayoutControlGroup gro = (LayoutControlGroup)gr;
                     gro.Text = GetNN(dtTmp, gro.Name, frm.Name);
                     LoadNNGroupControl(frm, (LayoutControlGroup)gr, dtTmp);
@@ -819,11 +864,11 @@ namespace Commons
         }
 
 
-        public void ThayDoiNN(XtraUserControl frm, LayoutControlGroup group,TabbedControlGroup Tab, WindowsUIButtonPanel btnWinUIB)
+        public void ThayDoiNN(XtraUserControl frm, LayoutControlGroup group, TabbedControlGroup Tab, WindowsUIButtonPanel btnWinUIB)
         {
             DataTable dtTmp = new DataTable();
             dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + frm.Name + "' "));
-            frm.Text = GetNN(dtTmp,frm.Name, frm.Name);
+            frm.Text = GetNN(dtTmp, frm.Name, frm.Name);
             LoadNNGroupControl(frm, group, dtTmp);
             foreach (LayoutControlGroup item in Tab.TabPages)
             {
@@ -1702,7 +1747,7 @@ namespace Commons
                 SqlHelper.ExecuteReader(connectionString, CommandType.Text, sql);
                 return true;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -1794,6 +1839,7 @@ namespace Commons
             }
         }
         #endregion
+
         #region add combobox search
         public void AddCombSearchLookUpEdit(RepositoryItemSearchLookUpEdit cboSearch, string Value, string Display, GridView grv, DataTable dtTmp)
         {
@@ -1812,6 +1858,15 @@ namespace Commons
             cbo.ValueMember = Value;
             cbo.DisplayMember = Display;
             cbo.DataSource = tempt;
+            grv.Columns[Value].ColumnEdit = cbo;
+        }
+        public void AddCombXtra(string Value, string Display, GridView grv, DataTable dt)
+        {
+            RepositoryItemSearchLookUpEdit cbo = new RepositoryItemSearchLookUpEdit();
+            cbo.NullText = "";
+            cbo.ValueMember = Value;
+            cbo.DisplayMember = Display;
+            cbo.DataSource = dt;
             grv.Columns[Value].ColumnEdit = cbo;
         }
         public void AddCombXtra(string Value, string Display, GridView grv, DataTable tempt, bool Search)
@@ -1845,6 +1900,8 @@ namespace Commons
                 cbo.DisplayMember = Display;
                 cbo.DataSource = tempt;
                 grv.Columns[Value].ColumnEdit = cbo;
+                //cbo.pro.View.Columns["STT_XN"].Visible = false;
+                //cbo.Properties.Columns("ID").Visible = false;
             }
             catch (Exception)
             {
@@ -1869,7 +1926,7 @@ namespace Commons
             {
                 view.OptionsView.NewItemRowPosition = NewItemRowPosition.Bottom;
                 view.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
-                
+
             }
         }
         public void DeleteAddRow(GridView view)
@@ -1903,15 +1960,18 @@ namespace Commons
 
         public DataRow BLMCPC(Int64 idcn, DateTime ngayhd)
         {
+            
             DataTable tempt = new DataTable();
-            tempt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM [funGetLuongKyHopDong]("+idcn+",'"+ngayhd.ToString("MM/dd/yyyy")+"')"));
-            return tempt.Rows[0];
+            tempt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM [funGetLuongKyHopDong](" + idcn + ",'" + ngayhd.ToString("MM/dd/yyyy") + "')"));
+            if (tempt.Rows.Count == 0)
+                tempt.Rows.Add(idcn,0, 0, 0);
+            return tempt.Rows[0]; ;
         }
-        public DataRow TienTroCap(Int64 idcn, DateTime ngaynv,int idldtv)
+        public DataRow TienTroCap(Int64 idcn, DateTime ngaynv, int idldtv)
         {
             //ID_CN	LUONG_TRO_CAP	TIEN_TRO_CAP
             DataTable tempt = new DataTable();
-            tempt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM [dbo].[GetTienTroCap]('"+ngaynv.ToString("MM/dd/yyyy")+ "',"+idcn+","+ idldtv + ")"));
+            tempt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM [dbo].[GetTienTroCap]('" + ngaynv.ToString("MM/dd/yyyy") + "'," + idcn + "," + idldtv + ")"));
             return tempt.Rows[0];
         }
 
@@ -1926,6 +1986,7 @@ namespace Commons
 
 
         #endregion
+
         #region Loadcombo phân quyền
         public void LoadCboDonVi(SearchLookUpEdit cboSearch_DV)
         {
@@ -1971,7 +2032,6 @@ namespace Commons
         }
         #endregion
 
-
         #region data combobox hay dùng
         public DataTable DataLyDoVang(bool coAll)
         {
@@ -1995,6 +2055,14 @@ namespace Commons
             return dt;
         }
 
+
+        public DataTable DataBenhVien(bool coAll)
+        {
+            //ID_BV,TEN_BV
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboBenhVien", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            return dt;
+        }
         public DataTable DataQuan(int ID_TP, bool coAll)
         {
             //ID_QUAN,TEN_QUAN
@@ -2033,6 +2101,13 @@ namespace Commons
             //"ID_NL","TEN_NL"
             DataTable dt = new DataTable();
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboNgachLuong", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
+            return dt;
+        }
+        public DataTable DataCotCapNhat(bool coAll)
+        {
+            //"ID_COT","TEN_COT"
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboCotCapNhat", Commons.Modules.UserName, Commons.Modules.TypeLanguage, coAll));
             return dt;
         }
         public DataTable DataBacLuong(int idnl, bool coAll)
@@ -2205,6 +2280,7 @@ namespace Commons
 
         public DataTable DataTDVH(int LoaiTD, bool CoAll)
         {
+            //ID_TDVH,TEN_TDVH
             DataTable dt = new DataTable();
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboTrinhDo", LoaiTD, Commons.Modules.UserName, Commons.Modules.TypeLanguage, CoAll));
             return dt;
@@ -2228,8 +2304,16 @@ namespace Commons
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboCapGiayPhep", Commons.Modules.UserName, Commons.Modules.TypeLanguage, CoAll));
             return dt;
         }
-        #endregion
 
+        public DataTable DataLyDoGiamLDNN(bool CoAll)
+        {
+            //ID_LDG_LDNN,TEN_LDG_LDNN
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetComboLyDoGiamLDNN", Commons.Modules.UserName, Commons.Modules.TypeLanguage, CoAll));
+            return dt;
+        }
+
+        #endregion
 
         #region Định dạng
         public string sDinhDangSoLe(int iSoLe)
@@ -2255,8 +2339,67 @@ namespace Commons
             return sChuoi;
         }
         #endregion
+        #region MessageChung
+        //xoa
+        public DialogResult msgHoi(string sThongBao)
+        {
+            //ThongBao.Thông_Báo
 
+            DialogResult dl = XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage("frmChung", sThongBao),
+                 (Commons.Modules.TypeLanguage == 0 ? ThongBao.msgTBV.ToString() : ThongBao.msgTBA), MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            return dl;
+        }
 
+        public void msgChung(string sThongBao)
+        {
+            XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage("frmChung", sThongBao), (Commons.Modules.TypeLanguage == 0 ? ThongBao.msgTBV.ToString() : ThongBao.msgTBA), MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        public void msgChung(string sThongBao, string sLoi)
+        {
+            XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage("frmChung", sThongBao) + "\n" + sLoi, (Commons.Modules.TypeLanguage == 0 ? ThongBao.msgTBV.ToString() : ThongBao.msgTBA), MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
 
+        #endregion
+        public void MChooseGrid(bool bChose, string sCot, DevExpress.XtraGrid.Views.Grid.GridView grv)
+        {
+            try
+            {
+                int i;
+                i = 0;
+                for (i = 0; i <= grv.RowCount; i++)
+                {
+                    grv.SetRowCellValue(i, sCot, bChose);
+                    grv.UpdateCurrentRow();
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        public void GotoHome(XtraUserControl uc)
+        {
+            try
+            {
+                foreach (Control c in uc.ParentForm.Controls)
+                {
+                    if (c.GetType().Name.ToString() == "TablePanel")
+                    {
+                        TablePanel table = c as TablePanel;
+                        foreach (Control item in table.Controls)
+                        {
+                            if (item.GetType().Name.ToString() == "TileBar")
+                            {
+                                TileBar tb = item as TileBar;
+                                tb.SelectedItem = tb.GetTileGroupByName("titlegroup").GetTileItemByName("58");
+                            }
+                        }
+
+                    }
+
+                }
+            }
+            catch (Exception ex){}
+        }
     }
 }

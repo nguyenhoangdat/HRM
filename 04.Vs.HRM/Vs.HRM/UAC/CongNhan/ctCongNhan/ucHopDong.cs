@@ -7,7 +7,6 @@ using DevExpress.XtraEditors;
 using DevExpress.XtraBars.Docking2010;
 using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraLayout;
-
 namespace Vs.HRM
 {
     public partial class ucHopDong : DevExpress.XtraEditors.XtraUserControl
@@ -23,12 +22,23 @@ namespace Vs.HRM
         }
         private void UcHopDong_Load(object sender, EventArgs e)
         {
+            formatText();
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LHDLDLookUpEdit, Commons.Modules.ObjSystems.DataLoaiHDLD(false), "ID_LHDLD", "TEN_LHDLD", "TEN_LHDLD");
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_CVLookUpEdit, Commons.Modules.ObjSystems.DataChucVu(false), "ID_CV", "TEN_CV", "TEN_CV");
             Commons.Modules.ObjSystems.MLoadLookUpEdit(NGUOI_KY_GIA_HANLookUpEdit, Commons.Modules.ObjSystems.DataNguoiKy(), "ID_NK", "HO_TEN", "HO_TEN");
             LoadgrdHopDong(-1);
             enableButon(true);
         }
+
+        private void formatText()
+        {
+            LUONG_THU_VIECTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            MUC_LUONG_CHINHTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            CHI_SO_PHU_CAPTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+            MUC_LUONG_THUC_LINHTextEdit.Properties.Mask.EditMask = "N" + Commons.Modules.iSoLeTT.ToString() + "";
+        }
+
+
         private void WindowsUIButton_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
         {
             WindowsUIButton btn = e.Button as WindowsUIButton;
@@ -72,8 +82,7 @@ namespace Vs.HRM
                     }
                 case "thoat":
                     {
-                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-                        Application.Exit();
+                        Commons.Modules.ObjSystems.GotoHome(this);
                         break;
                     }
                 case "phuluchd":
@@ -255,7 +264,6 @@ namespace Vs.HRM
                 }
                 catch (Exception ex)
                 {
-                    XtraMessageBox.Show(ex.ToString());
                 }
             }
         }
@@ -382,10 +390,10 @@ namespace Vs.HRM
             {
                 NGAY_HET_HDDateEdit.EditValue = NGAY_BAT_DAU_HDDateEdit.DateTime.AddMonths(ithang);
             }
-            BAC_LUONGTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["BL"];
-            MUC_LUONG_CHINHTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["ML"];
-            CHI_SO_PHU_CAPTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["PC"];
-            MUC_LUONG_THUC_LINHTextEdit.EditValue = Convert.ToDouble(MUC_LUONG_CHINHTextEdit.EditValue) + Convert.ToDouble(CHI_SO_PHU_CAPTextEdit.EditValue);
+                BAC_LUONGTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["BL"];
+                MUC_LUONG_CHINHTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["ML"];
+                CHI_SO_PHU_CAPTextEdit.EditValue = Commons.Modules.ObjSystems.BLMCPC(idcn, NGAY_BAT_DAU_HDDateEdit.DateTime)["PC"];
+                MUC_LUONG_THUC_LINHTextEdit.EditValue = Convert.ToDouble(MUC_LUONG_CHINHTextEdit.EditValue) + Convert.ToDouble(CHI_SO_PHU_CAPTextEdit.EditValue);
         }
 
         private void NGAY_BD_THU_VIECDateEdit_EditValueChanged(object sender, EventArgs e)

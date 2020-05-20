@@ -67,7 +67,7 @@ namespace Vs.HRM
                     }
                 case "thoat":
                     {
-                        //if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
+                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
                         this.Close();
                         break;
                     }
@@ -122,7 +122,7 @@ namespace Vs.HRM
                     NOI_DUNG_THAY_DOIMemoEdit.EditValue = "";
                     TAI_LIEU_KEM_THEOMemoEdit.EditValue = "";
                 }
-                catch (Exception ex)
+                catch 
                 {
                     //XtraMessageBox.Show(ex.Message.ToString());
                 }
@@ -177,7 +177,7 @@ namespace Vs.HRM
                 LoadgrdToKhaiBHXH(n);
                 return true;
             }
-            catch (Exception ex)
+            catch 
             {
                 return false;
             }
@@ -192,7 +192,7 @@ namespace Vs.HRM
                 SqlHelper.ExecuteNonQuery(Commons.IConnections.CNStr, CommandType.Text, "DELETE	dbo.THAY_DOI_TO_KHAI_BHXH WHERE ID_HDLD  = " + idhdld + " AND SO_TK = " + grvToKhaiBHXH.GetFocusedRowCellValue("SO_TK") + "");
                 grvToKhaiBHXH.DeleteSelectedRows();
             }
-            catch (Exception ex)
+            catch
             {
             }
         }

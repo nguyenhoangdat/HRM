@@ -98,8 +98,7 @@ namespace Vs.HRM
                     }
                 case "thoat":
                     {
-                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-                        Application.Exit();
+                        Commons.Modules.ObjSystems.GotoHome(this);
                         break;
                     }
                 default:
@@ -168,7 +167,7 @@ namespace Vs.HRM
                           cothem));
                 LoadgrdTienLuong(n);
             }
-            catch (Exception ex)
+            catch 
             { }
         }
         private void DeleteData()

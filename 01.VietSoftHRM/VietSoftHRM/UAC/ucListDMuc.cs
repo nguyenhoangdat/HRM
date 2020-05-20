@@ -284,9 +284,7 @@ namespace VietSoftHRM
                     }
                 case "thoat":
                     {
-                        if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-                        Application.Exit();
-                        break;
+                        Commons.Modules.ObjSystems.GotoHome(this); break;
                     }
                 case "in":
                     {

@@ -86,10 +86,11 @@
             this.btnALL.ContentAlignment = System.Drawing.ContentAlignment.TopCenter;
             this.btnALL.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnALL.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnALL.Location = new System.Drawing.Point(0, 319);
+            this.btnALL.Location = new System.Drawing.Point(0, 491);
+            this.btnALL.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnALL.Name = "btnALL";
-            this.btnALL.Padding = new System.Windows.Forms.Padding(4, 6, 4, 3);
-            this.btnALL.Size = new System.Drawing.Size(608, 47);
+            this.btnALL.Padding = new System.Windows.Forms.Padding(5, 9, 5, 5);
+            this.btnALL.Size = new System.Drawing.Size(811, 72);
             this.btnALL.TabIndex = 11;
             this.btnALL.Text = "windowsUIButtonPanel2";
             this.btnALL.ButtonClick += new DevExpress.XtraBars.Docking2010.ButtonEventHandler(this.btnALL_ButtonClick);
@@ -103,12 +104,11 @@
             this.tablePanel1.Controls.Add(this.dataLayoutControl1);
             this.tablePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tablePanel1.Location = new System.Drawing.Point(0, 0);
-            this.tablePanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tablePanel1.Name = "tablePanel1";
             this.tablePanel1.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 10F),
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 90F)});
-            this.tablePanel1.Size = new System.Drawing.Size(608, 366);
+            this.tablePanel1.Size = new System.Drawing.Size(811, 563);
             this.tablePanel1.TabIndex = 10;
             // 
             // dataLayoutControl1
@@ -121,17 +121,19 @@
             this.dataLayoutControl1.Controls.Add(this.ID_QUANSearchLookUpEdit);
             this.dataLayoutControl1.Controls.Add(this.MS_XATextEdit);
             this.dataLayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataLayoutControl1.Location = new System.Drawing.Point(64, 40);
+            this.dataLayoutControl1.Location = new System.Drawing.Point(85, 61);
+            this.dataLayoutControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataLayoutControl1.Name = "dataLayoutControl1";
             this.dataLayoutControl1.Root = this.Root;
             this.tablePanel1.SetRow(this.dataLayoutControl1, 1);
-            this.dataLayoutControl1.Size = new System.Drawing.Size(480, 323);
+            this.dataLayoutControl1.Size = new System.Drawing.Size(641, 497);
             this.dataLayoutControl1.TabIndex = 0;
             this.dataLayoutControl1.Text = "dataLayoutControl1";
             // 
             // ID_TPSearchLookUpEdit
             // 
-            this.ID_TPSearchLookUpEdit.Location = new System.Drawing.Point(66, 12);
+            this.ID_TPSearchLookUpEdit.Location = new System.Drawing.Point(79, 10);
+            this.ID_TPSearchLookUpEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ID_TPSearchLookUpEdit.Name = "ID_TPSearchLookUpEdit";
             this.ID_TPSearchLookUpEdit.Properties.Appearance.Options.UseTextOptions = true;
             this.ID_TPSearchLookUpEdit.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
@@ -139,7 +141,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.ID_TPSearchLookUpEdit.Properties.NullText = "";
             this.ID_TPSearchLookUpEdit.Properties.PopupView = this.gridView1;
-            this.ID_TPSearchLookUpEdit.Size = new System.Drawing.Size(402, 20);
+            this.ID_TPSearchLookUpEdit.Size = new System.Drawing.Size(554, 26);
             this.ID_TPSearchLookUpEdit.StyleController = this.dataLayoutControl1;
             this.ID_TPSearchLookUpEdit.TabIndex = 8;
             this.ID_TPSearchLookUpEdit.EditValueChanged += new System.EventHandler(this.ID_TPSearchLookUpEdit_EditValueChanged);
@@ -153,9 +155,10 @@
             // 
             // TEN_PXTextEdit
             // 
-            this.TEN_PXTextEdit.Location = new System.Drawing.Point(66, 60);
+            this.TEN_PXTextEdit.Location = new System.Drawing.Point(79, 70);
+            this.TEN_PXTextEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TEN_PXTextEdit.Name = "TEN_PXTextEdit";
-            this.TEN_PXTextEdit.Size = new System.Drawing.Size(402, 20);
+            this.TEN_PXTextEdit.Size = new System.Drawing.Size(554, 26);
             this.TEN_PXTextEdit.StyleController = this.dataLayoutControl1;
             this.TEN_PXTextEdit.TabIndex = 4;
             conditionValidationRule1.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
@@ -164,23 +167,26 @@
             // 
             // TEN_PX_ATextEdit
             // 
-            this.TEN_PX_ATextEdit.Location = new System.Drawing.Point(66, 84);
+            this.TEN_PX_ATextEdit.Location = new System.Drawing.Point(79, 100);
+            this.TEN_PX_ATextEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TEN_PX_ATextEdit.Name = "TEN_PX_ATextEdit";
-            this.TEN_PX_ATextEdit.Size = new System.Drawing.Size(402, 20);
+            this.TEN_PX_ATextEdit.Size = new System.Drawing.Size(554, 26);
             this.TEN_PX_ATextEdit.StyleController = this.dataLayoutControl1;
             this.TEN_PX_ATextEdit.TabIndex = 5;
             // 
             // TEN_PX_HTextEdit
             // 
-            this.TEN_PX_HTextEdit.Location = new System.Drawing.Point(66, 108);
+            this.TEN_PX_HTextEdit.Location = new System.Drawing.Point(79, 130);
+            this.TEN_PX_HTextEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TEN_PX_HTextEdit.Name = "TEN_PX_HTextEdit";
-            this.TEN_PX_HTextEdit.Size = new System.Drawing.Size(402, 20);
+            this.TEN_PX_HTextEdit.Size = new System.Drawing.Size(554, 26);
             this.TEN_PX_HTextEdit.StyleController = this.dataLayoutControl1;
             this.TEN_PX_HTextEdit.TabIndex = 6;
             // 
             // ID_QUANSearchLookUpEdit
             // 
-            this.ID_QUANSearchLookUpEdit.Location = new System.Drawing.Point(66, 36);
+            this.ID_QUANSearchLookUpEdit.Location = new System.Drawing.Point(79, 40);
+            this.ID_QUANSearchLookUpEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ID_QUANSearchLookUpEdit.Name = "ID_QUANSearchLookUpEdit";
             this.ID_QUANSearchLookUpEdit.Properties.Appearance.Options.UseTextOptions = true;
             this.ID_QUANSearchLookUpEdit.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
@@ -188,7 +194,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.ID_QUANSearchLookUpEdit.Properties.NullText = "";
             this.ID_QUANSearchLookUpEdit.Properties.PopupView = this.searchLookUpEdit1View;
-            this.ID_QUANSearchLookUpEdit.Size = new System.Drawing.Size(402, 20);
+            this.ID_QUANSearchLookUpEdit.Size = new System.Drawing.Size(554, 26);
             this.ID_QUANSearchLookUpEdit.StyleController = this.dataLayoutControl1;
             this.ID_QUANSearchLookUpEdit.TabIndex = 7;
             conditionValidationRule2.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
@@ -204,9 +210,10 @@
             // 
             // MS_XATextEdit
             // 
-            this.MS_XATextEdit.Location = new System.Drawing.Point(66, 132);
+            this.MS_XATextEdit.Location = new System.Drawing.Point(79, 160);
+            this.MS_XATextEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MS_XATextEdit.Name = "MS_XATextEdit";
-            this.MS_XATextEdit.Size = new System.Drawing.Size(402, 20);
+            this.MS_XATextEdit.Size = new System.Drawing.Size(554, 26);
             this.MS_XATextEdit.StyleController = this.dataLayoutControl1;
             this.MS_XATextEdit.TabIndex = 8;
             // 
@@ -217,7 +224,7 @@
             this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlGroup1});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(480, 323);
+            this.Root.Size = new System.Drawing.Size(641, 497);
             this.Root.TextVisible = false;
             // 
             // layoutControlGroup1
@@ -233,56 +240,56 @@
             this.ItemForID_TP});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "autoGeneratedGroup0";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(460, 303);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(627, 481);
             // 
             // ItemForTEN_PX
             // 
             this.ItemForTEN_PX.AppearanceItemCaption.FontStyleDelta = System.Drawing.FontStyle.Bold;
             this.ItemForTEN_PX.AppearanceItemCaption.Options.UseFont = true;
             this.ItemForTEN_PX.Control = this.TEN_PXTextEdit;
-            this.ItemForTEN_PX.Location = new System.Drawing.Point(0, 48);
+            this.ItemForTEN_PX.Location = new System.Drawing.Point(0, 60);
             this.ItemForTEN_PX.Name = "ItemForTEN_PX";
-            this.ItemForTEN_PX.Size = new System.Drawing.Size(460, 24);
+            this.ItemForTEN_PX.Size = new System.Drawing.Size(627, 30);
             this.ItemForTEN_PX.Text = "TEN_PX";
-            this.ItemForTEN_PX.TextSize = new System.Drawing.Size(51, 13);
+            this.ItemForTEN_PX.TextSize = new System.Drawing.Size(67, 20);
             // 
             // ItemForTEN_PX_A
             // 
             this.ItemForTEN_PX_A.Control = this.TEN_PX_ATextEdit;
-            this.ItemForTEN_PX_A.Location = new System.Drawing.Point(0, 72);
+            this.ItemForTEN_PX_A.Location = new System.Drawing.Point(0, 90);
             this.ItemForTEN_PX_A.Name = "ItemForTEN_PX_A";
-            this.ItemForTEN_PX_A.Size = new System.Drawing.Size(460, 24);
+            this.ItemForTEN_PX_A.Size = new System.Drawing.Size(627, 30);
             this.ItemForTEN_PX_A.Text = "TEN_PX_A";
-            this.ItemForTEN_PX_A.TextSize = new System.Drawing.Size(51, 13);
+            this.ItemForTEN_PX_A.TextSize = new System.Drawing.Size(67, 20);
             // 
             // ItemForTEN_PX_H
             // 
             this.ItemForTEN_PX_H.Control = this.TEN_PX_HTextEdit;
-            this.ItemForTEN_PX_H.Location = new System.Drawing.Point(0, 96);
+            this.ItemForTEN_PX_H.Location = new System.Drawing.Point(0, 120);
             this.ItemForTEN_PX_H.Name = "ItemForTEN_PX_H";
-            this.ItemForTEN_PX_H.Size = new System.Drawing.Size(460, 24);
+            this.ItemForTEN_PX_H.Size = new System.Drawing.Size(627, 30);
             this.ItemForTEN_PX_H.Text = "TEN_PX_H";
-            this.ItemForTEN_PX_H.TextSize = new System.Drawing.Size(51, 13);
+            this.ItemForTEN_PX_H.TextSize = new System.Drawing.Size(67, 20);
             // 
             // ItemForMS_XA
             // 
             this.ItemForMS_XA.Control = this.MS_XATextEdit;
-            this.ItemForMS_XA.Location = new System.Drawing.Point(0, 120);
+            this.ItemForMS_XA.Location = new System.Drawing.Point(0, 150);
             this.ItemForMS_XA.Name = "ItemForMS_XA";
-            this.ItemForMS_XA.Size = new System.Drawing.Size(460, 183);
+            this.ItemForMS_XA.Size = new System.Drawing.Size(627, 331);
             this.ItemForMS_XA.Text = "MS_XA";
-            this.ItemForMS_XA.TextSize = new System.Drawing.Size(51, 13);
+            this.ItemForMS_XA.TextSize = new System.Drawing.Size(67, 20);
             // 
             // ItemForID_QUAN
             // 
             this.ItemForID_QUAN.AppearanceItemCaption.FontStyleDelta = System.Drawing.FontStyle.Bold;
             this.ItemForID_QUAN.AppearanceItemCaption.Options.UseFont = true;
             this.ItemForID_QUAN.Control = this.ID_QUANSearchLookUpEdit;
-            this.ItemForID_QUAN.Location = new System.Drawing.Point(0, 24);
+            this.ItemForID_QUAN.Location = new System.Drawing.Point(0, 30);
             this.ItemForID_QUAN.Name = "ItemForID_QUAN";
-            this.ItemForID_QUAN.Size = new System.Drawing.Size(460, 24);
+            this.ItemForID_QUAN.Size = new System.Drawing.Size(627, 30);
             this.ItemForID_QUAN.Text = "ID_QUAN";
-            this.ItemForID_QUAN.TextSize = new System.Drawing.Size(51, 13);
+            this.ItemForID_QUAN.TextSize = new System.Drawing.Size(67, 20);
             // 
             // ItemForID_TP
             // 
@@ -291,17 +298,18 @@
             this.ItemForID_TP.Control = this.ID_TPSearchLookUpEdit;
             this.ItemForID_TP.Location = new System.Drawing.Point(0, 0);
             this.ItemForID_TP.Name = "ItemForID_TP";
-            this.ItemForID_TP.Size = new System.Drawing.Size(460, 24);
+            this.ItemForID_TP.Size = new System.Drawing.Size(627, 30);
             this.ItemForID_TP.Text = "ID_TP";
-            this.ItemForID_TP.TextSize = new System.Drawing.Size(51, 13);
+            this.ItemForID_TP.TextSize = new System.Drawing.Size(67, 20);
             // 
             // frmEditPHUONG_XA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(608, 366);
+            this.ClientSize = new System.Drawing.Size(811, 563);
             this.Controls.Add(this.btnALL);
             this.Controls.Add(this.tablePanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmEditPHUONG_XA";
             this.Text = "frmEditPHUONG_XA";
             this.Load += new System.EventHandler(this.frmEditPHUONG_XA_Load);

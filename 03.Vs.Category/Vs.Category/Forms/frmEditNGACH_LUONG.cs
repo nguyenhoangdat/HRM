@@ -118,7 +118,7 @@ namespace Vs.Category
                 }
 
                 iKiem = 0;
-                if (!string.IsNullOrEmpty(TEN_NLTextEdit.EditValue.ToString()))
+                if (!string.IsNullOrEmpty(TEN_NLTextEdit.Text.ToString()))
                 {
                     iKiem = Convert.ToInt16(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spCheckData", "ID_NL", 
                         (AddEdit ? "-1" : Id.ToString()), "NGACH_LUONG", "TEN_NL", TEN_NLTextEdit.EditValue.ToString(),
@@ -131,7 +131,7 @@ namespace Vs.Category
                     }
                 }
                 iKiem = 0;
-                if (!string.IsNullOrEmpty(TEN_NL_ATextEdit.EditValue.ToString()))
+                if (!string.IsNullOrEmpty(TEN_NL_ATextEdit.Text.ToString()))
                 {
                     iKiem = Convert.ToInt16(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spCheckData", "ID_NL",
                         (AddEdit ? "-1" : Id.ToString()), "NGACH_LUONG", "TEN_NL_A", TEN_NL_ATextEdit.EditValue.ToString(),
@@ -144,7 +144,7 @@ namespace Vs.Category
                     }
                 }
                 iKiem = 0;
-                if (!string.IsNullOrEmpty(TEN_NL_HTextEdit.EditValue.ToString()))
+                if (!string.IsNullOrEmpty(TEN_NL_HTextEdit.Text.ToString()))
                 {
                     iKiem = Convert.ToInt16(SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, "spCheckData", "ID_NL",
                         (AddEdit ? "-1" : Id.ToString()), "NGACH_LUONG", "TEN_NL_H", TEN_NL_HTextEdit.EditValue.ToString(),

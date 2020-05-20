@@ -18,9 +18,9 @@ namespace Vs.HRM
         [STAThread]
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
             BonusSkins.Register();
             Commons.Modules.ModuleName = "HRM";
             Commons.Modules.UserName = "admin";

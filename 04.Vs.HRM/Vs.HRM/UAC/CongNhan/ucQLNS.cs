@@ -7,7 +7,6 @@ using DevExpress.XtraGrid.Views.Tile;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraBars.Navigation;
 using DevExpress.XtraLayout.Utils;
-
 namespace Vs.HRM
 {
     public partial class ucQLNS : DevExpress.XtraEditors.XtraUserControl
@@ -17,16 +16,24 @@ namespace Vs.HRM
         public ucQLNS()
         {
             InitializeComponent();
+            
         }
         private void ucQLNS_Load(object sender, EventArgs e)
         {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM dbo.CONG_NHAN"));
+            if (dt.Rows.Count == 0)
+            {
+                tileView1_DoubleClick(null, null);
+                return;
+            }
             Commons.Modules.sPS = "0Load";
             LoadCboDonVi();
             LoadCboXiNghiep();
             LoadCboTo();
+            LoadTinhTrangHopDong();
             LoadNhanSu(-1);
             Commons.Modules.sPS = "";
-            LoadTinhTrangHopDong();
         }
         private void LoadCboDonVi()
         {
@@ -107,6 +114,9 @@ namespace Vs.HRM
         {
             try
             {
+                
+
+
                 DataTable dtTmp = new DataTable();
                 dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetListNS", cboDV.EditValue, cboXN.EditValue, cboTo.EditValue, cbo_TTHT.EditValue, Commons.Modules.UserName, Commons.Modules.TypeLanguage));
                 dtTmp.PrimaryKey = new DataColumn[] { dtTmp.Columns["ID_CN"] };
@@ -118,7 +128,6 @@ namespace Vs.HRM
                 }
             }
             catch { }
-
         }
         private void tileView1_ItemCustomize(object sender, TileViewItemCustomizeEventArgs e)
         {

@@ -27,7 +27,6 @@ namespace VietSoftHRM
             Commons.Modules.iSoLeSL = 1;
             Commons.Modules.iSoLeDG = 2;
             Commons.Modules.iSoLeTT = 3;
-
             Commons.Modules.iGio = 8;
             Commons.Modules.iNNghi = 1;
             Commons.Modules.sSoLeSL = Commons.Modules.ObjSystems.sDinhDangSoLe(Commons.Modules.iSoLeSL);

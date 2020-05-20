@@ -150,12 +150,6 @@
     <Compile Include="Class\CustomFlyoutDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fdfMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fdfMain.Designer.cs">
-      <DependentUpon>fdfMain.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form\System\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -248,15 +242,18 @@
     <Compile Include="UAC\System\ucListUsers.Designer.cs">
       <DependentUpon>ucListUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="UAC\ucTrangChu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UAC\ucTrangChu.Designer.cs">
+      <DependentUpon>ucTrangChu.cs</DependentUpon>
+    </Compile>
     <Compile Include="XtraForm1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="XtraForm1.Designer.cs">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="fdfMain.resx">
-      <DependentUpon>fdfMain.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form\System\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -316,6 +313,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UAC\System\ucListUsers.resx">
       <DependentUpon>ucListUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC\ucTrangChu.resx">
+      <DependentUpon>ucTrangChu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XtraForm1.resx">
       <DependentUpon>XtraForm1.cs</DependentUpon>

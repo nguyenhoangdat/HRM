@@ -71,7 +71,7 @@ namespace Vs.HRM
                 case "thoat":
                     {
                         if (XtraMessageBox.Show(Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgBanCoMuonThoatChuongtrinh"), Commons.Modules.ObjLanguages.GetLanguage(this.Name, "msgTieuDeThoat"), MessageBoxButtons.YesNo) == DialogResult.No) return;
-                        Application.Exit();
+                        this.Close();
                         break;
                     }
                 default:
