@@ -16,7 +16,8 @@ namespace Vs.HRM
         public ucQLNS()
         {
             InitializeComponent();
-            
+            Commons.Modules.ObjSystems.ThayDoiNN(this,Root);
+
         }
         private void ucQLNS_Load(object sender, EventArgs e)
         {

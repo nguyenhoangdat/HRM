@@ -1,0 +1,586 @@
+D:\Tmp\VS.Report\VS.Report\bin\Debug\VS.Report.exe.config
+D:\Tmp\VS.Report\VS.Report\bin\Debug\VS.Report.exe
+D:\Tmp\VS.Report\VS.Report\bin\Debug\VS.Report.pdb
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Charts.v19.1.Core.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.CodeParser.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Data.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.DataAccess.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Office.v19.1.Core.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.PivotGrid.v19.1.Core.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.RichEdit.v19.1.Export.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Utils.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Utils.v19.1.UI.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Xpo.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraBars.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraGauges.v19.1.Core.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraReports.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraReports.v19.1.Extensions.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Images.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.DataAccess.v19.1.UI.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraPivotGrid.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.Extensions.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraDiagram.v19.1.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Diagram.v19.1.Core.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Data.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.DataAccess.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Office.v19.1.Core.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.PivotGrid.v19.1.Core.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Utils.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Utils.v19.1.UI.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Xpo.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraBars.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraGauges.v19.1.Core.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraReports.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraReports.v19.1.Extensions.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.DataAccess.v19.1.UI.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraNavBar.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraPivotGrid.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.XtraDiagram.v19.1.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\DevExpress.Diagram.v19.1.Core.xml
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.DataAccess.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.DataAccess.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.DataAccess.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.DataAccess.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.Utils.v19.1.UI.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.Utils.v19.1.UI.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.Utils.v19.1.UI.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.Utils.v19.1.UI.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraCharts.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraCharts.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraCharts.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraCharts.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraReports.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraReports.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraReports.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraReports.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.DataAccess.v19.1.UI.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.DataAccess.v19.1.UI.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.DataAccess.v19.1.UI.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.DataAccess.v19.1.UI.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraPivotGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraPivotGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.1.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\de\DevExpress.Diagram.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\es\DevExpress.Diagram.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ja\DevExpress.Diagram.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\bin\Debug\ru\DevExpress.Diagram.v19.1.Core.resources.dll
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.frmViewReport.resources
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.Properties.Resources.resources
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.rptThongTinChung.resources
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.rptTienThuongXepLoai.resources
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.XtraForm1.resources
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.XtraReport1.resources
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.csproj.GenerateResource.cache
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.exe.licenses
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.csproj.CoreCompileInputs.cache
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.csproj.CopyComplete
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.exe
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.pdb
+D:\Tmp\VS.Report\VS.Report\obj\Debug\VS.Report.csprojAssemblyReference.cache
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.csprojAssemblyReference.cache
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.frmViewReport.resources
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.Properties.Resources.resources
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.rptThongTinChung.resources
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.rptTienThuongXepLoai.resources
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.XtraForm1.resources
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.csproj.GenerateResource.cache
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.dll.licenses
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.csproj.CoreCompileInputs.cache
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\VS.Report.dll.config
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\VS.Report.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\VS.Report.pdb
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\Commons.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Charts.v19.1.Core.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.CodeParser.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Data.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.DataAccess.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Office.v19.1.Core.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.PivotGrid.v19.1.Core.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.RichEdit.v19.1.Export.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Utils.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Utils.v19.1.UI.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Xpo.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraBars.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraGauges.v19.1.Core.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraReports.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraReports.v19.1.Extensions.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Images.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.DataAccess.v19.1.UI.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraNavBar.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraPivotGrid.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.Extensions.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraDiagram.v19.1.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Diagram.v19.1.Core.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\Commons.pdb
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\Commons.dll.config
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Data.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.DataAccess.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Office.v19.1.Core.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.PivotGrid.v19.1.Core.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Utils.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Utils.v19.1.UI.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Xpo.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraBars.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraGauges.v19.1.Core.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraReports.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraReports.v19.1.Extensions.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.DataAccess.v19.1.UI.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraNavBar.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraPivotGrid.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.XtraDiagram.v19.1.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\DevExpress.Diagram.v19.1.Core.xml
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.DataAccess.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.DataAccess.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.DataAccess.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.DataAccess.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.PivotGrid.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.Utils.v19.1.UI.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.Utils.v19.1.UI.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.Utils.v19.1.UI.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.Utils.v19.1.UI.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraCharts.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraCharts.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraCharts.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraCharts.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraReports.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraReports.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraReports.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraReports.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraReports.v19.1.Extensions.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraRichEdit.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.DataAccess.v19.1.UI.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.DataAccess.v19.1.UI.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.DataAccess.v19.1.UI.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.DataAccess.v19.1.UI.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraNavBar.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.XtraPivotGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.XtraPivotGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.1.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\de\DevExpress.Diagram.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\es\DevExpress.Diagram.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ja\DevExpress.Diagram.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\bin\Debug\ru\DevExpress.Diagram.v19.1.Core.resources.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.csproj.CopyComplete
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.dll
+D:\02.VS.HRM\05.VS.Report\VS.Report\obj\Debug\VS.Report.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\VS.Report.dll.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\VS.Report.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\VS.Report.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\Commons.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.CodeParser.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Data.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.DataAccess.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Office.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Utils.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Xpo.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraBars.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraReports.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Images.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\Commons.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\Commons.dll.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Data.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.DataAccess.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Office.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Utils.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Xpo.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraBars.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraReports.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csprojAssemblyReference.cache
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.rptThamGiaBHXH.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.frmViewReport.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.Properties.Resources.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.rptThongTinChung.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.rptTienThuongXepLoai.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.XtraForm1.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csproj.GenerateResource.cache
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.dll.licenses
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csproj.CoreCompileInputs.cache
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csproj.CopyComplete
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.pdb

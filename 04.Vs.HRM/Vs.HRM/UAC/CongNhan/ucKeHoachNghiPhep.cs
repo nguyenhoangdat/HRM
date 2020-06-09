@@ -8,13 +8,13 @@ using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraLayout;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Vs.HRM
 {
     public partial class ucKeHoachNghiPhep : DevExpress.XtraEditors.XtraUserControl
     {
         public static ucKeHoachNghiPhep _instance;
-
         public static ucKeHoachNghiPhep Instance
         {
             get
@@ -32,6 +32,8 @@ namespace Vs.HRM
         }
         private void ucKeHoachNghiPhep_Load(object sender, EventArgs e)
         {
+            Thread.Sleep(1000);
+            dateNam.EditValue = DateTime.Now;
             enableButon(true);
             Commons.Modules.sPS = "0Load";
             Commons.Modules.ObjSystems.LoadCboDonVi(cboSearch_DV);
@@ -39,7 +41,6 @@ namespace Vs.HRM
             Commons.Modules.ObjSystems.LoadCboTo(cboSearch_DV, cboSearch_XN, cboSearch_TO);
             LoadGrdCongNhan(false);
             Commons.Modules.sPS = "";
-            dateNam.EditValue = DateTime.Now;
             radTinHTrang.SelectedIndex = 1;
         }
         private void LoadCboDonVi()
@@ -101,7 +102,7 @@ namespace Vs.HRM
         private void LoadGrdCongNhan(bool cochon)
         {
             DataTable dt = new DataTable();
-            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetCongNhanNghiPhep", cboSearch_DV.EditValue, cboSearch_XN.EditValue, cboSearch_TO.EditValue, Commons.Modules.UserName, Commons.Modules.TypeLanguage));
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetCongNhanNghiPhep", cboSearch_DV.EditValue, cboSearch_XN.EditValue, cboSearch_TO.EditValue, dateNam.DateTime.Year,Commons.Modules.UserName, Commons.Modules.TypeLanguage));
             Commons.Modules.ObjSystems.MLoadXtraGrid(grdDSCN, grvDSCN, dt, false, false, true, true, true, "");
             dt.Columns["CHON"].ReadOnly = false;
             grvDSCN.Columns["CHON"].Visible = false;

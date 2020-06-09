@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Drawing;
 using System.Data;
-using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
 using System.IO;
 using DevExpress.XtraBars.Docking2010;
+
 namespace Vs.HRM
 {
     public partial class ucLyLich : DevExpress.XtraEditors.XtraUserControl
@@ -23,45 +23,45 @@ namespace Vs.HRM
             Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_QGLookUpEdit, Commons.Modules.ObjSystems.DataQuocGia(false), "ID_QG", "TEN_QG", "TEN_QG");
             //ID_TOLookupEdit
             //ID_CVLookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_CVLookUpEdit, Commons.Modules.ObjSystems.DataChucVu(false), "ID_CV", "TEN_CV", "TEN_CV",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_CVLookUpEdit, Commons.Modules.ObjSystems.DataChucVu(false), "ID_CV", "TEN_CV", "TEN_CV", true);
 
             //ID_LCVLookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LCVLookUpEdit, Commons.Modules.ObjSystems.DataLoaiCV(false), "ID_LCV", "TEN_LCV", "TEN_LCV",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LCVLookUpEdit, Commons.Modules.ObjSystems.DataLoaiCV(false), "ID_LCV", "TEN_LCV", "TEN_LCV", true);
 
             //ID_LHDLDLookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LHDLDLookUpEdit, Commons.Modules.ObjSystems.DataLoaiHDLD(false), "ID_LHDLD", "TEN_LHDLD", "TEN_LHDLD",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LHDLDLookUpEdit, Commons.Modules.ObjSystems.DataLoaiHDLD(false), "ID_LHDLD", "TEN_LHDLD", "TEN_LHDLD", true);
 
             //ID_TT_HDLookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TT_HDLookUpEdit, Commons.Modules.ObjSystems.DataTinHTrangHD(false), "ID_TT_HD", "TEN_TT_HD", "TEN_TT_HD",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TT_HDLookUpEdit, Commons.Modules.ObjSystems.DataTinHTrangHD(false), "ID_TT_HD", "TEN_TT_HD", "TEN_TT_HD", true);
 
             //ID_TT_HTLookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TT_HTLookUpEdit, Commons.Modules.ObjSystems.DataTinHTrangHT(false), "ID_TT_HT", "TEN_TT_HT", "TEN_TT_HT",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TT_HTLookUpEdit, Commons.Modules.ObjSystems.DataTinHTrangHT(false), "ID_TT_HT", "TEN_TT_HT", "TEN_TT_HT", true);
             //HINH_THUC_TUYENLookUpEdit populor
 
             //ID_LD_TVLookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LD_TVLookUpEdit, Commons.Modules.ObjSystems.DataLyDoThoiViec(), "ID_LD_TV", "TEN_LD_TV", "TEN_LD_TV",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LD_TVLookUpEdit, Commons.Modules.ObjSystems.DataLyDoThoiViec(), "ID_LD_TV", "TEN_LD_TV", "TEN_LD_TV", true);
             //ID_DTLookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_DTLookUpEdit, Commons.Modules.ObjSystems.DataDanToc(false), "ID_DT", "TEN_DT", "TEN_DT",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_DTLookUpEdit, Commons.Modules.ObjSystems.DataDanToc(false), "ID_DT", "TEN_DT", "TEN_DT", true);
             ////////TON_GIAOLookUpEdit populor
             ////////NOI_SINHLookUpEdit populor
             ////////NGUYEN_QUANLookUpEdit populor
 
             //NOI_CAPLookupEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(NOI_CAPLookupEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(NOI_CAPLookupEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP", true);
             //ID_TT_HNLookUpEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TT_HNLookUpEdit, Commons.Modules.ObjSystems.DataTinHTrangHN(false), "ID_TT_HN", "TEN_TT_HN", "TEN_TT_HN",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TT_HNLookUpEdit, Commons.Modules.ObjSystems.DataTinHTrangHN(false), "ID_TT_HN", "TEN_TT_HN", "TEN_TT_HN", true);
             //ID_TPLookUpEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TPLookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TPLookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP", true);
             //ID_QUANLookEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_QUANLookEdit, Commons.Modules.ObjSystems.DataQuan(Convert.ToInt32(ID_TPLookUpEdit.EditValue), false), "ID_QUAN", "TEN_QUAN", "TEN_QUAN",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_QUANLookEdit, Commons.Modules.ObjSystems.DataQuan(Convert.ToInt32(ID_TPLookUpEdit.EditValue), false), "ID_QUAN", "TEN_QUAN", "TEN_QUAN", true);
             //ID_PXLookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_PXLookUpEdit, Commons.Modules.ObjSystems.DataPhuongXa(Convert.ToInt32(ID_QUANLookEdit.EditValue), false), "ID_PX", "TEN_PX", "TEN_PX",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_PXLookUpEdit, Commons.Modules.ObjSystems.DataPhuongXa(Convert.ToInt32(ID_QUANLookEdit.EditValue), false), "ID_PX", "TEN_PX", "TEN_PX", true);
             //ID_TP_TAM_TRULookUpEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TP_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TP_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP", true);
             //ID_QUAN_TAM_TRULookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_QUAN_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataQuan(Convert.ToInt32(ID_TP_TAM_TRULookUpEdit.EditValue), false), "ID_QUAN", "TEN_QUAN", "TEN_QUAN",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_QUAN_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataQuan(Convert.ToInt32(ID_TP_TAM_TRULookUpEdit.EditValue), false), "ID_QUAN", "TEN_QUAN", "TEN_QUAN", true);
             //ID_PX_TAM_TRULookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_PX_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataPhuongXa(Convert.ToInt32(ID_QUAN_TAM_TRULookUpEdit.EditValue), false), "ID_PX", "TEN_PX", "TEN_PX",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_PX_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataPhuongXa(Convert.ToInt32(ID_QUAN_TAM_TRULookUpEdit.EditValue), false), "ID_PX", "TEN_PX", "TEN_PX", true);
             //đơn vị 
             Commons.Modules.ObjSystems.MLoadSearchLookUpEdit(ID_DVLookUpEdit, Commons.Modules.ObjSystems.DataDonVi(), "ID_DV", "TEN_DV", "TEN_DV");
             //xí nghiệp 
@@ -69,15 +69,15 @@ namespace Vs.HRM
             //tổ
             Commons.Modules.ObjSystems.MLoadSearchLookUpEdit(ID_TOLookupEdit, Commons.Modules.ObjSystems.DataTo(Convert.ToInt32(ID_DVLookUpEdit.EditValue), Convert.ToInt32(ID_XNLookUpEdit.EditValue), false), "ID_TO", "TEN_TO", "TEN_TO");
             //ID_LOAI_TDLookUpEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LOAI_TDLookUpEdit, Commons.Modules.ObjSystems.DataLoaiTrinhDo(false), "ID_LOAI_TD", "TEN_LOAI_TD", "TEN_LOAI_TD",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_LOAI_TDLookUpEdit, Commons.Modules.ObjSystems.DataLoaiTrinhDo(false), "ID_LOAI_TD", "TEN_LOAI_TD", "TEN_LOAI_TD", true);
             //ID_TDVHLookUpEdit ID_TDVH,TEN_TDVH
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TDVHLookUpEdit, Commons.Modules.ObjSystems.DataTDVH(Convert.ToInt32(ID_LOAI_TDLookUpEdit.EditValue), false), "ID_TDVH", "TEN_TDVH", "TEN_TDVH",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TDVHLookUpEdit, Commons.Modules.ObjSystems.DataTDVH(Convert.ToInt32(ID_LOAI_TDLookUpEdit.EditValue), false), "ID_TDVH", "TEN_TDVH", "TEN_TDVH", true);
             //LOAI_QUOC_TICHLookUpEdit
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(LOAI_QUOC_TICHLookUpEdit, Commons.Modules.ObjSystems.DataLoaiQuocTich(false), "ID_LOAI_QT", "TEN_LOAI_QT", "TEN_LOAI_QT",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(LOAI_QUOC_TICHLookUpEdit, Commons.Modules.ObjSystems.DataLoaiQuocTich(false), "ID_LOAI_QT", "TEN_LOAI_QT", "TEN_LOAI_QT", true);
             //CAP_GIAY_PHEPLookUpEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(CAP_GIAY_PHEPLookUpEdit, Commons.Modules.ObjSystems.DataCapGiayPhep(false), "ID_CAP_GIAY_PHEP", "TEN_CAP_GIAY_PHEP", "TEN_CAP_GIAY_PHEP",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(CAP_GIAY_PHEPLookUpEdit, Commons.Modules.ObjSystems.DataCapGiayPhep(false), "ID_CAP_GIAY_PHEP", "TEN_CAP_GIAY_PHEP", "TEN_CAP_GIAY_PHEP", true);
             //CAP_GIAY_PHEPLookUpEdit 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(LD_GIAM_LDNNLookUpEdit, Commons.Modules.ObjSystems.DataLyDoGiamLDNN(false), "ID_LDG_LDNN", "TEN_LDG_LDNN", "TEN_LDG_LDNN",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(LD_GIAM_LDNNLookUpEdit, Commons.Modules.ObjSystems.DataLyDoGiamLDNN(false), "ID_LDG_LDNN", "TEN_LDG_LDNN", "TEN_LDG_LDNN", true);
             Commons.Modules.sPS = "";
             enableButon(true);
             BinDingData(cothem);
@@ -176,14 +176,14 @@ namespace Vs.HRM
                 NGAY_SINHDateEdit.EditValue = null;
                 NAM_SINHDateEdit.EditValue = null;
                 PHAICheckEdit.EditValue = false;
-                //ID_TOLookupEdit.EditValue = "";
-                //ID_CVLookUpEdit.EditValue = "";
-                //ID_LCVLookUpEdit.EditValue = "";
+                ID_TOLookupEdit.EditValue = null;
+                ID_CVLookUpEdit.EditValue = null;
+                ID_LCVLookUpEdit.EditValue = null;
                 NGAY_HOC_VIECDateEdit.EditValue = null;
                 NGAY_THU_VIECDateEdit.EditValue = null;
                 NGAY_VAO_LAMDateEdit.EditValue = null;
-                //ID_TT_HDLookUpEdit.EditValue = "";
-                //ID_TT_HTLookUpEdit.EditValue = "";
+                ID_TT_HDLookUpEdit.EditValue = null;
+                ID_TT_HTLookUpEdit.EditValue = null;
                 HINH_THUC_TUYENTextEdit.EditValue = "";
                 PHEP_CTTextEdit.EditValue = 0;
                 PHEP_CDTextEdit.EditValue = 0;
@@ -212,14 +212,14 @@ namespace Vs.HRM
                 DT_NGUOI_THANTextEdit.EditValue = "";
                 EMAILTextEdit.EditValue = "";
                 DIA_CHI_THUONG_TRUTextEdit.EditValue = "";
-                //ID_TPLookUpEdit.EditValue = "";
-                //ID_QUANLookEdit.EditValue = "";
-                //ID_PXLookUpEdit.EditValue = "";
+                ID_TPLookUpEdit.EditValue = "";
+                ID_QUANLookEdit.EditValue = "";
+                ID_PXLookUpEdit.EditValue = "";
                 THON_XOMTextEdit.EditValue = "";
                 DIA_CHI_TAM_TRUTextEdit.EditValue = "";
-                //ID_TP_TAM_TRULookUpEdit.EditValue = "";
-                //ID_QUAN_TAM_TRULookUpEdit.EditValue = "";
-                //ID_PX_TAM_TRULookUpEdit.EditValue = "";
+                ID_TP_TAM_TRULookUpEdit.EditValue = "";
+                ID_QUAN_TAM_TRULookUpEdit.EditValue = "";
+                ID_PX_TAM_TRULookUpEdit.EditValue = "";
                 THON_XOM_TAM_TRUTextEdit.EditValue = "";
                 SO_BHXHTextEdit.EditValue = "";
                 NGAY_DBHXHDateEdit.EditValue = null;
@@ -514,9 +514,9 @@ namespace Vs.HRM
             if (ID_QGLookUpEdit.EditValue.ToString() == "") return;
             if (Commons.Modules.sPS == "0Load") return;
             Commons.Modules.sPS = "0Load";
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TPLookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TPLookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP", true);
 
-            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TP_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP",true);
+            Commons.Modules.ObjSystems.MLoadLookUpEdit(ID_TP_TAM_TRULookUpEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP", true);
 
             Commons.Modules.ObjSystems.MLoadLookUpEdit(NOI_CAPLookupEdit, Commons.Modules.ObjSystems.DataThanhPho(Convert.ToInt32(ID_QGLookUpEdit.EditValue), false), "ID_TP", "TEN_TP", "TEN_TP", true);
 
@@ -585,6 +585,11 @@ namespace Vs.HRM
             //tổ
             Commons.Modules.ObjSystems.MLoadSearchLookUpEdit(ID_TOLookupEdit, Commons.Modules.ObjSystems.DataTo(Convert.ToInt32(ID_DVLookUpEdit.EditValue), Convert.ToInt32(ID_XNLookUpEdit.EditValue), false), "ID_TO", "TEN_TO", "TEN_TO");
             Commons.Modules.sPS = "";
+        }
+
+        private void ID_LCVLookUpEdit_EditValueChanged(object sender, EventArgs e)
+        {
+            PHEP_CTTextEdit.Text = SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT [dbo].[funPhepCongThem]("+ID_LCVLookUpEdit.EditValue+")").ToString();
         }
     }
 }

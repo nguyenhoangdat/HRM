@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Data;
-using System.Windows.Forms;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;

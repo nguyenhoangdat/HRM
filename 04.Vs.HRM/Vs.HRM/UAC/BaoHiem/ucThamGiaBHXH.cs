@@ -6,12 +6,23 @@ using DevExpress.XtraBars.Docking2010;
 using System.Collections.Generic;
 using DevExpress.XtraLayout;
 using DevExpress.Utils;
+using VS.Report;
 using Vs.Report;
 
 namespace Vs.HRM
 {
     public partial class ucThamGiaBHXH : DevExpress.XtraEditors.XtraUserControl
     {
+        public static ucThamGiaBHXH _instance;
+        public static ucThamGiaBHXH Instance
+        {
+            get
+            {
+                if (_instance == null)
+                    _instance = new ucThamGiaBHXH();
+                return _instance;
+            }
+        }
         public ucThamGiaBHXH()
         {
             InitializeComponent();
@@ -19,6 +30,7 @@ namespace Vs.HRM
         }
         private void ucThamGiaBHXH_Load(object sender, EventArgs e)
         {
+
             Commons.Modules.sPS = "0Load";
             Commons.Modules.ObjSystems.LoadCboDonVi(cboDV);
             Commons.Modules.ObjSystems.LoadCboXiNghiep(cboDV, cboXN);
@@ -75,12 +87,13 @@ namespace Vs.HRM
         private void InDuLieu()
         {
             frmViewReport frm = new frmViewReport();
-            frm.rpt = new rptTroCapBHXH();
-            //string sCo = @"Server=.;database=VS_HRM;uid=sa;pwd=123;Connect Timeout=9999;";
-            DataTable dt = Commons.Modules.ObjSystems.ConvertDatatable(grvThamGiaBHXH);
-            dt.TableName = "THAM_GIA_BHXH";
+            frm.rpt = new rptThamGiaBHXH();
+            DataTable dt = new DataTable();
+            dt = Commons.Modules.ObjSystems.ConvertDatatable(grvThamGiaBHXH);
+            dt.TableName = "DATA_REPORT";
             frm.AddDataSource(dt);
-            frm.Show();
+            frm.AddDataSource(dt);
+            frm.ShowDialog();
         }
 
         #region hàm xử lý dữ liệu
@@ -129,10 +142,13 @@ namespace Vs.HRM
                     dt.Rows[i]["NAM_DONG"] = SoNam(dt.Rows[i]["TU_THANG"].ToString(), dt.Rows[i]["DEN_THANG"].ToString(), out resulst);
                     dt.Rows[i]["THANG_DONG"] = resulst;
                 }
-                dt.Rows[dt.Rows.Count - 1]["TU_THANG"] = dt.Rows[dt.Rows.Count - 1]["DEN_THANG"];
-                dt.Rows[dt.Rows.Count - 1]["DEN_THANG"] = DateTime.Today.AddMonths(-1).ToString("MM/yyyy");
-                dt.Rows[dt.Rows.Count - 1]["NAM_DONG"] = SoNam(dt.Rows[dt.Rows.Count - 1]["TU_THANG"].ToString(), dt.Rows[dt.Rows.Count - 1]["DEN_THANG"].ToString(), out resulst);
-                dt.Rows[dt.Rows.Count - 1]["THANG_DONG"] = resulst;
+                if (dt.Rows.Count > 1)
+                {
+                    dt.Rows[dt.Rows.Count - 1]["TU_THANG"] = dt.Rows[dt.Rows.Count - 1]["DEN_THANG"].ToString() == "" ? dt.Rows[dt.Rows.Count - 1]["TU_THANG"] : dt.Rows[dt.Rows.Count - 1]["DEN_THANG"];
+                }
+                    dt.Rows[dt.Rows.Count - 1]["DEN_THANG"] = DateTime.Today.AddMonths(-1).ToString("MM/yyyy");
+                    dt.Rows[dt.Rows.Count - 1]["NAM_DONG"] = SoNam(dt.Rows[dt.Rows.Count - 1]["TU_THANG"].ToString(), dt.Rows[dt.Rows.Count - 1]["DEN_THANG"].ToString(), out resulst);
+                    dt.Rows[dt.Rows.Count - 1]["THANG_DONG"] = resulst;
                 Commons.Modules.ObjSystems.MLoadXtraGrid(grdThamGiaBHXH, grvThamGiaBHXH, dt, false, false, true, true, true, "");
                 grvThamGiaBHXH.Columns["ID_CN"].Visible = false;
                 grvThamGiaBHXH.Columns["NGAY_HIEU_LUC"].Visible = false;

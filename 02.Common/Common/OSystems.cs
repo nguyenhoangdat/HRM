@@ -18,6 +18,9 @@ using System.Windows.Forms;
 using DevExpress.XtraTreeList;
 using DevExpress.XtraBars.Navigation;
 using DevExpress.Utils.Layout;
+using System.Threading;
+using DevExpress.XtraSplashScreen;
+using DevExpress.XtraReports.UI;
 
 namespace Commons
 {
@@ -108,8 +111,8 @@ namespace Commons
         {
             try
             {
-                if(CoNull)
-                dtTmp.Rows.Add(-99, "");
+                if (CoNull)
+                    dtTmp.Rows.Add(-99, "");
                 cbo.Properties.DataSource = null;
                 //cbo.Properties.DisplayMember = "";
                 //cbo.Properties.ValueMember = "";
@@ -123,7 +126,7 @@ namespace Commons
                 cbo.Properties.BestFitMode = BestFitMode.BestFit;
                 cbo.Properties.SearchMode = SearchMode.AutoComplete;
                 if (CoNull)
-                    cbo.EditValue = dtTmp.Rows[dtTmp.Rows.Count-1][Ma];
+                    cbo.EditValue = dtTmp.Rows[dtTmp.Rows.Count - 1][Ma];
                 else
                     cbo.EditValue = dtTmp.Rows[0][Ma];
                 if (dtTmp.Rows.Count > 10)
@@ -137,7 +140,7 @@ namespace Commons
                     cbo.Properties.ShowHeader = true;
                 return true;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -677,7 +680,6 @@ namespace Commons
         {
             DataTable dtTmp = new DataTable();
             dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + frm.Name + "' "));
-
             frm.Text = GetNN(dtTmp, frm.Name, frm.Name);
             List<Control> resultControlList = new List<Control>();
             GetControlsCollection(frm, ref resultControlList, null);
@@ -691,6 +693,58 @@ namespace Commons
                 { }
             }
         }
+
+        public void ThayDoiNN(XtraReport report)
+        {
+            DataTable dtTmp = new DataTable();
+            dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + report.Name + "' "));
+            foreach (DevExpress.XtraReports.UI.Band band in report.Bands)
+            {
+                foreach (DevExpress.XtraReports.UI.SubBand subband in band.SubBands)
+                {
+                    foreach (DevExpress.XtraReports.UI.XRControl control in subband)
+                    {
+                        if (control.GetType() == typeof(DevExpress.XtraReports.UI.XRTable))
+                        {
+                            DevExpress.XtraReports.UI.XRTable table = (DevExpress.XtraReports.UI.XRTable)control;
+                            foreach (DevExpress.XtraReports.UI.XRTableRow row in table)
+                            {
+                                foreach (DevExpress.XtraReports.UI.XRTableCell cell in row)
+                                {
+                                    cell.Text = GetNN(dtTmp, cell.Name, report.Name);// translation processing here
+                                }
+                            }
+                        }
+                        else
+                        {
+                            control.Text = GetNN(dtTmp, control.Name, report.Name);
+                        }
+                    }
+                }
+                foreach (DevExpress.XtraReports.UI.XRControl control in band)
+                {
+                    if (control.GetType() == typeof(DevExpress.XtraReports.UI.XRTable))
+                    {
+                        DevExpress.XtraReports.UI.XRTable table = (DevExpress.XtraReports.UI.XRTable)control;
+                        foreach (DevExpress.XtraReports.UI.XRTableRow row in table)
+                        {
+                            foreach (DevExpress.XtraReports.UI.XRTableCell cell in row)
+                            {
+                                cell.Text = GetNN(dtTmp, cell.Name, report.Name);// translation processing here
+                            }
+                        }
+                    }
+                    else
+                    {
+                        control.Text = GetNN(dtTmp,control.Name, report.Name);
+                    }
+
+                }
+
+            }
+        }
+
+
         public void ThayDoiNN(XtraUserControl frm)
         {
             DataTable dtTmp = new DataTable();
@@ -815,6 +869,16 @@ namespace Commons
                 }
 
             }
+        }
+
+        public void ThayDoiNN(XtraUserControl frm, LayoutControlGroup group)
+        {
+            DataTable dtTmp = new DataTable();
+            dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + frm.Name + "' "));
+            frm.Text = GetNN(dtTmp, frm.Name, frm.Name);
+            //load nn control bên trong
+            LoadNNGroupControl(frm, group, dtTmp);
+            //load nn windowbitton
         }
 
         private void LoadNNGroupControl(XtraUserControl frm, LayoutControlGroup group, DataTable dtTmp)
@@ -1960,11 +2024,11 @@ namespace Commons
 
         public DataRow BLMCPC(Int64 idcn, DateTime ngayhd)
         {
-            
+
             DataTable tempt = new DataTable();
             tempt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM [funGetLuongKyHopDong](" + idcn + ",'" + ngayhd.ToString("MM/dd/yyyy") + "')"));
             if (tempt.Rows.Count == 0)
-                tempt.Rows.Add(idcn,0, 0, 0);
+                tempt.Rows.Add(idcn, 0, 0, 0);
             return tempt.Rows[0]; ;
         }
         public DataRow TienTroCap(Int64 idcn, DateTime ngaynv, int idldtv)
@@ -2399,7 +2463,27 @@ namespace Commons
 
                 }
             }
-            catch (Exception ex){}
+            catch (Exception ex) { }
+        }
+
+        public SplashScreenManager splashScreenManager1;
+        public SplashScreenManager ShowWaitForm(XtraUserControl a)
+        {
+            splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(a.ParentForm, typeof(frmWaitForm), true, true, true);
+            splashScreenManager1.ShowWaitForm();
+            Thread.Sleep(1000);
+            return splashScreenManager1;
+        }
+        public SplashScreenManager ShowWaitForm(XtraForm a)
+        {
+            splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(a, typeof(frmWaitForm), true, true, true);
+            splashScreenManager1.ShowWaitForm();
+            Thread.Sleep(1000);
+            return splashScreenManager1;
+        }
+        public void HideWaitForm()
+        {
+            splashScreenManager1.CloseWaitForm();
         }
     }
 }

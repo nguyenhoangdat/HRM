@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition3 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition4 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement17 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement18 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement19 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement20 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement21 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement22 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement23 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement24 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement25 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement26 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement27 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement28 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement29 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement30 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement31 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
-            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement32 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition1 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
+            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition2 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement1 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement2 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement3 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement4 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement5 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement6 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement7 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement8 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement9 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement10 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement11 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement12 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement13 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement14 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement15 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
+            DevExpress.XtraGrid.Views.Tile.TileViewItemElement tileViewItemElement16 = new DevExpress.XtraGrid.Views.Tile.TileViewItemElement();
             this.MS_CN = new DevExpress.XtraGrid.Columns.TileViewColumn();
             this.HO_TEN = new DevExpress.XtraGrid.Columns.TileViewColumn();
             this.HINH_CN = new DevExpress.XtraGrid.Columns.TileViewColumn();
@@ -182,12 +182,13 @@
             // 
             // grdNS
             // 
+            this.grdNS.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grdNS.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.grdNS.Location = new System.Drawing.Point(6, 72);
+            this.grdNS.Location = new System.Drawing.Point(8, 95);
             this.grdNS.MainView = this.tileViewCN;
             this.grdNS.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grdNS.Name = "grdNS";
-            this.grdNS.Size = new System.Drawing.Size(1157, 499);
+            this.grdNS.Size = new System.Drawing.Size(1543, 472);
             this.grdNS.TabIndex = 8;
             this.grdNS.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.tileViewCN,
@@ -208,6 +209,7 @@
             this.SO_DT,
             this.MAU_TT,
             this.ID_CN});
+            this.tileViewCN.DetailHeight = 349;
             this.tileViewCN.FocusBorderColor = System.Drawing.Color.LightSkyBlue;
             this.tileViewCN.GridControl = this.grdNS;
             this.tileViewCN.Name = "tileViewCN";
@@ -218,124 +220,124 @@
             this.tileViewCN.OptionsTiles.ItemSize = new System.Drawing.Size(336, 178);
             this.tileViewCN.OptionsTiles.RowCount = 3;
             this.tileViewCN.OptionsTiles.VerticalContentAlignment = DevExpress.Utils.VertAlignment.Top;
-            tableRowDefinition3.Length.Value = 200D;
-            tableRowDefinition4.Length.Value = 28D;
-            this.tileViewCN.TileRows.Add(tableRowDefinition3);
-            this.tileViewCN.TileRows.Add(tableRowDefinition4);
-            tileViewItemElement17.Appearance.Normal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            tileViewItemElement17.Appearance.Normal.Options.UseBackColor = true;
-            tileViewItemElement17.Height = 32;
-            tileViewItemElement17.StretchHorizontal = true;
-            tileViewItemElement17.Text = "";
-            tileViewItemElement17.TextLocation = new System.Drawing.Point(0, -10);
-            tileViewItemElement18.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            tileViewItemElement18.Appearance.Normal.Options.UseFont = true;
-            tileViewItemElement18.Column = this.MS_CN;
-            tileViewItemElement18.Height = 25;
-            tileViewItemElement18.Text = "MS_CN";
-            tileViewItemElement18.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileViewItemElement18.TextLocation = new System.Drawing.Point(0, -5);
-            tileViewItemElement19.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            tileViewItemElement19.Appearance.Normal.Options.UseFont = true;
-            tileViewItemElement19.Column = this.HO_TEN;
-            tileViewItemElement19.Text = "HO_TEN";
-            tileViewItemElement19.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopRight;
-            tileViewItemElement20.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
-            tileViewItemElement20.AnchorElementIndex = 1;
-            tileViewItemElement20.Appearance.Normal.Options.UseImage = true;
-            tileViewItemElement20.Column = this.HINH_CN;
-            tileViewItemElement20.Height = 120;
-            tileViewItemElement20.ImageOptions.ImageBorder = DevExpress.XtraEditors.TileItemElementImageBorderMode.SingleBorder;
-            tileViewItemElement20.ImageOptions.ImageBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            tileViewItemElement20.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
-            tileViewItemElement20.ImageOptions.ImageSize = new System.Drawing.Size(100, 130);
-            tileViewItemElement20.StretchHorizontal = true;
-            tileViewItemElement20.StretchVertical = true;
-            tileViewItemElement20.Text = "HINH_CN";
-            tileViewItemElement20.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleRight;
-            tileViewItemElement20.Width = 100;
-            tileViewItemElement21.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
-            tileViewItemElement21.AnchorElementIndex = 3;
-            tileViewItemElement21.AnchorOffset = new System.Drawing.Point(0, -2);
-            tileViewItemElement21.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
-            tileViewItemElement21.Appearance.Normal.Options.UseForeColor = true;
-            tileViewItemElement21.Name = "colMS_THE_CC";
-            tileViewItemElement21.Text = "MSCC:";
-            tileViewItemElement22.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
-            tileViewItemElement22.AnchorElementIndex = 4;
-            tileViewItemElement22.Column = this.MS_THE_CC;
-            tileViewItemElement22.Text = "MS_THE_CC";
-            tileViewItemElement23.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
-            tileViewItemElement23.Appearance.Normal.Options.UseForeColor = true;
-            tileViewItemElement23.RowIndex = 1;
-            tileViewItemElement23.Text = "Địa chỉ:";
-            tileViewItemElement23.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleLeft;
-            tileViewItemElement24.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
-            tileViewItemElement24.AnchorElementIndex = 6;
-            tileViewItemElement24.Appearance.Normal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            tileViewItemElement24.Appearance.Normal.Options.UseForeColor = true;
-            tileViewItemElement24.Appearance.Normal.Options.UseTextOptions = true;
-            tileViewItemElement24.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            tileViewItemElement24.Column = this.DIA_CHI_THUONG_TRU;
-            tileViewItemElement24.Text = "DIA_CHI_THUONG_TRU";
-            tileViewItemElement24.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleLeft;
-            tileViewItemElement24.Width = 260;
-            tileViewItemElement25.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
-            tileViewItemElement25.AnchorElementIndex = 4;
-            tileViewItemElement25.AnchorOffset = new System.Drawing.Point(0, -2);
-            tileViewItemElement25.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
-            tileViewItemElement25.Appearance.Normal.Options.UseForeColor = true;
-            tileViewItemElement25.Text = "TT Hợp đồng:";
-            tileViewItemElement26.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
-            tileViewItemElement26.AnchorElementIndex = 8;
-            tileViewItemElement26.Column = this.TEN_TT_HD;
-            tileViewItemElement26.Text = "TEN_TT_HD";
-            tileViewItemElement27.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
-            tileViewItemElement27.AnchorElementIndex = 8;
-            tileViewItemElement27.AnchorOffset = new System.Drawing.Point(0, -2);
-            tileViewItemElement27.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
-            tileViewItemElement27.Appearance.Normal.Options.UseForeColor = true;
-            tileViewItemElement27.Text = "TT làm việc:";
-            tileViewItemElement28.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
-            tileViewItemElement28.AnchorElementIndex = 10;
-            tileViewItemElement28.Column = this.TEN_TT_HT;
-            tileViewItemElement28.Text = "TEN_TT_HT";
-            tileViewItemElement29.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
-            tileViewItemElement29.AnchorElementIndex = 10;
-            tileViewItemElement29.AnchorOffset = new System.Drawing.Point(0, -2);
-            tileViewItemElement29.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
-            tileViewItemElement29.Appearance.Normal.Options.UseForeColor = true;
-            tileViewItemElement29.Text = "Ngày sinh:";
-            tileViewItemElement30.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
-            tileViewItemElement30.AnchorElementIndex = 12;
-            tileViewItemElement30.Column = this.NGAY_SINH;
-            tileViewItemElement30.Text = "NGAY_SINH";
-            tileViewItemElement31.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
-            tileViewItemElement31.AnchorElementIndex = 15;
-            tileViewItemElement31.Column = this.SO_DT;
-            tileViewItemElement31.Text = "SO_DT";
-            tileViewItemElement32.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
-            tileViewItemElement32.AnchorElementIndex = 12;
-            tileViewItemElement32.AnchorOffset = new System.Drawing.Point(0, -2);
-            tileViewItemElement32.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
-            tileViewItemElement32.Appearance.Normal.Options.UseForeColor = true;
-            tileViewItemElement32.Text = "SDT:";
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement17);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement18);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement19);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement20);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement21);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement22);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement23);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement24);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement25);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement26);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement27);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement28);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement29);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement30);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement31);
-            this.tileViewCN.TileTemplate.Add(tileViewItemElement32);
+            tableRowDefinition1.Length.Value = 200D;
+            tableRowDefinition2.Length.Value = 28D;
+            this.tileViewCN.TileRows.Add(tableRowDefinition1);
+            this.tileViewCN.TileRows.Add(tableRowDefinition2);
+            tileViewItemElement1.Appearance.Normal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            tileViewItemElement1.Appearance.Normal.Options.UseBackColor = true;
+            tileViewItemElement1.Height = 32;
+            tileViewItemElement1.StretchHorizontal = true;
+            tileViewItemElement1.Text = "";
+            tileViewItemElement1.TextLocation = new System.Drawing.Point(0, -10);
+            tileViewItemElement2.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
+            tileViewItemElement2.Appearance.Normal.Options.UseFont = true;
+            tileViewItemElement2.Column = this.MS_CN;
+            tileViewItemElement2.Height = 25;
+            tileViewItemElement2.Text = "MS_CN";
+            tileViewItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileViewItemElement2.TextLocation = new System.Drawing.Point(0, -5);
+            tileViewItemElement3.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
+            tileViewItemElement3.Appearance.Normal.Options.UseFont = true;
+            tileViewItemElement3.Column = this.HO_TEN;
+            tileViewItemElement3.Text = "HO_TEN";
+            tileViewItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopRight;
+            tileViewItemElement4.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
+            tileViewItemElement4.AnchorElementIndex = 1;
+            tileViewItemElement4.Appearance.Normal.Options.UseImage = true;
+            tileViewItemElement4.Column = this.HINH_CN;
+            tileViewItemElement4.Height = 120;
+            tileViewItemElement4.ImageOptions.ImageBorder = DevExpress.XtraEditors.TileItemElementImageBorderMode.SingleBorder;
+            tileViewItemElement4.ImageOptions.ImageBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            tileViewItemElement4.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
+            tileViewItemElement4.ImageOptions.ImageSize = new System.Drawing.Size(100, 130);
+            tileViewItemElement4.StretchHorizontal = true;
+            tileViewItemElement4.StretchVertical = true;
+            tileViewItemElement4.Text = "HINH_CN";
+            tileViewItemElement4.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleRight;
+            tileViewItemElement4.Width = 100;
+            tileViewItemElement5.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
+            tileViewItemElement5.AnchorElementIndex = 3;
+            tileViewItemElement5.AnchorOffset = new System.Drawing.Point(0, -2);
+            tileViewItemElement5.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
+            tileViewItemElement5.Appearance.Normal.Options.UseForeColor = true;
+            tileViewItemElement5.Name = "colMS_THE_CC";
+            tileViewItemElement5.Text = "MSCC:";
+            tileViewItemElement6.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
+            tileViewItemElement6.AnchorElementIndex = 4;
+            tileViewItemElement6.Column = this.MS_THE_CC;
+            tileViewItemElement6.Text = "MS_THE_CC";
+            tileViewItemElement7.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
+            tileViewItemElement7.Appearance.Normal.Options.UseForeColor = true;
+            tileViewItemElement7.RowIndex = 1;
+            tileViewItemElement7.Text = "Địa chỉ:";
+            tileViewItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleLeft;
+            tileViewItemElement8.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
+            tileViewItemElement8.AnchorElementIndex = 6;
+            tileViewItemElement8.Appearance.Normal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            tileViewItemElement8.Appearance.Normal.Options.UseForeColor = true;
+            tileViewItemElement8.Appearance.Normal.Options.UseTextOptions = true;
+            tileViewItemElement8.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            tileViewItemElement8.Column = this.DIA_CHI_THUONG_TRU;
+            tileViewItemElement8.Text = "DIA_CHI_THUONG_TRU";
+            tileViewItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleLeft;
+            tileViewItemElement8.Width = 260;
+            tileViewItemElement9.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
+            tileViewItemElement9.AnchorElementIndex = 4;
+            tileViewItemElement9.AnchorOffset = new System.Drawing.Point(0, -2);
+            tileViewItemElement9.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
+            tileViewItemElement9.Appearance.Normal.Options.UseForeColor = true;
+            tileViewItemElement9.Text = "TT Hợp đồng:";
+            tileViewItemElement10.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
+            tileViewItemElement10.AnchorElementIndex = 8;
+            tileViewItemElement10.Column = this.TEN_TT_HD;
+            tileViewItemElement10.Text = "TEN_TT_HD";
+            tileViewItemElement11.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
+            tileViewItemElement11.AnchorElementIndex = 8;
+            tileViewItemElement11.AnchorOffset = new System.Drawing.Point(0, -2);
+            tileViewItemElement11.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
+            tileViewItemElement11.Appearance.Normal.Options.UseForeColor = true;
+            tileViewItemElement11.Text = "TT làm việc:";
+            tileViewItemElement12.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
+            tileViewItemElement12.AnchorElementIndex = 10;
+            tileViewItemElement12.Column = this.TEN_TT_HT;
+            tileViewItemElement12.Text = "TEN_TT_HT";
+            tileViewItemElement13.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
+            tileViewItemElement13.AnchorElementIndex = 10;
+            tileViewItemElement13.AnchorOffset = new System.Drawing.Point(0, -2);
+            tileViewItemElement13.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
+            tileViewItemElement13.Appearance.Normal.Options.UseForeColor = true;
+            tileViewItemElement13.Text = "Ngày sinh:";
+            tileViewItemElement14.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
+            tileViewItemElement14.AnchorElementIndex = 12;
+            tileViewItemElement14.Column = this.NGAY_SINH;
+            tileViewItemElement14.Text = "NGAY_SINH";
+            tileViewItemElement15.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Right;
+            tileViewItemElement15.AnchorElementIndex = 15;
+            tileViewItemElement15.Column = this.SO_DT;
+            tileViewItemElement15.Text = "SO_DT";
+            tileViewItemElement16.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
+            tileViewItemElement16.AnchorElementIndex = 12;
+            tileViewItemElement16.AnchorOffset = new System.Drawing.Point(0, -2);
+            tileViewItemElement16.Appearance.Normal.ForeColor = System.Drawing.Color.Silver;
+            tileViewItemElement16.Appearance.Normal.Options.UseForeColor = true;
+            tileViewItemElement16.Text = "SDT:";
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement1);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement2);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement3);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement4);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement5);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement6);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement7);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement8);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement9);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement10);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement11);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement12);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement13);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement14);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement15);
+            this.tileViewCN.TileTemplate.Add(tileViewItemElement16);
             this.tileViewCN.ItemCustomize += new DevExpress.XtraGrid.Views.Tile.TileViewItemCustomizeEventHandler(this.tileView1_ItemCustomize);
             this.tileViewCN.DoubleClick += new System.EventHandler(this.tileView1_DoubleClick);
             // 
@@ -357,6 +359,7 @@
             // 
             // gridView1
             // 
+            this.gridView1.DetailHeight = 349;
             this.gridView1.GridControl = this.grdNS;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.KeepFocusedRowOnUpdate = false;
@@ -370,48 +373,48 @@
             this.layoutControl1.Controls.Add(this.cboTo);
             this.layoutControl1.Controls.Add(this.cboXN);
             this.layoutControl1.Controls.Add(this.cboDV);
-            this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(1169, 577);
+            this.layoutControl1.Size = new System.Drawing.Size(1559, 577);
             this.layoutControl1.TabIndex = 7;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // searchControl1
             // 
             this.searchControl1.Client = this.grdNS;
-            this.searchControl1.Location = new System.Drawing.Point(875, 44);
+            this.searchControl1.Location = new System.Drawing.Point(1248, 65);
             this.searchControl1.Name = "searchControl1";
             this.searchControl1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Repository.ClearButton(),
             new DevExpress.XtraEditors.Repository.SearchButton()});
             this.searchControl1.Properties.Client = this.grdNS;
-            this.searchControl1.Size = new System.Drawing.Size(288, 26);
+            this.searchControl1.Size = new System.Drawing.Size(303, 26);
             this.searchControl1.StyleController = this.layoutControl1;
             this.searchControl1.TabIndex = 2;
             // 
             // cbo_TTHT
             // 
-            this.cbo_TTHT.Location = new System.Drawing.Point(710, 44);
+            this.cbo_TTHT.Location = new System.Drawing.Point(906, 65);
             this.cbo_TTHT.Name = "cbo_TTHT";
             this.cbo_TTHT.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbo_TTHT.Properties.NullText = "";
-            this.cbo_TTHT.Size = new System.Drawing.Size(163, 26);
+            this.cbo_TTHT.Size = new System.Drawing.Size(340, 26);
             this.cbo_TTHT.StyleController = this.layoutControl1;
             this.cbo_TTHT.TabIndex = 10;
             this.cbo_TTHT.EditValueChanged += new System.EventHandler(this.cboTo_EditValueChanged);
             // 
             // cboTo
             // 
-            this.cboTo.Location = new System.Drawing.Point(131, 44);
+            this.cboTo.Location = new System.Drawing.Point(134, 65);
             this.cboTo.Name = "cboTo";
             this.cboTo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cboTo.Properties.NullText = "";
             this.cboTo.Properties.PopupView = this.searchLookUpEdit3View;
-            this.cboTo.Size = new System.Drawing.Size(452, 26);
+            this.cboTo.Size = new System.Drawing.Size(644, 26);
             this.cboTo.StyleController = this.layoutControl1;
             this.cboTo.TabIndex = 9;
             this.cboTo.EditValueChanged += new System.EventHandler(this.cboTo_EditValueChanged);
@@ -425,13 +428,13 @@
             // 
             // cboXN
             // 
-            this.cboXN.Location = new System.Drawing.Point(710, 16);
+            this.cboXN.Location = new System.Drawing.Point(906, 35);
             this.cboXN.Name = "cboXN";
             this.cboXN.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cboXN.Properties.NullText = "";
             this.cboXN.Properties.PopupView = this.searchLookUpEdit2View;
-            this.cboXN.Size = new System.Drawing.Size(453, 26);
+            this.cboXN.Size = new System.Drawing.Size(645, 26);
             this.cboXN.StyleController = this.layoutControl1;
             this.cboXN.TabIndex = 8;
             this.cboXN.EditValueChanged += new System.EventHandler(this.cboXN_EditValueChanged);
@@ -445,13 +448,13 @@
             // 
             // cboDV
             // 
-            this.cboDV.Location = new System.Drawing.Point(131, 16);
+            this.cboDV.Location = new System.Drawing.Point(134, 35);
             this.cboDV.Name = "cboDV";
             this.cboDV.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cboDV.Properties.NullText = "";
             this.cboDV.Properties.PopupView = this.searchLookUpEdit1View;
-            this.cboDV.Size = new System.Drawing.Size(452, 26);
+            this.cboDV.Size = new System.Drawing.Size(644, 26);
             this.cboDV.StyleController = this.layoutControl1;
             this.cboDV.TabIndex = 7;
             this.cboDV.EditValueChanged += new System.EventHandler(this.cboDV_EditValueChanged);
@@ -476,32 +479,32 @@
             this.ItemForSerchControl,
             this.emptySpaceItem1});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(1169, 577);
+            this.Root.Size = new System.Drawing.Size(1559, 577);
             this.Root.TextVisible = false;
             // 
             // ItemForDON_VI
             // 
             this.ItemForDON_VI.Control = this.cboDV;
-            this.ItemForDON_VI.Location = new System.Drawing.Point(0, 10);
+            this.ItemForDON_VI.Location = new System.Drawing.Point(0, 25);
             this.ItemForDON_VI.Name = "ItemForDON_VI";
-            this.ItemForDON_VI.Size = new System.Drawing.Size(579, 28);
+            this.ItemForDON_VI.Size = new System.Drawing.Size(772, 30);
             this.ItemForDON_VI.TextSize = new System.Drawing.Size(122, 20);
             // 
             // ItemForTO
             // 
             this.ItemForTO.Control = this.cboTo;
-            this.ItemForTO.Location = new System.Drawing.Point(0, 38);
+            this.ItemForTO.Location = new System.Drawing.Point(0, 55);
             this.ItemForTO.Name = "ItemForTO";
-            this.ItemForTO.Size = new System.Drawing.Size(579, 28);
+            this.ItemForTO.Size = new System.Drawing.Size(772, 30);
             this.ItemForTO.TextSize = new System.Drawing.Size(122, 20);
             // 
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.grdNS;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 66);
-            this.layoutControlItem1.MinSize = new System.Drawing.Size(102, 22);
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 85);
+            this.layoutControlItem1.MinSize = new System.Drawing.Size(101, 22);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1159, 501);
+            this.layoutControlItem1.Size = new System.Drawing.Size(1545, 476);
             this.layoutControlItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
@@ -509,25 +512,25 @@
             // ItemForXI_NGHIEP
             // 
             this.ItemForXI_NGHIEP.Control = this.cboXN;
-            this.ItemForXI_NGHIEP.Location = new System.Drawing.Point(579, 10);
+            this.ItemForXI_NGHIEP.Location = new System.Drawing.Point(772, 25);
             this.ItemForXI_NGHIEP.Name = "ItemForXI_NGHIEP";
-            this.ItemForXI_NGHIEP.Size = new System.Drawing.Size(580, 28);
+            this.ItemForXI_NGHIEP.Size = new System.Drawing.Size(773, 30);
             this.ItemForXI_NGHIEP.TextSize = new System.Drawing.Size(122, 20);
             // 
             // ItemForTT_HT
             // 
             this.ItemForTT_HT.Control = this.cbo_TTHT;
-            this.ItemForTT_HT.Location = new System.Drawing.Point(579, 38);
+            this.ItemForTT_HT.Location = new System.Drawing.Point(772, 55);
             this.ItemForTT_HT.Name = "ItemForTT_HT";
-            this.ItemForTT_HT.Size = new System.Drawing.Size(290, 28);
+            this.ItemForTT_HT.Size = new System.Drawing.Size(468, 30);
             this.ItemForTT_HT.TextSize = new System.Drawing.Size(122, 20);
             // 
             // ItemForSerchControl
             // 
             this.ItemForSerchControl.Control = this.searchControl1;
-            this.ItemForSerchControl.Location = new System.Drawing.Point(869, 38);
+            this.ItemForSerchControl.Location = new System.Drawing.Point(1240, 55);
             this.ItemForSerchControl.Name = "ItemForSerchControl";
-            this.ItemForSerchControl.Size = new System.Drawing.Size(290, 28);
+            this.ItemForSerchControl.Size = new System.Drawing.Size(305, 30);
             this.ItemForSerchControl.TextSize = new System.Drawing.Size(0, 0);
             this.ItemForSerchControl.TextVisible = false;
             // 
@@ -536,7 +539,7 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(1159, 10);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(1545, 25);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             this.emptySpaceItem1.DoubleClick += new System.EventHandler(this.emptySpaceItem1_DoubleClick);
             // 
@@ -560,13 +563,13 @@
             this.navigationPage1.Caption = "navigationPage1";
             this.navigationPage1.Controls.Add(this.layoutControl1);
             this.navigationPage1.Name = "navigationPage1";
-            this.navigationPage1.Size = new System.Drawing.Size(1169, 577);
+            this.navigationPage1.Size = new System.Drawing.Size(1559, 888);
             // 
             // navigationPage2
             // 
             this.navigationPage2.Caption = "navigationPage2";
             this.navigationPage2.Name = "navigationPage2";
-            this.navigationPage2.Size = new System.Drawing.Size(1169, 577);
+            this.navigationPage2.Size = new System.Drawing.Size(1559, 888);
             // 
             // ucQLNS
             // 

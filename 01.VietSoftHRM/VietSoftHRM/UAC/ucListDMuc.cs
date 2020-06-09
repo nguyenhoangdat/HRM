@@ -8,10 +8,8 @@ using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraGrid;
 using DevExpress.XtraBars.Navigation;
 using DevExpress.XtraGrid.Views.Grid;
-using VietSoftHRM.Class;
-using System.Threading;
 using DevExpress.XtraPrinting;
-using VietSoftHRM.Properties;
+using System.Threading;
 
 namespace VietSoftHRM
 {
@@ -185,7 +183,6 @@ namespace VietSoftHRM
                 XtraMessageBox.Show(EX.Message.ToString());
             }
         }
-
         private void ThemSua(Boolean AddEdit) //AddEdit = true --> them
         {
             try

@@ -16,7 +16,7 @@ namespace VietSoftHRM
             Commons.Modules.ModuleName = "VS_HRM";
             Commons.Modules.UserName = "admin";
             DataSet ds = new DataSet();
-            ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\vsconfig.xml");
+            ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\lib\\vsconfig.xml");
             Commons.IConnections.Username = ds.Tables[0].Rows[0]["U"].ToString();
             Commons.IConnections.Server = ds.Tables[0].Rows[0]["S"].ToString();
             Commons.IConnections.Database = ds.Tables[0].Rows[0]["D"].ToString();
@@ -26,7 +26,7 @@ namespace VietSoftHRM
             //Commons.Modules.sPrivate = @"ADC";
             Commons.Modules.iSoLeSL = 1;
             Commons.Modules.iSoLeDG = 2;
-            Commons.Modules.iSoLeTT = 3;
+            Commons.Modules.iSoLeTT = 0;
             Commons.Modules.iGio = 8;
             Commons.Modules.iNNghi = 1;
             Commons.Modules.sSoLeSL = Commons.Modules.ObjSystems.sDinhDangSoLe(Commons.Modules.iSoLeSL);

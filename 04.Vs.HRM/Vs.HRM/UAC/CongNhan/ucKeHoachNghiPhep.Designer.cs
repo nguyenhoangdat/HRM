@@ -285,7 +285,7 @@
             this.dateNam.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.YearsGroupView;
             this.dateNam.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.True;
             this.tablePanel2.SetRow(this.dateNam, 0);
-            this.dateNam.Size = new System.Drawing.Size(382, 25);
+            this.dateNam.Size = new System.Drawing.Size(382, 26);
             this.dateNam.TabIndex = 2;
             this.dateNam.EditValueChanged += new System.EventHandler(this.dateNam_EditValueChanged);
             // 
@@ -400,7 +400,7 @@
             this.datTNgay.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.tablePanel3.SetRow(this.datTNgay, 1);
-            this.datTNgay.Size = new System.Drawing.Size(129, 29);
+            this.datTNgay.Size = new System.Drawing.Size(129, 26);
             this.datTNgay.TabIndex = 3;
             this.datTNgay.EditValueChanged += new System.EventHandler(this.datDNgay_EditValueChanged);
             // 
@@ -415,7 +415,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cboLDV.Properties.NullText = "";
             this.tablePanel3.SetRow(this.cboLDV, 0);
-            this.cboLDV.Size = new System.Drawing.Size(384, 29);
+            this.cboLDV.Size = new System.Drawing.Size(384, 26);
             this.cboLDV.TabIndex = 2;
             // 
             // lblLDV
@@ -443,7 +443,7 @@
             // lblNVao
             // 
             this.tablePanel3.SetColumn(this.lblNVao, 0);
-            this.lblNVao.Location = new System.Drawing.Point(3, 77);
+            this.lblNVao.Location = new System.Drawing.Point(3, 73);
             this.lblNVao.Name = "lblNVao";
             this.tablePanel3.SetRow(this.lblNVao, 2);
             this.lblNVao.Size = new System.Drawing.Size(54, 20);
@@ -484,7 +484,7 @@
             this.datDNgay.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.tablePanel3.SetRow(this.datDNgay, 1);
-            this.datDNgay.Size = new System.Drawing.Size(129, 29);
+            this.datDNgay.Size = new System.Drawing.Size(129, 26);
             this.datDNgay.TabIndex = 3;
             this.datDNgay.EditValueChanged += new System.EventHandler(this.datDNgay_EditValueChanged);
             // 
@@ -500,7 +500,7 @@
             this.datNVao.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.tablePanel3.SetRow(this.datNVao, 2);
-            this.datNVao.Size = new System.Drawing.Size(129, 29);
+            this.datNVao.Size = new System.Drawing.Size(129, 26);
             this.datNVao.TabIndex = 3;
             // 
             // lblGhiChu

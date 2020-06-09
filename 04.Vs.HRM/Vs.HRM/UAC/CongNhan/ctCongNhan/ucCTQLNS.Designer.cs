@@ -57,9 +57,7 @@
             this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
             this.lciNotes = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.lciNotes1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.lciNotes2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.lciNotes3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -69,6 +67,8 @@
             this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
             this.lciNotes6 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lciNotes2 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lciNotes1 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame1)).BeginInit();
@@ -80,9 +80,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lciNotes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lciNotes1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lciNotes2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lciNotes3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
@@ -92,6 +90,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lciNotes6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lciNotes2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lciNotes1)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -359,8 +359,8 @@
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.MinSize = new System.Drawing.Size(50, 25);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.layoutControlItem1.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem1.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.layoutControlItem1.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.layoutControlItem1.Padding = new DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2);
             this.layoutControlItem1.Size = new System.Drawing.Size(58, 42);
             this.layoutControlItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
@@ -375,8 +375,8 @@
             this.layoutControlItem9.Location = new System.Drawing.Point(809, 0);
             this.layoutControlItem9.MinSize = new System.Drawing.Size(87, 22);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.layoutControlItem9.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem9.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.layoutControlItem9.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.layoutControlItem9.Padding = new DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2);
             this.layoutControlItem9.Size = new System.Drawing.Size(226, 42);
             this.layoutControlItem9.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
@@ -390,8 +390,8 @@
             this.lciTasks.CustomizationFormText = "lciTasks";
             this.lciTasks.Location = new System.Drawing.Point(58, 0);
             this.lciTasks.Name = "lciTasks";
-            this.lciTasks.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lciTasks.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.lciTasks.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lciTasks.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.lciTasks.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.lciTasks.Size = new System.Drawing.Size(52, 42);
             this.lciTasks.TextSize = new System.Drawing.Size(0, 0);
@@ -403,8 +403,8 @@
             this.layoutControlItem12.CustomizationFormText = "layoutControlItem12";
             this.layoutControlItem12.Location = new System.Drawing.Point(110, 0);
             this.layoutControlItem12.Name = "layoutControlItem12";
-            this.layoutControlItem12.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.layoutControlItem12.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem12.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.layoutControlItem12.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.layoutControlItem12.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.layoutControlItem12.Size = new System.Drawing.Size(16, 42);
             this.layoutControlItem12.TextSize = new System.Drawing.Size(0, 0);
@@ -416,8 +416,8 @@
             this.lciNotes.CustomizationFormText = "lciNotes";
             this.lciNotes.Location = new System.Drawing.Point(126, 0);
             this.lciNotes.Name = "lciNotes";
-            this.lciNotes.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lciNotes.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.lciNotes.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lciNotes.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.lciNotes.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.lciNotes.Size = new System.Drawing.Size(71, 42);
             this.lciNotes.TextSize = new System.Drawing.Size(0, 0);
@@ -429,27 +429,13 @@
             this.layoutControlItem2.CustomizationFormText = "layoutControlItem12";
             this.layoutControlItem2.Location = new System.Drawing.Point(197, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.layoutControlItem2.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem2.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.layoutControlItem2.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.layoutControlItem2.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.layoutControlItem2.Size = new System.Drawing.Size(16, 42);
             this.layoutControlItem2.Text = "layoutControlItem12";
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
-            // 
-            // lciNotes1
-            // 
-            this.lciNotes1.Control = this.labHopDong;
-            this.lciNotes1.CustomizationFormText = "lciNotes";
-            this.lciNotes1.Location = new System.Drawing.Point(312, 0);
-            this.lciNotes1.Name = "lciNotes1";
-            this.lciNotes1.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lciNotes1.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
-            this.lciNotes1.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
-            this.lciNotes1.Size = new System.Drawing.Size(80, 42);
-            this.lciNotes1.Text = "lciNotes";
-            this.lciNotes1.TextSize = new System.Drawing.Size(0, 0);
-            this.lciNotes1.TextVisible = false;
             // 
             // layoutControlItem3
             // 
@@ -457,27 +443,13 @@
             this.layoutControlItem3.CustomizationFormText = "layoutControlItem12";
             this.layoutControlItem3.Location = new System.Drawing.Point(296, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.layoutControlItem3.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem3.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.layoutControlItem3.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.layoutControlItem3.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.layoutControlItem3.Size = new System.Drawing.Size(16, 42);
             this.layoutControlItem3.Text = "layoutControlItem12";
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
-            // 
-            // lciNotes2
-            // 
-            this.lciNotes2.Control = this.labTienLuong;
-            this.lciNotes2.CustomizationFormText = "lciNotes";
-            this.lciNotes2.Location = new System.Drawing.Point(213, 0);
-            this.lciNotes2.Name = "lciNotes2";
-            this.lciNotes2.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lciNotes2.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
-            this.lciNotes2.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
-            this.lciNotes2.Size = new System.Drawing.Size(83, 42);
-            this.lciNotes2.Text = "lciNotes";
-            this.lciNotes2.TextSize = new System.Drawing.Size(0, 0);
-            this.lciNotes2.TextVisible = false;
             // 
             // layoutControlItem4
             // 
@@ -485,8 +457,8 @@
             this.layoutControlItem4.CustomizationFormText = "layoutControlItem12";
             this.layoutControlItem4.Location = new System.Drawing.Point(392, 0);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.layoutControlItem4.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem4.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.layoutControlItem4.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.layoutControlItem4.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.layoutControlItem4.Size = new System.Drawing.Size(16, 42);
             this.layoutControlItem4.Text = "layoutControlItem12";
@@ -499,8 +471,8 @@
             this.lciNotes3.CustomizationFormText = "lciNotes";
             this.lciNotes3.Location = new System.Drawing.Point(408, 0);
             this.lciNotes3.Name = "lciNotes3";
-            this.lciNotes3.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lciNotes3.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.lciNotes3.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lciNotes3.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.lciNotes3.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.lciNotes3.Size = new System.Drawing.Size(152, 42);
             this.lciNotes3.Text = "lciNotes";
@@ -513,8 +485,8 @@
             this.layoutControlItem5.CustomizationFormText = "layoutControlItem12";
             this.layoutControlItem5.Location = new System.Drawing.Point(560, 0);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.layoutControlItem5.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem5.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.layoutControlItem5.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.layoutControlItem5.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.layoutControlItem5.Size = new System.Drawing.Size(16, 42);
             this.layoutControlItem5.Text = "layoutControlItem12";
@@ -527,8 +499,8 @@
             this.lciNotes4.CustomizationFormText = "lciNotes";
             this.lciNotes4.Location = new System.Drawing.Point(576, 0);
             this.lciNotes4.Name = "lciNotes4";
-            this.lciNotes4.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lciNotes4.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.lciNotes4.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lciNotes4.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.lciNotes4.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.lciNotes4.Size = new System.Drawing.Size(57, 42);
             this.lciNotes4.Text = "lciNotes";
@@ -541,8 +513,8 @@
             this.layoutControlItem6.CustomizationFormText = "layoutControlItem12";
             this.layoutControlItem6.Location = new System.Drawing.Point(633, 0);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.layoutControlItem6.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem6.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.layoutControlItem6.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.layoutControlItem6.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.layoutControlItem6.Size = new System.Drawing.Size(16, 42);
             this.layoutControlItem6.Text = "layoutControlItem12";
@@ -555,8 +527,8 @@
             this.lciNotes5.CustomizationFormText = "lciNotes";
             this.lciNotes5.Location = new System.Drawing.Point(649, 0);
             this.lciNotes5.Name = "lciNotes5";
-            this.lciNotes5.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lciNotes5.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.lciNotes5.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lciNotes5.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.lciNotes5.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.lciNotes5.Size = new System.Drawing.Size(70, 42);
             this.lciNotes5.Text = "lciNotes";
@@ -569,8 +541,8 @@
             this.layoutControlItem7.CustomizationFormText = "layoutControlItem12";
             this.layoutControlItem7.Location = new System.Drawing.Point(719, 0);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.layoutControlItem7.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem7.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.layoutControlItem7.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.layoutControlItem7.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.layoutControlItem7.Size = new System.Drawing.Size(16, 42);
             this.layoutControlItem7.Text = "layoutControlItem12";
@@ -583,8 +555,8 @@
             this.lciNotes6.CustomizationFormText = "lciNotes";
             this.lciNotes6.Location = new System.Drawing.Point(735, 0);
             this.lciNotes6.Name = "lciNotes6";
-            this.lciNotes6.OptionsPrint.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lciNotes6.OptionsPrint.AppearanceItemCaption.Options.UseFont = true;
+            this.lciNotes6.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lciNotes6.OptionsPrint.AppearanceItem.Options.UseFont = true;
             this.lciNotes6.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
             this.lciNotes6.Size = new System.Drawing.Size(74, 42);
             this.lciNotes6.Text = "lciNotes";
@@ -599,6 +571,34 @@
             this.layoutControlItem8.Size = new System.Drawing.Size(1035, 449);
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem8.TextVisible = false;
+            // 
+            // lciNotes2
+            // 
+            this.lciNotes2.Control = this.labTienLuong;
+            this.lciNotes2.CustomizationFormText = "lciNotes";
+            this.lciNotes2.Location = new System.Drawing.Point(213, 0);
+            this.lciNotes2.Name = "lciNotes2";
+            this.lciNotes2.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lciNotes2.OptionsPrint.AppearanceItem.Options.UseFont = true;
+            this.lciNotes2.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
+            this.lciNotes2.Size = new System.Drawing.Size(83, 42);
+            this.lciNotes2.Text = "lciNotes";
+            this.lciNotes2.TextSize = new System.Drawing.Size(0, 0);
+            this.lciNotes2.TextVisible = false;
+            // 
+            // lciNotes1
+            // 
+            this.lciNotes1.Control = this.labHopDong;
+            this.lciNotes1.CustomizationFormText = "lciNotes";
+            this.lciNotes1.Location = new System.Drawing.Point(312, 0);
+            this.lciNotes1.Name = "lciNotes1";
+            this.lciNotes1.OptionsPrint.AppearanceItem.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lciNotes1.OptionsPrint.AppearanceItem.Options.UseFont = true;
+            this.lciNotes1.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 16, 6);
+            this.lciNotes1.Size = new System.Drawing.Size(80, 42);
+            this.lciNotes1.Text = "lciNotes";
+            this.lciNotes1.TextSize = new System.Drawing.Size(0, 0);
+            this.lciNotes1.TextVisible = false;
             // 
             // ucCTQLNS
             // 
@@ -619,9 +619,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lciNotes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lciNotes1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lciNotes2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lciNotes3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
@@ -631,6 +629,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lciNotes6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lciNotes2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lciNotes1)).EndInit();
             this.ResumeLayout(false);
 
         }

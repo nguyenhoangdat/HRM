@@ -7,12 +7,22 @@ using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraBars.Docking2010;
 using System.Collections.Generic;
 using DevExpress.XtraLayout;
+using System.Threading;
 
 namespace Vs.HRM
 {
     public partial class ucNgungDongBHXH : DevExpress.XtraEditors.XtraUserControl
     {
-
+        public static ucNgungDongBHXH _instance;
+        public static ucNgungDongBHXH Instance
+        {
+            get
+            {
+                if (_instance == null)
+                    _instance = new ucNgungDongBHXH();
+                return _instance;
+            }
+        }
         string sBT = "tabNgungDongBHXH"+Commons.Modules.ModuleName;
         public ucNgungDongBHXH()
         {

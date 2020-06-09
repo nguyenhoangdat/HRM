@@ -3,8 +3,10 @@ using System.Data;
 using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
+using DevExpress.LookAndFeel;
 using DevExpress.XtraBars;
 using DevExpress.XtraBars.Navigation;
+using DevExpress.XtraCharts;
 using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
 
@@ -19,13 +21,60 @@ namespace VietSoftHRM
         //load menugroup
         private void frmMain_Load(object sender, EventArgs e)
         {
-            splashScreenManager1.ShowWaitForm();
-            Thread.Sleep(1000);
+            Commons.Modules.ObjSystems.ShowWaitForm(this);
             LoadMenuCha();
             Commons.Modules.ObjSystems.ThayDoiNN(this);
-            splashScreenManager1.CloseWaitForm();
             lblUserName.Text = Commons.Modules.UserName;
             radialMenu1.AddItems(GetRadialMenuItems(barManager1));
+            loadcharTinhTrangCN();
+            Commons.Modules.ObjSystems.HideWaitForm();
+        }
+        private void loadcharTinhTrangCN()
+        {
+            DataTable dt = new DataTable();
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetChartUserTinhTrangHT", Commons.Modules.UserName, Commons.Modules.TypeLanguage));
+            pieChart.Series.Clear();
+            pieChart.Titles.Clear();
+
+            pieChart.Titles.Add(new ChartTitle() { Text = "Bểu Đồ Tình Trạng Hiện Tại Công Nhân" });
+            // Create a pie series.
+            Series series1 = new Series("charpie", ViewType.Pie);
+            // Bind the series to data.
+            series1.DataSource = dt;
+            series1.ArgumentDataMember = "TEN_TT_HT";
+            series1.ValueDataMembers.AddRange(new string[] { "SL_CN" });
+
+
+            // Format the the series labels.
+            series1.Label.TextPattern = "{VP:p0} ({V:0})";
+            // Format the series legend items.
+            series1.LegendTextPattern = "{A}";
+
+
+
+            // Adjust the position of series labels. 
+            ((PieSeriesLabel)series1.Label).Position = PieSeriesLabelPosition.TwoColumns;
+
+            // Detect overlapping of series labels.
+            ((PieSeriesLabel)series1.Label).ResolveOverlappingMode = ResolveOverlappingMode.Default;
+
+            // Access the view-type-specific options of the series.
+            PieSeriesView myView = (PieSeriesView)series1.View;
+
+            // Specify a data filter to explode points.
+            myView.ExplodedPointsFilters.Add(new SeriesPointFilter(SeriesPointKey.Value_1,
+                DataFilterCondition.GreaterThanOrEqual, 9));
+            myView.ExplodedPointsFilters.Add(new SeriesPointFilter(SeriesPointKey.Argument,
+                DataFilterCondition.NotEqual, "Làm việc"));
+            myView.ExplodeMode = PieExplodeMode.UseFilters;
+            myView.ExplodedDistancePercentage = 30;
+            myView.RuntimeExploding = true;
+
+            // Customize the legend.
+            pieChart.Legend.Visibility = DevExpress.Utils.DefaultBoolean.True;
+
+            // Add the series to the chart.
+            pieChart.Series.Add(series1);
         }
         private void LoadMenuCha()
         {
@@ -73,6 +122,7 @@ namespace VietSoftHRM
                 case 58:
                     {
                         navigationFrame.SelectedPage = navigationPageHome;
+                        loadcharTinhTrangCN();
                         break;
                     }
                 case 1:
@@ -199,6 +249,7 @@ namespace VietSoftHRM
             btnThems.ImageOptions.ImageUri.Uri = "Left;Size32x32";
             BarCheckItem btnblu = new BarCheckItem(barManager, false);
             btnblu.Caption = "blu";
+            btnblu.ItemClick += Btnblu_ItemClick;
             btnblu.ImageOptions.ImageUri.Uri = "Left;Size32x32";
             BarCheckItem btnred = new BarCheckItem(barManager, false);
             btnred.Caption = "red";
@@ -207,6 +258,15 @@ namespace VietSoftHRM
             BarItem[] subMenuThems = new BarItem[] { btnblu,btnred };
             btnThems.AddItems(subMenuThems);
             return new BarItem[] { btnLogout, btnLanguage, btnThems };
+        }
+
+        private void Btnblu_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            //DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle(SkinStyle.Blue);
+            DevExpress.UserSkins.BonusSkins.Register();
+            DevExpress.Skins.SkinManager.EnableFormSkins();
+            SkinPaletteRibbonGalleryBarItem a = new SkinPaletteRibbonGalleryBarItem();
+            DevExpress.XtraBars.Helpers.SkinHelper.InitDropDownSkinGallery(a);
         }
 
         private void BtnLogout_ItemClick(object sender, ItemClickEventArgs e)

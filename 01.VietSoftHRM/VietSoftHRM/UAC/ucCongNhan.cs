@@ -8,12 +8,14 @@ using Vs.HRM;
 
 namespace VietSoftHRM
 {
+
     public partial class ucCongNhan : DevExpress.XtraEditors.XtraUserControl
     {
         public Color color;
         public int iLoai;
         public int iIDOut;
         public string slinkcha;
+        public string sLoad="";
         public ucCongNhan(TileBar tileBar)
         {
             InitializeComponent();
@@ -58,7 +60,11 @@ namespace VietSoftHRM
         //sự kiện click cha
         private void Element_Click(object sender, EventArgs e)
         {
+
             var button = sender as AccordionControlElement;
+            if (sLoad == button.Name) return;
+            Commons.Modules.ObjSystems.ShowWaitForm(this);
+            sLoad = button.Name;
             lab_Link.Text = slinkcha + "/" + button.Text;
             switch (button.Name)
             {
@@ -102,37 +108,54 @@ namespace VietSoftHRM
                         break;
                     }
 
+               
+
                 default:
                     break;
             }
+            Commons.Modules.ObjSystems.HideWaitForm();
+
         }
         //sự kiện click con
         private void Elementchill_Click(object sender, EventArgs e)
         {
             var button = sender as AccordionControlElement;
+            if (sLoad == button.Name) return;
+            Commons.Modules.ObjSystems.ShowWaitForm(this);
+            sLoad = button.Name;
             lab_Link.Text = slinkcha + "/" + button.Text;
             switch (button.Name)
             {
                 case "mnuKHNghiPhep":
                     {
-                        if (!panel2.Controls.Contains(ucKeHoachNghiPhep.Instance))
-                        {
-                            panel2.Controls.Clear();
-                            panel2.Controls.Add(ucKeHoachNghiPhep.Instance);
-                            ucKeHoachNghiPhep.Instance.Dock = DockStyle.Fill;
-                            ucKeHoachNghiPhep.Instance.BringToFront();
-                        }
+                        //if (!panel2.Controls.Contains(ucKeHoachNghiPhep.Instance))
+                        //{
+                        //    panel2.Controls.Clear();
+                        //    panel2.Controls.Add(ucKeHoachNghiPhep.Instance);
+                        //    ucKeHoachNghiPhep.Instance.Dock = DockStyle.Fill;
+                        //    ucKeHoachNghiPhep.Instance.BringToFront();
+                        //}
+                        //break;
+                        ucKeHoachNghiPhep kehoachnghiphep = new ucKeHoachNghiPhep();
+                        panel2.Controls.Clear();
+                        panel2.Controls.Add(kehoachnghiphep);
+                        kehoachnghiphep.Dock = DockStyle.Fill;
                         break;
                     }
                 case "mnuDaoTao":
                     {
-                        if (!panel2.Controls.Contains(ucDaoTao.Instance))
-                        {
-                            panel2.Controls.Clear();
-                            panel2.Controls.Add(ucDaoTao.Instance);
-                            ucDaoTao.Instance.Dock = DockStyle.Fill;
-                            ucDaoTao.Instance.BringToFront();
-                        }
+                        //if (!panel2.Controls.Contains(ucDaoTao.Instance))
+                        //{
+                        //    panel2.Controls.Clear();
+                        //    panel2.Controls.Add(ucDaoTao.Instance);
+                        //    ucDaoTao.Instance.Dock = DockStyle.Fill;
+                        //    ucDaoTao.Instance.BringToFront();
+                        //}
+                        //break;
+                        ucDaoTao daotao = new ucDaoTao();
+                        panel2.Controls.Clear();
+                        panel2.Controls.Add(daotao);
+                        daotao.Dock = DockStyle.Fill;
                         break;
                     }
                 case "mnuThoiViec":
@@ -193,9 +216,35 @@ namespace VietSoftHRM
                         tc.Dock = DockStyle.Fill;
                         break;
                     }
+                case "mnuXepLoaiKhenThuong":
+                    {
+                        ucXepLoaiKhenThuong tc = new ucXepLoaiKhenThuong();
+                        panel2.Controls.Clear();
+                        panel2.Controls.Add(tc);
+                        tc.Dock = DockStyle.Fill;
+                        break;
+                    }
+                case "mnuThuongKhacLuong":
+                    {
+                        ucThuongKhacLuong tc = new ucThuongKhacLuong();
+                        panel2.Controls.Clear();
+                        panel2.Controls.Add(tc);
+                        tc.Dock = DockStyle.Fill;
+                        break;
+                    }
+                case "mnuThuongXepLoai":
+                    {
+                        ucTienThuongXepLoai tc = new ucTienThuongXepLoai();
+                        panel2.Controls.Clear();
+                        panel2.Controls.Add(tc);
+                        tc.Dock = DockStyle.Fill;
+                        break;
+                    }
+
                 default:
                     break;
             }
+            Commons.Modules.ObjSystems.HideWaitForm();
         }
         private void ucCongNhan_Load(object sender, EventArgs e)
         {

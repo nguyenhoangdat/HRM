@@ -790,7 +790,7 @@
             this.searchControl.Properties.FindDelay = 100;
             this.searchControl.Size = new System.Drawing.Size(285, 30);
             this.searchControl.TabIndex = 11;
-            // 
+           
             // ucCapNhatLCB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);

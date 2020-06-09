@@ -1,874 +1,268 @@
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe.config
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.pdb
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.CodeParser.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.pdb
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.pdb
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.pdb
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmLogin.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmMain.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.SplashScreenMain.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.WaitForm1.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmChangePass.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.Properties.Resources.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOMTO.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucMENU.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNGUOIDUNG.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOM.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucCongNhan.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucSystems.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListDMuc.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucDU_LIEU.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListUsers.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.XtraForm1.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.GenerateResource.Cache
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe.licenses
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.pdb
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll.config
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll.config
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe.config
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csprojAssemblyReference.cache
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CoreCompileInputs.cache
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CopyComplete
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Charts.v19.1.Core.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.xml
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Map.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Map.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Map.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Map.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Utils.v19.1.UI.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Utils.v19.1.UI.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Utils.v19.1.UI.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Utils.v19.1.UI.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraReports.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraReports.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraReports.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraReports.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.fdfMain.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmDashBoard.resources
-D:\02.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucQLNS.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe.config
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.pdb
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Charts.v19.1.Core.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.CodeParser.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DevAV.v19.1.Data.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\EntityFramework.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.pdb
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll.config
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.pdb
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll.config
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.pdb
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe.config
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.xml
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Win.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Win.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Win.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Win.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.UI.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.UI.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.UI.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.UI.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Map.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Map.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Map.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Map.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.PivotGrid.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.PivotGrid.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.PivotGrid.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.PivotGrid.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Utils.v19.1.UI.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Utils.v19.1.UI.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Utils.v19.1.UI.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Utils.v19.1.UI.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraPivotGrid.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraPivotGrid.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraReports.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraReports.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraReports.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraReports.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraRichEdit.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraSpellChecker.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraSpellChecker.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Diagram.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Diagram.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Diagram.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Diagram.v19.1.Core.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\EntityFramework.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\EntityFramework.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\fr\EntityFramework.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\it\EntityFramework.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\EntityFramework.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ko\EntityFramework.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\EntityFramework.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\zh-Hans\EntityFramework.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\zh-Hant\EntityFramework.resources.dll
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csprojAssemblyReference.cache
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.fdfMain.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmLogin.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmMain.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.SplashScreenMain.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.WaitForm1.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmChangePass.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmDashBoard.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.Properties.Resources.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOMTO.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucMENU.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNGUOIDUNG.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOM.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucCongNhan.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucSystems.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListDMuc.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucDU_LIEU.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListUsers.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.XtraForm1.resources
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.GenerateResource.cache
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe.licenses
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CoreCompileInputs.cache
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CopyComplete
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe
-E:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.pdb
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csprojAssemblyReference.cache
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.fdfMain.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmLogin.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmMain.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.SplashScreenMain.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.WaitForm1.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmChangePass.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmDashBoard.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.Properties.Resources.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOMTO.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucMENU.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNGUOIDUNG.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOM.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucCongNhan.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucSystems.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListDMuc.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucDU_LIEU.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListUsers.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.XtraForm1.resources
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.GenerateResource.cache
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe.licenses
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CoreCompileInputs.cache
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe.config
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.pdb
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Charts.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.CodeParser.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DevAV.v19.1.Data.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\EntityFramework.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.pdb
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll.config
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.pdb
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll.config
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.pdb
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe.config
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Map.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Map.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Map.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Map.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Utils.v19.1.UI.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Utils.v19.1.UI.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Utils.v19.1.UI.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Utils.v19.1.UI.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraReports.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraReports.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraReports.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraReports.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CopyComplete
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe
-D:\01.VietSoft\Huong\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.pdb
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe.config
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.pdb
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Charts.v19.1.Core.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.CodeParser.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DevAV.v19.1.Data.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\EntityFramework.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.pdb
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll.config
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.pdb
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll.config
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.pdb
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe.config
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.xml
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Map.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Map.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Map.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Map.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Utils.v19.1.UI.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Utils.v19.1.UI.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Utils.v19.1.UI.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Utils.v19.1.UI.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraReports.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraReports.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraReports.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraReports.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\EntityFramework.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\EntityFramework.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\fr\EntityFramework.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\it\EntityFramework.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\EntityFramework.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ko\EntityFramework.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\EntityFramework.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\zh-Hans\EntityFramework.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\zh-Hant\EntityFramework.resources.dll
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csprojAssemblyReference.cache
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.fdfMain.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmLogin.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmMain.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.SplashScreenMain.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.WaitForm1.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmChangePass.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmDashBoard.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.Properties.Resources.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOMTO.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucMENU.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNGUOIDUNG.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOM.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucCongNhan.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucSystems.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListDMuc.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucDU_LIEU.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListUsers.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.XtraForm1.resources
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.GenerateResource.cache
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe.licenses
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CoreCompileInputs.cache
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CopyComplete
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe
-D:\01.HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.pdb
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe.config
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.pdb
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Charts.v19.1.Core.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.CodeParser.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DevAV.v19.1.Data.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\EntityFramework.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.pdb
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll.config
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.pdb
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll.config
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.pdb
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe.config
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Core.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v19.1.Win.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v19.1.UI.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v19.1.Core.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v19.1.Core.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v19.1.Core.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v19.1.UI.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.UI.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v19.1.Wizard.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Core.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Presets.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v19.1.Win.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v19.1.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v19.1.Core.xml
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v19.1.Win.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v19.1.UI.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Map.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Map.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Map.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Map.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.PivotGrid.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Utils.v19.1.UI.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Utils.v19.1.UI.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Utils.v19.1.UI.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Utils.v19.1.UI.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v19.1.Wizard.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v19.1.Presets.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraReports.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraReports.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraReports.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraReports.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraRichEdit.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.1.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Diagram.v19.1.Core.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\EntityFramework.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\EntityFramework.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\fr\EntityFramework.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\it\EntityFramework.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\EntityFramework.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ko\EntityFramework.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\EntityFramework.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\zh-Hans\EntityFramework.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\zh-Hant\EntityFramework.resources.dll
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csprojAssemblyReference.cache
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmLogin.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmMain.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.SplashScreenMain.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.WaitForm1.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmChangePass.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmDashBoard.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.Properties.Resources.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOMTO.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucMENU.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNGUOIDUNG.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOM.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucCongNhan.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucSystems.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListDMuc.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucDU_LIEU.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListUsers.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucTrangChu.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.XtraForm1.resources
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.GenerateResource.cache
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe.licenses
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CoreCompileInputs.cache
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CopyComplete
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.pdb
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Report.exe
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Report.pdb
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Report.exe.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.exe
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VietSoftHRM.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.CodeParser.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v20.1.Win.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Images.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Mvvm.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Office.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Spreadsheet.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraBars.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v20.1.UI.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v20.1.Presets.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v20.1.Win.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VS.Report.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.dll.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v20.1.Win.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Map.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Mvvm.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Office.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.SpellChecker.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Spreadsheet.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.TreeMap.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Xpo.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraBars.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v20.1.UI.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v20.1.Presets.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGauges.v20.1.Win.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraMap.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraSpellChecker.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VS.Report.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VS.Report.dll.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VS.Report.exe.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Dashboard.v20.1.Win.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Dashboard.v20.1.Win.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Dashboard.v20.1.Win.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Dashboard.v20.1.Win.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Map.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Map.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Map.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Map.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGauges.v20.1.Presets.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGauges.v20.1.Presets.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Presets.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Presets.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraSpellChecker.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraSpellChecker.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraSpellChecker.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraSpellChecker.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csprojAssemblyReference.cache
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmLogin.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmMain.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.SplashScreenMain.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmWaitForm.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.frmChangePass.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.Properties.Resources.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOMTO.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucMENU.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNGUOIDUNG.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucNHOM.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucCongNhan.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucSystems.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListDMuc.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucDU_LIEU.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.ucListUsers.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.GenerateResource.cache
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe.licenses
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CoreCompileInputs.cache
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CopyComplete
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe
+E:\NÂNG CẤP HRM 20.1\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.pdb

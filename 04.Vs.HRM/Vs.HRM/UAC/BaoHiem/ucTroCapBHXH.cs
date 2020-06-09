@@ -8,10 +8,23 @@ using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraGrid.Columns;
 using DevExpress.Utils;
+
 namespace Vs.HRM
 {
     public partial class ucTroCapBHXH : DevExpress.XtraEditors.XtraUserControl
     {
+        public static ucTroCapBHXH _instance;
+        public static ucTroCapBHXH Instance
+        {
+            get
+            {
+                if (_instance == null)
+                    _instance = new ucTroCapBHXH();
+                return _instance;
+            }
+        }
+
+
         string sbtDCTroCapBHXH = "tabDCTroCapBHXH" + Commons.Modules.UserName;
         string sbtChonDCTroCapBHXH = "tabChonDCTroCapBHXH" + Commons.Modules.UserName;
         bool val = true;
@@ -21,12 +34,12 @@ namespace Vs.HRM
         }
         private void ucTroCapBHXH_Load(object sender, EventArgs e)
         {
+
             Commons.Modules.sPS = "0Load";
             LoadData();
             Commons.Modules.sPS = "";
             LoadGrdTroCapBHXH();
             LoadGrdDCTroCapBHXH(false);
-
             enableButon(true);
         }
 

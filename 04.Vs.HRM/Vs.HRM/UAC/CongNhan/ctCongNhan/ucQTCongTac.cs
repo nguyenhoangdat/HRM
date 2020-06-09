@@ -6,7 +6,6 @@ using DevExpress.XtraEditors;
 using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraLayout;
-using System.Data.Linq.SqlClient;
 
 namespace Vs.HRM
 {

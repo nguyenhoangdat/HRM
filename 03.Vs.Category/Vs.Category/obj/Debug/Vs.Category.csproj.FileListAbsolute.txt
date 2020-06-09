@@ -1,861 +1,164 @@
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll.config
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.pdb
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Images.v19.1.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.pdb
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.xml
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Form1.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditBAC_LUONG.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHE_DO_NGHI.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHUC_VU.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDAN_TOC.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDON_VI.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_CONG_VIEC.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_HDLD.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_TRINH_DO.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLUONG_TOI_THIEU.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_THOI_VIEC.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_VANG.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGACH_LUONG.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGUOI_KY_GIAY_TO.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN_HE_GD.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HD.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HT.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTMP.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTO.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUOC_GIA.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTHANH_PHO.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTRINH_DO_VAN_HOA.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditXI_NGHIEP.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditPHUONG_XA.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Properties.Resources.resources
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.GenerateResource.Cache
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll.licenses
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.pdb
-D:\02.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
-D:\02.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll.config
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.pdb
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Images.v19.1.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.pdb
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.xml
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Form1.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditBAC_LUONG.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHE_DO_NGHI.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHUC_VU.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDAN_TOC.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDON_VI.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_CONG_VIEC.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_HDLD.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_TRINH_DO.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLUONG_TOI_THIEU.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_THOI_VIEC.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_VANG.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGACH_LUONG.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGUOI_KY_GIAY_TO.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN_HE_GD.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HD.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HT.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTMP.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTO.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUOC_GIA.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTHANH_PHO.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTRINH_DO_VAN_HOA.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditXI_NGHIEP.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditPHUONG_XA.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Properties.Resources.resources
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.GenerateResource.cache
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll.licenses
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll
-E:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.pdb
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll.config
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.pdb
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Images.v19.1.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.pdb
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.xml
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Form1.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditBAC_LUONG.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHE_DO_NGHI.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHUC_VU.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDAN_TOC.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDON_VI.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_CONG_VIEC.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_HDLD.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_TRINH_DO.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLUONG_TOI_THIEU.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_THOI_VIEC.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_VANG.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGACH_LUONG.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGUOI_KY_GIAY_TO.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN_HE_GD.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HD.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HT.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTMP.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTO.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUOC_GIA.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTHANH_PHO.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTRINH_DO_VAN_HOA.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditXI_NGHIEP.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditPHUONG_XA.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Properties.Resources.resources
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.GenerateResource.cache
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll.licenses
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll
-D:\01.VietSoft\Huong\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.pdb
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll.config
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.pdb
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Images.v19.1.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.pdb
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.xml
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Form1.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditBAC_LUONG.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHE_DO_NGHI.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHUC_VU.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDAN_TOC.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDON_VI.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_CONG_VIEC.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_HDLD.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_TRINH_DO.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLUONG_TOI_THIEU.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_THOI_VIEC.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_VANG.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGACH_LUONG.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGUOI_KY_GIAY_TO.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN_HE_GD.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HD.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HT.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTMP.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTO.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUOC_GIA.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTHANH_PHO.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTRINH_DO_VAN_HOA.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditXI_NGHIEP.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditPHUONG_XA.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Properties.Resources.resources
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.GenerateResource.cache
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll.licenses
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll
-D:\01.HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.pdb
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Form1.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditBAC_LUONG.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHE_DO_NGHI.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHUC_VU.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDAN_TOC.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDON_VI.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_CONG_VIEC.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_HDLD.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_TRINH_DO.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLUONG_TOI_THIEU.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_THOI_VIEC.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_VANG.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGACH_LUONG.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGUOI_KY_GIAY_TO.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN_HE_GD.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HD.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HT.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTMP.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTO.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUOC_GIA.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTHANH_PHO.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTRINH_DO_VAN_HOA.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditXI_NGHIEP.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditPHUONG_XA.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Properties.Resources.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.GenerateResource.cache
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll.licenses
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.pdb
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll.config
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.pdb
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Images.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.pdb
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\Huong_04052020\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Form1.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditBAC_LUONG.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHE_DO_NGHI.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHUC_VU.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDAN_TOC.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDON_VI.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_CONG_VIEC.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_HDLD.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_TRINH_DO.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLUONG_TOI_THIEU.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_THOI_VIEC.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_VANG.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGACH_LUONG.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGUOI_KY_GIAY_TO.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN_HE_GD.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HD.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HT.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTMP.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTO.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUOC_GIA.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTHANH_PHO.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTRINH_DO_VAN_HOA.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditXI_NGHIEP.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditPHUONG_XA.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Properties.Resources.resources
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.GenerateResource.cache
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll.licenses
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.pdb
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll.config
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.pdb
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Images.v19.1.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.pdb
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.xml
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-D:\VietSoft_ERP\HRM_2020\VietSoft\NangCapHRM\VSHRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll.config
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.pdb
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.BonusSkins.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Images.v19.1.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.pdb
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v19.1.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v19.1.Core.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v19.1.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v19.1.Core.xml
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Form1.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditBAC_LUONG.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHE_DO_NGHI.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHUC_VU.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDAN_TOC.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDON_VI.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_CONG_VIEC.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_HDLD.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_TRINH_DO.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLUONG_TOI_THIEU.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_THOI_VIEC.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_VANG.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGACH_LUONG.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGUOI_KY_GIAY_TO.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditPHUONG_XA.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN_HE_GD.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HD.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HT.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTMP.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTO.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUOC_GIA.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTHANH_PHO.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTRINH_DO_VAN_HOA.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditXI_NGHIEP.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Properties.Resources.resources
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.GenerateResource.cache
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll.licenses
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Vs.Category.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraReports.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Xpo.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.DataAccess.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.CodeParser.v20.1.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v20.1.Core.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.pdb
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Utils.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraBars.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraTreeMap.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraReports.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Xpo.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.DataAccess.v20.1.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v20.1.Core.xml
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Form1.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditBAC_LUONG.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHE_DO_NGHI.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHUC_VU.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDAN_TOC.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditDON_VI.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_CONG_VIEC.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_HDLD.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLOAI_TRINH_DO.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLUONG_TOI_THIEU.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_THOI_VIEC.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditLY_DO_VANG.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGACH_LUONG.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditNGUOI_KY_GIAY_TO.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditPHUONG_XA.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN_HE_GD.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HD.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTINH_TRANG_HT.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTMP.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTO.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUOC_GIA.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTHANH_PHO.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditTRINH_DO_VAN_HOA.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditXI_NGHIEP.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Properties.Resources.resources
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.GenerateResource.cache
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll.licenses
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll
+E:\NÂNG CẤP HRM 20.1\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.pdb

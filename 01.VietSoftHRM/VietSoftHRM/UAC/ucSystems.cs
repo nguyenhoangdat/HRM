@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraBars.Navigation;
 using DevExpress.XtraEditors;
+using System.Threading;
 
 namespace VietSoftHRM
 {
@@ -14,6 +15,7 @@ namespace VietSoftHRM
         public int iLoai;
         public int iIDOut;
         public string slinkcha;
+        public string sLoad = "";
         public ucSystems()
         {
             InitializeComponent();
@@ -51,12 +53,14 @@ namespace VietSoftHRM
                 {
                     element.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
                 }
-
             }
+
         }
         private void Element_Click(object sender, EventArgs e)
         {
             var button = sender as AccordionControlElement;
+            if (sLoad == button.Name) return;
+            sLoad = button.Name;
             lab_Link.Text = slinkcha + "/" + button.Text;
             switch (button.Name)
             {
@@ -89,6 +93,8 @@ namespace VietSoftHRM
         private void Elementchill_Click(object sender, EventArgs e)
         {
             var button = sender as AccordionControlElement;
+            if (sLoad == button.Name) return;
+            sLoad = button.Name;
             lab_Link.Text = slinkcha + "/" + button.Text + "/" + SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT dbo.fuGetTeNhom(" + Convert.ToInt64(Commons.Modules.sId) + "," + Commons.Modules.TypeLanguage + ")");
             switch (button.Name)
             {

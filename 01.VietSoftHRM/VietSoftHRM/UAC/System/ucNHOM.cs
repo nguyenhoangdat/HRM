@@ -6,8 +6,6 @@ using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraGrid;
-using DevExpress.XtraEditors.Repository;
-using System.Linq;
 
 namespace VietSoftHRM
 {

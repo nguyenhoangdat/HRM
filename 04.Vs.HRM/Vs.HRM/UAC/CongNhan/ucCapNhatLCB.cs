@@ -7,11 +7,23 @@ using Microsoft.ApplicationBlocks.Data;
 using DevExpress.Utils;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraLayout;
+using System.Threading;
 
 namespace Vs.HRM
 {
     public partial class ucCapNhatLCB : DevExpress.XtraEditors.XtraUserControl
     {
+        public static ucCapNhatLCB _instance;
+        public static ucCapNhatLCB Instance
+        {
+            get
+            {
+                if (_instance == null)
+                    _instance = new ucCapNhatLCB();
+                return _instance;
+            }
+        }
+
         string sbt = Commons.Modules.UserName;
         public ucCapNhatLCB()
         {

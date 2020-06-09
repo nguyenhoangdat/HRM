@@ -114,6 +114,7 @@
             this.ItemForNoiDung = new DevExpress.XtraLayout.LayoutControlItem();
             this.ItemForDiem = new DevExpress.XtraLayout.LayoutControlItem();
             this.dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
+          
             ((System.ComponentModel.ISupportInitialize)(this.grdKhoaHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvKhoaHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataLayoutControl1)).BeginInit();
@@ -1031,6 +1032,7 @@
             // 
             this.dxValidationProvider1.ValidationMode = DevExpress.XtraEditors.DXErrorProvider.ValidationMode.Auto;
             // 
+          
             // ucDaoTao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);

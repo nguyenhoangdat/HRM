@@ -129,6 +129,9 @@
   <data name="msgDuLieuDangSuDung" xml:space="preserve">
     <value>msgDuLieuDangSuDung</value>
   </data>
+  <data name="msgKhongCoDuLieuIn" xml:space="preserve">
+    <value>msgKhongCoDuLieuIn</value>
+  </data>
   <data name="msgKhongCoDuLieuXoa" xml:space="preserve">
     <value>msgKhongCoDuLieuXoa</value>
   </data>

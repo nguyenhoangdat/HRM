@@ -145,25 +145,25 @@ namespace VietSoftHRM
                 pass = "";
             }
             DataSet ds = new DataSet();
-            ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\savelogin.xml");
+            ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\lib\\savelogin.xml");
             ds.Tables[0].Rows[0]["U"] = user;
             ds.Tables[0].Rows[0]["P"] = pass;
-            ds.WriteXml(AppDomain.CurrentDomain.BaseDirectory + "\\savelogin.xml");
+            ds.WriteXml(AppDomain.CurrentDomain.BaseDirectory + "\\lib\\savelogin.xml");
             Commons.Modules.UserName = txt_user.Text;
         }
         private void SaveDatabase()
         {
             DataSet ds = new DataSet();
-            ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\vsconfig.xml");
+            ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\lib\\vsconfig.xml");
             ds.Tables[0].Rows[0]["D"] = cbo_database.EditValue;
-            ds.WriteXml(AppDomain.CurrentDomain.BaseDirectory + "\\vsconfig.xml");
+            ds.WriteXml(AppDomain.CurrentDomain.BaseDirectory + "\\lib\\vsconfig.xml");
             Commons.IConnections.Database = cbo_database.Text.Trim();
         }
         private void LoadUserPass()
         {
             string user, pass;
             DataSet ds = new DataSet();
-            ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\savelogin.xml");
+            ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\lib\\savelogin.xml");
             user = ds.Tables[0].Rows[0]["U"].ToString();
             pass = ds.Tables[0].Rows[0]["P"].ToString();
             if (!string.IsNullOrEmpty(user))

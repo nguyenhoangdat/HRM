@@ -15,7 +15,6 @@ namespace Vs.HRM
         private bool bthem = false;
         private bool them = false;
         public static ucDaoTao _instance;
-
         public static ucDaoTao Instance
         {
             get
@@ -34,7 +33,6 @@ namespace Vs.HRM
         {
             try
             {
-              
                 TU_NGAYDateEdit.DateTime = DateTime.Today.AddYears(-1);
                 DEN_NGAYDateEdit.EditValue = DateTime.Now;
                 LoadGridControl(-1);

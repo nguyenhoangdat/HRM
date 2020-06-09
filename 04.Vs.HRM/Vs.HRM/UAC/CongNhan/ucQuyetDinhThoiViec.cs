@@ -14,6 +14,17 @@ namespace Vs.HRM
 {
     public partial class ucQuyetDinhThoiViec : DevExpress.XtraEditors.XtraUserControl
     {
+        public static ucQuyetDinhThoiViec _instance;
+        public static ucQuyetDinhThoiViec Instance
+        {
+            get
+            {
+                if (_instance == null)
+                    _instance = new ucQuyetDinhThoiViec();
+                return _instance;
+            }
+        }
+
         public ucQuyetDinhThoiViec()
         {
             InitializeComponent();

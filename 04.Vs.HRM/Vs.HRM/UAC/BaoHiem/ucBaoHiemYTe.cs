@@ -6,11 +6,24 @@ using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraEditors;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraLayout;
+using System.Threading;
 
 namespace Vs.HRM
 {
     public partial class ucBaoHiemYTe : DevExpress.XtraEditors.XtraUserControl
     {
+        public static ucBaoHiemYTe _instance;
+        public static ucBaoHiemYTe Instance
+        {
+            get
+            {
+                if (_instance == null)
+                    _instance = new ucBaoHiemYTe();
+                return _instance;
+            }
+        }
+
+
         public ucBaoHiemYTe()
         {
             InitializeComponent();
@@ -19,6 +32,7 @@ namespace Vs.HRM
         #region bảo hiểm y tế
         private void ucBaoHiemYTe_Load(object sender, EventArgs e)
         {
+            Thread.Sleep(1000);
             Commons.Modules.sPS = "0Load";
             Commons.Modules.ObjSystems.LoadCboDonVi(cboDV);
             Commons.Modules.ObjSystems.LoadCboXiNghiep(cboDV, cboXN);
