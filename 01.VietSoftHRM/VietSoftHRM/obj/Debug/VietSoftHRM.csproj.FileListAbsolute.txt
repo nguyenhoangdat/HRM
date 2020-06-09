@@ -316,6 +316,7 @@ D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraTreeMap.v20.1.dll
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll
+D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\VS.Report.dll
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
@@ -327,6 +328,7 @@ D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Commons.dll.config
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.pdb
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.Category.dll.config
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.pdb
+D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe.config
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v20.1.Core.xml
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Dashboard.v20.1.Win.xml
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\DevExpress.Data.v20.1.xml
@@ -532,5 +534,3 @@ D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CoreCompileInp
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.csproj.CopyComplete
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.exe
 D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\obj\Debug\VietSoftHRM.pdb
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe
-D:\VS_HRM\01.VietSoftHRM\VietSoftHRM\bin\Debug\Vs.HRM.exe.config

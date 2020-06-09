@@ -285,6 +285,8 @@ E:\NÂNG CẤP HRM 20.1\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CoreComp
 E:\NÂNG CẤP HRM 20.1\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CopyComplete
 E:\NÂNG CẤP HRM 20.1\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.dll
 E:\NÂNG CẤP HRM 20.1\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.pdb
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.exe.config
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.exe
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.pdb
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Commons.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.BonusSkins.v20.1.dll
@@ -565,10 +567,8 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucTienThuongXepLoai.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucXepLoaiKhenThuong.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.XtraForm1.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.GenerateResource.cache
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.exe.licenses
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CoreCompileInputs.cache
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CopyComplete
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.pdb
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.exe.config
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.exe
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.exe.licenses
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.exe
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.pdb
