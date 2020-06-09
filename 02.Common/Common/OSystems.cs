@@ -697,7 +697,7 @@ namespace Commons
         public void ThayDoiNN(XtraReport report)
         {
             DataTable dtTmp = new DataTable();
-            dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + report.Name + "' "));
+            dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + report.Tag.ToString() + "' "));
             foreach (DevExpress.XtraReports.UI.Band band in report.Bands)
             {
                 foreach (DevExpress.XtraReports.UI.SubBand subband in band.SubBands)
@@ -711,13 +711,13 @@ namespace Commons
                             {
                                 foreach (DevExpress.XtraReports.UI.XRTableCell cell in row)
                                 {
-                                    cell.Text = GetNN(dtTmp, cell.Name, report.Name);// translation processing here
+                                    cell.Text = GetNN(dtTmp, cell.Name, report.Tag.ToString());// translation processing here
                                 }
                             }
                         }
                         else
                         {
-                            control.Text = GetNN(dtTmp, control.Name, report.Name);
+                            control.Text = GetNN(dtTmp, control.Name, report.Tag.ToString());
                         }
                     }
                 }
@@ -730,13 +730,13 @@ namespace Commons
                         {
                             foreach (DevExpress.XtraReports.UI.XRTableCell cell in row)
                             {
-                                cell.Text = GetNN(dtTmp, cell.Name, report.Name);// translation processing here
+                                cell.Text = GetNN(dtTmp, cell.Name, report.Tag.ToString());// translation processing here
                             }
                         }
                     }
                     else
                     {
-                        control.Text = GetNN(dtTmp,control.Name, report.Name);
+                        control.Text = GetNN(dtTmp,control.Name, report.Tag.ToString());
                     }
 
                 }

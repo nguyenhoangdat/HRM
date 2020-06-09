@@ -87,10 +87,10 @@ namespace Vs.HRM
         private void InDuLieu()
         {
             frmViewReport frm = new frmViewReport();
-            frm.rpt = new rptThamGiaBHXH();
+            frm.rpt = new rptThamGiaBHXH(Convert.ToInt64(grvCongNhan.GetFocusedRowCellValue("ID_CN")));
             DataTable dt = new DataTable();
             dt = Commons.Modules.ObjSystems.ConvertDatatable(grvThamGiaBHXH);
-            dt.TableName = "DATA_REPORT";
+            dt.TableName = "DATA";
             frm.AddDataSource(dt);
             frm.AddDataSource(dt);
             frm.ShowDialog();

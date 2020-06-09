@@ -21,8 +21,8 @@ namespace Vs.HRM
         private void XtraForm1_Load(object sender, EventArgs e)
         {
 
-            Commons.Modules.iCongNhan = 24;
-            ucHopDong ns = new ucHopDong(24);
+            //Commons.Modules.iCongNhan = 24;
+            ucThuongKhacLuong ns = new ucThuongKhacLuong();
             //ucTaiNanLD ns = new ucTaiNanLD(24);
             this.Controls.Clear();
             this.Controls.Add(ns);
