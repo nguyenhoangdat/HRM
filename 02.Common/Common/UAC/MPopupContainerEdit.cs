@@ -28,8 +28,6 @@ namespace Commons
                 CustomEditName,
                 typeof(MPopupContainerEdit),
                 typeof(RegisterMPopupContainerEdit),
-                //For v13.2 you need to use custom ViewInfo class. So, here is MPopupContainerEdit1ViewInfo.
-                //For v15.1 you can use the base PopupContainerEditViewInfo.
                 typeof(MPopupContainerEdit1ViewInfo),
                 new ButtonEditPainter(),
                 true,

@@ -589,7 +589,14 @@ namespace Vs.HRM
 
         private void ID_LCVLookUpEdit_EditValueChanged(object sender, EventArgs e)
         {
+            try
+            {
             PHEP_CTTextEdit.Text = SqlHelper.ExecuteScalar(Commons.IConnections.CNStr, CommandType.Text, "SELECT [dbo].[funPhepCongThem]("+ID_LCVLookUpEdit.EditValue+")").ToString();
+            }
+            catch (Exception)
+            {
+                PHEP_CTTextEdit.Text = "0";
+            }
         }
     }
 }

@@ -268,7 +268,6 @@ D:\VS_HRM\02.Common\Common\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.d
 D:\VS_HRM\02.Common\Common\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
 D:\VS_HRM\02.Common\Common\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
 D:\VS_HRM\02.Common\Common\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
-D:\VS_HRM\02.Common\Common\obj\Debug\Commons.csprojAssemblyReference.cache
 D:\VS_HRM\02.Common\Common\obj\Debug\Commons.frmWaitForm.resources
 D:\VS_HRM\02.Common\Common\obj\Debug\Commons.Properties.Resources.resources
 D:\VS_HRM\02.Common\Common\obj\Debug\Commons.ThongBao.resources
@@ -278,3 +277,4 @@ D:\VS_HRM\02.Common\Common\obj\Debug\Commons.csproj.CoreCompileInputs.cache
 D:\VS_HRM\02.Common\Common\obj\Debug\Commons.csproj.CopyComplete
 D:\VS_HRM\02.Common\Common\obj\Debug\Commons.dll
 D:\VS_HRM\02.Common\Common\obj\Debug\Commons.pdb
+D:\VS_HRM\02.Common\Common\obj\Debug\Commons.csprojAssemblyReference.cache

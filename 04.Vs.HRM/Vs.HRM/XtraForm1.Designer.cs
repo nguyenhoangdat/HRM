@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(939, 578);
+            this.ClientSize = new System.Drawing.Size(959, 413);
             this.Name = "XtraForm1";
             this.Text = "XtraForm1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

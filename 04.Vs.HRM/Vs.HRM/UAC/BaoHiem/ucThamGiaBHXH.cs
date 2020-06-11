@@ -152,11 +152,13 @@ namespace Vs.HRM
                 Commons.Modules.ObjSystems.MLoadXtraGrid(grdThamGiaBHXH, grvThamGiaBHXH, dt, false, false, true, true, true, "");
                 grvThamGiaBHXH.Columns["ID_CN"].Visible = false;
                 grvThamGiaBHXH.Columns["NGAY_HIEU_LUC"].Visible = false;
+                grvThamGiaBHXH.Columns["TEN_CV"].Visible = false;
                 grvThamGiaBHXH.Columns["MUC_LUONG_DONG"].DisplayFormat.FormatType = FormatType.Numeric;
                 grvThamGiaBHXH.Columns["MUC_LUONG_DONG"].DisplayFormat.FormatString = Commons.Modules.sSoLeTT;
             }
             catch (Exception ex)
             {
+                grdThamGiaBHXH.DataSource = null;
             }
 
         }

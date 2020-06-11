@@ -49,7 +49,7 @@ namespace VietSoftHRM
                 //Application.Run(new XtraForm1());
                 //Application.Run(new Form2());
                 //Application.Run(new frmLogin());
-                Application.Run(new frmMain());
+                Application.Run(new frmLogin());
                 //Application.Run(new frmEditLOAI_HD());
                 //Application.Run(new Vs.Category.frmEditQUOC_GIA(1,true));
                 //Application.Run(new Vs.Category.Form1());

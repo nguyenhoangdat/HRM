@@ -16,6 +16,8 @@ namespace Vs.Report
             InitializeComponent();
             idcn = id;
             Commons.Modules.ObjSystems.ThayDoiNN(this);
+
+            xrTableCell10.TextFormatString = this.xrTableCell10.TextFormatString = "{0:n" + Commons.Modules.iSoLeTT.ToString() + "}";
             DataTable dt = new DataTable();
             dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "rptThamGiaBHXH", idcn, Commons.Modules.UserName, Commons.Modules.TypeLanguage));
             lblSO_BHXH.Text = lblSO_BHXH.Text + " :<b> " + dt.Rows[0]["SO_BHXH"] + "</b>";

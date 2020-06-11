@@ -82,7 +82,7 @@
             // 
             // BottomMargin
             // 
-            this.BottomMargin.HeightF = 0F;
+            this.BottomMargin.HeightF = 34.31462F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // Detail
@@ -101,7 +101,7 @@
             this.xrTable1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable1.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow1});
-            this.xrTable1.SizeF = new System.Drawing.SizeF(700F, 27.79166F);
+            this.xrTable1.SizeF = new System.Drawing.SizeF(700F, 29.70835F);
             this.xrTable1.StylePriority.UseBorders = false;
             this.xrTable1.StylePriority.UseTextAlignment = false;
             this.xrTable1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
@@ -325,7 +325,7 @@
             this.lblTIEU_DE.Multiline = true;
             this.lblTIEU_DE.Name = "lblTIEU_DE";
             this.lblTIEU_DE.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblTIEU_DE.SizeF = new System.Drawing.SizeF(700F, 40.62503F);
+            this.lblTIEU_DE.SizeF = new System.Drawing.SizeF(700F, 62.54179F);
             this.lblTIEU_DE.StylePriority.UseFont = false;
             this.lblTIEU_DE.StylePriority.UseTextAlignment = false;
             this.lblTIEU_DE.Text = "lblTIEU_DE";
@@ -344,7 +344,7 @@
             this.lblNGAY_SINH,
             this.lbl_HO_TEN,
             this.lblTIEU_DE});
-            this.SubBand2.HeightF = 212.0834F;
+            this.SubBand2.HeightF = 250.0417F;
             this.SubBand2.Name = "SubBand2";
             // 
             // lblDON_VI
@@ -353,7 +353,7 @@
             this.lblDON_VI.AutoWidth = true;
             this.lblDON_VI.CanShrink = true;
             this.lblDON_VI.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblDON_VI.LocationFloat = new DevExpress.Utils.PointFloat(0F, 185.375F);
+            this.lblDON_VI.LocationFloat = new DevExpress.Utils.PointFloat(0F, 207.2917F);
             this.lblDON_VI.Multiline = true;
             this.lblDON_VI.Name = "lblDON_VI";
             this.lblDON_VI.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -368,7 +368,7 @@
             this.lblTHEO_QD.AllowMarkupText = true;
             this.lblTHEO_QD.AutoWidth = true;
             this.lblTHEO_QD.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblTHEO_QD.LocationFloat = new DevExpress.Utils.PointFloat(0F, 159.25F);
+            this.lblTHEO_QD.LocationFloat = new DevExpress.Utils.PointFloat(0F, 181.1667F);
             this.lblTHEO_QD.Multiline = true;
             this.lblTHEO_QD.Name = "lblTHEO_QD";
             this.lblTHEO_QD.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -383,7 +383,7 @@
             this.lblNGAY_THANG_NAM.AllowMarkupText = true;
             this.lblNGAY_THANG_NAM.AutoWidth = true;
             this.lblNGAY_THANG_NAM.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblNGAY_THANG_NAM.LocationFloat = new DevExpress.Utils.PointFloat(454.6876F, 159.25F);
+            this.lblNGAY_THANG_NAM.LocationFloat = new DevExpress.Utils.PointFloat(454.6876F, 181.1667F);
             this.lblNGAY_THANG_NAM.Multiline = true;
             this.lblNGAY_THANG_NAM.Name = "lblNGAY_THANG_NAM";
             this.lblNGAY_THANG_NAM.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -398,7 +398,7 @@
             this.lblGIOI_TINH.AllowMarkupText = true;
             this.lblGIOI_TINH.AutoWidth = true;
             this.lblGIOI_TINH.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblGIOI_TINH.LocationFloat = new DevExpress.Utils.PointFloat(476.2323F, 40.62505F);
+            this.lblGIOI_TINH.LocationFloat = new DevExpress.Utils.PointFloat(476.2323F, 62.54178F);
             this.lblGIOI_TINH.Multiline = true;
             this.lblGIOI_TINH.Name = "lblGIOI_TINH";
             this.lblGIOI_TINH.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -413,7 +413,7 @@
             this.lblDIA_CHI_THUONG_TRU.AllowMarkupText = true;
             this.lblDIA_CHI_THUONG_TRU.CanShrink = true;
             this.lblDIA_CHI_THUONG_TRU.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblDIA_CHI_THUONG_TRU.LocationFloat = new DevExpress.Utils.PointFloat(0F, 132.625F);
+            this.lblDIA_CHI_THUONG_TRU.LocationFloat = new DevExpress.Utils.PointFloat(0F, 154.5417F);
             this.lblDIA_CHI_THUONG_TRU.Multiline = true;
             this.lblDIA_CHI_THUONG_TRU.Name = "lblDIA_CHI_THUONG_TRU";
             this.lblDIA_CHI_THUONG_TRU.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -428,11 +428,11 @@
             this.lblDON_VI_CONG_TAC.AllowMarkupText = true;
             this.lblDON_VI_CONG_TAC.AutoWidth = true;
             this.lblDON_VI_CONG_TAC.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblDON_VI_CONG_TAC.LocationFloat = new DevExpress.Utils.PointFloat(0F, 109.625F);
+            this.lblDON_VI_CONG_TAC.LocationFloat = new DevExpress.Utils.PointFloat(0F, 131.5417F);
             this.lblDON_VI_CONG_TAC.Multiline = true;
             this.lblDON_VI_CONG_TAC.Name = "lblDON_VI_CONG_TAC";
             this.lblDON_VI_CONG_TAC.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblDON_VI_CONG_TAC.SizeF = new System.Drawing.SizeF(574.1489F, 23.00002F);
+            this.lblDON_VI_CONG_TAC.SizeF = new System.Drawing.SizeF(700F, 23.00002F);
             this.lblDON_VI_CONG_TAC.StylePriority.UseFont = false;
             this.lblDON_VI_CONG_TAC.StylePriority.UseTextAlignment = false;
             this.lblDON_VI_CONG_TAC.Text = "Đơn vị công tác :";
@@ -443,11 +443,11 @@
             this.lblCHUC_VU.AllowMarkupText = true;
             this.lblCHUC_VU.AutoWidth = true;
             this.lblCHUC_VU.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblCHUC_VU.LocationFloat = new DevExpress.Utils.PointFloat(0F, 86.625F);
+            this.lblCHUC_VU.LocationFloat = new DevExpress.Utils.PointFloat(0F, 108.5417F);
             this.lblCHUC_VU.Multiline = true;
             this.lblCHUC_VU.Name = "lblCHUC_VU";
             this.lblCHUC_VU.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblCHUC_VU.SizeF = new System.Drawing.SizeF(574.1489F, 23F);
+            this.lblCHUC_VU.SizeF = new System.Drawing.SizeF(700F, 23F);
             this.lblCHUC_VU.StylePriority.UseFont = false;
             this.lblCHUC_VU.StylePriority.UseTextAlignment = false;
             this.lblCHUC_VU.Text = "Chức danh nghề nghiệp, cấp bậc :";
@@ -458,11 +458,11 @@
             this.lblNGAY_SINH.AllowMarkupText = true;
             this.lblNGAY_SINH.AutoWidth = true;
             this.lblNGAY_SINH.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblNGAY_SINH.LocationFloat = new DevExpress.Utils.PointFloat(0F, 63.62502F);
+            this.lblNGAY_SINH.LocationFloat = new DevExpress.Utils.PointFloat(0F, 85.54175F);
             this.lblNGAY_SINH.Multiline = true;
             this.lblNGAY_SINH.Name = "lblNGAY_SINH";
             this.lblNGAY_SINH.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblNGAY_SINH.SizeF = new System.Drawing.SizeF(574.1489F, 23F);
+            this.lblNGAY_SINH.SizeF = new System.Drawing.SizeF(700F, 23F);
             this.lblNGAY_SINH.StylePriority.UseFont = false;
             this.lblNGAY_SINH.StylePriority.UseTextAlignment = false;
             this.lblNGAY_SINH.Text = "Ngày tháng năm sinh :";
@@ -473,7 +473,7 @@
             this.lbl_HO_TEN.AllowMarkupText = true;
             this.lbl_HO_TEN.AutoWidth = true;
             this.lbl_HO_TEN.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lbl_HO_TEN.LocationFloat = new DevExpress.Utils.PointFloat(0F, 40.62505F);
+            this.lbl_HO_TEN.LocationFloat = new DevExpress.Utils.PointFloat(0F, 62.54178F);
             this.lbl_HO_TEN.Multiline = true;
             this.lbl_HO_TEN.Name = "lbl_HO_TEN";
             this.lbl_HO_TEN.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -488,7 +488,7 @@
             this.lblSO_BHXH.AllowMarkupText = true;
             this.lblSO_BHXH.AutoWidth = true;
             this.lblSO_BHXH.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblSO_BHXH.LocationFloat = new DevExpress.Utils.PointFloat(473.7322F, 0F);
+            this.lblSO_BHXH.LocationFloat = new DevExpress.Utils.PointFloat(473.7322F, 15.58334F);
             this.lblSO_BHXH.Multiline = true;
             this.lblSO_BHXH.Name = "lblSO_BHXH";
             this.lblSO_BHXH.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -502,7 +502,7 @@
             // 
             this.SubBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.lblSO_BHXH});
-            this.SubBand1.HeightF = 25F;
+            this.SubBand1.HeightF = 38.58334F;
             this.SubBand1.Name = "SubBand1";
             // 
             // lblCHXHCNVN
@@ -512,7 +512,7 @@
             this.lblCHXHCNVN.Multiline = true;
             this.lblCHXHCNVN.Name = "lblCHXHCNVN";
             this.lblCHXHCNVN.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblCHXHCNVN.SizeF = new System.Drawing.SizeF(700F, 23F);
+            this.lblCHXHCNVN.SizeF = new System.Drawing.SizeF(700F, 36.91667F);
             this.lblCHXHCNVN.StylePriority.UseFont = false;
             this.lblCHXHCNVN.StylePriority.UseTextAlignment = false;
             this.lblCHXHCNVN.Text = "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM";
@@ -524,7 +524,7 @@
             this.xrLine1,
             this.lblDLTDHP,
             this.lblCHXHCNVN});
-            this.GroupHeader1.HeightF = 56.25F;
+            this.GroupHeader1.HeightF = 69.29167F;
             this.GroupHeader1.Name = "GroupHeader1";
             this.GroupHeader1.SubBands.AddRange(new DevExpress.XtraReports.UI.SubBand[] {
             this.SubBand1,
@@ -534,14 +534,14 @@
             // xrLine1
             // 
             this.xrLine1.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.xrLine1.LocationFloat = new DevExpress.Utils.PointFloat(270.3125F, 46F);
+            this.xrLine1.LocationFloat = new DevExpress.Utils.PointFloat(270.3125F, 59.91667F);
             this.xrLine1.Name = "xrLine1";
             this.xrLine1.SizeF = new System.Drawing.SizeF(159.375F, 9.375F);
             // 
             // lblDLTDHP
             // 
             this.lblDLTDHP.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblDLTDHP.LocationFloat = new DevExpress.Utils.PointFloat(0F, 23F);
+            this.lblDLTDHP.LocationFloat = new DevExpress.Utils.PointFloat(0F, 36.91667F);
             this.lblDLTDHP.Name = "lblDLTDHP";
             this.lblDLTDHP.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.lblDLTDHP.SizeF = new System.Drawing.SizeF(700F, 23F);
@@ -558,7 +558,7 @@
             this.Detail,
             this.GroupHeader1});
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(75, 75, 13, 0);
+            this.Margins = new System.Drawing.Printing.Margins(75, 75, 13, 34);
             this.Tag = "rptThamGiaBHXH";
             this.Version = "20.1";
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
