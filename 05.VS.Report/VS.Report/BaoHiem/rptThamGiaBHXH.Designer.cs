@@ -82,7 +82,7 @@
             // 
             // BottomMargin
             // 
-            this.BottomMargin.HeightF = 34.31462F;
+            this.BottomMargin.HeightF = 34F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // Detail

@@ -93,6 +93,7 @@ namespace Vs.HRM
             dt.TableName = "DATA";
             frm.AddDataSource(dt);
             frm.AddDataSource(dt);
+
             frm.ShowDialog();
         }
 

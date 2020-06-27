@@ -22,7 +22,7 @@ namespace Vs.HRM
         private void ucQLNS_Load(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM dbo.CONG_NHAN"));
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT * FROM dbo.CONG_NHAN ORDER BY MS_CN"));
             if (dt.Rows.Count == 0)
             {
                 tileView1_DoubleClick(null, null);

@@ -545,10 +545,8 @@ namespace Vs.HRM
                 frm.AddDataSource(dt);
 
             }
-            catch (Exception ex)
-            {
-
-            }
+            catch 
+            {}
 
 
 

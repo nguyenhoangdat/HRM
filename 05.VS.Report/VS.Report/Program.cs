@@ -21,7 +21,12 @@ namespace VS.Report
 
             //DevExpress.XtraReports.Configuration.DesignSettings.Default.UseOfficeInspiredRibbonStyle = false;
             //BonusSkins.Register();
-            Application.Run(new XtraForm1());
+            Commons.IConnections.Username = "sa";
+            Commons.IConnections.Server = @".\SQL2008";
+            Commons.IConnections.Database = "VS_HRM";
+            Commons.IConnections.Password = "123";
+            //Application.Run(new XtraForm1());
+            Application.Run(new frmInXiNghiep());
         }
     }
 }

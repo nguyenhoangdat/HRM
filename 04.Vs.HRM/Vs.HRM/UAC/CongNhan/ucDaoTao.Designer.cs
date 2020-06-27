@@ -114,7 +114,6 @@
             this.ItemForNoiDung = new DevExpress.XtraLayout.LayoutControlItem();
             this.ItemForDiem = new DevExpress.XtraLayout.LayoutControlItem();
             this.dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
-          
             ((System.ComponentModel.ISupportInitialize)(this.grdKhoaHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvKhoaHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataLayoutControl1)).BeginInit();
@@ -726,7 +725,7 @@
             // 
             this.tabbedControlGroup1.Location = new System.Drawing.Point(402, 0);
             this.tabbedControlGroup1.Name = "tabbedControlGroup1";
-            this.tabbedControlGroup1.SelectedTabPage = this.groupChiTietKhoaHoc;
+            this.tabbedControlGroup1.SelectedTabPage = this.groupLapKeHoachDaoTao;
             this.tabbedControlGroup1.Size = new System.Drawing.Size(776, 493);
             this.tabbedControlGroup1.TabPages.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.groupChiTietKhoaHoc,
@@ -1032,7 +1031,6 @@
             // 
             this.dxValidationProvider1.ValidationMode = DevExpress.XtraEditors.DXErrorProvider.ValidationMode.Auto;
             // 
-          
             // ucDaoTao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);

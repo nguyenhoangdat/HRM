@@ -405,5 +405,10 @@ namespace Vs.HRM
         {
             MUC_LUONG_THUC_LINHTextEdit.EditValue = Convert.ToDouble(MUC_LUONG_CHINHTextEdit.EditValue) + Convert.ToDouble(CHI_SO_PHU_CAPTextEdit.EditValue);
         }
+
+        private void windowsUIButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{BF84C4F2-FDE2-492A-8175-BA38720D0DBD}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VS.Report</RootNamespace>
     <AssemblyName>VS.Report</AssemblyName>
@@ -14,7 +14,7 @@
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -56,6 +56,8 @@
     <Reference Include="DevExpress.XtraEditors.v20.1" />
     <Reference Include="DevExpress.Printing.v20.1.Core" />
     <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -64,7 +66,9 @@
       <HintPath>..\..\DXApplication2\DXApplication2\bin\Debug\Microsoft.ApplicationBlocks.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -81,6 +85,18 @@
     <Compile Include="BaoHiem\rptThamGiaBHXH.Designer.cs">
       <DependentUpon>rptThamGiaBHXH.cs</DependentUpon>
     </Compile>
+    <Compile Include="DanhMuc\rptDSXiNghiep.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\rptDSXiNghiep.Designer.cs">
+      <DependentUpon>rptDSXiNghiep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhMuc\frmInXiNghiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\frmInXiNghiep.Designer.cs">
+      <DependentUpon>frmInXiNghiep.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmViewReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +105,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DanhMuc\rptDSDonVi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\rptDSDonVi.Designer.cs">
+      <DependentUpon>rptDSDonVi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptDV.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDV.Designer.cs">
+      <DependentUpon>rptDV.cs</DependentUpon>
+    </Compile>
     <Compile Include="rptThongTinChung.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -110,6 +138,12 @@
     <EmbeddedResource Include="BaoHiem\rptThamGiaBHXH.resx">
       <DependentUpon>rptThamGiaBHXH.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\frmInXiNghiep.resx">
+      <DependentUpon>frmInXiNghiep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\rptDSXiNghiep.resx">
+      <DependentUpon>rptDSXiNghiep.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmViewReport.resx">
       <DependentUpon>frmViewReport.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +157,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DanhMuc\rptDSDonVi.resx">
+      <DependentUpon>rptDSDonVi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDV.resx">
+      <DependentUpon>rptDV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="rptThongTinChung.resx">
       <DependentUpon>rptThongTinChung.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +189,7 @@
       <Name>Commons</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

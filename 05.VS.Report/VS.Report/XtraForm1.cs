@@ -21,28 +21,78 @@ namespace VS.Report
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            frmViewReport frm = new frmViewReport();
-            frm.rpt = new rptTienThuongXepLoai();
-            string sCo = @"Server=.;database=VS_HRM;uid=sa;pwd=123;Connect Timeout=9999;";
-            //string sCo = @"Server=.;database=VS_HRM;uid=sa;pwd=123;Connect Timeout=9999;";
+            ////////////////frmViewReport frm = new frmViewReport();
+            ////////////////frm.rpt = new rptTienThuongXepLoai();
+            ////////////////string sCo = @"Server=.;database=VS_HRM;uid=sa;pwd=123;Connect Timeout=9999;";
+            //////////////////string sCo = @"Server=.;database=VS_HRM;uid=sa;pwd=123;Connect Timeout=9999;";
+            ////////////////DataTable dt = new DataTable();
+            ////////////////dt.Load(SqlHelper.ExecuteReader(sCo, "spTienThuongXepLoai"));
+            ////////////////dt.TableName = "AAARE";
+            ////////////////frm.AddDataSource(dt);
+
+
+
+            ////////////////dt = new DataTable();
+            ////////////////dt.Load(SqlHelper.ExecuteReader(sCo, CommandType.Text, @"SELECT 
+            ////////////////        'tdBaoCao' AS tdBaoCao,'CHXHCNVN' AS CHXHCNVN,'DLTDHP' AS DLTDHP,'STT' AS STT,'MS_CN' AS MS_CN,'HO_TEN' AS HO_TEN,'MucThuong' AS MucThuong,'XepLoaiThuong' AS 	XepLoaiThuong,
+            ////////////////        'HeSoThuong' AS 	HeSoThuong,'SoTienThuong' AS  SoTienThuong,'KyNhan' AS  KyNhan,'TongCong' AS  TongCong,'BangChu' AS  BangChu,'LapBang' AS  LapBang,
+            ////////////////        'TPTCHC' AS  TPTCHC,'KTTruong' AS  KTTruong,'GiamDoc' AS  GiamDoc,'NgayThangNam' NgayThangNam
+            ////////////////"));
+            ////////////////dt.TableName = "NNGU";
+            ////////////////frm.AddDataSource(dt);
+            ////////////////frm.rpt = new rptTienThuongXepLoai();
+            ////////////////frm.Show();
+
+
+
+
+            //////////////frmViewReport frm = new frmViewReport();
+            //////////////frm.rpt = new rptDSDonVi();
+            //////////////DataTable dt = new DataTable();
+            //////////////dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "rptDSDonVi", Commons.Modules.UserName, Commons.Modules.TypeLanguage));
+            //////////////dt.TableName = "DATA";
+            //////////////frm.AddDataSource(dt);
+            //////////////frm.Show();
+
+
+
+
+
+            System.Data.SqlClient.SqlConnection conn;
             DataTable dt = new DataTable();
-            dt.Load(SqlHelper.ExecuteReader(sCo, "spTienThuongXepLoai"));
-            dt.TableName = "AAARE";
-            frm.AddDataSource(dt);
+            frmViewReport frm = new frmViewReport();
+            frm.rpt = new rptDSDonVi();
 
+            try
+            {
+                conn = new System.Data.SqlClient.SqlConnection(Commons.IConnections.CNStr);
+                conn.Open();
 
+                System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("rptDSDonVi", conn);
 
-            dt = new DataTable();
-            dt.Load(SqlHelper.ExecuteReader(sCo, CommandType.Text, @"SELECT 
-                    'tdBaoCao' AS tdBaoCao,'CHXHCNVN' AS CHXHCNVN,'DLTDHP' AS DLTDHP,'STT' AS STT,'MS_CN' AS MS_CN,'HO_TEN' AS HO_TEN,'MucThuong' AS MucThuong,'XepLoaiThuong' AS 	XepLoaiThuong,
-                    'HeSoThuong' AS 	HeSoThuong,'SoTienThuong' AS  SoTienThuong,'KyNhan' AS  KyNhan,'TongCong' AS  TongCong,'BangChu' AS  BangChu,'LapBang' AS  LapBang,
-                    'TPTCHC' AS  TPTCHC,'KTTruong' AS  KTTruong,'GiamDoc' AS  GiamDoc,'NgayThangNam' NgayThangNam
-            "));
-            dt.TableName = "NNGU";
-            frm.AddDataSource(dt);
-            frm.rpt = new rptTienThuongXepLoai();
-            frm.Show();
+                cmd.Parameters.Add("@UName", SqlDbType.NVarChar, 50).Value = Commons.Modules.UserName;
+                cmd.Parameters.Add("@NNgu", SqlDbType.Int).Value = Commons.Modules.TypeLanguage;
+                cmd.CommandType = CommandType.StoredProcedure;
+                System.Data.SqlClient.SqlDataAdapter adp = new System.Data.SqlClient.SqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+                adp.Fill(ds);
 
+                dt = new DataTable();
+                dt = ds.Tables[0].Copy();
+                dt.TableName = "TTC";
+                frm.AddDataSource(dt);
+
+                dt = new DataTable();
+                dt = ds.Tables[1].Copy();
+                dt.TableName = "DATA";
+                frm.AddDataSource(dt);
+
+            }
+            catch
+            { }
+
+            
+            frm.ShowDialog();
 
         }
 

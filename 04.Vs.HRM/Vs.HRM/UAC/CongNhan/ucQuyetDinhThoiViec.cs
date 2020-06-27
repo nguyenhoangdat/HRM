@@ -251,14 +251,21 @@ LUONG_TINH_PHEPTextEdit.EditValue
             NGAY_VAO_CTYTextEdit.EditValue = grvCongNhan.GetFocusedRowCellValue("NGAY_VAO_CTY");
             try
             {
-                Byte[] data = new Byte[0];
-                data = (Byte[])(grvCongNhan.GetFocusedRowCellValue("Hinh_CN"));
-                MemoryStream mem = new MemoryStream(data);
-                Hinh_CNpictureEdit.Image = Image.FromStream(mem);
+                if (grvCongNhan.GetFocusedRowCellValue("Hinh_CN") != DBNull.Value)
+                {
+                    Byte[] data = new Byte[0];
+                    data = (Byte[])(grvCongNhan.GetFocusedRowCellValue("Hinh_CN"));
+                    MemoryStream mem = new MemoryStream(data);
+                    Hinh_CNpictureEdit.Image = Image.FromStream(mem);
+                }
+                else
+                {
+                    Hinh_CNpictureEdit.EditValue = "";
+                    Hinh_CNpictureEdit.Properties.NullText = "No current image to display";
+                }
             }
-            catch (Exception ex)
+            catch
             {
-                throw;
             }
             try
             {

@@ -19,6 +19,7 @@ namespace Vs.HRM
         public frmNDDanhGia()
         {
             InitializeComponent();
+            Commons.Modules.ObjSystems.ThayDoiNN(this, layoutControlGroup1, windowsUIButton);
         }
 
         #region sự kiện form
@@ -26,6 +27,7 @@ namespace Vs.HRM
         {
             LoadgrdNDDanhGia("-1");
             enableButon(true);
+            
 
         }
 

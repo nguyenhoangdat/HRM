@@ -72,6 +72,24 @@ namespace Commons
                 return false;
             }
         }
+
+        public bool MLoadComboboxEdit(DevExpress.XtraEditors.ComboBoxEdit cbo,DataTable dt,string cot)
+        {
+            try
+            {
+                cbo.Properties.Items.Clear();
+                foreach (DataRow item in dt.Rows)
+                {
+                    cbo.Properties.Items.Add(item[cot]);
+                }
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         public bool MLoadLookUpEdit(DevExpress.XtraEditors.LookUpEdit cbo, DataTable dtTmp, string Ma, string Ten, string TenCot)
         {
             try
@@ -698,6 +716,7 @@ namespace Commons
         {
             DataTable dtTmp = new DataTable();
             dtTmp.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT KEYWORD , CASE " + Modules.TypeLanguage + " WHEN 0 THEN VIETNAM WHEN 1 THEN ENGLISH ELSE CHINESE END AS NN  FROM LANGUAGES WHERE FORM = N'" + report.Tag.ToString() + "' "));
+
             foreach (DevExpress.XtraReports.UI.Band band in report.Bands)
             {
                 foreach (DevExpress.XtraReports.UI.SubBand subband in band.SubBands)

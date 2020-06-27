@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.Data;
-using System.Text;
 using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraEditors;
-using Microsoft.ApplicationBlocks.Data;
 using DevExpress.XtraGrid.Views.Grid;
+using Microsoft.ApplicationBlocks.Data;
 
 namespace Vs.HRM
 {
@@ -24,15 +19,10 @@ namespace Vs.HRM
         {
             try
             {
-                //GridView grv = (GridView)sender;
-                //cboThang.Text = Convert.ToDateTime(grv.GetFocusedRowCellValue("NGAY_TTXL").ToString()).ToShortDateString();
-                //txtTienQD.Text = grv.GetFocusedRowCellValue("TIEN_QUY_DINH").ToString();
-                //txtSThang.Text = grv.GetFocusedRowCellValue("SO_THANG_TINH").ToString();
-                //txtSTien.Text = grv.GetFocusedRowCellValue("SO_TIEN").ToString();
-                //txtSTGHan.Text = grv.GetFocusedRowCellValue("SO_TIEN_GH").ToString();
-                //txtTDBC.Text = grv.GetFocusedRowCellValue("TD_BC").ToString();
+                cboThang.Text = grvThang.GetFocusedRowCellValue("THANG").ToString();
+                LoadDot();
             }
-            catch { LoadNull(); }
+            catch { }
             cboThang.ClosePopup();
         }
 
@@ -40,111 +30,174 @@ namespace Vs.HRM
         {
             try
             {
-                cboThang.Text = calThang.DateTime.Date.ToShortDateString();
+                cboThang.Text = calThang.DateTime.ToString("MM/yyyy");
                 DataTable dtTmp = Commons.Modules.ObjSystems.ConvertDatatable(grdThang);
                 DataRow[] dr;
                 dr = dtTmp.Select("NGAY_TTXL" + "='" + cboThang.Text + "'", "NGAY_TTXL", DataViewRowState.CurrentRows);
                 if (dr.Count() == 1)
                 {
-                    //cboThang.Text = Convert.ToDateTime(dr[0]["NGAY_TTXL"].ToString()).ToShortDateString();
-                    //txtTienQD.Text = dr[0]["TIEN_QUY_DINH"].ToString();
-                    //txtSThang.Text = dr[0]["SO_THANG_TINH"].ToString();
-                    //txtSTien.Text = dr[0]["DEN_THANG"].ToString();
-                    //txtSTGHan.Text = dr[0]["SO_TIEN_GH"].ToString();
-                    //txtTDBC.Text = dr[0]["TD_BC"].ToString();
                 }
-                else { LoadNull(); }
+                else { }
             }
             catch (Exception ex)
             {
-                XtraMessageBox.Show(ex.Message.ToString());
-                cboThang.Text = DateTime.Now.ToShortDateString();
+                cboThang.Text = calThang.DateTime.ToString("MM/yyyy");
             }
             cboThang.ClosePopup();
         }
+        private void ucBHXHThang_Load(object sender, EventArgs e)
+        {
+            Commons.Modules.sPS = "0Load";
+            LoadThang();
+            LoadDot();
+            Commons.Modules.sPS = "";
+            //LoadGrdTroCapBHXH();
+            LoadGrdDCBHXH();
+            enableButon(true);
+        }
 
-
-        //private void LoadThang(DateTime dThang)
-        //{
-        //    try
-        //    {
-        //    DataTable dt = new DataTable();
-        //    dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spThuongKhacLuong", "01/01/1900", "01/01/1900", -1, -1, -1, Commons.Modules.UserName, Commons.Modules.TypeLanguage, "", "Cbo"));
-
-        //    if (grdThang.DataSource == null)
-        //    {
-        //        Commons.Modules.ObjSystems.MLoadXtraGrid(grdThang, grvThang, dt, false, true, true, true, true, this.Name);
-        //    }
-        //    else
-        //        Commons.Modules.ObjSystems.MLoadXtraGrid(grdThang, grvThang, dt, false, false, true, false, false, this.Name);
-
-        //    try
-        //    {
-
-        //        if (dThang == Convert.ToDateTime("01/01/1900"))
-        //        {
-        //            if (dt == null || dt.Rows.Count <= 0) LoadNull();
-        //            else
-        //            {
-        //                //T1.ID_NDTKL, T1.NGAY_TKL, T1.TIEN_QUY_DINH, T1.SO_THANG_TINH, T1.SO_TIEN, T1.SO_TIEN_GH, T1.TD_BC
-        //                //cboThang.Text = Convert.ToDateTime(dt.Rows[0]["NGAY_TTXL"].ToString()).ToShortDateString();
-
-        //            }
-        //        }
-        //        else
-        //        {
-        //            cboThang.Text = dThang.Date.ToShortDateString();
-
-        //            DataRow[] dr;
-        //            dr = dt.Select("NGAY_TTXL" + "='" + cboThang.Text + "'", "NGAY_TTXL", DataViewRowState.CurrentRows);
-        //            if (dr.Count() == 1)
-        //            {
-        //                cboThang.Text = Convert.ToDateTime(dr[0]["NGAY_TTXL"].ToString()).ToShortDateString();
-        //            }
-        //            else { LoadNull(); }
-        //        }
-        //    }
-        //    catch { LoadNull(); }
-        //    }
-        //    catch (Exception)
-        //    {
-        //        LoadNull();
-        //    }
-        //}
-        private void LoadNull()
+        private void LoadGrdDCBHXH()
         {
             try
             {
-                if (cboThang.Text == "") cboThang.Text = DateTime.Now.ToShortDateString();
+                DataTable dt = new DataTable();
+                dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spGetDieuChinhBHXH", "01/" + cboThang.Text, cboDot.Text, Commons.Modules.UserName, Commons.Modules.TypeLanguage));
+                Commons.Modules.ObjSystems.MLoadXtraGrid(grd_CNDCTC, grv_CNDCTC, dt, false, false, false, true, true, this.Name);
+                //Commons.Modules.ObjSystems.AddCombXtra("ID_CN", "TEN_CN", grv_CNDCTC, "spGetCongNhan");
+                //Commons.Modules.ObjSystems.AddCombo("ID_LDV", "TEN_LDV", grv_CNDCTC, Commons.Modules.ObjSystems.DataLyDoVang(false));
+
+                //grvDCTroCapBHXH.Columns["ID_HTC"].Visible = false;
+
+                //grvDCTroCapBHXH.Columns["PHAN_TRAM_TRO_CAP"].OptionsColumn.ReadOnly = true;
+                //grvDCTroCapBHXH.Columns["SO_NGAY_NGHI"].OptionsColumn.ReadOnly = true;
+                //grvDCTroCapBHXH.Columns["MS_CN"].OptionsColumn.ReadOnly = true;
+                //grvDCTroCapBHXH.Columns["THANG"].OptionsColumn.ReadOnly = true;
+                //grvDCTroCapBHXH.Columns["THANG_CHUYEN"].OptionsColumn.ReadOnly = true;
+                //grvDCTroCapBHXH.Columns["DOT"].OptionsColumn.ReadOnly = true;
+                //grvDCTroCapBHXH.Columns["DOT_CHUYEN"].OptionsColumn.ReadOnly = true;
+                //grvDCTroCapBHXH.Columns["MUC_HUONG_CU"].OptionsColumn.ReadOnly = true;
+
+                //grvDCTroCapBHXH.Columns["MS_CN"].Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Left;
+                //grvDCTroCapBHXH.Columns["ID_CN"].Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Left;
+                //grvDCTroCapBHXH.Columns["ID_LDV"].Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Left;
+
+                //grvDCTroCapBHXH.Columns["MS_CN"].Width = 100;
+                //grvDCTroCapBHXH.Columns["ID_CN"].Width = 200;
+                //grvDCTroCapBHXH.Columns["ID_LDV"].Width = 200;
+
+                //grvDCTroCapBHXH.Columns["MUC_HUONG_CU"].DisplayFormat.FormatType = FormatType.Numeric;
+                //grvDCTroCapBHXH.Columns["MUC_HUONG_CU"].DisplayFormat.FormatString = Commons.Modules.sSoLeTT;
+                //grvDCTroCapBHXH.Columns["MUC_HUONG_MOI"].DisplayFormat.FormatType = FormatType.Numeric;
+                //grvDCTroCapBHXH.Columns["MUC_HUONG_MOI"].DisplayFormat.FormatString = Commons.Modules.sSoLeTT;
+                //grvDCTroCapBHXH.Columns["SO_TIEN_LECH"].DisplayFormat.FormatType = FormatType.Numeric;
+                //grvDCTroCapBHXH.Columns["SO_TIEN_LECH"].DisplayFormat.FormatString = Commons.Modules.sSoLeTT;
+
+            }
+            catch (Exception ex) { }
+        }
+        private void LoadThang()
+        {
+            try
+            {
+
+                //ItemForDateThang.Visibility = LayoutVisibility.Never;
+                DataTable dtthang = new DataTable();
+                string sSql = "		SELECT SUBSTRING(CONVERT(VARCHAR(10),THANG,103),4,2) as M, RIGHT(CONVERT(VARCHAR(10),THANG,103),4) AS Y ,RIGHT(CONVERT(VARCHAR(10),THANG,103),7) AS THANG FROM dbo.BHXH_THANG ORDER BY Y DESC , M DESC";
+                dtthang.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, sSql));
+                Commons.Modules.ObjSystems.MLoadXtraGrid(grdThang, grvThang, dtthang, false, true, true, true, true, this.Name);
+                grvThang.Columns["M"].Visible = false;
+                grvThang.Columns["Y"].Visible = false;
+
 
             }
             catch (Exception ex)
             {
-                cboThang.Text = "";
-                XtraMessageBox.Show(ex.Message.ToString());
+            }
+        }
+        private void LoadDot()
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, CommandType.Text, "SELECT DOT FROM BHXH_THANG WHERE CONVERT(NVARCHAR(10),THANG,103) = '01/" + cboThang.Text + "' ORDER BY DOT"));
+                Commons.Modules.ObjSystems.MLoadComboboxEdit(cboDot, dt,"DOT");
+            }
+            catch (Exception ex)
+            {
             }
         }
 
-        //private void calThang_DateTimeCommit(object sender, EventArgs e)
-        //{
-        //    try
-        //    {
-        //        cboThang.Text = calThang.DateTime.Date.ToShortDateString();
-        //        DataTable dtTmp = Commons.Modules.ObjSystems.ConvertDatatable(grdThang);
-        //        DataRow[] dr;
-        //        dr = dtTmp.Select("NGAY_TTXL" + "='" + cboThang.Text + "'", "NGAY_TTXL", DataViewRowState.CurrentRows);
-        //        if (dr.Count() == 1)
-        //        {
-        //            cboThang.Text = Convert.ToDateTime(dr[0]["NGAY_TTXL"].ToString()).ToShortDateString();
-        //        }
-        //        else { LoadNull(); }
-        //    }
-        //    catch { }
-        //}
-
-        private void ucBHXHThang_Load(object sender, EventArgs e)
+        private void windowsUIButton_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
         {
-            //LoadThang(Convert.ToDateTime("01/01/1900"));
+            WindowsUIButton btn = e.Button as WindowsUIButton;
+            XtraUserControl ctl = new XtraUserControl();
+            switch (btn.Tag.ToString())
+            {
+                case "sua":
+                    {
+                        if (string.IsNullOrEmpty(cboThang.Text) || cboDot.Text == null)
+                        {
+                            Commons.Modules.ObjSystems.msgChung("msgThangkhongduocdetrong");
+                            return;
+                        }
+
+                        Commons.Modules.ObjSystems.AddnewRow(grv_CNDCTT, true);
+                        Commons.Modules.ObjSystems.AddnewRow(grv_CNDCTC, true);
+                        //ItemForThang.Visibility = LayoutVisibility.Never;
+                        //ItemForDateThang.Visibility = LayoutVisibility.Always;
+                        enableButon(false);
+                        break;
+                    }
+                case "xoa":
+                    {
+                        //XoaTroCapBaoHiemXH();
+                        break;
+                    }
+                case "luu":
+                    {
+                        Validate();
+                        if (grv_CNDCTT.HasColumnErrors) return;
+                        if (grv_CNDCTT.HasColumnErrors) return;
+                        enableButon(true);
+                        break;
+                    }
+
+                case "khongluu":
+                    {
+                        //LoadGrdTroCapBHXH();
+                        //LoadGrdDCBHXH(false);
+                        Commons.Modules.ObjSystems.DeleteAddRow(grv_CNDCTT);
+                        Commons.Modules.ObjSystems.DeleteAddRow(grv_CNDCTC);
+                        enableButon(true);
+                        break;
+                    }
+                case "thoat":
+                    {
+                        Commons.Modules.ObjSystems.GotoHome(this);
+                        break;
+                    }
+                default:
+                    break;
+            }
+        }
+
+
+        private void enableButon(bool visible)
+        {
+            windowsUIButton.Buttons[0].Properties.Visible = visible;
+            windowsUIButton.Buttons[1].Properties.Visible = visible;
+            windowsUIButton.Buttons[2].Properties.Visible = visible;
+            windowsUIButton.Buttons[3].Properties.Visible = visible;
+            windowsUIButton.Buttons[4].Properties.Visible = !visible;
+            windowsUIButton.Buttons[5].Properties.Visible = !visible;
+            windowsUIButton.Buttons[6].Properties.Visible = visible;
+            cboThang.ReadOnly = !visible;
+            cboDot.ReadOnly = !visible;
+        }
+
+        private void cboDot_EditValueChanged(object sender, EventArgs e)
+        {
+            LoadGrdDCBHXH();
         }
     }
 }

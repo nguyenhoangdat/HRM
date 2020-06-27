@@ -140,6 +140,11 @@ namespace VietSoftHRM
                         LoaducCongNhan(e);
                         break;
                     }
+                case 61:
+                    {
+                        LoaducBaoCao(e);
+                        break;
+                    }
                 case 16:
                     {
                         //navigationFrame.SelectedPage = navigationPage1;
@@ -176,6 +181,15 @@ namespace VietSoftHRM
             uacDM.lab_Link.Text = e.Item.Text;
             //uacDM.color = e.Item.AppearanceItem.Normal.BackColor;
             LoadUac(uacDM);
+        }
+        private void LoaducBaoCao(TileItemEventArgs e)
+        {
+            ucListBaoCao ucListBC = new ucListBaoCao(tileBar);
+            ucListBC.Dock = DockStyle.Fill;
+            ucListBC.iLoai = Convert.ToInt32(e.Item.Tag);
+            ucListBC.lab_Link.Text = e.Item.Text;
+            ucListBC.color = e.Item.AppearanceItem.Normal.BackColor;
+            LoadUac(ucListBC);
         }
         private void LoadUac(XtraUserControl uac)
         {

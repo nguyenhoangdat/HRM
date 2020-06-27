@@ -169,7 +169,7 @@ namespace Vs.Category
             this.dataLayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataLayoutControl1.Location = new System.Drawing.Point(115, 55);
             this.dataLayoutControl1.Name = "dataLayoutControl1";
-            this.dataLayoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(1026, 273, 650, 400);
+            this.dataLayoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(716, 273, 650, 400);
             this.dataLayoutControl1.Root = this.Root;
             this.tablePanel1.SetRow(this.dataLayoutControl1, 1);
             this.dataLayoutControl1.Size = new System.Drawing.Size(890, 465);
@@ -238,11 +238,11 @@ namespace Vs.Category
             // MAC_DINHCheckEdit
             // 
             this.MAC_DINHCheckEdit.EnterMoveNextControl = true;
-            this.MAC_DINHCheckEdit.Location = new System.Drawing.Point(775, 6);
+            this.MAC_DINHCheckEdit.Location = new System.Drawing.Point(625, 6);
             this.MAC_DINHCheckEdit.Name = "MAC_DINHCheckEdit";
             this.MAC_DINHCheckEdit.Properties.Caption = "";
             this.MAC_DINHCheckEdit.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Default;
-            this.MAC_DINHCheckEdit.Size = new System.Drawing.Size(109, 20);
+            this.MAC_DINHCheckEdit.Size = new System.Drawing.Size(259, 20);
             this.MAC_DINHCheckEdit.StyleController = this.dataLayoutControl1;
             this.MAC_DINHCheckEdit.TabIndex = 11;
             // 
@@ -353,7 +353,7 @@ namespace Vs.Category
             this.STT_DVTextEdit.Name = "STT_DVTextEdit";
             this.STT_DVTextEdit.Properties.Mask.EditMask = "N0";
             this.STT_DVTextEdit.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.STT_DVTextEdit.Size = new System.Drawing.Size(62, 26);
+            this.STT_DVTextEdit.Size = new System.Drawing.Size(50, 26);
             this.STT_DVTextEdit.StyleController = this.dataLayoutControl1;
             this.STT_DVTextEdit.TabIndex = 25;
             // 
@@ -502,13 +502,14 @@ namespace Vs.Category
             // ItemForMAC_DINH
             // 
             this.ItemForMAC_DINH.Control = this.MAC_DINHCheckEdit;
-            this.ItemForMAC_DINH.Location = new System.Drawing.Point(631, 0);
+            this.ItemForMAC_DINH.Location = new System.Drawing.Point(619, 0);
             this.ItemForMAC_DINH.MinSize = new System.Drawing.Size(100, 26);
             this.ItemForMAC_DINH.Name = "ItemForMAC_DINH";
-            this.ItemForMAC_DINH.Size = new System.Drawing.Size(249, 32);
+            this.ItemForMAC_DINH.Size = new System.Drawing.Size(261, 32);
             this.ItemForMAC_DINH.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.ItemForMAC_DINH.Text = "MAC_DINH";
-            this.ItemForMAC_DINH.TextSize = new System.Drawing.Size(135, 20);
+            this.ItemForMAC_DINH.TextSize = new System.Drawing.Size(0, 0);
+            this.ItemForMAC_DINH.TextVisible = false;
             // 
             // ItemForTEN_NGAN_HANG
             // 
@@ -584,7 +585,7 @@ namespace Vs.Category
             this.ItemForSTT_DV.Control = this.STT_DVTextEdit;
             this.ItemForSTT_DV.Location = new System.Drawing.Point(429, 0);
             this.ItemForSTT_DV.Name = "ItemForSTT_DV";
-            this.ItemForSTT_DV.Size = new System.Drawing.Size(202, 32);
+            this.ItemForSTT_DV.Size = new System.Drawing.Size(190, 32);
             this.ItemForSTT_DV.Text = "STT_DV";
             this.ItemForSTT_DV.TextSize = new System.Drawing.Size(135, 20);
             // 
@@ -679,7 +680,6 @@ namespace Vs.Category
         private DevExpress.XtraEditors.TextEdit TEN_DON_VI_HTextEdit;
         private DevExpress.XtraEditors.TextEdit TEN_NGANTextEdit;
         private DevExpress.XtraEditors.TextEdit DIA_CHITextEdit;
-        private DevExpress.XtraEditors.CheckEdit MAC_DINHCheckEdit;
         private DevExpress.XtraEditors.TextEdit CHU_QUANTextEdit;
         private DevExpress.XtraEditors.TextEdit FAXTextEdit;
         private DevExpress.XtraEditors.TextEdit MS_BHYTTextEdit;
@@ -702,7 +702,6 @@ namespace Vs.Category
         private DevExpress.XtraLayout.LayoutControlItem ItemForSO_TAI_KHOAN;
         private DevExpress.XtraLayout.LayoutControlItem ItemForKY_HIEU;
         private DevExpress.XtraLayout.LayoutControlItem ItemForCHUC_VU;
-        private DevExpress.XtraLayout.LayoutControlItem ItemForMAC_DINH;
         private DevExpress.XtraLayout.LayoutControlItem ItemForTEN_NGAN_HANG;
         private DevExpress.XtraLayout.LayoutControlItem ItemForMS_BHXH;
         private DevExpress.XtraLayout.LayoutControlItem ItemForFAX;
@@ -715,5 +714,7 @@ namespace Vs.Category
         private DevExpress.Utils.Layout.TablePanel tablePanel1;
         private DevExpress.XtraEditors.TextEdit STT_DVTextEdit;
         private DevExpress.XtraLayout.LayoutControlItem ItemForSTT_DV;
+        private DevExpress.XtraEditors.CheckEdit MAC_DINHCheckEdit;
+        private DevExpress.XtraLayout.LayoutControlItem ItemForMAC_DINH;
     }
 }

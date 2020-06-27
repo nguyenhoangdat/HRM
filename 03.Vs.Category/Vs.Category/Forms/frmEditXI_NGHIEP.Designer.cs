@@ -192,7 +192,7 @@
             this.GOP_PBCheckEdit.Name = "GOP_PBCheckEdit";
             this.GOP_PBCheckEdit.Properties.Caption = "GOP_PB";
             this.GOP_PBCheckEdit.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Default;
-            this.GOP_PBCheckEdit.Size = new System.Drawing.Size(206, 19);
+            this.GOP_PBCheckEdit.Size = new System.Drawing.Size(206, 20);
             this.GOP_PBCheckEdit.StyleController = this.dataLayoutControl1;
             this.GOP_PBCheckEdit.TabIndex = 10;
             // 
@@ -203,7 +203,7 @@
             this.GOP_THCheckEdit.Name = "GOP_THCheckEdit";
             this.GOP_THCheckEdit.Properties.Caption = "GOP_TH";
             this.GOP_THCheckEdit.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Default;
-            this.GOP_THCheckEdit.Size = new System.Drawing.Size(208, 19);
+            this.GOP_THCheckEdit.Size = new System.Drawing.Size(208, 20);
             this.GOP_THCheckEdit.StyleController = this.dataLayoutControl1;
             this.GOP_THCheckEdit.TabIndex = 11;
             // 

@@ -10,6 +10,14 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.XtraGrid.Views.Grid;
 using Microsoft.ApplicationBlocks.Data;
+using DevExpress.XtraBars.Docking2010;
+using DevExpress.XtraEditors.Repository;
+using DevExpress.Utils.Menu;
+using DevExpress.XtraGrid.Views.Grid.ViewInfo;
+using DevExpress.XtraGrid.Columns;
+using DevExpress.Utils;
+using VS.Report;
+using DevExpress.XtraLayout;
 
 namespace Vs.HRM
 {
@@ -18,6 +26,8 @@ namespace Vs.HRM
         public ucThuongKhacLuong()
         {
             InitializeComponent();
+
+            Commons.Modules.ObjSystems.ThayDoiNN(this, new List<LayoutControlGroup>() { Root }, windowsUIButton);
         }
 
         private void optCachThuong_Click(object sender, EventArgs e)
@@ -41,7 +51,7 @@ namespace Vs.HRM
         private void LoadThang(DateTime dThang)
         {
             DataTable dt = new DataTable();
-            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spThuongKhacLuong", "01/01/1900", "01/01/1900", -1, -1, -1, Commons.Modules.UserName, Commons.Modules.TypeLanguage, "", "Cbo"));
+            dt.Load(SqlHelper.ExecuteReader(Commons.IConnections.CNStr, "spThuongKhacLuong", "01/01/1900", "01/01/1900", -1, -1, -1, Commons.Modules.UserName, Commons.Modules.TypeLanguage, "","Cbo"));
 
             if (grdThang.DataSource == null)
             {
