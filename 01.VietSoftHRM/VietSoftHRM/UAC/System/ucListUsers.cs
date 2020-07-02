@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
 using DevExpress.XtraBars.Docking2010;
 using DevExpress.XtraEditors;
 using DevExpress.XtraGrid.Views.Grid;
+using DevExpress.XtraLayout;
 using Microsoft.ApplicationBlocks.Data;
 
 namespace VietSoftHRM
@@ -18,6 +20,7 @@ namespace VietSoftHRM
         private void grdListUser_Load(object sender, EventArgs e)
         {
             LoadGridListUser();
+            Commons.Modules.ObjSystems.ThayDoiNN(this);
         }
         private void LoadGridListUser()
         {

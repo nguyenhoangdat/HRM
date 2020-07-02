@@ -10,10 +10,10 @@ namespace VietSoftHRM
 {
     public partial class frmLogin : DevExpress.XtraEditors.XtraForm
     {
-       
         public frmLogin()
         {
             InitializeComponent();
+            Commons.Modules.ObjSystems.ThayDoiNN(this);
         }
         #region design giao dien
         private void Txt_user_Click(object sender, EventArgs e)
@@ -73,7 +73,6 @@ namespace VietSoftHRM
             Thread.Sleep(1000);
             LoadcboDataBase();
             LoadUserPass();
-            Commons.Modules.ObjSystems.ThayDoiNN(this);
         }
         #endregion
 

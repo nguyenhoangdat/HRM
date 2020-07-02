@@ -288,7 +288,7 @@ namespace VietSoftHRM
             radialMenu1.HidePopup();
             this.Hide();
             frmLogin login = new frmLogin();
-            login.Show();
+            login.ShowDialog();
         }
 
         private void radialMenu1_CloseUp(object sender, EventArgs e)

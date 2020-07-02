@@ -17,7 +17,8 @@ namespace VietSoftHRM
         public frmChangePass(string sUser)
         {
             InitializeComponent();
-            if(sUser != "-1")
+            Commons.Modules.ObjSystems.ThayDoiNN(this,Root,windowsUIButton);
+            if (sUser != "-1")
             {
                 Eneblecontrol(sUser);
             }
