@@ -21,8 +21,8 @@ namespace Vs.HRM
         private void XtraForm1_Load(object sender, EventArgs e)
         {
 
-            Commons.Modules.iCongNhan = 161;
-            ucThuongKhacLuong ns = new ucThuongKhacLuong();
+            //Commons.Modules.iCongNhan = 161;
+            ucBHXHThang ns = new ucBHXHThang();
             //ucDaoTao ns = new ucDaoTao();
             //ucDanhGia ns = new ucDanhGia(161);
             //ucHopDong ns = new ucHopDong(161);

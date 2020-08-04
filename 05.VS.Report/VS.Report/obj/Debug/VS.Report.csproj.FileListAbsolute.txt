@@ -624,7 +624,6 @@ D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Images.v20.1.dll
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\Commons.pdb
-D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\Commons.dll.config
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Data.v20.1.xml
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.DataAccess.v20.1.xml
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\DevExpress.Office.v20.1.Core.xml
@@ -768,7 +767,6 @@ D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\de\DevExpress.Diagram.v20.1.Core.reso
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
-D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csprojAssemblyReference.cache
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.rptThamGiaBHXH.resources
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.frmViewReport.resources
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.Properties.Resources.resources
@@ -777,8 +775,6 @@ D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.rptThongTinChung.resources
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.rptTienThuongXepLoai.resources
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.XtraForm1.resources
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csproj.GenerateResource.cache
-D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csproj.CoreCompileInputs.cache
-D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csproj.CopyComplete
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.pdb
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\VS.Report.exe.config
 D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\VS.Report.exe
@@ -787,3 +783,7 @@ D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.exe
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.frmInXiNghiep.resources
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.rptDSXiNghiep.resources
 D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\VS.Report.rptDV.resources
+D:\VS_HRM\05.Vs.Report\Vs.Report\bin\Debug\Commons.dll.config
+D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csprojAssemblyReference.cache
+D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csproj.CoreCompileInputs.cache
+D:\VS_HRM\05.Vs.Report\Vs.Report\obj\Debug\Vs.Report.csproj.CopyComplete

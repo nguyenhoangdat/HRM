@@ -50,7 +50,7 @@ namespace Vs.HRM
 
                 if (dThang == Convert.ToDateTime("01/01/1900"))
                 {
-                    if (dt is null) LoadNull();
+                    if (dt == null) LoadNull();
                     else
                     {
                         cboThang.Text = Convert.ToDateTime(dt.Rows[0]["NGAY_TTXL"].ToString()).ToShortDateString();

@@ -13,7 +13,6 @@ namespace Vs.HRM
         public ucBHXHThang()
         {
             InitializeComponent();
-
         }
         private void grvThang_RowCellClick(object sender, RowCellClickEventArgs e)
         {
@@ -48,10 +47,11 @@ namespace Vs.HRM
         private void ucBHXHThang_Load(object sender, EventArgs e)
         {
             Commons.Modules.sPS = "0Load";
+            datTNgay.DateTime = DateTime.Today.AddYears(-1);
+            datDNgay.DateTime = DateTime.Today;
             LoadThang();
             LoadDot();
             Commons.Modules.sPS = "";
-            //LoadGrdTroCapBHXH();
             LoadGrdDCBHXH();
             enableButon(true);
         }

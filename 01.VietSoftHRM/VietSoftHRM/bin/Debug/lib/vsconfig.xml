@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <Import>
   <Row>
-    <S>.\SQL2008</S>
+    <S>10.39.244.203</S>
     <D>VS_HRM</D>
     <U>sa</U>
     <P>123</P>

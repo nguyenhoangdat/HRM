@@ -193,7 +193,6 @@ D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.XtraGauges.v20.1.Core.
 D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.CodeParser.v20.1.dll
 D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Office.v20.1.Core.dll
 D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.pdb
-D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
 D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.v20.1.xml
 D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.TreeMap.v20.1.Core.xml
 D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
@@ -293,7 +292,6 @@ D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\de\DevExpress.Office.v20.1.Core.r
 D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
 D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
 D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
 D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Form1.resources
 D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditBAC_LUONG.resources
 D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditCHE_DO_NGHI.resources
@@ -322,7 +320,9 @@ D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.frmEditQUAN.resources
 D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.Properties.Resources.resources
 D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.GenerateResource.cache
 D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll.licenses
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
-D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete
 D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.dll
 D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.pdb
+D:\VS_HRM\03.Vs.Category\Vs.Category\bin\Debug\Commons.dll.config
+D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csprojAssemblyReference.cache
+D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CoreCompileInputs.cache
+D:\VS_HRM\03.Vs.Category\Vs.Category\obj\Debug\Vs.Category.csproj.CopyComplete

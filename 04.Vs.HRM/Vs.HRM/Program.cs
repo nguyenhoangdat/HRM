@@ -18,7 +18,6 @@ namespace Vs.HRM
         [STAThread]
         static void Main()
         {
-            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             BonusSkins.Register();
@@ -27,10 +26,9 @@ namespace Vs.HRM
             DataSet ds = new DataSet();
             //ds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + "\\vsconfig.xml");
             Commons.IConnections.Username = "sa";
-            Commons.IConnections.Server = @".\SQL2008";
+            Commons.IConnections.Server = "10.39.244.203";
             Commons.IConnections.Database = "VS_HRM";
             Commons.IConnections.Password = "123";
-
             Commons.Modules.sPrivate = @"PILMICO";
             //Commons.Modules.sPrivate = @"ADC";
 

@@ -285,8 +285,6 @@ E:\NÂNG CẤP HRM 20.1\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CoreComp
 E:\NÂNG CẤP HRM 20.1\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CopyComplete
 E:\NÂNG CẤP HRM 20.1\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.dll
 E:\NÂNG CẤP HRM 20.1\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.pdb
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.dll.config
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.pdb
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Commons.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.BonusSkins.v20.1.dll
@@ -346,9 +344,7 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Commons.pdb
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Commons.dll.config
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\VS.Report.pdb
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\VS.Report.exe.config
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Dashboard.v20.1.Core.xml
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Dashboard.v20.1.Win.xml
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\DevExpress.Data.v20.1.xml
@@ -557,7 +553,6 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dl
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csprojAssemblyReference.cache
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucThamGiaBHXH.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmNDDanhGia.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.frmDoanThe.resources
@@ -590,9 +585,14 @@ D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucXepLoaiKhenThuong.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.ucBHXHThang.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.XtraForm1.resources
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.GenerateResource.cache
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.dll.licenses
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CoreCompileInputs.cache
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CopyComplete
-D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.dll
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.pdb
 D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\VS.Report.exe
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.exe.config
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Vs.HRM.exe
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.exe.licenses
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.exe
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\Commons.dll.config
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\bin\Debug\VS.Report.exe.config
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csprojAssemblyReference.cache
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CoreCompileInputs.cache
+D:\VS_HRM\04.Vs.HRM\Vs.HRM\obj\Debug\Vs.HRM.csproj.CopyComplete
